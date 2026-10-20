@@ -1,0 +1,5 @@
+KLETKA_ModKit/
+.modkit-update/
+__pycache__/
+*.zip
+*.log
