@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First mod · Первый мод | KLETKA ModKit</title><link rel="stylesheet" href="style.css"></head>
+<body><nav aria-label="ModKit guide"><a href="../../START_HERE.html">Create your first mod</a> <a href="recipes.html">Authoring recipes</a> <a href="packaging.html">Package and install</a> <a href="compatibility.html">Compatibility and multiplayer</a> <a href="modules.html">Module reference</a></nav><main><h1>First mod · Первый мод</h1>
+<p><a href="#en">English</a> · <a href="#ru" lang="ru">Русский</a></p>
+<section id="en" lang="en"><h2>Turn a cube into a sphere</h2><ol>
+<li>Open <strong>Tools → Atlas: Mod Wizard</strong>. Choose <strong>World objects &amp; vehicles → World actor and test placement</strong>.
+Choose a unique Content Id (e.g. <code>yourname.firstsphere</code>) and Mod Folder Name (e.g. <code>FirstSphere</code>). Click <strong>Create Mod</strong>.</li>
+<li>Click <strong>Open Generated Assets</strong>. In your mod’s <code>EntityExample</code> folder open <code>BP_ExampleWorldActor</code>.
+Select <strong>ExampleBody</strong> in Components. In Details → Static Mesh replace Cube with <strong>Sphere</strong> from <code>/Engine/BasicShapes</code>.
+Enable <strong>Show Engine Content</strong> in the picker if needed. Set Scale X, Y and Z to 1. Click <strong>Compile</strong> and <strong>Save</strong>. Check the Blueprint viewport for the round shape.</li>
+<li>Open <code>FloorExample/L_ExampleFloor</code>. Select its layout actor and inspect <strong>ExamplePlacement → Default Actor Class</strong>.
+It points to your Blueprint. The floor creates this placement during gameplay.</li>
+<li>Fill in the mod card and version. Open <strong>Release → Cook &amp; Publish...</strong>, select the matching installed KLETKA executable under <strong>Packaged Game</strong>,
+then choose <strong>Cook Mod → Build Status → Install Test Copy → Launch Game</strong>. Enable the mod, include it in the session and visit its example floor. Look for the sphere at the layout anchor.</li>
+<li>For a first upload, choose a store, leave the item ID empty and choose <strong>Publish Privately...</strong>. Open the returned page.
+For your next release save a new version, cook again, enter and confirm that store’s item ID and choose <strong>Update Existing Release...</strong>.</li>
+</ol></section>
+<figure><img width="300" src="../../Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModCube.png" alt="ExampleBody: Cube"> <img width="300" src="../../Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModSphere.png" alt="ExampleBody: Sphere"><figcaption>ExampleBody in Unreal · Cube → Sphere</figcaption></figure>
+<section id="ru" lang="ru"><h2>Первый мод — заменяем куб на сферу</h2><ol>
+<li>Открой <strong>Tools → Atlas: Mod Wizard</strong>. Выбери <strong>World objects &amp; vehicles → World actor and test placement</strong>.
+Введи свой Content Id (например, <code>yourname.firstsphere</code>) и имя папки (например, <code>FirstSphere</code>). Нажми <strong>Create Mod</strong>.</li>
+<li>Нажми <strong>Open Generated Assets</strong>. В папке мода <code>EntityExample</code> открой <code>BP_ExampleWorldActor</code>. В Components выбери <strong>ExampleBody</strong>.
+В Details → Static Mesh выбери <strong>Sphere</strong> из <code>/Engine/BasicShapes</code>. Если меши движка скрыты, включи <strong>Show Engine Content</strong> в настройках списка ассетов.
+Поставь Scale по трём осям в 1, нажми <strong>Compile</strong> и <strong>Save</strong>. В окне Blueprint увидишь сферу.</li>
+<li>Открой <code>FloorExample/L_ExampleFloor</code>. У актора разметки этажа выбери <strong>ExamplePlacement</strong>.
+В <strong>Default Actor Class</strong> уже задан изменённый Blueprint. Этаж создаёт этот объект во время игры.</li>
+<li>Заполни карточку мода и версию. На вкладке <strong>Release</strong> нажми <strong>Cook &amp; Publish...</strong>.
+В <strong>Packaged Game</strong> укажи установленную KLETKA подходящей версии, нажми <strong>Cook Mod</strong> и проверь <strong>Build Status</strong>.
+После успешного cook нажми <strong>Install Test Copy → Launch Game</strong>. Включи мод в игре и при создании сессии. На тестовом этаже проверь сферу у точки размещения.</li>
+<li>Для первой загрузки выбери площадку, оставь ID пустым и нажми <strong>Publish Privately...</strong>. Открой страницу из результата.
+При обновлении сохрани новую версию, повтори cook, введи и подтверди ID этой страницы и выбери <strong>Update Existing Release...</strong>. Видимость страницы сохранится.</li>
+</ol></section><p><a href="packaging.html">Package and install</a></p>
+<section lang="en"><h2>Make a guard hit harder</h2><p>Create an Enemy template. Open
+<b>EntityExample/NPC/GA_ExampleGuardAttack → Apply Combat Damage</b>. Change Damage from 10 to 15,
+compile and save. In NPC_ExampleGuard, Attacks owns range and cooldown. In the authoring panel select the
+mod and a multiplayer gameplay map, then click <b>Test Enemy on Client</b>. Inspect the server hit and the
+health received by the player. Resistances can change the final amount.</p>
+<h2>Detachable limbs</h2><p>Right-click in the Content Browser, choose <b>Atlas → Create Limb Profile</b>, and select the skeletal mesh in the dialog.
+Save it inside your mod. For a custom skeleton select the joints, then click <b>Generate Fragments</b>.
+Use <b>Preview Generated Fragment</b> to inspect a part. Add <b>Atlas Limb Damage</b> to the enemy
+Blueprint and assign the profile. Damage To Detach is the accumulated health loss for one limb.</p>
+<h2>Replay a floor</h2><p>Create a Floor template, open FloorExample/DA_Floor, choose a seed and run its
+floor preview. Save the result before changing the layout. Repeat with the same seed and compare placement
+identities after reload.</p></section>
+<section lang="ru"><h2>Изменить урон охранника</h2><p>Создай мод из шаблона Enemy. В
+<b>EntityExample/NPC/GA_ExampleGuardAttack → Apply Combat Damage</b> замени Damage с 10 на 15,
+скомпилируй и сохрани. Дальность и задержка между атаками задаются в NPC_ExampleGuard → Attacks.
+В панели авторинга выбери мод и игровую карту с мультиплеером, нажми <b>Test Enemy on Client</b>.
+Сверь попадание на сервере с потерей здоровья клиента. Сопротивление цели может изменить результат.</p>
+<h2>Отделяемые конечности</h2><p>Нажми ПКМ в Content Browser, выбери <b>Atlas → Create Limb Profile</b> и укажи Skeletal Mesh в окне.
+Сохрани профиль в своём моде. Для своего скелета выбери суставы и нажми <b>Generate Fragments</b>.
+Кнопка <b>Preview Generated Fragment</b> откроет выбранную часть. Добавь в Blueprint врага компонент
+<b>Atlas Limb Damage</b> и назначь ему профиль. Damage To Detach задаёт, сколько здоровья враг должен
+потерять от попаданий в одну конечность для её отделения.</p>
+<h2>Повторить этаж</h2><p>Создай мод этажа и открой FloorExample/DA_Floor. Задай seed, запусти
+предпросмотр и сохрани результат. После правки запусти тот же seed и сравни идентификаторы
+размещённых объектов после загрузки.</p></section><p><a href="../../Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html">Enemy, placement and floor reference</a></p></main>
+<footer>KLETKA ModKit · BlueprintBinary · API 0.8.0<br>
+Copyright Callback LLP. All Rights Reserved.</footer></body></html>

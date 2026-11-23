@@ -1,0 +1,7 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasModdingSystemEditor": "UnrealEditor-AtlasModdingSystemEditor.dll",
+    "AtlasModdingSystemRuntime": "UnrealEditor-AtlasModdingSystemRuntime.dll"
+  }
+}

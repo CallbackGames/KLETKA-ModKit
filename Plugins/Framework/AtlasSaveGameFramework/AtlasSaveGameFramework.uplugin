@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "2.0.0",
+  "FriendlyName": "Atlas Save Game Framework",
+  "Description": "Container-based transactional persistence with feature fragments, A/B recovery, providers, authority policy, mods, and editor diagnostics.",
+  "Category": "Callback Games|Framework|Persistence",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EngineVersion": "5.8.0",
+  "CanContainContent": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasSaveGameFrameworkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSaveGameFrameworkEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

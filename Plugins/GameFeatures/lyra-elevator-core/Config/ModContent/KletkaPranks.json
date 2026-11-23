@@ -1,0 +1,750 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "Prank",
+	"entries": [
+		{
+			"id": "Prank:DAP_Airdrop",
+			"displayName": "DAP_Airdrop",
+			"assetName": "DAP_Airdrop",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Antigravity",
+			"displayName": "Antigravity",
+			"assetName": "DAP_Antigravity",
+			"description": "Ancient legends tell the story of a group of adventurers who reached the rooftop of Gigastructure and launched themselves into the so-called space: a place reportedly free from Samosbor... and gravity, for some reason. You might have a hard time imagining this until you experience it first-hand. \r\n\r\nNothing special. Just make sure the debris your might propel yourself into is not explosive.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Anton",
+			"displayName": "Dr. Anton",
+			"assetName": "DAP_Anton",
+			"description": "When the Research Facility finally went beyond anyone’s control, not every employee died right away. According to the surviving logbooks, Dr. Anton once held the position of Head of one of the facility’s departments. What remains of him now is a massive, twisted carcass in which bureaucratic authority somehow managed to outlive reason, identity, and anything recognizably human.\r\n\r\nAnton seems slow only until he chooses a target. After that, he comes straight through, uncaring of how many rounds your guns pour into him. Then again, he was never much of a human even when he was alive.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_AshenOne",
+			"displayName": "Ashen One",
+			"assetName": "DAP_AshenOne",
+			"description": "Leaving your life in someone's jaws or claws is not an unusual way to go around here, but these mysterious beings will leave you wondering about weaponized mimicry as they swallow your soul to add yet another mental imprint to their deadly library of phantoms.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Attendant",
+			"displayName": "Attendant",
+			"assetName": "DAP_Attendant",
+			"description": "The lowest rung of the Research Facility staff. The ones who carried test tubes, scrubbed instruments, labeled containers, and were first to crawl under emergency protocols when the whole place started coming apart at the seams. After the disaster, they remained in the corridors — slow, rotting, and still wrapped in stain-covered lab coats. An Attendant rarely looks dangerous at first glance. That mistake usually fixes itself very quickly.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_BarnacleLanterns",
+			"displayName": "Snatchalier",
+			"assetName": "DAP_BarnacleLanterns",
+			"description": "Never forget where you are: even the chandeliers hate you. But you might as well check before you shoot and toss something underneath it. It might turn out to be a perfectly normal chandelier, so think before you shoot. Always a pain to see quality glassware go to waste in a place so devoid of beauty.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Beekeeper",
+			"displayName": "Apiarch",
+			"assetName": "DAP_Beekeeper",
+			"description": "The belly resembling a swollen lump of flesh churns with restless life. From the ruptures in his abdomen, it releases swarms of stinging critters that cloud the air and devour intruders. The heavy load slows it down, but the hive inside the belly never tires — each wave of bees emerges more frenzied than the last, guided by Apiarch's grotesque bond with the swarm.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_BetonEaters",
+			"displayName": "Concrete Chewer",
+			"assetName": "DAP_BetonEaters",
+			"description": "It sits in ambush under tiles for as long as it takes before a misstep turns yet another researcher into a feast. This slimy worm has evolved to feed on concrete when food is sparse but always prefers raw meat for dessert.\r\n\r\nIf the ground beneath your feet is shaking along with the walls around you, and plaster is falling from the ceiling, run and hope that there isn’t another one lurking around the corner.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_BetonEaters_Factory",
+			"displayName": "Concrete Chewer",
+			"assetName": "DAP_BetonEaters_Factory",
+			"description": "It sits in ambush under tiles for as long as it takes before a misstep turns yet another researcher into a feast. This slimy worm has evolved to feed on concrete when food is sparse but always prefers raw meat for dessert.\r\n\r\nIf the ground beneath your feet is shaking along with the walls around you, and plaster is falling from the ceiling, run and hope that there isn’t another one lurking around the corner.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Bighead",
+			"displayName": "Bighead",
+			"assetName": "DAP_Bighead",
+			"description": "Perfect synthesis of flesh and concrete. Sounds just right considering the circumstances. It moves and acts exactly the way its looks suggest: it charges, pushes, tears and wrecks stuff, and the next thing it flattens dime-thin might be your malnourished body.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Blackout",
+			"displayName": "DAP_Blackout",
+			"assetName": "DAP_Blackout",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Blight",
+			"displayName": "Blight",
+			"assetName": "DAP_Blight",
+			"description": "One day, the world will lose all its color. In a world where things only get worse, this seems to be the natural next step. \r\n\r\nColorblindness won't be your only problem here: physics change, making every step feel \"off\", as if the framerate of life was tampered with.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_BloodMoon",
+			"displayName": "Blood Moon",
+			"assetName": "DAP_BloodMoon",
+			"description": "The Blood Moon announces great news for everyone but you. It invites its servants to a feast, and ghouls from all over are attracted to this call, leaving their dark corners and swarming down to their promised dinner.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Bombardiro",
+			"displayName": "Bombardiro",
+			"assetName": "DAP_Bombardiro",
+			"description": "The extent of scientific research has been reduced to figuring out new ways to kill people. Preferably with as much noise, pain and splatter as possible. A ton of new explosive prototypes require testing. Today's test subject is you. \r\n\r\nResults may vary.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Catroaches",
+			"displayName": "Catroach",
+			"assetName": "DAP_Catroaches",
+			"description": "The big brother of the nasty critters that inhabit your dirty kitchen. Known for sudden ambushes, it makes an unnerving clicking sounds and spits acid. Human faces constitute a solid chunk of its diet. The product of full Kafkian metamorphosis.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Cavemen",
+			"displayName": "Grubgrubber",
+			"assetName": "DAP_Cavemen",
+			"description": "People dug mines so long and so deep, they finally struck something… Unexpectedly malicious.  \r\nLiving flesh has enslaved not only their minds, but their bodies too, turning the miners into powerful and dangerous creatures driven by desire to incorporate all the protein they can reach before they lose mobility.  \r\n\r\nThe Party advises against engaging them in gunfights. Consider using more effective biohazard control tools instead. A flamethrower should do the job.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Chainbearer",
+			"displayName": "Chainbearer",
+			"assetName": "DAP_Chainbearer",
+			"description": "There's a rare breed of people who seem to enjoy their jailtime. Otherwise, why would he let his chains fuse with his flesh? His weapons are firmly attached to his body, and he's ready to whip them. \r\n\r\nHe knows his way with tight metal knots and believes his sex offense charges were unjustified, so it's best not to take on him alone.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_ChernobogZealot",
+			"displayName": "Zealot",
+			"assetName": "DAP_ChernobogZealot",
+			"description": "An ordinary follower of the Chernobog cult, marked by the rite of “Cleansing by Flesh.” His face is concealed behind a charred mask, a rusted sigil of Chernobog fastened to his chest. He carries no refined weapons — just rebar, pipes, and his bare fists. To him, every blow draws the Samosbor nearer and scours the world for its sins.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Chilblain",
+			"displayName": "Chilblain",
+			"assetName": "DAP_Chilblain",
+			"description": "Winter has arrived. The icy surfaces turn slippery, and bone-crushing falls are waiting to happen. Even the doors freeze shut. But look on the bright side of life: you can make snowballs here and throw them!  \r\n\r\nDisclaimer: yellow snow is not lemon-flavoured.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Clinger",
+			"displayName": "Clinger",
+			"assetName": "DAP_Clinger",
+			"description": "These cute little critters can't help but thrive wherever it's damp and dark. The floors of Gigastructure are rich with such areas. Many survivors report hearing their faint skittering above just before seeing their friends dragged into darkness.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Collegium_Boss",
+			"displayName": "Collegium",
+			"assetName": "DAP_Collegium_Boss",
+			"description": "The nervous systems of these researchers who delved too deeply into the dark corners of forbidden knowledge are tied into a tight knot, resulting in fully synchronised rage.\r\n\r\nTheir individual cognition is replaced by collective reflex. They believe in a shared goal. They are one.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_DeadBeer",
+			"displayName": "Dead Beer",
+			"assetName": "DAP_DeadBeer",
+			"description": "A vending machine goes hungry after decades without refills. Stale synthetic beerproduct doesn't cut it anymore, so it's ready to add some human blood and jerky to its fine selection of snacks and beverages. \r\nFeeds on unsuspecting idiots.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_DeadFridge",
+			"displayName": "Sizzler",
+			"assetName": "DAP_DeadFridge",
+			"description": "Most people have never seen the sky, but that doesn't mean you can't find a ball lightning floating through the corridors. Feeds on exposed wires and the bioelectricity of its victims. \r\n\r\nAs long as the Gigastructure exists, there will always be entities within it to kill you in absurd and horrifying ways.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_DemoBossfight",
+			"displayName": "DAP_DemoBossfight",
+			"assetName": "DAP_DemoBossfight",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_DistantShadowMimic",
+			"displayName": "DAP_DistantShadowMimic",
+			"assetName": "DAP_DistantShadowMimic",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_ExplosiveCrawler",
+			"displayName": "Explosive Crawler",
+			"assetName": "DAP_ExplosiveCrawler",
+			"description": "Pain and suffering constitute most of this crawling creature, what's left is occupied by the explosive device strapped to its decaying body. Better end this poor sap's misery from distance before he decides to take you along.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_ExplosiveFuel",
+			"displayName": "DAP_ExplosiveFuel",
+			"assetName": "DAP_ExplosiveFuel",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_EyeRoller",
+			"displayName": "Eyeroller",
+			"assetName": "DAP_EyeRoller",
+			"description": "A seemingly sentient being with a hint of voyeurism to its mysterious character. Some believe it's the eye of God, if he even remembers this place. \r\n\r\nWon't hurt you directly, but can pull certain triggers for better or worse. \r\n\r\nTry feeding it to Kletka, something funny might happen. (Don't do this)",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_EyeRoller_Fleshmine",
+			"displayName": "Meatroller",
+			"assetName": "DAP_EyeRoller_Fleshmine",
+			"description": "A dangerous cousin of the regular Eyeroller. Can't be used as fuel nor taken as a pet. Stay away. This thing is toxic and not very pleasant to touch to begin with.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_FakeSoul",
+			"displayName": "Mimic",
+			"assetName": "DAP_FakeSoul",
+			"description": "Just a poor soul trapped in the concrete maze much like you. Steals stuff. Friendliness depends on current mental state. He's been here for a while now so makes sense, doesn't it?",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Feaster",
+			"displayName": "Sizzler",
+			"assetName": "DAP_Feaster",
+			"description": "Most people have never seen the sky, but that doesn't mean you can't find a ball lightning floating through the corridors. Feeds on exposed wires and the bioelectricity of its victims. \r\n\r\nAs long as the Gigastructure exists, there will always be entities within it to kill you in absurd and horrifying ways.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Fleshweaver",
+			"displayName": "Fleshweaver",
+			"assetName": "DAP_Fleshweaver",
+			"description": "This is exactly what you hope to find in your bathroom late at night: a monstrous inbred mixture of house centipede and spider rushing at you with all its feet, ready to suffocate you in its bioactive web. The bite can leave quite a mark, but letting it take your extremety as a \"spare tie\" for the next time one of its rotten limbs breaks off is a better destiny than fusing with it altogether or boiling down to the bloody goop it uses to weave its fleshweb.\r\n\r\nIf you wish to entertain your teammates, try to outrun it.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Flies",
+			"displayName": "Flies",
+			"assetName": "DAP_Flies",
+			"description": "Tiny annoying critters that will come swarming at your sweaty face and crawl under your clothes. Rotting meat attracts it. They are weak but high in numbers. Interestingly enough, light hurts them unlike most other insects.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Flood",
+			"displayName": "Flood",
+			"assetName": "DAP_Flood",
+			"description": "Ancient legends tell the story of a group of adventurers who reached the rooftop of Gigastructure and launched themselves into the so-called space: a place reportedly free from Samosbor... and gravity, for some reason. You might have a hard time imagining this until you experience it first-hand. \r\n\r\nNothing special. Just make sure the debris your might propel yourself into is not explosive.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Flux",
+			"displayName": "Flux",
+			"assetName": "DAP_Flux",
+			"description": "The very matter of time shatters in depths of the infinite Gigastructure. One step will feel like it took a decade, another step really will take you a decade without you even noticing. You're out of sync here, big time.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Fungus",
+			"displayName": "Fungus",
+			"assetName": "DAP_Fungus",
+			"description": "Might appear slow and dumb on the surface. Holds infinite knowledge and true meaning of freedom inside. Will aggressively deny sharing its wisdom with those who do not deserve it, meaning you.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Gasmen",
+			"displayName": "Ignitor",
+			"assetName": "DAP_Gasmen",
+			"description": "Is this a body wearing a hazmat suit, or is this a hazmat suit wearing a body? Too late to search for humanity in this rubberized carcass. Its conversation skills have reduced to a flamethrower.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Glooper",
+			"displayName": "Glooper",
+			"assetName": "DAP_Glooper",
+			"description": "The slimy, nearly invisible explorer of aromatic sewer depths and all places damp and stinky in general. It's nearly impossible to spot him among the mountains of pulsating goo, and the Glooper knows this well. Once he gets a firm grip on his victim, he drags it somewhere more... intimate to finish the feast.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Gretchin",
+			"displayName": "Gretchin",
+			"assetName": "DAP_Gretchin",
+			"description": "An evolutionary offspring of what was believed to be the third most likely species to outlive humans alongside rats and cockroaches — the gopniks. They work in packs and speak unintelligebly as they rob researchers of their belongings, suggesting that their intellect is just a step behind the homo sapiens.\r\n\r\nThey may avoid direct confrontation, limiting themselves to stealing. In any case, watch your pockets.\r\n\r\nUnprepared travelers are advised to stay away from their hidden stashes. They're rather protective of their possessions.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_HeartOfGigastructure_Boss",
+			"displayName": "Heart of Gigastructure",
+			"assetName": "DAP_HeartOfGigastructure_Boss",
+			"description": "The throbbing heart of the Gigastructure is bound in chains in a desperate attempt to hold its desire to expand. Its pulsation sets the rhytm that puts the unspeakable horrors of the infinite building in motion. Will a cardiac arrest set us all free, or would it rather take us someplace even worse?",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Homunculus",
+			"displayName": "Homunculus",
+			"assetName": "DAP_Homunculus",
+			"description": "Historical research suggests that this creature is a distant relative of underwater creatures once known as cephalopods. Stuff from way back in past, when the planet was covered in endless oceans of saltwater. Don't let it get to your head, none of it matters anymore. What matters is the creature's desire to get to know you. Push him away and he will reveal his explosively jealous nature. Leave him be and you will have the ugliest pet in the world for a while.\r\n\r\nHe's not that different from you and I. All he wants is a friend.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Hush",
+			"displayName": "Hush",
+			"assetName": "DAP_Hush",
+			"description": "Silence reigns on this floor. No voices, no footsteps, no clatter—only fragments of what sounds like the death cry of torn strings. The weight of the world comes crashing down at you when no sound is present to distract you from intrusive thoughts.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Inferno",
+			"displayName": "Inferno",
+			"assetName": "DAP_Inferno",
+			"description": "A full-on blaze. There's nowhere to hide or catch breath. No safe spot on the floor to step on. Your advancement will result in guaranteed pain, but turning back is not an option.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Inmate",
+			"displayName": "Inmate",
+			"assetName": "DAP_Inmate",
+			"description": "The prison corridors are full of nutcases ready to throw themselves at anyone who could potentially put them out of eternal misery, as long as they end up with the psycho kind of PTSD after all the torture endured. The others are more busy drooling and mumbling incoherently as they cover their surroundings in feces.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Kolobor",
+			"displayName": "Kolobor",
+			"assetName": "DAP_Kolobor",
+			"description": "A rock of solid anger spreading sap and spores of toxic hogweed, giving that biohazardous vibe to all it touches. It's almost as if this disgusting plant is the only thing in the world the Kolobor might have feelings for.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_LampBurst",
+			"displayName": "DAP_LampBurst",
+			"assetName": "DAP_LampBurst",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_LivingCones",
+			"displayName": "Cone",
+			"assetName": "DAP_LivingCones",
+			"description": "Looks just like an ordinary traffic cone... Until you start wondering what the hell it's doing here. Something much more sinister will be revealed upon closer examination.\r\n\r\nAn insanely aggressive nasty little thing.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_LivingSlimes",
+			"displayName": "Slime",
+			"assetName": "DAP_LivingSlimes",
+			"description": "They pop out after Samosbor events like mushrooms after rain. No such luck as rain and edible mushrooms for most floors, so we have these lumps of biosludge instead.\r\n\r\nThey can absorb and incorporate anything as they glide and bounce through the corridors: trash, tools, human bodies both dead and temporarily alive.\r\n\r\nThe top of the food chain is reserved for either us or them. Grab your rakes and get to work!",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Lurker",
+			"displayName": "Neighbour",
+			"assetName": "DAP_Lurker",
+			"description": "Might look like an ordinary Gigastructure dweller, but you should already be accustomed to deceiving looks by the time you meet one of these lanky hunchbacks. If  you don't... well, nice job making it this far. Let's see if you make it past the Neighbour. \r\nTriggered by noise of any sort and magnitude.  You won't hear him approaching you, don't even try. Take it slow, and perhaps you will avoid the unwanted rendezvous.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Madness",
+			"displayName": "Madness",
+			"assetName": "DAP_Madness",
+			"description": "Vertigo. Double vision. Hallucinations. Voices in your head. The key? \r\n\r\nTrust nothing. Question everything.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_MeatWorm",
+			"displayName": "Meat Worm",
+			"assetName": "DAP_MeatWorm",
+			"description": "A luckier relative of the Concrete Chewer. Its ecosystem allows it to feast on infinite volumes of stinky meat, so it never developed the qualities required for concrete chewing lifestyle. Doesn't mean that it doesn't enjoy occasional beverage of fresh blood. Keep your distance or it will latch onto you like a leech.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_MechanicalFly_Boss",
+			"displayName": "Assembly Error №7",
+			"assetName": "DAP_MechanicalFly_Boss",
+			"description": "If dictionaries were still printed instead of ending up repurposed as toilet paper, the picture of this creature would fit as an illustration for \"Mistake\".  This sickening combination of flesh and metal will mesmerize you by synchronized movement of engines and muscle. \r\n\r\nOnce it breaks free from its container, be prepared for an intense battle with a flying, shooting beast.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_MindOfGigastructure_Boss",
+			"displayName": "Mind of Gigastructure",
+			"assetName": "DAP_MindOfGigastructure_Boss",
+			"description": "You have seen things and traveled far enough to reach the residence of the Gigastructure's twisted mind. \r\n\r\nLobotomize it before it's too late. It will fight back.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Mist",
+			"displayName": "Mist",
+			"assetName": "DAP_Mist",
+			"description": "Thick, disorienting fog won't make your stay on this floor an easy one, but it sure will be memorable. Ancient scriptures warn of dangerous carnivorous hedgehogs lurking in the fog, but that is believed to be folklore.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_MotherOfConcrete_Boss",
+			"displayName": "Mother of Concrete",
+			"assetName": "DAP_MotherOfConcrete_Boss",
+			"description": "Appearance of sentient piles of concrete was only a matter of time in a place where concrete is everything. Searching for protein-rich food for her babies, she drags her massive body across the corridors of... more concrete.\r\n\r\nShe prefers to settle her nest on a single floor and doesn't traverse through walls as much as she used to when she was young and thin.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Operator_Boss",
+			"displayName": "Operator",
+			"assetName": "DAP_Operator_Boss",
+			"description": "The decaying carcass of the Gigastructure is animated by a painful synthesis of blood and electric impulses. The blood fuels the eldritch horrors. The computers calculate optimal quantities of pain and suffering.\r\n\r\nAfter the facility was abandoned, the system continued executing routines, repurposing defense hardware into erratic assault patterns. The central computer exhibits occasional audiovisual feedback loops interpreted as emerging self-awareness caught in an identity crisis.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Pollinator",
+			"displayName": "Pollinator",
+			"assetName": "DAP_Pollinator",
+			"description": "Overgrown insects the size of a man, thriving near the stinky hogweed thickets. Buzzing fills entire corridors as it releases toxic clouds to protect the plants. Disturbing the bushes almost always results in facing at least one of these beauties.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_PostSamosbor",
+			"displayName": "Postsamosbor",
+			"assetName": "DAP_PostSamosbor",
+			"description": "Samosbor just rolled through this floor, leaving behind the usual set of annoyances to sort out. The whole place is covered in slime — smelly, sticky, and nasty. Grab the rake and get to work!",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Potato_Boss",
+			"displayName": "Spudling",
+			"assetName": "DAP_Potato_Boss",
+			"description": "Engineered to feed the people, evolved to kill. When damaged, it breaks into smaller, equally annoying taters. \r\n\r\nOverall an unpleasant and pointless genetically modified agricultural monstrosity, much like everything else in this sector.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Prophetron_Boss",
+			"displayName": "Prophetron",
+			"assetName": "DAP_Prophetron_Boss",
+			"description": "Obsolete CRT television unit retrieved from the Administrative wing. Device levitates by means of unknown nature, projecting distorted broadcasts of archival therapy sessions. \r\n\r\nSuspected link to failed psychological conditioning trials.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_RatBall",
+			"displayName": "Rat King",
+			"assetName": "DAP_RatBall",
+			"description": "Rotting mess of fused furry bodies straight out of a Medieval plague dream. It's heading your way to share the suffering. Before you hear it rustle with a myriad of tails and paws tied in a tight knot, you'll notice the flickering lights: it's the high-pitched squeal of constant pain messing with the electricity.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Rats",
+			"displayName": "Rat",
+			"assetName": "DAP_Rats",
+			"description": "According to ancient lore, rats were always believed to outlive humans. Considering their rapid evolution, one is more than enough to grant you some fun time in the corridors. Perhaps they are training for the final battle with cockroaches that will take place on top of our bones.\r\n\r\nI'm not kidding, they can activate traps and solve quadratic equations.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Rustbucket_Boss",
+			"displayName": "Rustbucket",
+			"assetName": "DAP_Rustbucket_Boss",
+			"description": "Vehicles trapped inside the Gigastructure naturally get caught in cross-contamination from sloppy bio-experiments. Despite structural decay, it is firmly held together by whatever \"sentient\" flesh goop got hold of it.\r\n\r\nHatred for unaltered human form makes it ram unfortunate travelers enthusiastically.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor",
+			"displayName": "DAP_Samosbor",
+			"assetName": "DAP_Samosbor",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor_Factory",
+			"displayName": "DAP_Samosbor_Factory",
+			"assetName": "DAP_Samosbor_Factory",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor_Fleshmine",
+			"displayName": "DAP_Samosbor_Fleshmine",
+			"assetName": "DAP_Samosbor_Fleshmine",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor_GreenhouseUnit",
+			"displayName": "DAP_Samosbor_GreenhouseUnit",
+			"assetName": "DAP_Samosbor_GreenhouseUnit",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor_Prison",
+			"displayName": "DAP_Samosbor_Prison",
+			"assetName": "DAP_Samosbor_Prison",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Samosbor_ResearchFacility",
+			"displayName": "DAP_Samosbor_ResearchFacility",
+			"assetName": "DAP_Samosbor_ResearchFacility",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_SamosborDebug",
+			"displayName": "DAP_SamosborDebug",
+			"assetName": "DAP_SamosborDebug",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Seamstress",
+			"displayName": "Seamstress",
+			"assetName": "DAP_Seamstress",
+			"description": "Sewing is one of the most important skills in a world where only the protein moguls may afford new clothes. This creature is taking it to the next level, stitching itself onto its victims. Until its thread is broken, it becomes one with the victim, sharing existential dread.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Seeder",
+			"displayName": "Seeder",
+			"assetName": "DAP_Seeder",
+			"description": "King among hogweeds, it takes things slow. It's got nothing to prove. It does not walk or chase, but every step closer to it means going deeper into a deadly cloud of spores. He's the biggest guy in the bush. Smaller hogweeds bow to him. Women fear him.  Once left unchecked, it will cover entire floors with its toxic hogweed offspring.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Sentinel",
+			"displayName": "Sentinel",
+			"assetName": "DAP_Sentinel",
+			"description": "This guy in a coat is packing some mean blunt force. Turn your back and he won't miss a chance to act up from behind. Luckily, this stud makes himself known by the hum of music he listens to. Can be dealt with peacefully.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_ShackledOne_Boss",
+			"displayName": "Shackled One",
+			"assetName": "DAP_ShackledOne_Boss",
+			"description": "Enclosed societies consisting solely of men are the perfect habitat for the biggest gorilla in the zoo. He enjoyed his priviliged stay in the jail so much that the way his chains fused with his bone and muscle bothers him very little. In fact, he learned how to use it as a deadly whipping weapon. Naturally, the respect he found among weaker prisoners made him the leader of this jolly community after the prison was left unguarded, so it's best to start the battle by getting rid of his minions.",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Sizzler",
+			"displayName": "Sizzler",
+			"assetName": "DAP_Sizzler",
+			"description": "Most people have never seen the sky, but that doesn't mean you can't find a ball lightning floating through the corridors. Feeds on exposed wires and the bioelectricity of its victims. \r\n\r\nAs long as the Gigastructure exists, there will always be entities within it to kill you in absurd and horrifying ways.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Storm",
+			"displayName": "Storm",
+			"assetName": "DAP_Storm",
+			"description": "A storm of electricity is rushing through the corridors, with plenty of exposed wire and neglected hardware to feed on. Stand still too long — and you might get zapped right in the head. Keep moving, watch your step, and don’t touch anything made of metal.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Stormchaser",
+			"displayName": "Stormchaser",
+			"assetName": "DAP_Stormchaser",
+			"description": "An atmospheric anomaly born deep within the Greenhouse Unit. It drifts across fields and ruins in a constant whirl, obsessively chasing vehicles — metal and flesh make perfect fuel for its circulation. It pays no attention to people, though anyone foolish enough to step into its spiral will experience only mild side effects: a broken spine and lungs full of nothing.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Tectonics",
+			"displayName": "Tectonics",
+			"assetName": "DAP_Tectonics",
+			"description": "Gigastructure is alive too, and its mood isn’t always the nicest. The floor ripples like a wave, the walls groan, and plaster rains down from the ceiling. The shocks strike without warning, you’ll get periodically thrown sideways, and loose items get ripped from their spots and hurled down the corridors - a full-on game of bowling.\r\n\r\nNothing personal. Just keep your distance from furniture, sharp corners, and anything that likes to break and splinter when it meets a hard surface.",
+			"role": "Curse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_ToyCar",
+			"displayName": "Boomling",
+			"assetName": "DAP_ToyCar",
+			"description": "A treacherous kamikaze contraption cobbled together by the Chernobog cult from a shabby old pedal toy. Once a symbol of childhood joy, now twisted into a fanatical weapon for purging heretics.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Turret",
+			"displayName": "Rusty Turret",
+			"assetName": "DAP_Turret",
+			"description": "Flesh betrays, metal serves. Even when service maintenance has been long overdue. Someone or something needs to maintain order around here. Lock and load!",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_VacuumMine",
+			"displayName": "DAP_VacuumMine",
+			"assetName": "DAP_VacuumMine",
+			"description": "",
+			"role": "Common",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_WallOfFlesh",
+			"displayName": "Oculith",
+			"assetName": "DAP_WallOfFlesh",
+			"description": "A monolithic growth of flesh, bristling with eyes that never rest. Acid drips from their sockets as they track every movement. Patient as stone, hungry as a rat. \r\n\r\nYou try not going mad with a life this boring.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Warden",
+			"displayName": "Warden",
+			"assetName": "DAP_Warden",
+			"description": "This armed guard did not stop following his orders when the others did. The firearm in his hands is rusted, but still functional. Combined with what's left of his human intellect, it makes him a dangerous enemy.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Wheelbound",
+			"displayName": "Wheelbound",
+			"assetName": "DAP_Wheelbound",
+			"description": "Something inside is keeping this \"automobile\" alive. You'd hope it's something mechanical, but it's not hard to tell it isn't. A human shape is visible through the cracked windshield, and its feet must have long fused with the gas pedal.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:DAP_Witch",
+			"displayName": "Witch",
+			"assetName": "DAP_Witch",
+			"description": "She might look like a naked female figure from distance, but upon closer examination you'll find her skin burnt and head crowned with demonic horns. If that's still not enough to scare you away from something distantly resembling an undressed woman, at least do what you can to focus on any part of her body other than the eyes. They can paralyze.",
+			"role": "Enemies",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "Prank:prank_10540CCF4957783272F22E90608C4346",
+			"displayName": "Shop Guard",
+			"assetName": "DAP_ShopGuard",
+			"description": "Food-retail security's finest — the kind no robot could ever replace! Whether or not you actually tried to make off with a bottle of vodka, rest assured: you’ll be invited to the back room for a little chat.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_2D5A067243196FA1A5DCF08D03EB7F16",
+			"displayName": "Deadstock",
+			"assetName": "DAP_Deadstock",
+			"description": "An absolutely ordinary mannequin. Not some horror-movie type that comes to life. Not a monster, not an apparition. Don’t believe it? Just turn your back on it.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_4E260C6F48C99A399B06E9A084E3671E",
+			"displayName": "Abracadabrius",
+			"assetName": "DAP_Abracadabius_Boss",
+			"description": "After fighting your way through hordes of pestering consultants and mall cops, you will finally come face-to-face with the reigning king of entertainment in this cursed shopping mall—a menacing figure who seems to hover in mid-air. The program features mind-bending illusions with his own private hall of mirrors, along with magic tricks that involve the vanishing of your vital organs.\r\nThe curtains will drop only once there is no one left in the hall to applaud.",
+			"role": "Boss",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_66F3925C4B26D6C7684148862302477A",
+			"displayName": "Rover",
+			"assetName": "DAP_Rover",
+			"description": "In the past, people who hadn't found their place in life would often, without much thought, take jobs as security guards in grocery stores; but with the arrival of these rovers, many of them have had to reinvent themselves—as shoplifters. Claims that you \"forgot to pay\" won't convince this turret on wheels of your innocence.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_6B9CD0B94E38AEB32330DD9FF17A6877",
+			"displayName": "Flewfish",
+			"assetName": "DAP_Flewfish",
+			"description": "These doomed escapees from the fish counter will never return to the waters they once inhabited. One could even feel sorry for them, if they weren't so intent on gnawing the faces off the patrons of this bizarre grocery store. Remind them exactly where they belong in the food chain.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_D7FA5354494812F02FC876937C31A5A6",
+			"displayName": "Cloppy",
+			"assetName": "DAP_Cloppy",
+			"description": "A shopping trip is fun for the whole family! The jaw-dropping pirouettes of the sprightly clown named Cloppy are sure to leave visitors anything but indifferent. And if you’re not a fan of overbearing entertainers—strike back hard and don’t let him scurry away!",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_DBEB1987431998467298DAADFE731B13",
+			"displayName": "Sales Consultant",
+			"assetName": "DAP_SalesConsultant",
+			"description": "Afraid of talking to clerks? In this grocery store, this fear is finally justified. Keep your distance. The 'service' here is, shall we say, exceptionally intrusive, and the work shift never ends.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "Prank:prank_EF2595CD486AAF5039D61FA444728204",
+			"displayName": "Butcher",
+			"assetName": "DAP_Butcher",
+			"description": "The ham of this meat counter queen have long since been coated in a slimy layer of cadaveric bacteria, and the putrid stench of her own innards ranks as the foulest of all the rotten, expired goods in the grocery store. But don’t be fooled: this decaying carcass hasn’t forgotten how to wield a meat hook and a cleaver.\r\nIn the old days, she at least used to ask how much you wanted her to chop off.",
+			"role": "Enemies",
+			"ownerMount": "GastronomCore"
+		}
+	]
+}

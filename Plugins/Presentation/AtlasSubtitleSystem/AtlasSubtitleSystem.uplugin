@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Subtitle System",
+  "Description": "Reusable subtitle playback, spatial selection, media synchronization, and presentation.",
+  "Category": "Atlas|Presentation",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasSubtitleSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSubtitleSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

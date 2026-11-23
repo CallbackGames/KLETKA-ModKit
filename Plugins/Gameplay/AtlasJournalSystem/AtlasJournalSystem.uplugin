@@ -1,0 +1,41 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Journal System",
+  "Description": "Project-neutral journals, codices, bestiaries, notes, and extensible journal presentation.",
+  "Category": "Callback Games|Gameplay|Journal",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasJournalSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasJournalSystemUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasJournalSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

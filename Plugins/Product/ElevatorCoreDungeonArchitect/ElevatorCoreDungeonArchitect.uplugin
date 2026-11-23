@@ -1,0 +1,49 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "KLETKA Dungeon Architect Adapter",
+  "Description": "Optional KLETKA Snap Map floor generator. Install Dungeon Architect 3.6.0 for Unreal 5.8 separately.",
+  "Category": "KLETKA",
+  "CreatedBy": "Callback Games",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "ElevatorCoreDungeonArchitect",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ElevatorCoreDungeonArchitectEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ElevatorCore",
+      "Enabled": true
+    },
+    {
+      "Name": "DungeonArchitect",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayExperienceFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "PCG",
+      "Enabled": true
+    },
+    {
+      "Name": "DataValidation",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    }
+  ]
+}

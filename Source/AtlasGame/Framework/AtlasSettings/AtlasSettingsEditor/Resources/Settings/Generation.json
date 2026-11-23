@@ -1,0 +1,47 @@
+{
+  "generator": "Built-in image_gen",
+  "reference": "Bool.png",
+  "notes": "Each variant was generated separately from the approved Bool image. Original alpha preserved. PNGs are editor Slate resources, not runtime UTexture assets.",
+  "icons": [
+    {
+      "file": "Bool.png",
+      "prompt": "Approved initial sample: large gray and cyan slider symbol; smaller boolean toggle badge at bottom-right; transparent background."
+    },
+    {
+      "file": "Integer.png",
+      "prompt": "Edit the reference UI icon into a Integer setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing bold digits '123' in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "Scalar.png",
+      "prompt": "Edit the reference UI icon into a Scalar setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing bold decimal digits '0.5' in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "String.png",
+      "prompt": "Edit the reference UI icon into a String setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing bold letters 'Ab' in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "FixedChoice.png",
+      "prompt": "Edit the reference icon into a FixedChoice setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing three short horizontal list lines with a checkmark selecting the middle line, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "NameChoice.png",
+      "prompt": "Edit the reference icon into a NameChoice setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing a bold capital N with a small curved refresh arrow beside it, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "StringChoice.png",
+      "prompt": "Edit the reference icon into a StringChoice setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing bold quotation marks with a small curved refresh arrow beside them, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "GameplayTag.png",
+      "prompt": "Edit the reference icon into a GameplayTag setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing one large simple luggage-tag silhouette with a punched hole, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "KeyBinding.png",
+      "prompt": "Edit the reference icon into a KeyBinding setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing one keyboard keycap with a bold simple return-arrow symbol, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    },
+    {
+      "file": "KeyChord.png",
+      "prompt": "Edit the reference icon into a KeyChord setting Data Asset icon. Preserve the entire main three-slider symbol exactly, its size, placement, gray/cyan colors, dark outline, square composition and transparent background. Change ONLY the small bottom-right boolean toggle badge: replace it with a compact dark rounded badge containing two small keyboard keycaps separated by a plus sign, in bright cyan and off-white. Badge remains bottom-right, same bounding area, visually subordinate to main symbol. Crisp bold minimal editor icon readable at 32/64 pixels. Real alpha transparency, no background rectangle, no outside captions, no additional objects. Generate one icon only."
+    }
+  ]
+}

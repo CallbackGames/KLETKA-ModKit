@@ -1,0 +1,453 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "ElevatorCore",
+  "Description": "",
+  "Category": "Game Features",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "ElevatorCoreContent",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ElevatorCoreContentEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "ExplicitlyLoaded": false,
+  "BuiltInInitialFeatureState": "Installed",
+  "Plugins": [
+    {
+      "Name": "BinkMedia",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAISystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasDifficultySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasInventorySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasLootSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasQuestSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "RoguelikeCore",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasModdingSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasLocomotionSystem",
+      "Enabled": true,
+      "TargetConfigurationDenyList": [
+        "Shipping"
+      ]
+    },
+    {
+      "Name": "AtlasProgressionSystem",
+      "Enabled": true,
+      "TargetConfigurationDenyList": [
+        "Shipping"
+      ]
+    },
+    {
+      "Name": "AtlasSubtitleSystem",
+      "Enabled": true,
+      "TargetConfigurationDenyList": [
+        "Shipping"
+      ]
+    }
+  ],
+  "AtlasModTemplates": {
+    "SchemaVersion": 1,
+    "Templates": [
+      {
+        "Id": "ElevatorCore.FloorBiome",
+        "Category": "Floors & biomes",
+        "Label": "Floor and biome",
+        "Description": "Creates a public Le floor layout, starter map with navigation bounds, quest, floor bundle and biome. Registers Add Floor Content and the Endless slot without switching the current map.",
+        "Recipe": "Docs/Examples/CreateFloorModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem"
+        ],
+        "AssetPaths": [
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/BP_FloorLayout",
+          "FloorExample/DA_Floor",
+          "FloorExample/DA_Bundle",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Open L_ExampleFloor. Keep exactly one Le Floor Layout root and cover walkable geometry with navigation bounds.",
+          "Extend the mod-namespaced FloorQuest Blueprint in Quest Flow; the starter completes immediately. Preserve its published class name after release because it supplies the quest identity.",
+          "Add Floor Content registers the biome and Floor.Flow.Slot.Endless. Test selecting the biome, quest completion and a joining client before Cook & Publish."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.SentencePerk",
+        "Category": "Perks & curses",
+        "Label": "Perk and ability",
+        "Description": "Creates a sentence perk, its server ability and Add Perk Content registration. The starter logs activation and ends; add your gameplay before End Ability.",
+        "Recipe": "Docs/Examples/CreatePerkModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "RoguelikeCore",
+          "AtlasAbilitiesSystem"
+        ],
+        "AssetPaths": [
+          "PerkExample/GA_ExamplePerk",
+          "PerkExample/DA_ExamplePerk"
+        ],
+        "NextSteps": [
+          "Edit DA_ExamplePerk presentation. Its Add Perk Content action targets Perk.Pool.Sentence.",
+          "Replace the diagnostic in GA_ExamplePerk with your perk gameplay. Preserve an explicit completion or cancellation path.",
+          "Test selection, duplicate/upgrade behavior, a joining client and save/restore, then use Cook & Publish."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.DungeonArchitectFloor",
+        "Category": "Floors & biomes",
+        "Label": "Dungeon Architect floor",
+        "SortOrder": 110,
+        "Description": "KLETKA Snap Map adapter. Creates a floor, biome, quest and procedural map; author your own rooms and flow graph before cooking.",
+        "Recipe": "Docs/Examples/CreateDungeonArchitectFloorExample.py",
+        "RequiredPlugins": [
+          "ElevatorCoreDungeonArchitect",
+          "DungeonArchitect",
+          "AtlasQuestSystem"
+        ],
+        "AssetPaths": [
+          "FloorExample/DA_Floor",
+          "FloorExample/DA_Biome",
+          "FloorExample/L_ExampleFloor"
+        ],
+        "NextSteps": [
+          "Open DA_Floor > Generation > Dungeon Architect. Configure the one-player module database and flow graphs; untouched multiplayer rows inherit it.",
+          "Build your own Snap Map rooms and connections; tag exactly one dungeon actor KletkaModDungeon.",
+          "Use Dungeon Architect 3.6.0 for Unreal 5.8, matching the target game build.",
+          "Compile, validate, cook and test a generated floor, cancellation, save/restore and late joining. Do not include the DA plugin in your upload."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Enemy",
+        "Category": "Enemies & bosses",
+        "Label": "Enemy archetype and test floor",
+        "Description": "An editable guard NPC with perception, navigation, GAS attack, health and a cached inventory drop, plus a test floor.",
+        "SortOrder": 130,
+        "Recipe": "Docs/Examples/CreateEnemyModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "AtlasAISystem",
+          "AtlasAbilitiesSystem",
+          "AtlasInventorySystem",
+          "AtlasLootSystem",
+          "AtlasSaveGameFramework"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleEnemy",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome",
+          "EntityExample/NPC/NPC_ExampleGuard",
+          "EntityExample/NPC/ST_ExampleGuard",
+          "EntityExample/NPC/GA_ExampleGuardAttack"
+        ],
+        "NextSteps": [
+          "Open NPC_ExampleGuard to tune range and cooldown, and GA_ExampleGuardAttack to tune Apply Combat Damage and knockback. Test Enemy on Client runs the attack against a remote player.",
+          "Tune DeathLoot and DA_ExampleDrop. DropLoot consumes only confirmed units; never use Ignore Remaining Amount or force a new roll to retry. The example registers its inventory content.",
+          "The enemy has an Add Enemy Content identity.",
+          "Test the example floor in game, persistent identity, health/AI restore, loot and pickup state, repeated callbacks, failed placement and late join before publishing."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Familiar",
+        "Category": "Companions",
+        "Label": "Familiar capability and test floor",
+        "Description": "A replicated familiar claims the first overlapping player on the server and follows that PlayerState's current pawn.",
+        "SortOrder": 131,
+        "Recipe": "Docs/Examples/CreateFamiliarModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "RoguelikeCore"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleFamiliar",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Enter ClaimRange with a player pawn. Authority assigns Familiar.Set Owning Player once; later overlapping players cannot steal it.",
+          "The server interpolates toward Get Location To Stick Around Pawn and replicates movement. The owner is a PlayerState, so a replacement pawn can be followed after respawn.",
+          "Tune ClaimRange, mesh, follow settings and movement. For production acquisition use an item/perk and test owner respawn, reconnect, save restoration and late join."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Boss",
+        "Category": "Enemies & bosses",
+        "Label": "Boss encounter and test floor",
+        "Description": "An editable combat NPC with two health-driven encounter phases, an authoritative trophy drop and a test floor.",
+        "SortOrder": 132,
+        "Recipe": "Docs/Examples/CreateBossModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "RoguelikeCore",
+          "AtlasAISystem",
+          "AtlasAbilitiesSystem",
+          "AtlasInventorySystem",
+          "AtlasLootSystem",
+          "AtlasSaveGameFramework"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleBoss",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome",
+          "EntityExample/NPC/NPC_ExampleGuard",
+          "EntityExample/NPC/ST_ExampleGuard",
+          "EntityExample/NPC/GA_ExampleGuardAttack"
+        ],
+        "NextSteps": [
+          "Open NPC_ExampleGuard to tune range and cooldown, and GA_ExampleGuardAttack to tune Apply Combat Damage and knockback. Test Enemy on Client runs the attack against a remote player.",
+          "Tune DeathLoot and DA_ExampleDrop. DropLoot consumes only confirmed units; never use Ignore Remaining Amount or force a new roll to retry. The example registers its inventory content.",
+          "Encounter starts only from NotStarted, enters phase Two at half health and finishes on server NPC death. A successful live finish requests the cached trophy drop; restored/replicated state cannot grant it.",
+          "Test the example floor in game, persistent identity, health/AI restore, loot and pickup state, repeated callbacks, failed placement and late join before publishing."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.WorldActor",
+        "Category": "World objects & vehicles",
+        "Label": "World actor and test placement",
+        "Description": "A visible replicated actor and an authored, saved placement on a playable test floor.",
+        "SortOrder": 133,
+        "Recipe": "Docs/Examples/CreateWorldActorModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleWorldActor",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Replace ExampleBody and add public gameplay components to BP_ExampleWorldActor. The floor owns an Actor Placement component, so the accepted class is preserved in saves.",
+          "Use Add World Actor Rules to target a published placement key or semantic tag. Use Replace/Remove/Add explicitly; equal-priority changes to one target are conflicts.",
+          "Test an unchanged base, replacement, removal, reactivation and an old saved scene. Existing saved selections must not be silently resolved again."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Curse",
+        "Category": "Perks & curses",
+        "Label": "Curse and test floor",
+        "Description": "A registered server-only curse deals 10 GAS damage once to each current player pawn, then ends; the example floor selects it.",
+        "Recipe": "Docs/Examples/CreateCurseModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasAbilitiesSystem"
+        ],
+        "AssetPaths": [
+          "ContentExample",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Edit GE_ExampleCurseDamage and GA_ExampleCurse. PlayerState iteration skips unpossessed/no-ASC players and ends after the loop. Keep authority and explicit end/cleanup paths.",
+          "The example floor has a Curse Pranks fragment with 100 percent activation. For another floor, use Add Floor Content > Prank Pools and choose a published Floor ID; Replace retains the target ID.",
+          "Test the example biome, repeated floor visits, save/load and joining while the curse is active. Increment Gameplay Revision for incompatible behavior changes."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Resource",
+        "Category": "Items & crafting",
+        "Label": "Resource pack and test floor",
+        "Description": "One visible actor resource, a bounded generation processor and a resource pack connected to a test floor.",
+        "Recipe": "Docs/Examples/CreateResourceModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem"
+        ],
+        "AssetPaths": [
+          "ContentExample",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Replace BP_ExampleResource with your actor, or select Inventory Item Definition in DA_ExampleResource and choose a public item identity.",
+          "DA_ExampleResourcePack guarantees one resource for the demo. Author chance, trial count and stock policy deliberately; Item Units and legacy object counts are different.",
+          "The floor Loot fragment selects this pack. Use Add Loot Contributions for addressed changes to an existing pack; test placement failure, quantities and restored delivery without rerolls."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.ShopAssortment",
+        "Category": "Items & crafting",
+        "Label": "Item in existing shops",
+        "Description": "Creates an inventory item and adds its offer to the existing KLETKA shops through Add Shop Content. No shop Blueprint is copied.",
+        "Recipe": "Docs/Examples/CreateShopModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasInventorySystem",
+          "AtlasLootSystem"
+        ],
+        "AssetPaths": [
+          "ShopExample/DA_ShopItem",
+          "ShopExample/DA_InventoryContent"
+        ],
+        "NextSteps": [
+          "Edit DA_ShopItem presentation, fragments and gameplay before distribution.",
+          "Open Game Feature Data > Add Shop Content. Choose the published target shop and edit the offer weight and base cost. Weight is relative, not a percentage.",
+          "Use stable offer IDs from Config/ModContent/KletkaShopAssortments.json. Patch changes selected original fields (price only by default); Replace supplies the full offer. See Docs/ShopAssortments.html.",
+          "Remove cannot delete a required offer. Test prices, buying, conflicts and a joining client before Cook & Publish."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.CageAddon",
+        "Category": "World objects & vehicles",
+        "Label": "Persistent cage device addition",
+        "SortOrder": 134,
+        "Description": "Adds a replicated actor to the existing scanner through an Add-only published target, with world persistence and an isolated test floor.",
+        "Recipe": "Docs/Examples/CreateCageAddonModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "AtlasSaveGameFramework"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleWorldActor",
+          "FloorExample/L_ExampleFloor",
+          "FloorExample/DA_Biome"
+        ],
+        "NextSteps": [
+          "Edit the actor and the Add World Actor Rules offset. Keep a movable root, replication and Always Relevant.",
+          "Get Owner is the elevator; query its public Elevator Ability System. The required scanner remains installed.",
+          "Test the real game cage, host/client, save/restore and tombstones. Existing saved selections do not reselect after a rule update. See Docs/CageAndRespawn.md."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Progression",
+        "Category": "Quests & progression",
+        "Label": "Saved progression training station",
+        "SortOrder": 155,
+        "Description": "A persistent subject starts with 10 points once. Overlap buys a Training rank for 3 points, up to rank 3, using an authoritative revision-checked transaction.",
+        "Recipe": "Docs/Examples/CreateProgressionModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "AtlasSaveGameFramework",
+          "AtlasProgressionSystem"
+        ],
+        "AssetPaths": [
+          "ProgressionExample/DA_ExampleProgression",
+          "EntityExample/BP_ExampleWorldActor",
+          "FloorExample/L_ExampleFloor"
+        ],
+        "NextSteps": [
+          "Edit schema nodes and costs. Preserve schema ID/version and the saved subject identity; migrate incompatible records explicitly.",
+          "Progression Save State persists the public component through Save State. Restore precedes BeginPlay and must not refill points.",
+          "This station owns its own instance progression. It does not grant platform achievements or change the player account ledger."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.RespawnRules",
+        "Category": "Run rules",
+        "Label": "Respawn purchase rules",
+        "SortOrder": 156,
+        "Description": "An explicit GameState policy binding discounts respawn prices. The public asset also controls purchase eligibility and validated recipient subsets.",
+        "Recipe": "Docs/Examples/CreateRespawnPolicyExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore"
+        ],
+        "AssetPaths": [
+          "RespawnExample/DA_RespawnPrice",
+          "RespawnExample/BP_RespawnCostPolicy"
+        ],
+        "NextSteps": [
+          "Edit the allowed purchase types, multiplier and flat adjustment. Install only one policy binding.",
+          "For custom selection, derive a policy Blueprint and return only game-provided recipients. Keep selection and pricing read-only.",
+          "Test preview, authoritative reservation, cancellation, feature removal and two conflicting policies. Accepted receipts never reprice or retarget."
+        ]
+      },
+      {
+        "Id": "ElevatorCore.Subtitles",
+        "Category": "UI & presentation",
+        "Label": "Spatial subtitles",
+        "SortOrder": 175,
+        "Description": "A local overlap emits a four-second spatial caption; an owning-player display contributes to the game HUD mode-status slot.",
+        "Recipe": "Docs/Examples/CreateSubtitleModExample.py",
+        "RequiredPlugins": [
+          "ElevatorCore",
+          "AtlasQuestSystem",
+          "AtlasGameplayActorsFramework",
+          "AtlasSaveGameFramework",
+          "AtlasSubtitleSystem",
+          "AtlasSubtitleUI",
+          "AtlasUISystem"
+        ],
+        "AssetPaths": [
+          "EntityExample/BP_ExampleWorldActor",
+          "SubtitleExample/W_ExampleSubtitles",
+          "FloorExample/L_ExampleFloor"
+        ],
+        "NextSteps": [
+          "Edit the caption, duration and widget style. The actor changes presentation only; gameplay remains authoritative.",
+          "Add Widgets owns the local-player HUD contribution and removes it on deactivation. A host without HUD.Slot.ModeStatus needs an explicit slot binding.",
+          "The example uses scoped display; it does not migrate existing legacy subtitle or media producers. Test local players and world teardown."
+        ]
+      }
+    ]
+  }
+}

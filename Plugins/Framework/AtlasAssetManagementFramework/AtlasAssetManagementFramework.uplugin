@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Asset Management Framework",
+  "Description": "Provider-neutral primary asset discovery across project and dynamically mounted content roots.",
+  "Category": "Callback Games|Framework|Assets",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasAssetManagementFrameworkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

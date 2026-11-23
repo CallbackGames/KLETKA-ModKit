@@ -1,0 +1,669 @@
+{
+  "copyright": "Copyright Callback LLP. All Rights Reserved.",
+  "schema_version": 2,
+  "rules": [
+    "Each exact name has one declaration owner. Multiple features may contribute content using that name.",
+    "Feature deactivation releases its handles/counts/listeners. Resident dictionary registration does not mean the feature is active.",
+    "Use tags for semantic membership and routes; use asset references for definitions and typed fields for quantities/order.",
+    "Hierarchical matching is opt-in at the consuming API. An exact lookup does not automatically support a mod child.",
+    "Place mod identity below the supported semantic parent, for example Damage.Type.Melee.Mod.Author.Pack.Thorn. Do not move the semantic parent below a global Mod root.",
+    "GameplayCue descendants are reserved for GAS cues. A cooldown state is a separate contract, even when a legacy cue name contains Cooldown.",
+    "Authority and ownership are enforced by the executing system, never by possession of a tag alone.",
+    "Gameplay messages are local events. A late subscriber needs a state snapshot before subscribing to changes; the message channel is not replicated storage.",
+    "Save and public identities use names, never transient network indices.",
+    "Renames retain exact redirects. Do not create redirect chains, loops, self-redirects or active definitions under the old name.",
+    "Gameplay feature selection is fixed during a session. Between sessions the product uses name/token encoding so load history cannot reinterpret global indices.",
+    "External declarations are denied unless the product publishes the semantic parent in ModTagExtensionRoots. A public API reference is not permission to declare under its namespace."
+  ],
+  "semantic_review": [
+    {
+      "families": [
+        "Ability",
+        "Abilities"
+      ],
+      "decision": "retain",
+      "reason": "Ability classification and event consumers coexist. No root-wide equivalence has been established; retain existing serialized identities and inspect the consuming API."
+    },
+    {
+      "families": [
+        "State",
+        "Status"
+      ],
+      "decision": "retain",
+      "reason": "Different systems own state contributions and lifetimes. Root spelling alone is insufficient to merge contracts."
+    },
+    {
+      "families": [
+        "Event",
+        "GameplayEvent",
+        "Gameplay.Message"
+      ],
+      "decision": "retain",
+      "reason": "GAS gameplay events and the local typed message router have different payload and delivery contracts."
+    },
+    {
+      "families": [
+        "Settings",
+        "GameSettings"
+      ],
+      "decision": "retain",
+      "reason": "Catalog identities and setting identifiers must be migrated with their registries, not through a blanket tag rename."
+    },
+    {
+      "families": [
+        "ShooterGame"
+      ],
+      "decision": "compatibility",
+      "reason": "Retained sample identities remain supported while serialized consumers exist."
+    },
+    {
+      "families": [
+        "GameplayCue"
+      ],
+      "decision": "retain",
+      "reason": "Keep the engine-required cue root; no automatic conversion of cue names containing Cooldown into gameplay states."
+    }
+  ],
+  "cards": [
+    {
+      "tag": "UI.Layer.Menu",
+      "owner": "AtlasUISystem",
+      "role": "UI layer identifier",
+      "visibility": "public",
+      "matching": "exact layer lookup",
+      "lifetime": "UI layout registration",
+      "extension": "Use another registered layer for a different slot; arbitrary descendants do not create a layer.",
+      "evidence": [
+        "Plugins/Presentation/AtlasUISystem/Source/AtlasUISystemRuntime/Tags/AtlasUIGameplayTags.cpp",
+        "Source/AtlasGame/Framework/AtlasGame/AtlasGameUI/HUD/AtlasHUDLayout.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Interaction.Operation",
+      "owner": "AtlasInteraction",
+      "role": "interaction operation namespace",
+      "visibility": "public",
+      "matching": "consumer-defined exact operation keys",
+      "lifetime": "target-owned capability registration",
+      "extension": "Target operation identity; implement and register the corresponding operation on the target. Declare names under .Mod.<CanonicalContentId>.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteraction/Capabilities/AtlasInteractionCapabilityTags.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Interaction.Value",
+      "owner": "AtlasInteraction",
+      "role": "typed interaction value namespace",
+      "visibility": "public",
+      "matching": "consumer-defined exact value keys",
+      "lifetime": "target-owned value provider",
+      "extension": "Target value identity; implement its provider and specify its units. Declare names under .Mod.<CanonicalContentId>.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteraction/Capabilities/AtlasInteractionCapabilityTags.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Damage.Type",
+      "owner": "AtlasCombat",
+      "role": "damage classification",
+      "visibility": "public",
+      "matching": "inspect consuming HasTag/HasTagExact/query before extending",
+      "lifetime": "damage effect/spec",
+      "extension": "Add a child of the supported damage family. Damage.Type.Range retains its serialized spelling.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombat/Damage/AtlasCombatGameplayTags.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Damage.Type.Reflective",
+      "owner": "AtlasCombat",
+      "role": "reflected damage marker",
+      "visibility": "public",
+      "matching": "HasTag in creature reflection guard",
+      "lifetime": "damage effect/spec",
+      "extension": "Preserve this marker on reflected damage to prevent reflection recursion.",
+      "evidence": [
+        "Plugins/GameFeatures/RoguelikeCore/Source/RoguelikeCoreRuntime/Character/RoCreatureComponent.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Inventory.ContextAction.Item.Weapon.Unload",
+      "owner": "AtlasInventorySystem",
+      "role": "inventory action identifier",
+      "visibility": "public",
+      "matching": "exact action key",
+      "lifetime": "inventory contextual action dispatch",
+      "extension": "Requires the equipment capability that executes unloading; a tag is not an executor.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasInventorySystem/Source/AtlasInventorySystemRuntime/Core/AtlasInventoryNativeGameplayTags.cpp",
+        "Plugins/GameFeatures/RoguelikeCore/Source/RoguelikeCoreInternal/Player/RoPlayerState.cpp"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Input.Ability.Heal",
+      "owner": "AtlasInputFramework",
+      "role": "legacy semantic input/GAS trigger identity",
+      "visibility": "compatibility",
+      "matching": "existing Hero Heal trigger",
+      "lifetime": "input/event dispatch",
+      "extension": "Existing asset compatibility; do not infer a new binding or granted ability from this tag.",
+      "redirects": [
+        "InputTag.Ability.Heal"
+      ],
+      "evidence": [
+        "Content/Characters/Heroes/Abilities/GA_Hero_Heal.uasset"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "GameplayEvent.ReloadDone",
+      "owner": "AtlasCombat",
+      "role": "GAS reload montage event",
+      "visibility": "compatibility",
+      "matching": "existing AN_Reload event tag",
+      "lifetime": "montage notify dispatch",
+      "extension": "The sender does not persist completion state for late listeners.",
+      "evidence": [
+        "Content/Characters/Heroes/Abilities/AN_Reload.uasset"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "HUD.Slot.PlayerPlagues",
+      "owner": "AtlasStatusEffects",
+      "role": "legacy widget query",
+      "visibility": "compatibility",
+      "matching": "existing ProcessPlagues query container",
+      "lifetime": "widget query",
+      "extension": "Kept distinct from PlayerDeseases until consumer equivalence is demonstrated.",
+      "evidence": [
+        "Plugins/GameFeatures/AtlasStatusEffects/Content/W_PlayerDeseaseBar.uasset"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Test",
+      "owner": "individual test owner",
+      "role": "automation fixture namespace",
+      "visibility": "test-only",
+      "matching": "test-specific",
+      "lifetime": "test fixture",
+      "extension": "Not a production or mod authoring contract. Transient native fixtures have no persisted rename contract.",
+      "evidence": [
+        "BuildScripts/ValidateGameplayTags.ps1"
+      ],
+      "authority": "Enforced by the owning execution system; this identity does not grant authority.",
+      "payload": "No root-wide payload contract; use the typed owner API identified in evidence.",
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "GameplayCue",
+      "owner": "GAS / feature cue registration",
+      "role": "GAS presentation cue namespace",
+      "visibility": "public",
+      "matching": "GAS cue dispatch; cue asset registration required",
+      "payload": "FGameplayCueParameters; cue-specific fields documented by the cue",
+      "authority": "Executing ability/effect owns authority; cue presentation does not authorize gameplay",
+      "lifetime": "Effect/cue lifetime; feature owns its cue-path registration",
+      "extension": "Declare a mod child and author/register its cue. Never use a cue tag as proof of cooldown or ownership.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasAbilitiesSystem/Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySet.h"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Gameplay.Message",
+      "owner": "AtlasGameplayMessagesFramework",
+      "role": "Typed local message channels",
+      "visibility": "public",
+      "matching": "ExactMatch default; PartialMatch explicitly includes descendants",
+      "payload": "Matching UScriptStruct for sender/listener; no universal payload for this root",
+      "authority": "Local broadcast does not replicate; explicit network relay validates remote messages",
+      "lifetime": "Listener handle; unregister at teardown; read owner snapshot for late subscribers",
+      "extension": "New channel requires a documented payload and producer/consumer pair.",
+      "evidence": [
+        "Plugins/Framework/AtlasGameplayMessagesFramework/Source/AtlasGameplayMessagesFrameworkRuntime/Messages/AtlasGameplayMessageSubsystem.h",
+        "Plugins/Framework/AtlasGameplayMessagesFramework/Source/AtlasGameplayMessagesFrameworkRuntime/Network/AtlasGameplayMessageNetworkSubsystem.h"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Inventory.ContextAction",
+      "owner": "AtlasInventorySystem",
+      "role": "Inventory action selection identity",
+      "visibility": "public",
+      "matching": "Exact ActionTag selection; tags do not create handlers",
+      "payload": "AtlasContextActionDefinition and contextual item data",
+      "authority": "Executing inventory/equipment operation performs authority and capability validation",
+      "lifetime": "Definition and owning action/contribution registration",
+      "extension": "Author a context action definition and executor; arbitrary descendants of an existing action do not inherit its implementation.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasInventorySystem/Source/AtlasInventorySystemRuntime/Items/ContextActions/AtlasContextActionDefinition.h"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "State",
+      "owner": "Individual state producer; GAS for ASC contributions",
+      "role": "State classification namespace",
+      "visibility": "public",
+      "matching": "Each consumer chooses exact, parent or query matching",
+      "payload": "Tag membership/count only; state data belongs to the component/effect",
+      "authority": "Producer validates authority; replicated gameplay state stays server-owned",
+      "lifetime": "Owned effect/ability-set or loose-tag contribution handle",
+      "extension": "Mod states require their own producer and cleanup. Never clear another owner's count.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasAbilitiesSystem/Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySet.cpp"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Status",
+      "owner": "Individual status producer; GAS for ASC contributions",
+      "role": "Status classification namespace",
+      "visibility": "public",
+      "matching": "Consumer-specific exact/parent/query; not an alias for State",
+      "payload": "Tag membership/count; no universal status payload",
+      "authority": "Producer validates authority; presentation cannot grant gameplay state",
+      "lifetime": "Owner contribution lifetime",
+      "extension": "Use a mod child and explicit consumers; do not rename State to Status or vice versa by a global redirect.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasAbilitiesSystem/Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySet.cpp"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Equipment.Action",
+      "owner": "AtlasEquipment",
+      "role": "Equipment action dispatch and presentation identity",
+      "visibility": "public",
+      "matching": "Registry lookup by action; handler/profile determines behavior",
+      "payload": "Equipment action definition, execution context and selected owner profile",
+      "authority": "Equipment executor validates authority; presentation is not an executor",
+      "lifetime": "Equipped-item/action lifetime",
+      "extension": "Action identity; author a registered action definition and behavior using that exact identity. Declare names under .Mod.<CanonicalContentId>.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipment/Actions/AtlasEquipmentActionBehaviorRegistry.h",
+        "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipment/Core/AtlasEquipmentNativeGameplayTags.cpp"
+      ],
+      "declaration": "mod-namespace-under-approved-root",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Equipment.Capability",
+      "owner": "AtlasEquipment",
+      "role": "Equipment capability classification",
+      "visibility": "public",
+      "matching": "Configured capability/query matching",
+      "payload": "Tag membership in equipment configuration",
+      "authority": "Executing operation validates support; a tag alone does not authorize a call",
+      "lifetime": "Definition/active equipment lifetime",
+      "extension": "Use existing capabilities. New declarations require an explicit product-policy change and consuming implementation.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipment/Core/AtlasEquipmentNativeGameplayTags.cpp"
+      ],
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Input.Equipment",
+      "owner": "AtlasEquipment / AtlasInputFramework",
+      "role": "Semantic equipped-item input routes",
+      "visibility": "public",
+      "matching": "Registered route lookup; input routing resolves active item",
+      "payload": "AtlasInputRouteEvent and owner input surface",
+      "authority": "Input request is validated by executing gameplay system",
+      "lifetime": "Input surface registration; release on teardown",
+      "extension": "Use existing routes; a new tag does not create an input action or ability grant.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipment/Core/AtlasEquipmentNativeGameplayTags.cpp"
+      ],
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Settings",
+      "owner": "AtlasSettingsPresentation",
+      "role": "Settings screen/catalog identities",
+      "visibility": "public",
+      "matching": "Exact catalog selection; persisted setting keys remain separate",
+      "payload": "Settings catalog contributions and collection definitions",
+      "authority": "Local settings owner; session settings have their own authority policy",
+      "lifetime": "Catalog registration and local-player/account lifecycle",
+      "extension": "Use the existing published catalogs. Root-wide name changes are not a migration of persisted values.",
+      "evidence": [
+        "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsPresentation/Catalog/AtlasSettingsCatalogTags.h"
+      ],
+      "declaration": "existing-identities-only",
+      "usage": "Use through the listed owner API; definition ownership is separate from permission to reference an existing name."
+    },
+    {
+      "tag": "Inventory.Item.Category",
+      "owner": "AtlasInventorySystem",
+      "role": "Author-defined identity",
+      "visibility": "public",
+      "matching": "Consumer-defined; exact keys require registration on both sides.",
+      "lifetime": "Feature contribution lifetime",
+      "evidence": [
+        "Config/DefaultGame.ini",
+        "Plugins/Modding/AtlasModdingSystem/Source/AtlasModdingSystemRuntime/Manifest/AtlasModTagValidation.cpp"
+      ],
+      "authority": "Enforced by the owning gameplay system. A tag never grants authority.",
+      "payload": "Use the typed owning definition or component.",
+      "usage": "Existing names can be referenced without redeclaration.",
+      "declaration": "mod-namespace-under-approved-root",
+      "extension": "Item classification used by category filters; consumers select exact or hierarchical matching. Declare names under .Mod.<CanonicalContentId>."
+    },
+    {
+      "tag": "Inventory.Item.Gameplay",
+      "owner": "AtlasInventorySystem",
+      "role": "Author-defined identity",
+      "visibility": "public",
+      "matching": "Consumer-defined; exact keys require registration on both sides.",
+      "lifetime": "Feature contribution lifetime",
+      "evidence": [
+        "Config/DefaultGame.ini",
+        "Plugins/Modding/AtlasModdingSystem/Source/AtlasModdingSystemRuntime/Manifest/AtlasModTagValidation.cpp"
+      ],
+      "authority": "Enforced by the owning gameplay system. A tag never grants authority.",
+      "payload": "Use the typed owning definition or component.",
+      "usage": "Existing names can be referenced without redeclaration.",
+      "declaration": "mod-namespace-under-approved-root",
+      "extension": "Gameplay classification used by inventory rules; a tag does not supply behavior. Declare names under .Mod.<CanonicalContentId>."
+    },
+    {
+      "tag": "Inventory.Item.Stat",
+      "owner": "AtlasInventorySystem",
+      "role": "Author-defined identity",
+      "visibility": "public",
+      "matching": "Consumer-defined; exact keys require registration on both sides.",
+      "lifetime": "Feature contribution lifetime",
+      "evidence": [
+        "Config/DefaultGame.ini",
+        "Plugins/Modding/AtlasModdingSystem/Source/AtlasModdingSystemRuntime/Manifest/AtlasModTagValidation.cpp"
+      ],
+      "authority": "Enforced by the owning gameplay system. A tag never grants authority.",
+      "payload": "Use the typed owning definition or component.",
+      "usage": "Existing names can be referenced without redeclaration.",
+      "declaration": "mod-namespace-under-approved-root",
+      "extension": "Per-item numeric stat identity; author its initial value and consuming rule together. Declare names under .Mod.<CanonicalContentId>."
+    },
+    {
+      "tag": "Inventory.Equipment",
+      "owner": "AtlasEquipment",
+      "role": "Author-defined identity",
+      "visibility": "public",
+      "matching": "Consumer-defined; exact keys require registration on both sides.",
+      "lifetime": "Feature contribution lifetime",
+      "evidence": [
+        "Config/DefaultGame.ini",
+        "Plugins/Modding/AtlasModdingSystem/Source/AtlasModdingSystemRuntime/Manifest/AtlasModTagValidation.cpp"
+      ],
+      "authority": "Enforced by the owning gameplay system. A tag never grants authority.",
+      "payload": "Use the typed owning definition or component.",
+      "usage": "Existing names can be referenced without redeclaration.",
+      "declaration": "mod-namespace-under-approved-root",
+      "extension": "Equipment classification; match the configured slot/filter policy. Declare names under .Mod.<CanonicalContentId>."
+    },
+    {
+      "tag": "Inventory.Crafting.Station",
+      "owner": "AtlasInventorySystem",
+      "role": "Author-defined identity",
+      "visibility": "public",
+      "matching": "Consumer-defined; exact keys require registration on both sides.",
+      "lifetime": "Feature contribution lifetime",
+      "evidence": [
+        "Config/DefaultGame.ini",
+        "Plugins/Modding/AtlasModdingSystem/Source/AtlasModdingSystemRuntime/Manifest/AtlasModTagValidation.cpp"
+      ],
+      "authority": "Enforced by the owning gameplay system. A tag never grants authority.",
+      "payload": "Use the typed owning definition or component.",
+      "usage": "Existing names can be referenced without redeclaration.",
+      "declaration": "mod-namespace-under-approved-root",
+      "extension": "Station identity; register the same exact tag in recipe and station. Declare names under .Mod.<CanonicalContentId>."
+    },
+    {
+      "tag": "Resource.Type",
+      "owner": "AtlasLoot",
+      "role": "Resource classification and generation policy",
+      "visibility": "public",
+      "matching": "World resource queries use child MatchesTag(parent). Generation adjustments also inspect type ancestry; exact identity maps remain exact.",
+      "lifetime": "Definition data, loaded and selected through Asset Manager; runtime generation remains server owned.",
+      "extension": "Declare below Resource.Type.Mod.<CanonicalContentId>.<Name>. Declare in the owning Game Feature; a tag does not register a resource definition.",
+      "payload": "FGameplayTag on UAtlasResourceDefinition; Resource.Meta uses FGameplayTagContainer.",
+      "authority": "Tags describe selection. Authority and inventory changes are enforced by the resource and inventory owners.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceDefinition.h",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasWorldResourceComponent.cpp",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceBundle.cpp"
+      ]
+    },
+    {
+      "tag": "Resource.Rarity",
+      "owner": "AtlasLoot",
+      "role": "Authored rarity classification",
+      "visibility": "public",
+      "matching": "Stored as one FGameplayTag on the resource definition. This field alone does not define probabilities or grant a rarity-specific behavior; consumers choose their matching rule.",
+      "lifetime": "Definition data, loaded and selected through Asset Manager; runtime generation remains server owned.",
+      "extension": "Declare below Resource.Rarity.Mod.<CanonicalContentId>.<Name>. Declare in the owning Game Feature; a tag does not register a resource definition.",
+      "payload": "FGameplayTag on UAtlasResourceDefinition; Resource.Meta uses FGameplayTagContainer.",
+      "authority": "Tags describe selection. Authority and inventory changes are enforced by the resource and inventory owners.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceDefinition.h",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasWorldResourceComponent.cpp",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceBundle.cpp"
+      ]
+    },
+    {
+      "tag": "Resource.Meta",
+      "owner": "AtlasLoot",
+      "role": "Resource metadata filters",
+      "visibility": "public",
+      "matching": "FGameplayTagQuery evaluates the authored metadata container in world resource queries. Exact versus hierarchical matching follows the query expression.",
+      "lifetime": "Definition data, loaded and selected through Asset Manager; runtime generation remains server owned.",
+      "extension": "Declare below Resource.Meta.Mod.<CanonicalContentId>.<Name>. Declare in the owning Game Feature; a tag does not register a resource definition.",
+      "payload": "FGameplayTag on UAtlasResourceDefinition; Resource.Meta uses FGameplayTagContainer.",
+      "authority": "Tags describe selection. Authority and inventory changes are enforced by the resource and inventory owners.",
+      "evidence": [
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceDefinition.h",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasWorldResourceComponent.cpp",
+        "Source/AtlasGame/Gameplay/AtlasLoot/AtlasLoot/Resources/AtlasResourceBundle.cpp"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "owner": "AtlasStatisticsSystem",
+      "role": "Typed statistic schema keys, recorded only by trusted authoritative gameplay",
+      "visibility": "public",
+      "matching": "Exact key lookup. Consumers do not infer a parent event or statistic from a child key.",
+      "lifetime": "Schema/objective definitions are content; runtime values belong to the executing authority.",
+      "extension": "Declare below Statistics.Mod.<CanonicalContentId>.<Name> in the owning Game Feature. The tag alone neither registers a schema nor grants write authority.",
+      "payload": "Typed statistic operation or FAtlasProgressEvent.",
+      "authority": "Gameplay authority; clients send intent to the executing gameplay owner, never arbitrary progress or statistics.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasStatisticsSystem/Source/AtlasStatisticsSystemRuntime/Runtime/AtlasStatisticsComponent.h"
+      ]
+    },
+    {
+      "tag": "Quest.Event",
+      "owner": "AtlasQuestSystem",
+      "role": "Trusted facts routed to active objective evaluators",
+      "visibility": "public",
+      "matching": "Exact key lookup. Consumers do not infer a parent event or statistic from a child key.",
+      "lifetime": "Schema/objective definitions are content; runtime values belong to the executing authority.",
+      "extension": "Declare below Quest.Event.Mod.<CanonicalContentId>.<Name> in the owning Game Feature. The tag alone neither registers a schema nor grants write authority.",
+      "payload": "Typed statistic operation or FAtlasProgressEvent.",
+      "authority": "Gameplay authority; clients send intent to the executing gameplay owner, never arbitrary progress or statistics.",
+      "evidence": [
+        "Plugins/Gameplay/AtlasQuestSystem/Source/AtlasQuestSystemRuntime/Evaluation/AtlasObjectiveEvaluator.h"
+      ]
+    },
+    {
+      "tag": "Perk.Pool",
+      "owner": "RoguelikeCore",
+      "role": "Pool for future perk selection",
+      "visibility": "public",
+      "matching": "The perk contribution names its pool by exact tag.",
+      "lifetime": "Declared by the owning Game Feature; runtime composition follows the selected host content.",
+      "extension": "Declare new names under the approved root using the canonical Mod.<ContentId segments> namespace.",
+      "payload": "Perk selection records and stable definition IDs.",
+      "authority": "The host owns gameplay selection and replication.",
+      "evidence": [
+        "Plugins/GameFeatures/RoguelikeCore/Source/RoguelikeCoreContent/Core/Perks/RoguelikePerkCatalog.h"
+      ]
+    },
+    {
+      "tag": "Floor.Flow.Content.Mod",
+      "owner": "ElevatorCore",
+      "role": "Public identities for contributed floor content",
+      "visibility": "public",
+      "matching": "Campaign selection compares the resolved content identity exactly.",
+      "lifetime": "Declared by the owning Game Feature; runtime composition follows the selected host content.",
+      "extension": "Declare new names under the approved root using the canonical Mod.<ContentId segments> namespace.",
+      "payload": "Biome or bundle content identity.",
+      "authority": "The host owns gameplay selection and replication.",
+      "evidence": [
+        "Plugins/GameFeatures/lyra-elevator-core/Source/ElevatorCoreRuntime/Core/TerritorySystem/LeFloorManager_Profile.cpp"
+      ]
+    },
+    {
+      "tag": "World.Actor.Slot",
+      "owner": "AtlasGameplayActorsFramework",
+      "role": "Tags for actor placement slots",
+      "visibility": "public",
+      "matching": "An authored placement rule matches an exact point ID or evaluates its target tag query.",
+      "lifetime": "Declared by the owning Game Feature; runtime composition follows the selected host content.",
+      "extension": "Declare new names under the approved root using the canonical Mod.<ContentId segments> namespace.",
+      "payload": "Actor placement rules and point tags.",
+      "authority": "The host owns gameplay selection and replication.",
+      "evidence": [
+        "Plugins/Framework/AtlasGameplayActorsFramework/Source/AtlasGameplayActorsFrameworkRuntime/Spawning/AtlasActorPlacementTypes.h"
+      ]
+    },
+    {
+      "tag": "Session.Setting",
+      "owner": "AtlasSettings",
+      "role": "Stable public session setting ID",
+      "visibility": "public",
+      "matching": "A floor gate requires an exact boolean host rule available in the selected launch. Empty means unconditional.",
+      "lifetime": "Declared by the owning Game Feature; runtime composition follows the selected host content.",
+      "extension": "Declare new names under the approved root using the canonical Mod.<ContentId segments> namespace.",
+      "payload": "Boolean published by the authoritative host under its original setting ID.",
+      "authority": "The host owns gameplay selection and replication.",
+      "evidence": [
+        "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsPresentation/Authoring/AtlasSessionSettingsSource.h"
+      ]
+    }
+  ],
+  "coverage": "Only explicit cards publish a supported semantic namespace. All other identities are internal/unreviewed, not public extension points; source ownership remains visible. A public namespace does not publish every executor using it.",
+  "authoring_examples": [
+    {
+      "purpose": "Mod damage classification",
+      "tag": "Damage.Type.Melee.Mod.Author.Pack.Thorn",
+      "definition": "GameplayTagList=(Tag=\"Damage.Type.Melee.Mod.Author.Pack.Thorn\",DevComment=\"Thorn damage from Author.Pack; handled by the pack damage configuration.\")",
+      "requirements": [
+        "Keep Damage.Type.Melee as semantic parent.",
+        "Use the stable manifest ContentId to choose a persistent namespace; do not regenerate it from a localized display name.",
+        "A parent HasTag/query can include this child. An exact key lookup requires explicit registration.",
+        "The definition alone neither implements damage nor grants authority."
+      ]
+    },
+    {
+      "purpose": "Overlapping state owners",
+      "sequence": [
+        "Each owner retains its own GAS effect/ability-set handle or one loose-tag count.",
+        "Releasing owner A must preserve owner B.",
+        "Release only owned handles on cancellation, EndPlay or feature deactivation; never set the shared total count to zero."
+      ],
+      "verification": "AtlasAbilitiesSystem.AbilitySet.SharedOwnership; Atlas.Abilities.Tags.LocalContributionOwnership"
+    },
+    {
+      "purpose": "Message subscription",
+      "sequence": [
+        "Read the owning component current state for an initial snapshot.",
+        "Register the matching payload type; ExactMatch is the default, PartialMatch includes descendants.",
+        "Retain and unregister the listener handle on owner teardown.",
+        "Use the explicit networking component/envelope for remote delivery; local BroadcastMessage alone does not replicate."
+      ],
+      "verification": "Atlas.GameplayMessages.Local.RouterBehavior; Atlas.GameplayMessages.Local.AsyncLifetime; Atlas.GameplayMessages.Local.StaleHandle"
+    }
+  ],
+  "default_visibility": "internal-unreviewed",
+  "declaration_policy": {
+    "owner": "AtlasModdingSystem runtime/authoring manifest validator",
+    "product_setting": "AtlasModdingDeveloperSettings.ModTagExtensionRoots",
+    "approved_roots": [
+      "Damage.Type",
+      "GameplayCue",
+      "Gameplay.Message",
+      "Inventory.ContextAction",
+      "State",
+      "Status",
+      "Inventory.Item.Category",
+      "Inventory.Item.Gameplay",
+      "Inventory.Item.Stat",
+      "Inventory.Equipment",
+      "Inventory.Crafting.Station",
+      "Equipment.Action",
+      "Interaction.Operation",
+      "Interaction.Value",
+      "Resource.Type",
+      "Resource.Rarity",
+      "Resource.Meta",
+      "Statistics",
+      "Quest.Event",
+      "Perk.Pool",
+      "Floor.Flow.Content.Mod",
+      "World.Actor.Slot",
+      "Session.Setting"
+    ],
+    "namespace": "<approved semantic parent or descendant>.Mod.<ContentId segments>.<Name>",
+    "identity": "ContentId is case-insensitive. Lowercase each segment, then capitalize its first letter; retain hyphens/underscores. Each segment must start with a letter. author.pack maps to Mod.Author.Pack.",
+    "files": "Direct Config/Tags/<PluginName>_<Topic>.ini files; at most 32, 256 KiB each and 1 MiB total.",
+    "syntax": "Only [/Script/GameplayTags.GameplayTagsList], GameplayTagList=(Tag=\"...\",DevComment=\"...\") and GameplayTagRedirects=(OldTagName=\"...\",NewTagName=\"...\"); no + prefix: these are standalone source lists, not config hierarchy array overrides. Use Unreal serialized field order. No arbitrary settings or array removals.",
+    "redirects": "Both names belong to the same ContentId under approved roots. Target is declared by the mod; old name is no longer declared. No chains, cycles, duplicate or self redirects.",
+    "use_existing": "Referencing an existing tag does not require permission to redeclare it. Do not copy base definitions into your mod.",
+    "delivery": "CookContentMod runs native manifest validation before cook. Receipt v2 hashes ContentId and all delivered tag files. Runtime revalidates ownership and hashes before registration; arbitrary Config files are rejected.",
+    "lifetime": "Dictionary entries may stay resident after deactivation. Release effect/count/listener/content handles separately; resident name is never an activation test.",
+    "compatibility": "Receipt v1 without loose Config remains supported. New tag declarations require v2."
+  }
+}

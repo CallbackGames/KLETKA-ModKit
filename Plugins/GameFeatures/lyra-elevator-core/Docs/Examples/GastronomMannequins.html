@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Gastronom mannequins</title>
+<main><h1>Gastronom mannequins</h1>
+<p>Add <code>kletka.dlc.gastronom</code> to the mod manifest's <code>package.dependencies</code>.
+Use your mod's own assets. The player who hosts needs access to Gastronom. A guest joining that host needs the compatible content files.</p>
+<p>For a mod that also uses another author's mod, the dependency list could read
+<code>"dependencies": ["kletka.dlc.gastronom", "author.required_mod"]</code>.
+Replace the second ID with the required mod's actual content ID.</p>
+<h2>Add a display appearance</h2><ol>
+<li>Import a skeletal mesh with bones for the parts you want to detach. In the Content Browser
+open the Atlas menu and choose Create Limb Profile. Select your skeletal mesh, configure its joints
+and bake its fragments. Save the profile inside your Game Feature plugin.</li>
+<li>Open your Game Feature Data and add <b>Add Loot Contributions</b>.
+In Contributions add one row. Set <b>Target Pool Id</b> to <code>Gastronom.Mannequin.Appearance</code>,
+<b>Entry Id</b> to a unique stable name such as <code>MyMod.Porcelain</code>, <b>Operation</b> to Append,
+and <b>Weight</b> to 1. Leave the target owner and tags empty.</li>
+<li>Choose <b>Atlas Asset Payload</b> as the payload struct. Set its <b>Asset</b> to the baked profile.
+Leave the action's pool declaration fields empty. Gastronom declares the pool and its type.</li></ol>
+<p>With only the male, female and new appearances at weight 1, each has a one-in-three chance
+on a display. Loading the level generates displays again from its procedural seed and the stable
+room and placement identities. The same inputs and active pool reproduce the same appearance.
+Changing the active mods or their weights can change the result.
+This pool chooses the appearance independently of the floor's chance to place a concealed enemy.</p>
+<h2>Add a concealed enemy</h2><ol>
+<li>Choose a replicated enemy Blueprint from your mod. It can use its own mesh, movement and abilities.</li>
+<li>On your Game Feature Data add <b>Add Actor Placements</b>. Add a rule with operation
+<b>Weighted Variant</b> and a tag query matching <code>World.Actor.Slot.Mannequin.Enemy</code>.
+Choose your enemy Blueprint and a positive weight.</li></ol>
+<p>To give the enemy the appearance of the display it replaced, implement the optional
+<b>Le Mannequin Enemy</b> interface. Its <b>On Mannequin Placed</b> event runs on the server and supplies
+the display point, skeletal mesh, limb profile and <b>Placement Seed</b>. Use that seed for a repeatable pose.</p>
+<p>The floor first decides whether a display may conceal an enemy. The default chance is 15%,
+with at most four selections across the floor. A contributed enemy competes for that selection.
+The level regenerates this selection from the same procedural seed, room identity and placement identity on reload.
+The contributed weight controls which enemy appears within the floor allowance. Neither pool writes mannequin choices to a save.</p>
+</main></html>

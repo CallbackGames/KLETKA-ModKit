@@ -1,0 +1,308 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "ShopAssortment",
+	"entries": [
+		{
+			"id": "ShopAssortment:kletka.shop.default",
+			"displayName": "KLETKA shop",
+			"description": "Existing shop assortment; Add Shop Content edits stable offer IDs.",
+			"role": "Shop",
+			"ownerMount": "ElevatorCore",
+			"selectionCount": 3,
+			"requiredOfferId": "",
+			"offers": [
+				{
+					"offerId": "ID_Canister_Big",
+					"itemId": "InventoryItem:item_847C38764D7CA0E496800E912620730F",
+					"displayName": "Gas Can",
+					"baseCost": 15,
+					"weight": 100,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Wrench",
+					"itemId": "InventoryItem:item_A7C297BB4AE3C706A6915E9FA0551CBC",
+					"displayName": "Wrench",
+					"baseCost": 15,
+					"weight": 70,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Cog",
+					"itemId": "InventoryItem:item_94D9CDAA4954C32C394BB78F671122CD",
+					"displayName": "Gear",
+					"baseCost": 20,
+					"weight": 100,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_UpgradeBag",
+					"itemId": "InventoryItem:item_5E76A9C74F27FDCF360D318DFA82E1E3",
+					"displayName": "Bag",
+					"baseCost": 20,
+					"weight": 90,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_XRayMushroom",
+					"itemId": "InventoryItem:item_8E187DD44F8AF7BD472176BE57697422",
+					"displayName": "XShroom",
+					"baseCost": 16,
+					"weight": 60,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Cog_Speed",
+					"itemId": "InventoryItem:item_3456F00E40F2A1BECF1BDD965F61CCF7",
+					"displayName": "Haste Gear",
+					"baseCost": 15,
+					"weight": 50,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_MineBomb",
+					"itemId": "InventoryItem:item_5F88AB654C6E0079C12374B00D65DB6F",
+					"displayName": "Mine",
+					"baseCost": 16,
+					"weight": 50,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Medkit",
+					"itemId": "InventoryItem:item_4A4C9D8848D063E6CCCD078B7F647F2A",
+					"displayName": "Medkit",
+					"baseCost": 15,
+					"weight": 100,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Rake",
+					"itemId": "InventoryItem:item_6B4BD9914501B5B3D1C6BAA0C9557A12",
+					"displayName": "Rake",
+					"baseCost": 14,
+					"weight": 40,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_FoodConcentrate",
+					"itemId": "InventoryItem:item_EF35051B447E0C87C63FD78AB35BEE8B",
+					"displayName": "Food Concentrate",
+					"baseCost": 8,
+					"weight": 70,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Govnyak",
+					"itemId": "InventoryItem:item_38558C864C1366E34B6389B048626889",
+					"displayName": "Schwag",
+					"baseCost": 10,
+					"weight": 60,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Vodka",
+					"itemId": "InventoryItem:item_0A27A9B14ABE14B8DF8B4FA6BD4620F4",
+					"displayName": "Vodka",
+					"baseCost": 10,
+					"weight": 50,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Panaceator",
+					"itemId": "InventoryItem:item_DE28BE644B0587EDB41A28A009D16009",
+					"displayName": "Panaceator",
+					"baseCost": 20,
+					"weight": 70,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Bread",
+					"itemId": "InventoryItem:item_B85AC29540318BE2A3CE2DA18A9E9119",
+					"displayName": "Loaf of Bread",
+					"baseCost": 5,
+					"weight": 100,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Gigabooze",
+					"itemId": "InventoryItem:item_EA34CA224D40F72E63C0C0828CDD77D2",
+					"displayName": "Gigabooze",
+					"baseCost": 40,
+					"weight": 0,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_FlareGun",
+					"itemId": "InventoryItem:item_1009592241770F8396D6E3B2B4A4B96D",
+					"displayName": "Flare Gun",
+					"baseCost": 20,
+					"weight": 50,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_WayseerEye",
+					"itemId": "InventoryItem:item_AFAFE8E445FF2D61F24D19B3A4E79E8D",
+					"displayName": "Wayseer Eye",
+					"baseCost": 15,
+					"weight": 25,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_RepairKit",
+					"itemId": "InventoryItem:item_83FE1BC84C24D125F0F64EB39C2D85D9",
+					"displayName": "Repair Kit",
+					"baseCost": 9,
+					"weight": 80,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Lockpick",
+					"itemId": "InventoryItem:item_BFD514B7411926726E6F019EEF5AA8E3",
+					"displayName": "Lockpick",
+					"baseCost": 2,
+					"weight": 20,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_RustyGrenade",
+					"itemId": "InventoryItem:item_FE3DED1D409FBB69E89921B5226DF072",
+					"displayName": "Rusty Grenade",
+					"baseCost": 8,
+					"weight": 25,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Chifir",
+					"itemId": "InventoryItem:item_802D2DCE4B2E614557502C8CFABD2FD4",
+					"displayName": "Chifir",
+					"baseCost": 10,
+					"weight": 40,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Gruel",
+					"itemId": "InventoryItem:item_4B7DE69D4F570E3EBF2B0FA1FAAE1D0B",
+					"displayName": "Gruel",
+					"baseCost": 10,
+					"weight": 30,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_SprayPaint",
+					"itemId": "InventoryItem:item_5D9747DB4371FEAD398B15BA287147BD",
+					"displayName": "Spray Paint",
+					"baseCost": 8,
+					"weight": 20,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Shmauser",
+					"itemId": "InventoryItem:item_30BF2F114420669C459D0DB8A4398B31",
+					"displayName": "Shmauser",
+					"baseCost": 20,
+					"weight": 15,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Megaphone",
+					"itemId": "InventoryItem:item_96B717A846A70FA204D9FA8946A42944",
+					"displayName": "Megaphone",
+					"baseCost": 10,
+					"weight": 10,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Whip",
+					"itemId": "InventoryItem:item_9B291AD1457D7DE62D16DC9FADFB9669",
+					"displayName": "Whip",
+					"baseCost": 12,
+					"weight": 5,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Molocannon",
+					"itemId": "InventoryItem:item_7929C1D3457C3BEAB53D4097880F64CC",
+					"displayName": "Molocannon",
+					"baseCost": 20,
+					"weight": 5,
+					"conditional": false
+				}
+			]
+		},
+		{
+			"id": "ShopAssortment:kletka.shop.small",
+			"displayName": "KLETKA small shop",
+			"description": "Existing shop assortment; Add Shop Content edits stable offer IDs.",
+			"role": "Shop",
+			"ownerMount": "ElevatorCore",
+			"selectionCount": 3,
+			"requiredOfferId": "",
+			"offers": [
+				{
+					"offerId": "ID_Canister_Small",
+					"itemId": "InventoryItem:item_E89D4B9A454662F7E89A90A11F29857F",
+					"displayName": "Gas Can",
+					"baseCost": 8,
+					"weight": 100,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Wrench",
+					"itemId": "InventoryItem:item_A7C297BB4AE3C706A6915E9FA0551CBC",
+					"displayName": "Wrench",
+					"baseCost": 15,
+					"weight": 60,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Cog_Speed",
+					"itemId": "InventoryItem:item_3456F00E40F2A1BECF1BDD965F61CCF7",
+					"displayName": "Haste Gear",
+					"baseCost": 15,
+					"weight": 40,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_MineBomb",
+					"itemId": "InventoryItem:item_5F88AB654C6E0079C12374B00D65DB6F",
+					"displayName": "Mine",
+					"baseCost": 20,
+					"weight": 60,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Govnyak",
+					"itemId": "InventoryItem:item_38558C864C1366E34B6389B048626889",
+					"displayName": "Schwag",
+					"baseCost": 10,
+					"weight": 20,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_FlareGun",
+					"itemId": "InventoryItem:item_1009592241770F8396D6E3B2B4A4B96D",
+					"displayName": "Flare Gun",
+					"baseCost": 20,
+					"weight": 50,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Lockpick",
+					"itemId": "InventoryItem:item_BFD514B7411926726E6F019EEF5AA8E3",
+					"displayName": "Lockpick",
+					"baseCost": 2,
+					"weight": 10,
+					"conditional": false
+				},
+				{
+					"offerId": "ID_Molocannon",
+					"itemId": "InventoryItem:item_7929C1D3457C3BEAB53D4097880F64CC",
+					"displayName": "Molocannon",
+					"baseCost": 20,
+					"weight": 5,
+					"conditional": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "AtlasFoundationExample",
+  "Description": "Generated Gameplay GameFeature mod payload.",
+  "Category": "Advanced Modding System",
+  "CreatedBy": "Atlas sample",
+  "CanContainContent": true,
+  "Installed": false,
+  "ExplicitlyLoaded": true,
+  "BuiltInInitialFeatureState": "Registered",
+  "Plugins": [
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSettingsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ]
+}

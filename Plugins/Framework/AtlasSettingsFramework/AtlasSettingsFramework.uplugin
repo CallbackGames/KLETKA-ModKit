@@ -1,0 +1,32 @@
+{
+  "FileVersion": 3,
+  "Version": 5,
+  "VersionName": "0.5.0",
+  "FriendlyName": "Atlas Settings Framework",
+  "Description": "Blueprint-first, multi-scope settings definitions, resolution, transactions, persistence, and Game Feature registration.",
+  "Category": "Callback Games|Framework|Settings",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": true,
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasSettingsFrameworkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ]
+}

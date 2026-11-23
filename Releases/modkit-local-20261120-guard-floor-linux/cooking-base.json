@@ -1,0 +1,28 @@
+{
+  "SchemaVersion": 1,
+  "Release": "modkit-local-20261120-guard-floor-linux",
+  "Engine": "5.8",
+  "Platform": "Linux",
+  "Files": [
+    {
+      "Path": "Linux/AssetRegistry.bin",
+      "Sha256": "475614e017b82e937ca21cf76c006fd5cd7c1b56e845fe3123fe95b6e15a6948"
+    },
+    {
+      "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Sha256": "b1caa34eeff9ae196bc641c157bb9586f82feabe041b80e78e6206bf920b0bcb"
+    },
+    {
+      "Path": "Linux/ModCompatibility.json",
+      "Sha256": "940a6309dc164684cf59683d965b25fe39d95aabbca9aad687874f34f49e4cfd"
+    }
+  ],
+  "GameExecutables": [
+    {
+      "Configuration": "Development",
+      "Target": "KLETKA",
+      "Sha256": "162c3d7feb9b2c04e6257f8262866a53ca61da260103d57c2d3c34bb6bfa7a45"
+    }
+  ],
+  "Distribution": "UnpublishedLocalCandidate"
+}

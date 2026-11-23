@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "LeFloorBundleDataAsset",
+	"entries": [
+		{
+			"id": "LeFloorBundleDataAsset:bundle_09DABC2E4B24D63372D9EA96A924C6C8",
+			"displayName": "FB_GS_Anomalies",
+			"description": "",
+			"role": "None",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorBundleDataAsset:FB_Anomalies",
+			"displayName": "FB_Anomalies",
+			"description": "",
+			"role": "None",
+			"ownerMount": "ElevatorCore"
+		}
+	]
+}

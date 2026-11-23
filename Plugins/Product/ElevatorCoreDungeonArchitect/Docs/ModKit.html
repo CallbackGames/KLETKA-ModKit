@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>KLETKA Dungeon Architect adapter</title>
+<style>body{max-width:850px;margin:48px auto;padding:0 24px;background:#17191c;color:#eee;font:18px/1.6 system-ui}code{color:#dfbd70}h1,h2{line-height:1.2}</style>
+<h1>Dungeon Architect floors</h1>
+<p>The ModKit includes KLETKA's adapter. Dungeon Architect itself is installed separately.</p>
+<ol><li>Install Dungeon Architect <strong>3.6.0 for Unreal 5.8</strong>, matching the game build.</li>
+<li>Enable Dungeon Architect and <strong>KLETKA Dungeon Architect Adapter</strong> in the Plugins window. Restart the editor.</li>
+<li>In Mod Wizard, choose <strong>Floors &amp; biomes → Dungeon Architect floor</strong>. An unavailable option explains which plugin is missing or disabled.</li>
+<li>Author your own Snap Map room maps, connections, module database and flow graph with DA's tools.</li>
+<li>Open the generated <code>DA_Floor</code>. Under Generation → Dungeon Architect, set the one-player database and graphs. Untouched multiplayer rows inherit the closest configured lower count. The example map contains one Snap Map dungeon tagged <code>KletkaModDungeon</code>.</li>
+<li>Validate and cook before testing in the target game. Check generation, cancellation, multiplayer late join and save/restore. Empty databases or flow lists are incomplete authoring, not playable examples.</li></ol>
+<h2>Distribution</h2><p>Keep both adapter and DungeonArchitect plugin dependencies in the generated mod. Upload your own cooked content; do not copy either plugin into the mod. The default ModKit opens without DA because this adapter is disabled there. Enabling the adapter requires DA.</p>
+<h2>Supported contract</h2><p><code>LeDungeonArchitectFloorGenerationConfig</code> supplies Snap Map settings. <code>LeDungeonArchitectFloorGenerationBackend</code> executes the existing provider-neutral floor contract. Game and ModKit use the same implementation. Native consumers of these optional headers also require the DA SDK. Internal game modules are not part of this API.</p>

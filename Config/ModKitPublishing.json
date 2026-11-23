@@ -1,0 +1,11 @@
+{
+  "SchemaVersion": 1,
+  "SteamWorkshop": {
+    "GameId": "1699480"
+  },
+  "ModIo": {
+    "GameId": "8245",
+    "CreatorUrl": "https://mod.io/g/kletka",
+    "PublicApiKey": "59fbdafc265fa925cb1520f1fe9407d0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Gameplay Phase Framework",
+  "Description": "Reusable authoritative gameplay-phase runtime built on the Advanced Abilities System.",
+  "Category": "Callback Games|Framework|Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasGameplayPhaseFrameworkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

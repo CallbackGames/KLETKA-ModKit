@@ -1,0 +1,802 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Explicit allow-list of curated KLETKA reference, template, and sample assets distributed with the external ModKit.",
+  "Assets": [
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/cooking-base.json",
+      "Destination": "Releases/dev1-20261122-cl5286/cooking-base.json",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/Linux/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261122-cl5286/Linux/AssetRegistry.bin",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261122-cl5286/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
+      "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
+      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin",
+      "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin",
+      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+    },
+    {
+      "Source": "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.md",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html",
+      "Transform": "MarkdownToHtml",
+      "Description": "Public Elevator authoring recipes used by the starter and floor workflows."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
+      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/cooking-base.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
+      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
+      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/cooking-base.json",
+      "Destination": "Releases/dev1-20261119-cl5105/cooking-base.json",
+      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
+      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/cooking-base.json",
+      "Destination": "Releases/dev1-20261118-cl5051/cooking-base.json",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
+      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
+    },
+    {
+      "Source": "Scripts/ModKit/ModIoPublisher.py",
+      "Destination": "Tools/ModIoPublisher.py",
+      "Description": "Verified private store publication from the ModKit wizard."
+    },
+    {
+      "Source": "Scripts/ModKit/WizardStoreUpload.py",
+      "Destination": "Tools/WizardStoreUpload.py",
+      "Description": "Verified private store publication from the ModKit wizard."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/cooking-base.json",
+      "Destination": "Releases/dev1-20261111-cl4775/cooking-base.json",
+      "Description": "Verified Windows Shipping cook base for the dev1 release."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Verified Windows Shipping cook base for the dev1 release."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
+      "Description": "Verified Windows Shipping cook base for the dev1 release."
+    },
+    {
+      "Source": "Docs/Modding/MODKIT_PLATFORM_ROUTES.md",
+      "Destination": "Docs/PlatformRoutes.md",
+      "Description": "Editor-host and cooked-target platform routes, explicit base/artifact requirements and acceptance boundaries."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/Tags/KletkaPublicScreenRoles.ini",
+      "Destination": "Config/Tags/KletkaPublicScreenRoles.ini",
+      "Description": "KLETKA's published presentation replacement role; registration does not expose authentication or compatibility screens."
+    },
+    {
+      "Source": "Scripts/ModKit/SteamWorkshopMetadata.py",
+      "Destination": "Tools/SteamWorkshopMetadata.py",
+      "Description": "Verify Atlas release metadata through the installed game's Steamworks API after SteamCMD upload."
+    },
+    {
+      "Source": "Scripts/ModKit/PublishContentMod.py",
+      "Destination": "Tools/PublishContentMod.py",
+      "Description": "Prepare verified cooked Steam Workshop and mod.io upload handoffs without shipping source assets or credentials."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/ModKitPublishing.json",
+      "Destination": "Config/ModKitPublishing.json",
+      "Description": "Public store game IDs and creator links; no account credentials or per-mod item IDs."
+    },
+    {
+      "Source": "Scripts/ModKit/CookContentMod.py",
+      "Destination": "Tools/CookContentMod.py",
+      "Description": "Cook a content-only Game Feature against the game's released cooking metadata and export a verified Pak/IoStore artifact."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/DefaultGame.ini",
+      "Destination": "Config/DefaultGame.ini",
+      "Description": "Minimal public authoring configuration. Game Feature plugins register their own content paths."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/DefaultEngine.ini",
+      "Destination": "Config/DefaultEngine.ini",
+      "Description": "Public Source type redirects preserving authored inventory and crafting profiles across owner-module migrations."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/ams_manifest.json",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/ams_manifest.json",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/AtlasInventoryExample.uplugin",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/AtlasInventoryExample.uplugin",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Content/AtlasInventoryExample.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Content/AtlasInventoryExample.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleItem.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleItem.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleRecipe.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleRecipe.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_Ingredient.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_Ingredient.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_InventoryContent.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_InventoryContent.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Media/Banner.png",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Media/Banner.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Media/Icon.png",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Media/Icon.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasInventoryExample/Media/PreviewImage_0.png",
+      "Destination": "Plugins/GameFeatures/AtlasInventoryExample/Media/PreviewImage_0.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/ams_manifest.json",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/ams_manifest.json",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/AtlasFoundationExample.uplugin",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/AtlasFoundationExample.uplugin",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Content/AtlasFoundationExample.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Content/AtlasFoundationExample.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/BP_SampleProgress.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/BP_SampleProgress.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleEnabled.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleEnabled.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleSettings.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleSettings.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Media/Banner.png",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Media/Banner.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Media/Icon.png",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Media/Icon.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFoundationExample/Media/PreviewImage_0.png",
+      "Destination": "Plugins/GameFeatures/AtlasFoundationExample/Media/PreviewImage_0.png",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/DA_Equipment.uasset",
+      "Destination": "Content/AtlasExamples/DA_Equipment.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/DA_HitscanWeapon.uasset",
+      "Destination": "Content/AtlasExamples/DA_HitscanWeapon.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/DA_Interaction.uasset",
+      "Destination": "Content/AtlasExamples/DA_Interaction.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/DA_SettingsCatalog.uasset",
+      "Destination": "Content/AtlasExamples/DA_SettingsCatalog.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/NPC/BP_Guard.uasset",
+      "Destination": "Content/AtlasExamples/NPC/BP_Guard.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/NPC/NPC_Guard.uasset",
+      "Destination": "Content/AtlasExamples/NPC/NPC_Guard.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/NPC/ST_Guard.uasset",
+      "Destination": "Content/AtlasExamples/NPC/ST_Guard.uasset",
+      "Description": "Public owner-generated authoring example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Cosmetics/BP_ExamplePart.uasset",
+      "Destination": "Content/AtlasExamples/Cosmetics/BP_ExamplePart.uasset",
+      "Description": "Cosmetic part, definition, profile and registered preset using only public Atlas factories and Engine BasicShapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Cosmetics/DA_ExampleAppearancePreset.uasset",
+      "Destination": "Content/AtlasExamples/Cosmetics/DA_ExampleAppearancePreset.uasset",
+      "Description": "Cosmetic part, definition, profile and registered preset using only public Atlas factories and Engine BasicShapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Cosmetics/DA_ExampleAppearanceProfile.uasset",
+      "Destination": "Content/AtlasExamples/Cosmetics/DA_ExampleAppearanceProfile.uasset",
+      "Description": "Cosmetic part, definition, profile and registered preset using only public Atlas factories and Engine BasicShapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Cosmetics/DA_ExampleCosmetic.uasset",
+      "Destination": "Content/AtlasExamples/Cosmetics/DA_ExampleCosmetic.uasset",
+      "Description": "Cosmetic part, definition, profile and registered preset using only public Atlas factories and Engine BasicShapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/ams_manifest.json",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/ams_manifest.json",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/AtlasFloorExample.uplugin",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/AtlasFloorExample.uplugin",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/AtlasFloorExample.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/AtlasFloorExample.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorLayout.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorLayout.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorQuest.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorQuest.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Biome.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Biome.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Bundle.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Bundle.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Floor.uasset",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Floor.uasset",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/L_ExampleFloor.umap",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/L_ExampleFloor.umap",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Media/Banner.png",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Media/Banner.png",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Media/Icon.png",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Media/Icon.png",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Plugins/GameFeatures/AtlasFloorExample/Media/PreviewImage_0.png",
+      "Destination": "Plugins/GameFeatures/AtlasFloorExample/Media/PreviewImage_0.png",
+      "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaModKit_20261018/Windows/AssetRegistry.bin",
+      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/cooking-base.json",
+      "Destination": "Releases/KletkaModKit_20261018/cooking-base.json",
+      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
+    },
+    {
+      "Source": "Docs/TagAudit/2026-10-14/Contracts.json",
+      "Destination": "Docs/GameplayTags/Contracts.json",
+      "Description": "KLETKA gameplay tag authoring catalog and reviewed extension contracts; generated through the canonical tag validator."
+    },
+    {
+      "Source": "Docs/TagAudit/2026-10-14/Catalog.json",
+      "Destination": "Docs/GameplayTags/Catalog.json",
+      "Description": "KLETKA gameplay tag authoring catalog and reviewed extension contracts; generated through the canonical tag validator."
+    },
+    {
+      "Source": "Docs/TagAudit/2026-10-14/catalog.html",
+      "Destination": "Docs/GameplayTags/index.html",
+      "Description": "KLETKA gameplay tag authoring catalog and reviewed extension contracts; generated through the canonical tag validator."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaPranks.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaPranks.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaResources.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResources.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaResourcePacks.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResourcePacks.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaResourcePolicies.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResourcePolicies.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Scripts/ModKit/ContentModWorkflow.py",
+      "Destination": "Tools/ContentModWorkflow.py",
+      "Description": "Editor-driven asynchronous cook and compatible-game workflow; uses canonical cooker and native install journal."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/DefaultInput.ini",
+      "Destination": "Config/DefaultInput.ini",
+      "Description": "Input mappings for the public playable playground; gameplay execution remains in canonical owner components."
+    },
+    {
+      "Source": "Scripts/ModKit/CreatePlayground.py",
+      "Destination": "Tools/CreatePlayground.py",
+      "Description": "Rebuild the neutral public-owner gameplay host in a new destination; engine shapes only."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundController.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundController.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundHUD.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundHUD.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundCharacter.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundCharacter.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundWeapon.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundWeapon.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_PlaygroundWeapon.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_PlaygroundWeapon.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_PlaygroundEquipmentRig.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_PlaygroundEquipmentRig.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_PlaygroundIngredient.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_PlaygroundIngredient.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_IngredientPickup.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_IngredientPickup.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundTarget.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundTarget.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/NPC_PlaygroundTarget.uasset",
+      "Destination": "Content/AtlasExamples/Playground/NPC_PlaygroundTarget.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/ST_PlaygroundTarget.uasset",
+      "Destination": "Content/AtlasExamples/Playground/ST_PlaygroundTarget.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundGameMode.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundGameMode.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_PlaygroundExperience.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_PlaygroundExperience.uasset",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/L_Playground.umap",
+      "Destination": "Content/AtlasExamples/Playground/L_Playground.umap",
+      "Description": "Neutral public-owner playground example using engine shapes; no KLETKA game art."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/IO_PlaygroundPickup.uasset",
+      "Destination": "Content/AtlasExamples/Playground/IO_PlaygroundPickup.uasset",
+      "Description": "Public interaction contract for the neutral sample pickup."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/IP_PlaygroundPickup.uasset",
+      "Destination": "Content/AtlasExamples/Playground/IP_PlaygroundPickup.uasset",
+      "Description": "Public interaction contract for the neutral sample pickup."
+    },
+    {
+      "Source": "Config/Tags/AtlasEquipmentSystemTags.ini",
+      "Destination": "Config/Tags/AtlasEquipmentSystemTags.ini",
+      "Description": "Equipment action, attachment slot and part capability tags used by public equipment builds."
+    },
+    {
+      "Source": "Config/Tags/AtlasPublicExamplesTags.ini",
+      "Destination": "Config/Tags/AtlasPublicExamplesTags.ini",
+      "Description": "Neutral playground statistic and quest keys; not KLETKA gameplay data."
+    },
+    {
+      "Source": "Scripts/ModKit/CreateVehiclePlayground.py",
+      "Destination": "Tools/CreateVehiclePlayground.py",
+      "Description": "Recreate the editable engine-shape vehicle example through the public vehicle owner."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_PlaygroundStatistics.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_PlaygroundStatistics.uasset",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_PlaygroundQuest.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_PlaygroundQuest.uasset",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Vehicles/DA_ExampleRoadCar.uasset",
+      "Destination": "Content/AtlasExamples/Vehicles/DA_ExampleRoadCar.uasset",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Vehicles/BP_ExampleRoadCar.uasset",
+      "Destination": "Content/AtlasExamples/Vehicles/BP_ExampleRoadCar.uasset",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Vehicles/BP_VehicleGameMode.uasset",
+      "Destination": "Content/AtlasExamples/Vehicles/BP_VehicleGameMode.uasset",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Vehicles/L_Vehicles.umap",
+      "Destination": "Content/AtlasExamples/Vehicles/L_Vehicles.umap",
+      "Description": "Editable neutral gameplay example using public Atlas owners and engine shapes."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaSessionGateCatalog.ini",
+      "Destination": "Config/KletkaSessionGateCatalog.ini",
+      "Description": "Boolean session switches published by the host for each launch; private host assets are not required in ModKit."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/AtlasSaveHostCatalog.ini",
+      "Destination": "Config/AtlasSaveHostCatalog.ini",
+      "Description": "Generated public world persistence groups from mod-enabled host profiles; no private fragment classes or profiles."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaRoguelikePerks.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaRoguelikePerks.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaMannequinTargets.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaMannequinTargets.json",
+      "Description": "Gastronom display appearance and concealed enemy extension points, without private assets."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaEnemyArchetypes.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaEnemyArchetypes.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaLeFloorDataAssets.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeFloorDataAssets.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaLeFloorBundleDataAssets.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeFloorBundleDataAssets.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaLeBiomeDataAssets.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeBiomeDataAssets.json",
+      "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/cooking-base.json",
+      "Destination": "Releases/KletkaBeta_20261020_r3/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Docs/AccoladeCatalog.json",
+      "Destination": "Docs/Authoring/accolade-catalog.json",
+      "Description": "Read-only KLETKA player/team accolade identities exported through Unreal; source package hashes record the verified catalogue."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaShopAssortments.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaShopAssortments.json",
+      "Description": "Stable shop and offer identities with item IDs, relative weights and base prices recovered from verified historical shop data."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_ItemRackSlot.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_ItemRackSlot.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/IO_RackTake.uasset",
+      "Destination": "Content/AtlasExamples/Playground/IO_RackTake.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/IO_RackPut.uasset",
+      "Destination": "Content/AtlasExamples/Playground/IO_RackPut.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/IP_ItemRack.uasset",
+      "Destination": "Content/AtlasExamples/Playground/IP_ItemRack.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/DA_ItemRackLayout.uasset",
+      "Destination": "Content/AtlasExamples/Playground/DA_ItemRackLayout.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Content/AtlasExamples/Playground/BP_ItemRack.uasset",
+      "Destination": "Content/AtlasExamples/Playground/BP_ItemRack.uasset",
+      "Description": "Neutral world item rack: stable authored places and shared inventory Take/Put actions."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaInventoryItems.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaInventoryItems.json",
+      "Description": "Public stable target identities for external authoring; runtime checks ownership and visibility."
+    },
+    {
+      "Source": "Build/ModKit/Catalogs/KletkaAtlasCraftingRecipes.json",
+      "Destination": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaAtlasCraftingRecipes.json",
+      "Description": "Public stable target identities for external authoring; runtime checks ownership and visibility."
+    },
+    {
+      "Source": "Docs/Modding/MOD_CONTENT_TARGET_CATALOG.md",
+      "Destination": "Docs/ModContentTargets.md",
+      "Description": "Published gameplay IDs, target permissions, save behavior and runtime integration boundaries."
+    },
+    {
+      "Source": "Docs/Modding/CAGE_AND_RESPAWN_MODDING.md",
+      "Destination": "Docs/CageAndRespawn.md",
+      "Description": "Persistent cage additions and authoritative respawn selection through public owners."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
+      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/cooking-base.json",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/cooking-base.json",
+      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
+    }
+  ]
+}

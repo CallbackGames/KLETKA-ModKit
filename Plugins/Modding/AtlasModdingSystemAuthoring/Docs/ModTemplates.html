@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Providing Mod Wizard templates</title>
+<style>
+body{font:16px/1.65 system-ui,sans-serif;background:#12171d;color:#e6edf4;max-width:960px;margin:40px auto;padding:0 24px}
+h1,h2{line-height:1.25}h2{margin-top:2rem}a{color:#91cbff}code,pre{font:14px/1.6 ui-monospace,monospace;background:#1d2732}code{padding:2px 5px}pre{padding:18px;overflow:auto;border:1px solid #3c4b5c;border-radius:8px}pre code{padding:0}li{margin:.4rem 0}.note{padding:14px 18px;border-left:3px solid #e7bd58;background:#27271f}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #3c4b5c;text-align:left;vertical-align:top}
+</style>
+<body>
+<nav><a href="../../../../Docs/Authoring/index.html">Authoring Guide</a></nav>
+<main>
+<h1>Providing Mod Wizard templates</h1>
+<p>Enabled plugins, including Game Feature plugins, can supply their own categorized starters through their plugin descriptor. They do not need a dependency on the Wizard module. Native editor integrations can also register templates through <code>FAMSModAuthoringProjectTemplates</code>.</p>
+<h2>Choose a supplied starter</h2>
+<p>The <a href="../../../../Docs/Authoring/recipes.html#templates">catalogue for this distribution</a> lists the templates and assets declared by its enabled plugins. Two examples follow.</p>
+<p>Open <strong>Tools → Atlas: Mod Wizard</strong>, select the category and template, inspect its preview, and create a new Game Feature mod. Review the generated assets and next steps before testing, cooking and publishing.</p>
+<table>
+<thead><tr><th>Stable template ID</th><th>Category and label</th><th>Next work</th></tr></thead>
+<tbody>
+<tr><td><code>AtlasInventory.ItemRecipe</code></td><td>Items &amp; crafting → Item and recipe</td><td>Configure visuals, quantities and an authorized crafting interaction. The starter supplies ingredient, item, recipe, content registration, station and pickup assets.</td></tr>
+<tr><td><code>ElevatorCore.FloorBiome</code></td><td>Floors &amp; biomes → Floor and biome</td><td>Extend the initially immediate quest in Quest Flow; design and test the floor. The starter supplies a layout actor, map, quest, floor, bundle, biome and content registration.</td></tr>
+</tbody>
+</table>
+<p class="note">Creating a starter does not certify gameplay, save compatibility, multiplayer compatibility or successful publication. Run those checks in a matching game build.</p>
+<h2>Test a template in the game</h2>
+<p>In <strong>Content, Cook &amp; Publish → PIE gameplay checks</strong>, use a standalone or listen-server game with the feature active. The checks read actual gameplay components. To verify what a remote player sees, repeat the action on a joining client.</p>
+<p>To preview a hit on a joining player, choose the enemy archetype and a multiplayer test map, then open <strong>Play → Remote Player</strong>. Enter a game culture such as <code>ru</code> and choose whether to preview with a gamepad. Click <strong>Test Enemy on Client</strong>. The result folder contains <code>result.json</code> and, with <strong>Capture Client Viewport</strong> enabled, <code>client-hit.png</code> showing the client’s screen at impact.</p>
+<ul>
+<li><strong>Crafting.</strong> Pick up one starter ingredient, then choose <em>Measure crafting exchange</em>. Use your station once and measure again. The default exchange is one fewer ingredient and one additional product in the player's inventory. Connect your station to an authorized interaction if the counts stay unchanged. Avoid other inventory changes between the two observations.</li>
+<li><strong>Interaction.</strong> Choose <em>Trace interaction failures</em>, attempt a denied action and read the reason on the local player's screen. Disable the feature and repeat the action. Verify its option disappeared and its effect cannot be triggered.</li>
+<li><strong>Quests.</strong> Finish a quest from the selected feature and acknowledge its reward. Capture quest receipts, save and reload, then revisit the same reward trigger. Compare the receipts; each previously rewarded instance should retain its transaction IDs and lifecycle. Compare the inventory or currency balance too if your reward grants either.</li>
+<li><strong>Weapons and vehicles.</strong> Give a sturdy practice target a unique actor tag and enter it in <em>Play / Checks → Damage Target Tag</em>. Measure before and after one baseline shot, install the modifying part and repeat, then remove it and repeat. Use the same weapon, distance and hit zone throughout. The target must survive all three shots. The third health delta should return to the first.</li>
+<li><strong>Settings.</strong> Set <em>Profile Setting Id</em> to the catalog ID of the setting under test. Change its value in the settings screen, apply it, and capture it. Restart PIE, select the same user, and compare. This compares the value and its resolved storage layer on this editor platform. Test the packaged build on each intended device separately.</li>
+<li><strong>Loot and shops.</strong> Activate the contributing features and run <code>Atlas.Loot.Composition PoolId</code> in the editor console for a global pool. For a specific shop, open its assortment and click <em>Preview Effective Stock</em>. The Output Log shows composition order, conflicts, entry source, weight and 64 repeatable catalog draws. The shop preview includes its base stock and matching targeted contributions.</li>
+</ul>
+<h2>Review a release</h2>
+<p>Choose <em>Release Summary</em> before cooking or uploading. It shows declared requirements and conflicts, network rules, and a separate status for each target artifact. After cooking, it shows the base and whether dependency fingerprints allow a different base. An archive built for Windows also requires a separate compatibility test on Steam Deck under Proton. Target native Linux independently with the CLI's <code>--platform Linux</code> and its Linux cooking base.</p>
+<p>Install the isolated test copy, launch it and select <em>Record Pass</em> or <em>Record Failure</em> after playing. The confirmation window and export bundle carry the author's verdict for this cook. Store download, save reload, online join and on-device testing require their own checks.</p>
+<h2>Register a template provider</h2>
+<p>Add this field to the provider's <code>.uplugin</code>. Paths are relative to that plugin. Replace the example owner, identity and paths with your actual values.</p>
+<pre><code>"AtlasModTemplates": {
+  "SchemaVersion": 1,
+  "Templates": [{
+    "Id": "YourOwner.YourTemplate",
+    "Category": "Your content category",
+    "Label": "Your starter",
+    "Description": "What is created and what the author must configure next.",
+    "Recipe": "Docs/Examples/CreateYourExample.py",
+    "RequiredPlugins": ["YourOwner"],
+    "AssetPaths": ["Example/DA_YourDefinition"],
+    "NextSteps": [
+      "Edit the definition.",
+      "Test the contribution before Cook &amp; Publish."
+    ],
+    "SortOrder": 100
+  }]
+}</code></pre>
+<p><code>SortOrder</code> is optional and defaults to 100. Required string arrays must contain at least one entry. A provider can declare at most 16 templates and each string array at most 32 entries. The recipe must be an existing Python file inside its provider plugin; asset paths must be valid package paths relative to the generated mod root.</p>
+<h2>Implement the owner recipe</h2>
+<p>The Python file must export <code>populate_template(plugin_name, content_id)</code>. The Wizard calls it after creating and mounting an empty Game Feature. The parameters are the generated plugin name and canonical content identity.</p>
+<ol>
+<li>Reject occupied destination packages and a feature already containing actions before writing anything.</li>
+<li>Create and save new content only under the generated feature. Preserve the user's open map, unsaved changes and selection.</li>
+<li>Wire the canonical owner's Game Feature actions to register the new content. Plugin dependencies alone do not register gameplay content.</li>
+<li>Return a dictionary with an <code>assets</code> array containing saved object paths, and an optional <code>map</code> value containing a saved map package path.</li>
+</ol>
+<pre><code>{
+  "assets": ["/MyMod/Example/DA_YourDefinition.DA_YourDefinition"],
+  "map": "/MyMod/Example/L_YourMap"
+}</code></pre>
+<p>Omit <code>map</code> when no map is created. The Wizard verifies that reported outputs are saved inside the new mod. It records them in the creation result and keeps a recipe completion receipt under <code>Saved/ModTemplates</code>.</p>
+<p>Use the installed owner examples as working implementations: <code>AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py</code> and <code>ElevatorCore/Docs/Examples/CreateFloorModExample.py</code>. Their <code>populate_template</code> entry points populate an already created feature; their standalone <code>create_example</code> helpers create that feature first.</p>
+<h2>Availability, conflicts and failure</h2>
+<p>Descriptor changes refresh on the next template-registry lookup. Disabling a provider removes its descriptor registrations. Templates are grouped by category and ordered by sort order, label and stable identity. IDs must be unique across providers: a conflicting identity is unavailable until the conflict is removed. Empty and reserved <code>None</code> identities are invalid.</p>
+<p>PythonScriptPlugin must be enabled and initialized; finish Play In Editor before creating starter content. If generation fails, the Wizard retains the partial plugin and its incomplete-creation guard. Read the creation report and recipe error before retrying. Do not remove the guard merely to publish incomplete content.</p>
+<p class="note">Recipes are trusted editor tooling and execute with editor access. They are not sandboxed player mods. Listing templates does not execute a recipe, and activating a gameplay Game Feature in the player game does not execute its authoring recipe.</p>
+<h2>Native editor providers</h2>
+<p>Register an <code>FAMSModAuthoringProjectTemplate</code> with a stable template ID and owner, and unregister that owner's entries on shutdown. Re-registering a key by the same owner updates it. Cross-owner conflicts stay unavailable, independently of registration order. Use the approved headers from the NativeSdk distribution; private implementation helpers are not public runtime APIs.</p>
+</main>
+<footer>Copyright Callback LLP. All Rights Reserved.</footer>
+</body>
+</html>

@@ -1,0 +1,2419 @@
+{
+  "SchemaVersion": 1,
+  "Kind": "BlueprintBinary",
+  "Tasks": [
+    {
+      "Owner": "AtlasAISystem",
+      "Entry": "AI: Target Policy, Memory Profile, Search Profile",
+      "Modules": [
+        "AtlasAISystemBehavior",
+        "AtlasAISystemRuntime"
+      ],
+      "Workflow": [
+        "Create Target Policy, Memory Profile or Search Profile using the Data Asset class picker.",
+        "Assign the policies to the NPC configuration provided by the host AtlasAI composition. This plugin owns reusable decisions; the host owns actor, movement and combat wiring.",
+        "Check visible/occluded targets, forgotten targets and failed search outcomes in the NPC diagnostics."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasAITargetPolicy",
+          "Module": "AtlasAISystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIMemoryProfile",
+          "Module": "AtlasAISystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIMemoryBindingComponent",
+          "Module": "AtlasAISystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAIAgentComponent",
+          "Module": "AtlasAISystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAIPathObstacleComponent",
+          "Module": "AtlasAISystemBehavior",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAIHearingBudgetSettings",
+          "Module": "AtlasAISystemBehavior",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasAirNavigationSettings",
+          "Module": "AtlasAISystemBehavior",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasAISearchProfile",
+          "Module": "AtlasAISystemBehavior",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasSoundOccluderComponent",
+          "Module": "AtlasAISystemBehavior",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasAbilitiesSystem",
+      "Entry": "Ability Set, Tag Relationship Mapping, Failure Feedback Profile",
+      "Modules": [
+        "AtlasAbilitiesSystemRuntime"
+      ],
+      "Workflow": [
+        "Create an Ability Set, Tag Relationship Mapping or Failure Feedback Profile.",
+        "Grant/revoke sets through the host Game Feature or equipment owner. Configure the Ability Avatar lifecycle and health components where needed.",
+        "Check activation requirements, failure feedback, avatar replacement and cleanup of grants on unequip/deactivation."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasHealingSettings",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasAbilityFailureFeedbackSettings",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasDamageLogDebuggerComponent",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddGameplayCuePaths",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddAbilities",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasAbilityExecutionComponent",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasHealthComponent",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasDestructibleHealthComponent",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAbilityAvatarComponent",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAbilityTagRelationshipMapping",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAbilitySet",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAbilityFailureFeedbackProfile",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasAgentControlSystem",
+      "Entry": "Source/Target components и роли управления",
+      "Modules": [
+        "AtlasAgentControlSystemRuntime"
+      ],
+      "Workflow": [
+        "Add Agent Control Source to the controlling actor and Target to the controlled actor. Author role names such as Driver and Gunner.",
+        "Restrict Supported Roles when arbitrary roles are unwanted. Configure acquisition distance and command limits. Use target-owned input transport only when that target implements it.",
+        "Acquire a role without unpossessing the pawn, send input, release it and verify input resets. Test occupied roles, distance rejection, owner loss and possession changes."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasAgentControlTargetComponent",
+          "Module": "AtlasAgentControlSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAgentControlSourceComponent",
+          "Module": "AtlasAgentControlSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasAssetManagementFramework",
+      "Entry": "Инфраструктура Primary Assets и сканирования",
+      "Modules": [
+        "AtlasAssetManagementFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Integrator surface: configure primary asset registration and scanning for the selected owner modules/content roots.",
+        "Content authors create definitions through their owners. Diagnose an undiscovered asset from its registered type and root, without duplicating the catalog.",
+        "Test registration, stable identity collision, lookup and removal."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasAssetDiscoverySettings",
+          "Module": "AtlasAssetManagementFrameworkRuntime",
+          "Kind": "Settings"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasContextEffectsSystem",
+      "Entry": "Context Effects Library, component, anim notify",
+      "Modules": [
+        "AtlasContextEffectsSystemEditor",
+        "AtlasContextEffectsSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Context Effects Library and map motion/context tags to sounds and visual effects.",
+        "Assign the library to Context Effect Component and emit motion events from animation notifies with the surface/context information.",
+        "Test a footstep on two surfaces, an unmatched context and removal of the library."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasContextEffectsSettings",
+          "Module": "AtlasContextEffectsSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasContextEffectComponent",
+          "Module": "AtlasContextEffectsSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasCosmeticsSystem",
+      "Entry": "Cosmetic Definition → Appearance Preset/Profile → preview",
+      "Modules": [
+        "AtlasCosmeticsSystemEditor",
+        "AtlasCosmeticsSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Cosmetic Definition and configure its slot, styles, target query and presentations. Style identity is separate from account ownership.",
+        "Use an Appearance Preset and Appearance Profile to contribute the selection to an Appearance component. Higher source priority wins; inspect suppression diagnostics in the existing preview.",
+        "Preview matching and incompatible target tags, default style, FP/TP context and conflicting slots. Remove the source and check its visual parts disappear."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasCosmeticDefinition",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAppearancePreset",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAppearanceSourceComponent",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAppearanceComponent",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAppearanceProfile",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": [
+        "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py"
+      ]
+    },
+    {
+      "Owner": "AtlasDifficultySystem",
+      "Entry": "Difficulty Schema/Profile и Add Difficulty Profiles",
+      "Modules": [
+        "AtlasDifficultySystemEditor",
+        "AtlasDifficultySystemRuntime"
+      ],
+      "Workflow": [
+        "Create Difficulty Schema and Profile, with typed values and authored modifier ranges.",
+        "Register profiles with Add Difficulty Profiles and select accepted overrides through the host configuration.",
+        "Inspect the resolved profile and test neutral values, boundaries, conflicting contributions and restoration from a Run."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasDifficultyStateComponent",
+          "Module": "AtlasDifficultySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddDifficultyContent",
+          "Module": "AtlasDifficultySystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasDifficultySchema",
+          "Module": "AtlasDifficultySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasDifficultyProfile",
+          "Module": "AtlasDifficultySystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasGameFeaturesFramework",
+      "Entry": "Game Feature Data и lifecycle policy",
+      "Modules": [
+        "AtlasGameFeaturesFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create GameFeatureData inside a Game Feature plugin and declare required plugins in its descriptor.",
+        "Use the canonical owner registration actions for each capability. Keep the session content set fixed while gameplay is active.",
+        "Activate, deactivate and reactivate. Check registrations, delegates, components and handles are removed before another selection."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasPawnInitializationComponent",
+          "Module": "AtlasGameFeaturesFrameworkRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasGameplayActorsFramework",
+      "Entry": "Компонентные акторы и точки размещения объектов мира",
+      "Modules": [
+        "AtlasGameplayActorsFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Start from the component-oriented actor/pawn/controller contracts. Add only the capabilities used by this game.",
+        "Let the host GameMode drive spawning; use the spawning manager for start selection and restart callbacks.",
+        "Check missing required components before gameplay, spawn/restart, component registration and teardown.",
+        "Place an Atlas Actor Placement and configure its default actor, semantic tags and allowed operations. The editor preview shows the base implementation only; keep the generated placement identity when editing a released point.",
+        "A mod contributes Add World Actor Rules in its Game Feature: target a tag query or an exact published point, choose Add/Replace/Remove and priority. Equal-priority main replacements are rejected. Existing placed actors are extended with components; arbitrary live actor replacement is not supported.",
+        "The game host initializes placements before scene readiness and supplies a stable scene-instance identity. In KLETKA the floor manager composes this with the world save; calling the raw placement API alone does not provide persistence.",
+        "Test initial spawn, conflict rejection, destruction, reload and late join. Saved choices retain the exact actor class and never rerun the current rules. Required scene actors must be replicated and always relevant."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasPlayerSpawningManagerComponent",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasPresentationViewComponent",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasVortexForceComponent",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "AAtlasActorPlacement",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Actor"
+        },
+        {
+          "Class": "UAtlasActorPlacementComponent",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddActorPlacements",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "Game Feature Action"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasGameplayExperienceFramework",
+      "Entry": "Experience, Pawn Definition, Launch Definition, Pack/Modifier",
+      "Modules": [
+        "AtlasGameplayExperienceFrameworkEditor",
+        "AtlasGameplayExperienceFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create Launch Definition, Experience, packs/modifiers and Pawn Definition. Use fragments to select owner capabilities.",
+        "Declare Game Feature dependencies and add the owner actions needed by the experience. The launch selects the experience; consumer components apply it.",
+        "Inspect the resolved plan, then test activation, failed dependency, deactivation and a different selection between sessions."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasGameplayDeveloperSettings",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasGameplayPawnDefinition",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayNetworkExperienceComponent",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameplayExperiencePack",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayExperienceModifier",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayExperienceLaunchDefinition",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayExperienceDefinition",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayExperienceConsumerComponent",
+          "Module": "AtlasGameplayExperienceFrameworkRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasGameplayMessagesFramework",
+      "Entry": "Типизированные сообщения, listeners, сетевой transport",
+      "Modules": [
+        "AtlasGameplayMessagesFrameworkNodes",
+        "AtlasGameplayMessagesFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Choose the typed message payload and semantic channel; install a listener with a bounded owner lifetime.",
+        "Distinguish local broadcast from the explicit network transport. The executing gameplay owner still validates authority.",
+        "Test listener removal, repeated registration and local versus replicated delivery."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasGameplayMessageSettings",
+          "Module": "AtlasGameplayMessagesFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasGameplayMessageProcessor",
+          "Module": "AtlasGameplayMessagesFrameworkRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasGameplayPhaseFramework",
+      "Entry": "Phase ability и иерархия фаз",
+      "Modules": [
+        "AtlasGameplayPhaseFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create a phase ability with a phase tag in the intended hierarchy. Keep parent phases active only where their child behavior is shared.",
+        "Start and end phases through the authority phase owner. Sibling transitions and parent cancellation must follow the game session policy.",
+        "Inspect active phases; test parent/child activation, sibling replacement and cancellation before changing the session content set."
+      ],
+      "Types": [],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasInputFramework",
+      "Entry": "Input Config, Input Surface, semantic router",
+      "Modules": [
+        "AtlasInputFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create Input Config/Input Surface and map Enhanced Input Actions to semantic tags.",
+        "Place the Input Router on the local PlayerController and register surface receivers with explicit priority/lifetime.",
+        "Test focused UI versus gameplay, missing receiver, mapping removal and local-player isolation."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasInputSurfaceComponent",
+          "Module": "AtlasInputFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInputRouterComponent",
+          "Module": "AtlasInputFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInputConfig",
+          "Module": "AtlasInputFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAimSensitivityData",
+          "Module": "AtlasInputFrameworkRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasInventorySystem",
+      "Entry": "Item/Recipe/Content Set, container/station components",
+      "Modules": [
+        "AtlasInventorySystemEditor",
+        "AtlasInventorySystemRuntime",
+        "AtlasInventorySystemUI"
+      ],
+      "Workflow": [
+        "In Mod Wizard, choose Items & crafting → Item and recipe. The Inventory owner supplies this template. It registers both item definitions and a recipe; add game visuals and authorized crafting interaction before testing.",
+        "Create an Item Definition, Crafting Recipe and Inventory Content Set in the mod folder. The linked example also creates station and ingredient-pickup Blueprints.",
+        "Register the content set with Add Inventory Content on GameFeatureData. Place the example actors in a test map; add game visuals and interaction routing.",
+        "On authority, route an authorized interaction to the station Submit Craft with the player source/output containers. Preview is not a reservation.",
+        "Check one ingredient is consumed and one product is delivered. Repeat with missing ingredients, full output, cancellation and feature removal."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasInventoryExchangeComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventoryDeveloperSettings",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasContextActionSet",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasContextActionDefinition",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryItemDefinition",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryRoutingPolicy",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasMainInventoryContainerComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventoryPredictionStoreComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventoryManagerComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddInventoryContent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasCraftingStationComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasCraftingRecipeDefinition",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryContentSet",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryWalletContainerComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventorySingleItemContainerComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasQuickBarComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventorySlotLayoutDefinition",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryContainerDefinition",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryContainerComponent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Plugins/Gameplay/AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py"
+      ]
+    },
+    {
+      "Owner": "AtlasJournalSystem",
+      "Entry": "Journal, Category, Entry, Presentation Profile и GF action",
+      "Modules": [
+        "AtlasJournalSystemEditor",
+        "AtlasJournalSystemRuntime",
+        "AtlasJournalSystemUI"
+      ],
+      "Workflow": [
+        "Create a Journal Definition, categories and entries, then choose a Presentation Profile.",
+        "Register through the journal Game Feature action and configure the journal component scope. Author ordering and unlock conditions on owner data.",
+        "Check an empty journal, hidden/visible entry, ordering, localized text and feature removal."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasJournalPresentationProfile",
+          "Module": "AtlasJournalSystemUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasJournalComponent",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddJournalContent",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasJournalDefinition",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasJournalCategoryDefinition",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasJournalEntryDefinition",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasLocomotionSystem",
+      "Entry": "Locomotion, Traversal, Obstacle, Surface, Flight profiles",
+      "Modules": [
+        "AtlasLocomotionSystemEditor",
+        "AtlasLocomotionSystemRuntime"
+      ],
+      "Workflow": [
+        "Use Content Browser → Atlas → Locomotion to create an Animation, Movement, Navigation Obstacle, Surface or Flight profile.",
+        "Assign the chosen profile to its matching component; an animation profile is not a navigation capability profile. Select Character or ordinary-Actor flight deliberately.",
+        "Check a supported route and a blocked route, movement transitions and obstacle changes. Inspect physical collision separately from traversal policy."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasTraversalProfile",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasTraversalObstacleProfile",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasTraversalObstacleComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasTraversalComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasSurfaceProfile",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasSurfaceMovementComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLocomotionSettings",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasRagdollComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLocomotionProfile",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasFlightProfile",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasFlightComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasActorFlightComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLocomotionProfileApplicationComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLocomotionComponent",
+          "Module": "AtlasLocomotionSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasLootSystem",
+      "Entry": "Loot Generator graph, rules, preview, source component",
+      "Modules": [
+        "AtlasLootSystemEditor",
+        "AtlasLootSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Loot Generator and edit its rule graph. Preview a fixed seed and the probability distribution.",
+        "Assign it to a Loot Source component. Configure delivery in the owning inventory/world integration; generating an outcome alone does not grant it.",
+        "Check empty outcomes, quantity bounds, deterministic replay and duplicate delivery rejection."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasGameFeatureAction_AddLootContributions",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasLootTransactionComponent",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLootGenerator",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasLootSourceComponent",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLootQueryTagsComponent",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasModdingSystem",
+      "Entry": "Extension Catalog, manifest/content contributions, lifecycle",
+      "Modules": [
+        "AtlasModdingSystemEditor",
+        "AtlasModdingSystemRuntime"
+      ],
+      "Workflow": [
+        "Create the mod identity and declared dependencies with Mod Wizard. Use owner registries/actions for content.",
+        "Choose supported extension slots and public references; keep published ContentId and save identities stable.",
+        "Validate manifest, namespace, content compatibility and deactivation. Inspect the explicit refusal before gameplay activation."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasModExtensionCatalog",
+          "Module": "AtlasModdingSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasProviderRoutingSettings",
+          "Module": "AtlasModdingSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasPlatformPolicySettings",
+          "Module": "AtlasModdingSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasModdingFoundationSettings",
+          "Module": "AtlasModdingSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasModdingDeveloperSettings",
+          "Module": "AtlasModdingSystemRuntime",
+          "Kind": "Settings"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasModdingSystemAuthoring",
+      "Entry": "New Mod Wizard, templates, validation/packaging",
+      "Modules": [
+        "AtlasModdingSystemAuthoringEditor"
+      ],
+      "Workflow": [
+        "Open Tools → Atlas: Mod Wizard to create a Game Feature mod, then Tools → Atlas: Authoring Guide for the selected owner task.",
+        "Create content in the mod root, run owner asset validation and manifest validation, then package for the matching release baseline.",
+        "Test create/save/reopen, package/install, activation/removal and a second session with a different selection."
+      ],
+      "Types": [
+        {
+          "Class": "UAMSModAuthoringSettings",
+          "Module": "AtlasModdingSystemAuthoringEditor",
+          "Kind": "Settings"
+        }
+      ],
+      "Examples": [
+        "Plugins/Modding/AtlasModdingSystemAuthoring/Docs/ModTemplates.html",
+        "Plugins/Modding/AtlasModdingSystemAuthoring/Examples/FoundationLifecycle/create_sample.py"
+      ]
+    },
+    {
+      "Owner": "AtlasPlayerCameraSystem",
+      "Entry": "Camera Mode Blueprint и Camera component",
+      "Modules": [
+        "AtlasPlayerCameraSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Camera Mode Blueprint and configure view limits, blend and optional head bob. Use the owner camera component to select the mode.",
+        "Override Calculate Camera View on a First Person or Third Person mode to calculate a custom desired view while retaining native collision and stack blending. Equipment visibility uses the separate FP/TP viewpoint; a new mode name does not change it.",
+        "For third person, configure penetration/collision in the applicable mode; keep viewpoint context synchronized through the existing view owner.",
+        "Test FP/TP transitions, a wall behind the player, narrow corners and spectating."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasUICameraManagerComponent",
+          "Module": "AtlasPlayerCameraSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasReplicatedViewComponent",
+          "Module": "AtlasPlayerCameraSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasProgressionSystem",
+      "Entry": "Progression Schema: Nodes, Slots, Requirements, Grants",
+      "Modules": [
+        "AtlasProgressionSystemEditor",
+        "AtlasProgressionSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Progression Schema in the Data Asset picker. Give the schema and each node stable names; changing released names requires migration.",
+        "Define slots, costs, grants and requirements. Required Node Rank uses the containing schema node picker. Capacity zero is unlimited; Max Entries still applies.",
+        "Validate references and ranks, acquire a node, equip/unequip it and inspect owner-executed grants. Test insufficient resources, slot capacity and save restoration."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasProgressionSchema",
+          "Module": "AtlasProgressionSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasProgressionComponent",
+          "Module": "AtlasProgressionSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasQuestSystem",
+      "Entry": "Quest Blueprint/graph → publish → revision",
+      "Modules": [
+        "AtlasQuestSystemEditor",
+        "AtlasQuestSystemRuntime"
+      ],
+      "Workflow": [
+        "Create the author-facing Quest Blueprint/graph, configure nodes and their owner contracts, then publish a revision through the quest editor.",
+        "Register quest content through the owner Game Feature action. Place the quest manager on the authority actor whose replication scope matches the quest.",
+        "Validate, publish, save and reopen. Test a missing node/invalid edge and verify the editor identifies the authored location; execute completion and failure with a game host."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasQuestManagerComponent",
+          "Module": "AtlasQuestSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddQuestContent",
+          "Module": "AtlasQuestSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasQuestPublishedRevision",
+          "Module": "AtlasQuestSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasQuestAuthoringSettings",
+          "Module": "AtlasQuestSystemEditor",
+          "Kind": "Settings"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasSaveGameFramework",
+      "Entry": "Save Profile, Save Fragment, world-save components",
+      "Modules": [
+        "AtlasSaveGameFrameworkEditor",
+        "AtlasSaveGameFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create a Save Profile and typed Save Fragments; configure scope and schema migration. Register the profile through the owner route.",
+        "Open/select the slot, collect component data and mark changes. Collection does not itself authorize a disk write.",
+        "Call Save explicitly from the game Blueprint at the intended checkpoint. Restore in a separate run and verify missing fragments and migration handling.",
+        "Actor components with SaveGame variables can implement AtlasSaveParticipant directly. Collection runs actor then components by stable key; restore decodes all variables, rebuilds components, then calls the actor. Callbacks must be idempotent and must not add/remove components or replay rewards/statistics. Assign stable component save keys before renaming released components."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasSavableComponent",
+          "Module": "AtlasSaveGameFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasSaveDeveloperSettings",
+          "Module": "AtlasSaveGameFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddModSaveDescriptor",
+          "Module": "AtlasSaveGameFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasSaveProfile",
+          "Module": "AtlasSaveGameFrameworkRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasSettingsFramework",
+      "Entry": "Typed setting definitions, schemas, presets, contributors",
+      "Modules": [
+        "AtlasSettingsFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Create typed setting definitions, schemas and presets. Use stable definition identities and matching value types.",
+        "Register the contribution with the owner. Select presentation in AtlasSettings; the runtime schema does not define widget placement.",
+        "Validate definition references, apply/cancel edits and verify persistence scope and account changes."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasRenderingSettings",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasPlatformEmulationSettings",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasDeveloperSettings",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasResolutionOptionSource",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasStaticOptionSourceDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasCultureOptionSourceDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEngineOptionSource",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasSessionRulesComponent",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UGameFeatureAction_AtlasFrontendPerformance",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UGameFeatureAction_AddAtlasDefinitions",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasBoolSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasIntegerSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasScalarSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEnumSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasStringSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasKeyBindingSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasNameChoiceSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasStringChoiceSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameplayTagSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasKeyChordSettingDefinition",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasContributor",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasBundleSchema",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasBundleSchemaCatalog",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasBundlePreset",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasStatisticsSystem",
+      "Entry": "Statistics/Telemetry schemas, Accolade definitions/presets",
+      "Modules": [
+        "AtlasStatisticsSystemEditor",
+        "AtlasStatisticsSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Statistics Schema with typed keys/defaults and optional bounds. Create accolade definitions/presets for scored results.",
+        "Add Accolade Content on the mod Game Feature targets a stable preset ID. Add supplies a new definition; Replace/Remove addresses the original accolade ID. KLETKA player/team result presets are AtlasStatisticsAccoladePreset:DASAP_Player_MatchResult and AtlasStatisticsAccoladePreset:DASAP_Team_MatchResult.",
+        "Read effective accolades with Preset.GetAccolades or the registry ResolvePreset. Directly reading Preset.Accolades returns only the authored base. Equal-priority edits to the same target report a conflict; deactivate the mod to restore the prior composition.",
+        "Register the schema through the owner contribution and attach a Statistics component to the correct authoritative actor. Report confirmed gameplay facts; telemetry is a separate explicit adapter.",
+        "Record a known event and inspect the value, scope/reset behavior and save version. Retry the gameplay action and check it is not counted twice."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasTelemetrySchema",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasTelemetryProfile",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasTelemetryComponent",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasStatisticsComponent",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddStatisticsSchemas",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasStatisticsSchema",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasStatisticsAccoladeDefinition",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasStatisticsAccoladePreset",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddAccoladeContent",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasAccoladeRegistrySubsystem",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "Subsystem"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py",
+        "Docs/Authoring/accolade-catalog.json"
+      ]
+    },
+    {
+      "Owner": "AtlasSubtitleSystem",
+      "Entry": "Subtitle requests и их жизненный цикл",
+      "Modules": [
+        "AtlasSubtitleSystemEditor",
+        "AtlasSubtitleSystemRuntime"
+      ],
+      "Workflow": [
+        "Use Subtitle Emitter or subtitle requests owned by the speaking source.",
+        "Configure playback, queue/replacement and cancellation through the existing subtitle owner.",
+        "Test overlapping speakers, stopping playback and destruction of the source."
+      ],
+      "Types": [
+        {
+          "Class": "USubtitleEmitterComponent",
+          "Module": "AtlasSubtitleSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasSubtitleUI",
+      "Entry": "Subtitle Display Options и виджеты",
+      "Modules": [
+        "AtlasSubtitleSystemUI"
+      ],
+      "Workflow": [
+        "Configure Subtitle Display Options and the existing subtitle widgets.",
+        "Bind to the subtitle system queue; choose the project presentation rather than adding a second subtitle lifetime owner.",
+        "Preview long localized lines, speaker labels, multiple speakers and cancellation."
+      ],
+      "Types": [
+        {
+          "Class": "USubtitleDisplayOptions",
+          "Module": "AtlasSubtitleSystemUI",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasTargetingAssistanceSystem",
+      "Entry": "Target component, profile, Input Modifier",
+      "Modules": [
+        "AtlasTargetingAssistanceSystemEditor",
+        "AtlasTargetingAssistanceSystemRuntime"
+      ],
+      "Workflow": [
+        "Create a Targeting Assistance Profile and add Target Component to eligible actors.",
+        "Select the profile in Project Settings or the local-player subsystem; add its input modifier to the intended look mapping once.",
+        "Check scoring, context changes, occlusion rejection, target removal and separate local players. A selected target is not an authorized hit."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasTargetComponent",
+          "Module": "AtlasTargetingAssistanceSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasTargetingAssistanceDeveloperSettings",
+          "Module": "AtlasTargetingAssistanceSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasTargetingAssistanceProfile",
+          "Module": "AtlasTargetingAssistanceSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasTeamSystem",
+      "Entry": "Team Agent, Team Display Asset, team state",
+      "Modules": [
+        "AtlasTeamSystemEditor",
+        "AtlasTeamSystemRuntime"
+      ],
+      "Workflow": [
+        "Create Atlas → Teams → Team Display Asset. Author material/Niagara parameter names exactly as they exist on the target asset.",
+        "Add Team Agent to the actor and set team/squad membership on authority. Apply the display asset through the presentation consumer.",
+        "Change membership and verify ally/enemy queries, replication and visuals independently. Missing visual parameters must not change team logic."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasTeamDisplayAsset",
+          "Module": "AtlasTeamSystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasTeamSetupComponent",
+          "Module": "AtlasTeamSystemRuntime",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasTeamAgentComponent",
+          "Module": "AtlasTeamSystemRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasTranslationSystem",
+      "Entry": "Tools → Atlas → Mod Localization; production translation pipeline",
+      "Modules": [
+        "AtlasTranslationSystem",
+        "AtlasTranslationSystemEditor"
+      ],
+      "Workflow": [
+        "Use Tools → Atlas → Mod Localization for mod translations; the production translation pipeline has separate project configuration.",
+        "Gather source strings, review translations and compile localization resources. Preview external synchronization before publishing it.",
+        "Check localized text, missing translations and rich-text formatting. Perforce integration changes are merged, never copied over dirty workspaces."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasTranslationProjectSettings",
+          "Module": "AtlasTranslationSystem",
+          "Kind": "Settings"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasUISystem",
+      "Entry": "UI Theme, Lobby Background, widgets, GF UI actions",
+      "Modules": [
+        "AtlasUISystemEditor",
+        "AtlasUISystemExtensions",
+        "AtlasUISystemGameFeatures",
+        "AtlasUISystemRuntime",
+        "AtlasUISystemTypes"
+      ],
+      "Workflow": [
+        "Create the existing UI Theme/background or widget type needed by the screen.",
+        "Register screens, layers and extensions through the owning UI/Game Feature actions with explicit priority and input/focus behavior.",
+        "Check empty/fallback data, navigation, focus, modal transitions and removal."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasLobbyBackground",
+          "Module": "AtlasUISystemTypes",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasUITheme",
+          "Module": "AtlasUISystemRuntime",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasUIDeveloperSettings",
+          "Module": "AtlasUISystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasLoadingScreenSettings",
+          "Module": "AtlasUISystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_SplitscreenConfig",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddWidgets",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasVariantDataFramework",
+      "Entry": "Typed values и BP conversion/query nodes",
+      "Modules": [
+        "AtlasVariantDataFrameworkRuntime"
+      ],
+      "Workflow": [
+        "Use the typed Variant Make/Get/Query nodes for values that genuinely vary by schema.",
+        "Keep concrete gameplay definitions typed and validate the expected value type before consumption.",
+        "Test a correct value, missing key and mismatched type; propagate the failure instead of treating it as a valid default."
+      ],
+      "Types": [],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasViewpointSystem",
+      "Entry": "View context и observers",
+      "Modules": [
+        "AtlasViewpointSystemRuntime"
+      ],
+      "Workflow": [
+        "Use the local-player View Context subsystem as the resolved FP/TP observer context.",
+        "Bind equipment, cosmetics and UI presentation to that context instead of independently toggling conflicting view flags.",
+        "Switch camera/view target and verify owner and remote-observer visibility separately."
+      ],
+      "Types": [],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasWorldIndicatorSystem",
+      "Entry": "Indicator Profile, layers, semantic source mapping",
+      "Modules": [
+        "AtlasWorldIndicatorSystemRuntime",
+        "AtlasWorldIndicatorSystemUI"
+      ],
+      "Workflow": [
+        "Create an Indicator Profile and configure the host SourceTag-to-profile/layer mapping.",
+        "Emit an indicator from its semantic source; inspect missing mappings in owner diagnostics.",
+        "Preview on-screen, off-screen, occluded and removed targets."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasWorldIndicatorDeveloperSettings",
+          "Module": "AtlasWorldIndicatorSystemRuntime",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasIndicatorProfile",
+          "Module": "AtlasWorldIndicatorSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasVehicleSystem",
+      "Entry": "Vehicle Definition, presets, movement component, visualizer",
+      "Modules": [
+        "AtlasVehicleSystemEditor",
+        "AtlasVehicleSystemRuntime"
+      ],
+      "Workflow": [
+        "Create Atlas → Vehicles → Vehicle Definition and choose Road Car, Drift Car, Hand Cart or Differential Robot as a starting preset.",
+        "Assign a physics body and wheel/axle references to the vehicle component or pawn. Use the viewport visualizer and Validate Definition before play.",
+        "Check steering, braking, grip, reversal and wheel contact. Integrate game health/abilities through AtlasVehicles only when required."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasVehicleDefinition",
+          "Module": "AtlasVehicleSystemRuntime",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": [
+        "Tools/CreateVehiclePlayground.py"
+      ]
+    },
+    {
+      "Owner": "RoguelikeCore",
+      "Entry": "Perk Definition and its presentation, ability, magnitude and eligibility fragments",
+      "Modules": [
+        "RoguelikeCoreContent"
+      ],
+      "Workflow": [
+        "Create a Roguelike Perk Definition using the Data Asset class picker. Add Presentation and Ability fragments, then optional Magnitudes and Eligibility fragments.",
+        "Choose a published Perk.Pool tag or declare a mod-owned child. Use the public catalogue picker for excluded perk IDs; duplicate definitions to obtain a new identity.",
+        "Place the definition in the mod Game Feature. The host pool lookup includes only base content and active Game Features; inspection helpers do not activate content.",
+        "Test selection, grant, level changes, save/load and deactivation between sessions. ModKit publishes the data contract; the host game owns grant policy."
+      ],
+      "Types": [
+        {
+          "Class": "URoguelikePerkDefinition",
+          "Module": "RoguelikeCoreContent",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "ElevatorCore",
+      "Entry": "Floor fragments, FloorFlow, Biome/Bundle, generation profiles, product BP; Device Abilities and Attributes; Respawn Price Policy and Game Feature component binding",
+      "Modules": [
+        "ElevatorCoreContent",
+        "ElevatorCoreContentEditor"
+      ],
+      "Workflow": [
+        "In Mod Wizard, choose Floors & biomes → Floor and biome. The ElevatorCore owner supplies this template. It creates a separate public map, Le layout, quest, bundle and biome without switching or saving the current editor map.",
+        "Create a floor map/layout, Floor Definition and bundle/biome with the existing floor tools.",
+        "Contribute through Add Floor Content and a public Floor.Flow.Slot tag. Select published floor/biome/bundle target IDs from the catalogue; stock game art is not required for selecting a target.",
+        "Validate dependencies, generate/load/unload the floor, restore a checkpoint and verify resources and quest candidates.",
+        "Use Engine WorldSettings and Le Floor Layout for new maps. Runtime activation resolves the published targets in the installed host game; authoring validates IDs against the shipped metadata catalogue.",
+        "For floor-aware UI or conditions, Find Floor Runtime on the active world, bind On Floor State Changed and read Get Floor State immediately. Local readiness and server readiness are separate; unbind when the consumer ends.",
+        "For enemies, create Enemy Archetype, assign its pawn class and add Enemy Archetype component on that pawn. Use the optional AI profile only for a standalone target-context agent; leave it empty when an NPC Definition already owns AI configuration.",
+        "Use the existing Elevator Ability System on the elevator; never add a second ASC to the same actor.",
+        "Create an ability or Gameplay Effect that uses Elevator Attributes for fuel, repair, scanner, speed, depth or load. The attribute set keeps the current game limits.",
+        "Apply changes on authority. Read current values after subscribing to ASC attribute change delegates; a late join receives replicated current values.",
+        "Ability level changes emit a server notification only when a granted ability actually changes. Attribute replication does not write or restore a save file.",
+        "Create a Respawn Price Policy asset, assign it to a Respawn Cost Policy Blueprint component, and add exactly one binding to GameState through Game Feature Add Components. The game still selects recipients and reserves payment."
+      ],
+      "Types": [
+        {
+          "Class": "ULeFloorCursePrankDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorCommonPrankDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeSamosborPrankDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorEnemiesPrankDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorBossPrankDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeEnemyArchetypeDefinition",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeEnemyArchetypeComponent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "Component"
+        },
+        {
+          "Class": "ULeFloorLayoutComponent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "Component"
+        },
+        {
+          "Class": "ULeFloorGenerationProfile",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeCampaignFloorGenerationProfile",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeEndlessFloorGenerationProfile",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorMusicListDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeFloorBundleDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeBiomeDataAsset",
+          "Module": "ElevatorCoreContent",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "ULeGameFeatureAction_AddFloorContent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "ULeFloorRuntimeComponent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "Component"
+        },
+        {
+          "Class": "ULeCageAbilitySystemComponent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFloorModExample.py",
+        "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateRespawnPolicyExample.py"
+      ]
+    },
+    {
+      "Owner": "AtlasContent",
+      "Entry": "Source-композиция content ownership",
+      "Modules": [],
+      "Workflow": [
+        "Integrator surface: own product content registration and dependency diagnostics in Source.",
+        "Route each authored capability to its canonical owner registry; avoid product-specific mirror definitions.",
+        "Check missing owner/dependency diagnostics and deterministic activation/removal."
+      ],
+      "Types": [],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasSettings",
+      "Entry": "Presentation Catalog/Contribution/Collection, Details и pickers",
+      "Modules": [
+        "AtlasSettingsAudio",
+        "AtlasSettingsEditor",
+        "AtlasSettingsPresentation",
+        "AtlasSettingsUI"
+      ],
+      "Workflow": [
+        "Create Presentation Catalog, Collection and Contribution assets through Atlas → Settings. Choose the catalog tag from the relevant Settings branch.",
+        "Order contributions, then Collections, SectionTree and entries. Lower Menu Order comes first. Technical contribution identity is generated automatically.",
+        "Preview the merged menu. Test category extension, duplicate identities, dynamic rows and switching accounts with unsaved settings."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasSettingsVisualData",
+          "Module": "AtlasSettingsUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UGameFeatureAction_AddAtlasPresentation",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasPresentationContribution",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasSettingCollectionDefinition",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasPresentationCatalog",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAudioModulationSettings",
+          "Module": "AtlasSettingsAudio",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasAudioOutputOptionSource",
+          "Module": "AtlasSettingsAudio",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasAI",
+      "Entry": "Create NPC, behavior/state tree, activities, actions, profiles",
+      "Modules": [
+        "AtlasAI",
+        "AtlasAIEditor"
+      ],
+      "Workflow": [
+        "Use Create NPC to generate the actor and its selected movement/behavior configuration.",
+        "Assign mesh, navigation support, activity/work targets and attack capabilities appropriate to the template. Reuse AI owner policies rather than game-specific subclass requirements.",
+        "Check perception, target rejection, reachability, activity completion, attack interruption and actor removal. Inspect the existing AI diagnostics on refusal."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasNPCScheduleClockSettings",
+          "Module": "AtlasAI",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasAITeamTargetPolicy",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasNPCDecisionBudgetSettings",
+          "Module": "AtlasAI",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasTraversalNavigationSettings",
+          "Module": "AtlasAI",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasCombatPositionBudgetSettings",
+          "Module": "AtlasAI",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasNPCNeedsProfile",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasNPCDefinition",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasNPCComponent",
+          "Module": "AtlasAI",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasNPCBehaviorLibrary",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasNPCActivityDefinition",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIAttackCoordinationProfile",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIAttackComponent",
+          "Module": "AtlasAI",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAINavigateAction",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIMovementClaimDefinition",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIInteractAction",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasAIAbilityAction",
+          "Module": "AtlasAI",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasCombat",
+      "Entry": "Weapon/equipment kit, damage, enchantments, authoring probes",
+      "Modules": [
+        "AtlasCombat",
+        "AtlasCombatEditor",
+        "AtlasCombatUI"
+      ],
+      "Workflow": [
+        "Start from a weapon/equipment factory preset. Configure attack behavior, damage, resource policy and presentation on the owner definitions.",
+        "For magazine weapons, select ammunition and magazine policy; for melee, configure collision/query timing. Configure enchantments as definitions rather than copied ability graphs.",
+        "Validate the resolved weapon plan, then test miss/hit, empty ammunition, interruption, authority and removal with the existing combat probes."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasNumberPopComponent_NiagaraText",
+          "Module": "AtlasCombatUI",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasNumberPopComponent_MeshText",
+          "Module": "AtlasCombatUI",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasDamagePopStyleNiagara",
+          "Module": "AtlasCombatUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasDamagePopStyle",
+          "Module": "AtlasCombatUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasCombatProjectRules",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasActionExecutorSettings",
+          "Module": "AtlasCombat",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasProjectileFragmentsComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasWeaponActionPresentationComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasCombatParameterScalingProfile",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasWorldWeaponUnloadInteractionOption",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasImpactTriggerComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasImpactResponseProfile",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasImpactResponseData",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasHitEffectsComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasAreaEffectsComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasCombatActionStateComponent",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEnchantmentHandlerInventoryItem",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEnchantmentHandlerCharacter",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEnchantmentDefinition",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEnchantmentBase",
+          "Module": "AtlasCombat",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasDamageResponsePipeline",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasDamageModel",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasDamageAuthoringProfile",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasContextualDamageModifierProfile",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasCombatTargetPolicyData",
+          "Module": "AtlasCombat",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasEquipment",
+      "Entry": "Equipment/part/upgrade/presentation profiles, placement viewport",
+      "Modules": [
+        "AtlasEquipment",
+        "AtlasEquipmentEditor",
+        "AtlasEquipmentUI"
+      ],
+      "Workflow": [
+        "Create an Equipment Definition and Presentation Profile. Use the placement editor for attachment transforms and rig-specific variants.",
+        "Configure FP attachment to camera or character mesh for the intended game, TP representation and action hand roles. An animation-free rig must be intentional.",
+        "Register presentation through Add Equipment Presentation. Check equip, unequip, rig switch, FP/TP visibility and left/right-hand action selection."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasItemDescriptionProfile",
+          "Module": "AtlasEquipmentUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasCraftingPresentationProfile",
+          "Module": "AtlasEquipmentUI",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEquipmentUpgradeDefinition",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEquipmentDeveloperSettings",
+          "Module": "AtlasEquipment",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasFirstPersonItemComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentPresentationProfile",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEquipmentPartDefinition",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasArmorContainerComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddEquipmentPresentation",
+          "Module": "AtlasEquipment",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasEquipmentSlotLayout",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEquipmentArchetypePreset",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasEquipmentViewComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentManagerComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentAttachTargetComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentAnchorComponent",
+          "Module": "AtlasEquipment",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentActionSet",
+          "Module": "AtlasEquipment",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasGameplayAbilities",
+      "Entry": "GAS-композиция способностей, equipment input, contextual actions; world item rack layouts",
+      "Modules": [
+        "AtlasGameplayAbilities"
+      ],
+      "Workflow": [
+        "Compose the reusable GAS, equipment and interaction contracts in this Source layer.",
+        "Configure avatar readiness and semantic action bindings. Put concrete game-specific ability behavior in its Game Feature.",
+        "Check startup without optional capabilities, cancellation, avatar replacement and feature removal.",
+        "Start with BP_ItemRack, BP_ItemRackSlot and DA_ItemRackLayout in the neutral Playground example. The host initializes slots on authority and replicates them.",
+        "Create a World Item Rack Layout using the Data Asset picker. Choose the slot Blueprint, local transforms, accepted World Slotted tags and optional initial items. Assign the layout to a World Item Rack actor.",
+        "Give each place a permanent Slot Id unique within its rack. Keep the ID when reordering or moving a place. Do not reuse a removed ID while saves may still contain it. KLETKA's migrated layouts retain historical numeric IDs.",
+        "On the item definition, author World Slotted for compatibility and relative display transform, and World Presentation for the displayed mesh/materials. The container owns the item; the mesh does not create a second Equipment Instance.",
+        "Configure two interaction options using Target actions Interaction.Operation.Inventory.Take and Interaction.Operation.Inventory.Put. Do not toggle direction on execution. Storage moves reuse Inventory Operations and do not award fresh-pickup statistics.",
+        "Persist rack containers with the owning game's save composition and stable rack/slot keys. The public actor itself does not write files. Missing saved slots must be resolved explicitly before destructive restoration.",
+        "Test both clients, full inventory, competing requests, held attack during item removal, repeated restore and rack movement/destruction. For authored world replacement, use the existing Actor Placement owner before spawning."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasPlayerEquipmentComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasEquipmentAppearanceProjectionComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasContextualEquipmentInteractionSourceComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInventoryScalarActionComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasPawnExtensionComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasWorldEquipmentLayout",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInventoryTransferActionComponent",
+          "Module": "AtlasGameplayAbilities",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasInteraction",
+      "Entry": "Interaction Option/Set, response contracts, authoring nodes",
+      "Modules": [
+        "AtlasInteraction",
+        "AtlasInteractionEditor"
+      ],
+      "Workflow": [
+        "Create an Interaction Option or Profile and select the appropriate response contract. Use a progressive action for gradual work such as refueling.",
+        "Place the required interaction receiver and execution components on the target/actor. Bind confirmed result events and statistics at the gameplay composition boundary.",
+        "Preview availability, execute, cancel, move out of range and repeat. Verify no duplicate payment, reward or statistic after cancellation/retry.",
+        "For locks, add Lock State and optionally implement Lockable. Use Set Locked and Append Unlock Chance on authority. A Savable actor collects this component automatically; On Lockable State Restored updates presentation without replaying gameplay rewards. Skip initial random lock selection when Has Restored State is true.",
+        "For doors, add Door State to the existing actor and bind its live and restored events separately. Read Get Door State after binding. The server interaction policy calls Set Door Opened; the component does not authorize player requests or prescribe animation/health.",
+        "Powered Object persists the on/off switch and supplied electricity independently when its actor is Savable. Implement On Power State Restored for a quiet visual refresh; ordinary toggle events are not replayed by restoration.",
+        "Add Power Grid to a replicated room/controller actor. Author its local integer groups, bind live and restored notifications separately, and read the initial state after binding. Set Grid Power / Set Group Power are authority commands, not RPCs; the game assigns devices and generator rules explicitly. Save the grid through Atlas Savable; no automatic disk writes.",
+        "For traps, compose Trap State with your collision/health/action components. Authority validates activation and calls Set Triggered. Live triggers can play effects; State Synchronized only restores pose, collision and ongoing behavior. Never replay a hit, explosion, reward or statistic when loading or joining. Atlas Savable collects trigger state; disk writes remain explicit."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasInteractionActionComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInteractionTraitComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasPoweredObjectComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInteractionDeveloperSettings",
+          "Module": "AtlasInteraction",
+          "Kind": "Settings"
+        },
+        {
+          "Class": "UAtlasInteractionOptionResolverPolicy",
+          "Module": "AtlasInteraction",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInteractionRecipe",
+          "Module": "AtlasInteraction",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInteractionScannerProfile",
+          "Module": "AtlasInteraction",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInteractionProfile",
+          "Module": "AtlasInteraction",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInteractionOption",
+          "Module": "AtlasInteraction",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasInteractionTargetComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasInteractionManagerComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasScalarInteractionCapabilityComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasLockComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasDoorComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasPowerGridComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasTrapComponent",
+          "Module": "AtlasInteraction",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasLoot",
+      "Entry": "Loot delivery, world resources, resource packs and policies",
+      "Modules": [
+        "AtlasLoot"
+      ],
+      "Workflow": [
+        "Author the generator in AtlasLootSystem and select the recipient/container policy in this Source integration.",
+        "Use the inventory loot container delivery path for inventory/world outcomes. Do not create another mirrored loot definition.",
+        "Test capacity failure, partial delivery, retry and source destruction against the owner delivery ledger.",
+        "Create a Resource Definition, Resource Pack or Resource Policy in the Data Asset class picker. Register the corresponding Resource, ResourcePack or ResourcePolicy primary asset type in the owning Game Feature.",
+        "Select published resource identities using the searchable picker. Add Generate Resource processors to a pack and Limit Resource Stock processors to a policy. Keep game spatial filters in the game composition.",
+        "Validate the feature before cooking. Preview the spawn plan with a fixed seed, then test authority-owned placement and stock with another player."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasInventoryLootContainerComponent",
+          "Module": "AtlasLoot",
+          "Kind": "Component"
+        },
+        {
+          "Class": "UAtlasResourceDefinition",
+          "Module": "AtlasLoot",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasResourceBundle",
+          "Module": "AtlasLoot",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasResourcePack",
+          "Module": "AtlasLoot",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasResourcePolicy",
+          "Module": "AtlasLoot",
+          "Kind": "DataAsset"
+        },
+        {
+          "Class": "UAtlasWorldResourceComponent",
+          "Module": "AtlasLoot",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Tools/CreatePlayground.py"
+      ]
+    },
+    {
+      "Owner": "AtlasRewards",
+      "Entry": "Reward integration/executors",
+      "Modules": [
+        "AtlasRewards"
+      ],
+      "Workflow": [
+        "Select the existing reward executor for the destination owner: inventory, progression or another registered capability.",
+        "Bind the reward to a confirmed quest/statistic/gameplay result and preserve its stable delivery identity.",
+        "Inspect the returned receipt; test rejection and repeated delivery. A preview or UI click is not an authoritative reward."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasGameplayQuestManagerComponent",
+          "Module": "AtlasRewards",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasVehicles",
+      "Entry": "Композиция Vehicle, gameplay health/abilities",
+      "Modules": [
+        "AtlasVehicles"
+      ],
+      "Workflow": [
+        "Configure the reusable Vehicle Definition first. Select the gameplay vehicle pawn/components for the host integration.",
+        "Provide health and abilities through their owner configuration; a Roguelike subclass is not required.",
+        "Check control handover, damage, destruction and feature removal in the target game."
+      ],
+      "Types": [],
+      "Examples": []
+    },
+    {
+      "Owner": "AtlasLuaFramework",
+      "Entry": "Lua Script и компонент Lua Behavior",
+      "Modules": [
+        "AtlasLuaFrameworkRuntime",
+        "AtlasLuaFrameworkEditor"
+      ],
+      "Workflow": [
+        "Create a Lua Script asset and assign it to Lua Behavior on an authored actor or a Game Feature component. Source is cooked inside the asset and covered by the mod artifact hash; no loose script files or DLL loading are required.",
+        "The Lua Behavior recipe creates an editable door from engine geometry. TriggerScript reads Door State into a copied Variant Store, invokes Lua API 2, filters its signal channel and uses Set Door Opened. Both live and restored states update the same panel pose; BeginPlay only projects current state.",
+        "Call Run Lua Event explicitly from the owning Blueprint and handle On Signal through existing public gameplay APIs. Gameplay events run on authority by default; Presentation Only is reserved for local visual/audio behavior.",
+        "For owner context, explicitly select Lua API 2 and call Run Lua Event with Context using an Atlas Variant Store. The fifth argument is a copied table keyed by gameplay tags. Bind a public floor, phase or device event, read current state immediately, then send updated snapshots. Keep and remove observer handles at teardown. API 1 retains exactly four arguments.",
+        "Filter each On Signal channel and call only the intended public owner command. Check its acceptance result. Context mutation never changes the original store; Lua cannot discover or mutate arbitrary UObjects. A local signal is neither an RPC nor a successful transaction.",
+        "Author only the documented event/state/signal API. There is no arbitrary UObject reflection, filesystem or network capability. Instruction, memory, state and output budgets reject invalid events without publishing partial state or signals.",
+        "For saved script state, select World Save Group from the host catalogue or a loaded mod world fragment. The Lua Behavior recipe selects the sole available group automatically and adds Atlas Savable; unknown groups are rejected. State Json is collected as a SaveGame component field; disk writes remain explicit. Test save/load, event errors, budgets and component teardown.",
+        "Validate, cook and run the mod in the target game with the optional Lua owner enabled. In-editor creation and native automation do not establish packaged multiplayer acceptance."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasLuaScript",
+          "Module": "AtlasLuaFrameworkRuntime",
+          "Kind": "Data Asset"
+        },
+        {
+          "Class": "UAtlasLuaComponent",
+          "Module": "AtlasLuaFrameworkRuntime",
+          "Kind": "Component"
+        }
+      ],
+      "Examples": [
+        "Plugins/Framework/AtlasLuaFramework/Docs/Examples/CreateLuaDoorExample.py"
+      ]
+    },
+    {
+      "Owner": "Game Feature action authoring",
+      "Entry": "Inspect Game Feature actions and session switches",
+      "Modules": [
+        "AtlasAbilitiesSystemRuntime",
+        "AtlasCosmeticsSystemRuntime",
+        "AtlasDifficultySystemRuntime",
+        "AtlasEquipment",
+        "AtlasGameplayActorsFrameworkRuntime",
+        "AtlasInventorySystemRuntime",
+        "AtlasJournalSystemRuntime",
+        "AtlasLootSystemRuntime",
+        "AtlasQuestSystemRuntime",
+        "AtlasSaveGameFrameworkRuntime",
+        "AtlasSettingsFrameworkRuntime",
+        "AtlasSettingsPresentation",
+        "AtlasStatisticsSystemRuntime",
+        "AtlasUISystemGameFeatures",
+        "ElevatorCoreContent",
+        "RoguelikeCoreContent"
+      ],
+      "Workflow": [
+        "Open a Game Feature Data or an Experience action list. Preview on a row inspects the unsaved contribution. Preview on the array lists actions in their serialized order.",
+        "Use Validate Assets to check the same owner contracts before activation. Fix the indexed rule or asset reference reported by the validator.",
+        "To publish a session switch, declare Session.Setting.Mod.<Namespace>.<Name> in the mod tag file. Create a boolean setting definition with the exact ID and Allow in Configuration Bundles enabled. Add the setting to a Session Settings Source and attach that source using Add Game Settings Definitions. Restrict the source to the intended launches.",
+        "In a floor placement, choose the slot, then Required Session Switch. No additional condition leaves the placement eligible under the normal slot and entitlement rules."
+      ],
+      "Types": [
+        {
+          "Class": "UAtlasGameFeatureAction_AddAbilities",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddGameplayCuePaths",
+          "Module": "AtlasAbilitiesSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddModCosmetics",
+          "Module": "AtlasCosmeticsSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddDifficultyContent",
+          "Module": "AtlasDifficultySystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddEquipmentPresentation",
+          "Module": "AtlasEquipment",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddActorPlacements",
+          "Module": "AtlasGameplayActorsFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddInventoryContent",
+          "Module": "AtlasInventorySystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddJournalContent",
+          "Module": "AtlasJournalSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddLootContributions",
+          "Module": "AtlasLootSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddQuestContent",
+          "Module": "AtlasQuestSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddModSaveDescriptor",
+          "Module": "AtlasSaveGameFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UGameFeatureAction_AddAtlasDefinitions",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UGameFeatureAction_AtlasFrontendPerformance",
+          "Module": "AtlasSettingsFrameworkRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UGameFeatureAction_AddAtlasPresentation",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddAccoladeContent",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddStatisticsSchemas",
+          "Module": "AtlasStatisticsSystemRuntime",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddLoadingScreens",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_AddWidgets",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_ReplaceScreens",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasGameFeatureAction_SplitscreenConfig",
+          "Module": "AtlasUISystemGameFeatures",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "ULeGameFeatureAction_AddEnemyContent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "ULeGameFeatureAction_AddFloorContent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "ULeGameFeatureAction_AddShopContent",
+          "Module": "ElevatorCoreContent",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "URoguelikeGameFeatureAction_AddPerkContent",
+          "Module": "RoguelikeCoreContent",
+          "Kind": "GameFeatureAction"
+        },
+        {
+          "Class": "UAtlasSessionSettingsSource",
+          "Module": "AtlasSettingsPresentation",
+          "Kind": "DataAsset"
+        }
+      ],
+      "Examples": []
+    }
+  ],
+  "CheckedLocalLinks": [
+    "Docs/Authoring/accolade-catalog.json",
+    "Plugins/Framework/AtlasLuaFramework/Docs/Examples/CreateLuaDoorExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFloorModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateRespawnPolicyExample.py",
+    "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py",
+    "Plugins/Gameplay/AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py",
+    "Plugins/Modding/AtlasModdingSystemAuthoring/Docs/ModTemplates.html",
+    "Plugins/Modding/AtlasModdingSystemAuthoring/Examples/FoundationLifecycle/create_sample.py",
+    "Tools/CreatePlayground.py",
+    "Tools/CreateVehiclePlayground.py"
+  ]
+}

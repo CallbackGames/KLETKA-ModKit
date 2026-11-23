@@ -1,0 +1,83 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "LeBiomeDataAsset",
+	"entries": [
+		{
+			"id": "LeBiomeDataAsset:bundle_3A2A67E84FA04F6383D14C949A99BAA7",
+			"displayName": "Gastronom",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.Gastronom",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Boss_Level_01",
+			"displayName": "DAB_Boss_Level_01",
+			"description": "",
+			"role": "None",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Boss_Level_02",
+			"displayName": "DAB_Boss_Level_02",
+			"description": "",
+			"role": "None",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Boss_Level_03",
+			"displayName": "DAB_Boss_Level_03",
+			"description": "",
+			"role": "None",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Factory",
+			"displayName": "Factory",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.Factory",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Fleshmine",
+			"displayName": "Fleshmine",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.FleshMine",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_GreenhouseUnit",
+			"displayName": "Greenhouse Unit",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.Greenhouse",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Lobby",
+			"displayName": "Lobby",
+			"description": "",
+			"role": "None",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_Prison",
+			"displayName": "Prison",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.Prison",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_ResearchFacility",
+			"displayName": "Research Facility",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.ResearchFacility",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeBiomeDataAsset:DAB_ResidentialBlock",
+			"displayName": "Residential Block",
+			"description": "",
+			"role": "Floor.Flow.Content.Biome.ResidentialBlock",
+			"ownerMount": "ElevatorCore"
+		}
+	]
+}

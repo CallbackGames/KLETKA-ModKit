@@ -1,0 +1,77 @@
+{
+  "FileVersion": 3,
+  "FriendlyName": "Atlas Inventory System",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasInventorySystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasInventorySystemUI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasInventorySystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Version": 3,
+  "VersionName": "1.2.0",
+  "Description": "Inventory, containers, crafting, and item-definition framework.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "SupportURL": "solarponny@gmail.com",
+  "AtlasModTemplates": {
+    "SchemaVersion": 1,
+    "Templates": [
+      {
+        "Id": "AtlasInventory.ItemRecipe",
+        "Category": "Items & crafting",
+        "Label": "Item and recipe",
+        "Description": "Creates two item definitions, a crafting recipe, a registered inventory content set, and station/pickup Blueprints. Supply game visuals and authorized interaction.",
+        "Recipe": "Docs/Examples/CreateInventoryModExample.py",
+        "RequiredPlugins": [
+          "AtlasInventorySystem"
+        ],
+        "AssetPaths": [
+          "InventoryExample/DA_Ingredient",
+          "InventoryExample/DA_ExampleItem",
+          "InventoryExample/DA_ExampleRecipe",
+          "InventoryExample/DA_InventoryContent",
+          "InventoryExample/BP_ExampleStation",
+          "InventoryExample/BP_IngredientPickup"
+        ],
+        "NextSteps": [
+          "Place BP_ExampleStation and BP_IngredientPickup in your test host. Connect the player's authorized interaction to Submit Craft before trying the station.",
+          "Pick up one DA_Ingredient on the PIE host. In Content, Cook & Publish choose PIE gameplay checks > Measure crafting exchange, use the station once, then measure again. The default recipe should show ingredient -1 and product +1. Verify the inventory on a joining client as well.",
+          "Edit DA_Ingredient, DA_ExampleItem and DA_ExampleRecipe, then repeat the exchange before cooking. Add Inventory Content already registers both item definitions."
+        ]
+      }
+    ]
+  }
+}

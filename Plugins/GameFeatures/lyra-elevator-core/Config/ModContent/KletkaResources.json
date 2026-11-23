@@ -1,0 +1,662 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "Resource",
+	"entries": [
+		{
+			"id": "Resource:DAR_Ammo_Boltspitter",
+			"displayName": "DAR_Ammo_Boltspitter",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.HeroEquipment",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Ammo_FlareGun",
+			"displayName": "DAR_Ammo_FlareGun",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.HeroEquipment",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Ammo_Molocannon",
+			"displayName": "DAR_Ammo_Molocannon",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.HeroEquipment",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Ammo_Nailgun",
+			"displayName": "DAR_Ammo_Nailgun",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.HeroEquipment",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Ammo_Shmauser",
+			"displayName": "DAR_Ammo_Shmauser",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.HeroEquipment",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Ball",
+			"displayName": "DAR_Ball",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_BloodPack",
+			"displayName": "DAR_BloodPack",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Boltspitter",
+			"displayName": "DAR_Boltspitter",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_Bottle",
+			"displayName": "DAR_Bottle",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Currency",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Bread",
+			"displayName": "DAR_Bread",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Bream",
+			"displayName": "DAR_Bream",
+			"description": "",
+			"ownerMount": "GastronomCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Canister_Big",
+			"displayName": "DAR_Canister_Big",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Fuel",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Canister_Med",
+			"displayName": "DAR_Canister_Med",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Fuel",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Canister_Small",
+			"displayName": "DAR_Canister_Small",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Fuel",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_CarePackage",
+			"displayName": "DAR_CarePackage",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Chifir",
+			"displayName": "DAR_Chifir",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_Cleaver",
+			"displayName": "DAR_Cleaver",
+			"description": "",
+			"ownerMount": "GastronomCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Cog",
+			"displayName": "DAR_Cog",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Cog_Speed",
+			"displayName": "DAR_Cog_Speed",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Coggy",
+			"displayName": "DAR_Coggy",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Corpse",
+			"displayName": "DAR_Corpse",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.GameplayActor.Corpse",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Crowbar",
+			"displayName": "DAR_Crowbar",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_FlySucker",
+			"displayName": "DAR_Familiar_FlySucker",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_Gaglet",
+			"displayName": "DAR_Familiar_Gaglet",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_Grabber",
+			"displayName": "DAR_Familiar_Grabber",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_PooShooter",
+			"displayName": "DAR_Familiar_PooShooter",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_Snotling",
+			"displayName": "DAR_Familiar_Snotling",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Familiar_Stabbik",
+			"displayName": "DAR_Familiar_Stabbik",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Flamethrower",
+			"displayName": "DAR_Flamethrower",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_FlareGun",
+			"displayName": "DAR_FlareGun",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_FoodConcentrate",
+			"displayName": "DAR_FoodConcentrate",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Gigawrench",
+			"displayName": "DAR_Gigawrench",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_GovnyakBox",
+			"displayName": "DAR_GovnyakBox",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Gruel",
+			"displayName": "DAR_Gruel",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Guitar",
+			"displayName": "DAR_Guitar",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Handcuffs",
+			"displayName": "DAR_Handcuffs",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_HogweedSpore",
+			"displayName": "DAR_HogweedSpore",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Fuel",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_HumanFlesh",
+			"displayName": "DAR_HumanFlesh",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Kalak",
+			"displayName": "DAR_Kalak",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_LiveBeer",
+			"displayName": "DAR_LiveBeer",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Lockpick",
+			"displayName": "DAR_Lockpick",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Medkit",
+			"displayName": "DAR_Medkit",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Megaphone",
+			"displayName": "DAR_Megaphone",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_MineBomb",
+			"displayName": "DAR_MineBomb",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Molocannon",
+			"displayName": "DAR_Molocannon",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_MonsterFlesh",
+			"displayName": "DAR_MonsterFlesh",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Mop",
+			"displayName": "DAR_Mop",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Nailgun",
+			"displayName": "DAR_Nailgun",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_Note",
+			"displayName": "DAR_Note",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.GameplayActor.Note",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Panaceator",
+			"displayName": "DAR_Panaceator",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Pickaxe",
+			"displayName": "DAR_Pickaxe",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Potates",
+			"displayName": "DAR_Potates",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_QuantumGrenade",
+			"displayName": "DAR_QuantumGrenade",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Rake",
+			"displayName": "DAR_Rake",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_RepairKit",
+			"displayName": "DAR_RepairKit",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_RoninPlus",
+			"displayName": "DAR_RoninPlus",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Rozochka",
+			"displayName": "DAR_Rozochka",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_RustyGrenade",
+			"displayName": "DAR_RustyGrenade",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_SamosborGrenade",
+			"displayName": "DAR_SamosborGrenade",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Scrap",
+			"displayName": "DAR_Scrap",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Screechroot",
+			"displayName": "DAR_Screechroot",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Shank",
+			"displayName": "DAR_Shank",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Shmauser",
+			"displayName": "DAR_Shmauser",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_SlimeBall",
+			"displayName": "DAR_SlimeBall",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Soapun",
+			"displayName": "DAR_Soapun",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_SprayPaint",
+			"displayName": "DAR_SprayPaint",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_TapedeckCassette",
+			"displayName": "DAR_TapedeckCassette",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_TapedeckCassette_Pressure",
+			"displayName": "DAR_TapedeckCassette_Pressure",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Toxitom",
+			"displayName": "DAR_Toxitom",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_TrashCannon",
+			"displayName": "DAR_TrashCannon",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_TripleAction",
+			"displayName": "DAR_TripleAction",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_UM_Equilibrist",
+			"displayName": "DAR_UM_Equilibrist",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "Resource.Rarity.Legendary"
+		},
+		{
+			"id": "Resource:DAR_UM_HardWorker",
+			"displayName": "DAR_UM_HardWorker",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_UM_RedHealth",
+			"displayName": "DAR_UM_RedHealth",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_UpgradeBag",
+			"displayName": "DAR_UpgradeBag",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_UpgradeBattery",
+			"displayName": "DAR_UpgradeBattery",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Upgrade",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Vodka",
+			"displayName": "DAR_Vodka",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra.Medical",
+			"rarity": "Resource.Rarity.Rare"
+		},
+		{
+			"id": "Resource:DAR_WayseerEye",
+			"displayName": "DAR_WayseerEye",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Whip",
+			"displayName": "DAR_Whip",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "Resource.Rarity.Common"
+		},
+		{
+			"id": "Resource:DAR_Wrench",
+			"displayName": "DAR_Wrench",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_XRayMushroom",
+			"displayName": "DAR_XRayMushroom",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Extra",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:DAR_Zapper",
+			"displayName": "DAR_Zapper",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		}
+	]
+}

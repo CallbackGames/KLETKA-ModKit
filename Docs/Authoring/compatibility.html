@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compatibility and multiplayer | KLETKA ModKit</title><link rel="stylesheet" href="style.css"></head>
+<body><nav aria-label="ModKit guide"><a href="../../START_HERE.html">Create your first mod</a> <a href="first-mod.html">First mod · Первый мод</a> <a href="recipes.html">Authoring recipes</a> <a href="packaging.html">Package and install</a> <a href="modules.html">Module reference</a></nav><main><h1>Compatibility and multiplayer</h1>
+<h2>Supported distribution</h2><p>The cooking workflow supports Windows content-only Game Features.
+NativeSdk also provides headers and libraries for editor consumers. Runtime gameplay DLL mods
+are not part of this distribution.</p>
+<p>Console and dedicated-server builds require separate platform validation. Provider authentication
+and DLC ownership also need testing with the intended accounts.</p>
+<h2>Blueprint, Lua and native API</h2>
+<table><thead><tr><th>Task</th><th>Blueprint</th><th>Lua</th><th>NativeSdk</th></tr></thead><tbody>
+<tr><td>Definitions and contributions</td><td>Use the owner asset factories and Game Feature actions.</td><td>Author definitions in Blueprint/data. Lua does not create assets or load packages.</td><td>Selected owner headers support editor consumers; DLL gameplay mods are not distributed.</td></tr>
+<tr><td>Read floor, phase, quest or device state</td><td>Query the canonical owner and subscribe to its events.</td><td>API 2 receives a copied Variant context supplied by the binding Blueprint. It has no UObject discovery.</td><td>Use the same owner query and observer contracts.</td></tr>
+<tr><td>Change gameplay</td><td>Call the owner command on authority and inspect its result.</td><td>Emit a named signal. The binding explicitly selects and validates the owner command; a signal is not an RPC or authorization.</td><td>Use the same authority rules; no alternate state manager.</td></tr>
+<tr><td>Save and restore</td><td>Atlas Savable collects owner state; the game explicitly requests a disk write.</td><td>Returned JSON is the script state. A bound save fragment collects it; Lua cannot choose a file or write one.</td><td>Use the save owner and schema-migration contracts.</td></tr>
+<tr><td>Removal and replay</td><td>Remove observer handles and unbind delegates on teardown. Restore presentation without replaying rewards or commands.</td><td>The binding owns subscriptions. EndPlay rejects new events; no retained coroutine runs after removal.</td><td>Same lifetime and quiet-restore contract.</td></tr>
+</tbody></table>
+<p>Lua API 1 keeps its four-argument handler. API 2 adds a fifth context argument with bounded plain values.
+Changing that context does not mutate the owner's data. See the saved-door example for the complete binding.</p>
+<h2>Configured gameplay phases</h2><p>Install a Gameplay Phase Bindings component on GameState through
+Game Feature Add Components before starting the session. Ability classes provide their phase tags.
+Larger priorities override lower ones; different classes at equal highest priority reject the request.
+Try Start Configured Gameplay Phase is authority-only, preserves the selected ability's actions and
+does not restart an already active exact phase. KLETKA supplies Phase.Win and Phase.Dead. The optional
+quest-completion recipe requests a phase only after real completion; restore does not replay it.</p>
+<h2>Sessions</h2><p>The host selects gameplay mods before the session starts. The selection stays
+fixed during the session and may change between sessions. The server executes authoritative
+gameplay changes and replicates their results.</p>
+<p>Public online sessions also apply the game's trusted manifest policy. Matching file hashes
+establish content identity; publication approval is a separate requirement.</p>
+<h2>Before publishing</h2><ul>
+<li>Install and activate the mod in the matching game build.</li>
+<li>Join as another player, including after the session has started.</li>
+<li>End the session, change the mod selection and start another session.</li>
+<li>Save, exit and reload. Check missing-mod and incompatible-version handling.</li>
+</ul><p>Keep published ContentIds and persistent save identifiers stable. Version schema changes
+and provide a supported migration when saved data changes.</p></main>
+<footer>KLETKA ModKit · BlueprintBinary · API 0.8.0<br>
+Copyright Callback LLP. All Rights Reserved.</footer></body></html>

@@ -1,0 +1,7 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasAISystemBehavior": "UnrealEditor-AtlasAISystemBehavior.dll",
+    "AtlasAISystemRuntime": "UnrealEditor-AtlasAISystemRuntime.dll"
+  }
+}

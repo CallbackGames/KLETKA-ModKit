@@ -1,0 +1,357 @@
+{
+  "SchemaVersion": 1,
+  "Presets": [
+    {
+      "Id": "AtlasStatisticsAccoladePreset:DASAP_Player_MatchResult",
+      "Path": "/ElevatorCore/Progression/Statistics/Accolades/Player/DASAP_Player_MatchResult.DASAP_Player_MatchResult",
+      "Accolades": [
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_BackroomDealer",
+          "DisplayName": "Backroom Dealer",
+          "Description": "Established an illegal trade of state property inside the Gigastructure.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Berserker",
+          "DisplayName": "Berserker",
+          "Description": "Charged monsters with bare hands, rakes, and anything remotely resembling a weapon.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_BlindArtillery",
+          "DisplayName": "Blind Artillery",
+          "Description": "Left more bullet marks on the walls than on the enemy.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_BodyBag",
+          "DisplayName": "Body Bag",
+          "Description": "Spent more time beyond the veil than standing among the living.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_BottleCollector",
+          "DisplayName": "Bottle Collector",
+          "Description": "Had an uncanny instinct for the sound of glass echoing through endless corridors.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Burglar",
+          "DisplayName": "Burglar",
+          "Description": "Treates every locked door as a personal challenge.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_ChiefEngineer",
+          "DisplayName": "Chief Engineer",
+          "Description": "Turned the Kletka into a roaring armored machine.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Danksy",
+          "DisplayName": "Danksy",
+          "Description": "Turned lifeless concrete into the art no one could ignore.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Deadeye",
+          "DisplayName": "Deadeye",
+          "Description": "Used ammunition strictly as intended.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_DeadWeight",
+          "DisplayName": "Dead Weight",
+          "Description": "Behaved like a static piece of interior decor.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Dispatcher",
+          "DisplayName": "Dispatcher",
+          "Description": "Never took their hand off the Kletka’s lever. Running late for something?",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_DyanNosling",
+          "DisplayName": "Dyan Nosling",
+          "Description": "Handled the vehicle as if safety had never been invented.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Feeder",
+          "DisplayName": "Feeder",
+          "Description": "Maintained the Kletka’s biological needs in time, thereby preventing unscheduled personnel termination.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Handyman",
+          "DisplayName": "Handyman",
+          "Description": "Ignored regulations and crafted relentlessly using whatever anomalous materials were available.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_KingOfTheGasPump",
+          "DisplayName": "King of the Gas Pump",
+          "Description": "Ensured an uninterrupted fuel supply to the Kletka, thoroughly inhaling low-octane fumes in the process.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Messiah",
+          "DisplayName": "Messiah",
+          "Description": "Repeatedly interfered with natural selection by reviving fallen cellmates.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Miser",
+          "DisplayName": "Miser",
+          "Description": "Did not spend a single bottle in the shop, no matter how tempting it was.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_MomsFriendsSon",
+          "DisplayName": "Mom’s Friend’s Son",
+          "Description": "Acquired the highest number of upgrades, becoming the perfect biomachine.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_MoneyBurner",
+          "DisplayName": "Money Burner",
+          "Description": "Saw the shop. Emptied the wallet. No regrets.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_OneManArmy",
+          "DisplayName": "One-Man Army",
+          "Description": "Answered every whisper in the dark with gunfire.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Pacifist",
+          "DisplayName": "Pacifist",
+          "Description": "Made it through the carnage without getting blood on their hands.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Rat",
+          "DisplayName": "Rat",
+          "Description": "Pulled the lever while others were still outside the Kletka during Samosbor.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Saboteur",
+          "DisplayName": "Saboteur",
+          "Description": "More dangerous to the group than any spawn of the Samosbor.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Scavenger",
+          "DisplayName": "Scavenger",
+          "Description": "Showed an unhealthy obsession with collecting.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Sommelier",
+          "DisplayName": "Sommelier",
+          "Description": "Found health and strength mainly at the bottom of a bottle.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_TroubleMagnet",
+          "DisplayName": "Trouble Magnet",
+          "Description": "Seemed to attract every bullet, claw, and explosion during the descent.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_Untouchable",
+          "DisplayName": "Untouchable",
+          "Description": "Completed the descent without a single death.",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADP_WorrestBump",
+          "DisplayName": "Worrest Bump",
+          "Description": "Racked up miles hoping this place could simply be outrun.",
+          "Tag": "(TagName=\"\")"
+        }
+      ]
+    },
+    {
+      "Id": "AtlasStatisticsAccoladePreset:DASAP_Team_MatchResult",
+      "Path": "/ElevatorCore/Progression/Statistics/Accolades/Player/DASAP_Team_MatchResult.DASAP_Team_MatchResult",
+      "Accolades": [
+        {
+          "Id": "AtlasStatisticsAccolade:DASADT_FloorsPassed",
+          "DisplayName": "",
+          "Description": "Floors Passed",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADT_Deaths",
+          "DisplayName": "",
+          "Description": "Deaths",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADT_TimeSpent",
+          "DisplayName": "",
+          "Description": "Descent Duration",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADT_EnemiesKilled",
+          "DisplayName": "",
+          "Description": "Enemies Killed",
+          "Tag": "(TagName=\"\")"
+        },
+        {
+          "Id": "AtlasStatisticsAccolade:DASADT_ItemsCollected",
+          "DisplayName": "",
+          "Description": "Items Collected",
+          "Tag": "(TagName=\"\")"
+        }
+      ]
+    }
+  ],
+  "SourcePackages": [
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/DASAP_Player_MatchResult.uasset",
+      "Sha256": "f1e243cb747b53aa44c27db7c3bb5e8927d253da54440e3f84e260bf25067fbe"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/DASAP_Team_MatchResult.uasset",
+      "Sha256": "34dc41dc356061508498eda6906b08cc326c36af67c9fc37b514c4f64a34c396"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_BackroomDealer.uasset",
+      "Sha256": "8df93ba531240772d577a8820c364bcf9819375107e837e51b0267dd894da6d6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Berserker.uasset",
+      "Sha256": "b317b33ffdacfcec68af4404e39cec3f868832297241512e3e11ac99a8607ef2"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_BlindArtillery.uasset",
+      "Sha256": "e5d984e32ea3f5d590af065ed9c8de4fa2521db5669ffcd09bb2caaaa5fa5a87"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_BodyBag.uasset",
+      "Sha256": "95bcda48df18adf5897288ce85168fb2a794b9103de9bf65d4dc7e7544b94f48"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_BottleCollector.uasset",
+      "Sha256": "70739b1bd3b9781c0feab429f991683219a75e20da7ffdd6056000ce259d1a73"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Burglar.uasset",
+      "Sha256": "ad009c9c824b09333995b571c7487f0ec1dccff62e39fc831cac0165e5e472f0"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_ChiefEngineer.uasset",
+      "Sha256": "56a9144dcb548f4d9d6e42f94337a7b76f4be15c4e275774cdf2932c628c5614"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Danksy.uasset",
+      "Sha256": "a6d8336f6058e1af497c353de8b7496561c5fc6032681c8b458d1f6481891a6e"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_DeadWeight.uasset",
+      "Sha256": "94b93ce17d92b8838ee8146953a9d0839cca2e4f2bb7c8c0d6d14960503386aa"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Deadeye.uasset",
+      "Sha256": "06de5905a70e0e8b26454b978361ac44095cc8dee924a0fddb9cba47b3c97efb"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Dispatcher.uasset",
+      "Sha256": "50f95f10ebef5b493b5d3433580cc7b1b3ba8f01b741f5e68d786b1231e1c0aa"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_DyanNosling.uasset",
+      "Sha256": "59cb1a717588726aface912a63ac35c0d47149cc7e012e5f19884e2cd804f291"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Feeder.uasset",
+      "Sha256": "2071bad7dc51a150b254aaa9bbb0fbf27a041dcc287b26d5839fedc179e182e7"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Handyman.uasset",
+      "Sha256": "e8bf4e1ca22a0e4b2b64cfe71df87af3b147e6f813dc578456738d4ac2eac1b5"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_KingOfTheGasPump.uasset",
+      "Sha256": "cb2b16807c789d410d747f05df1bd1a8917e675562412feb70e91f6d22a0a874"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Messiah.uasset",
+      "Sha256": "633f633026a61686ff87ef158f5dfe11544140e1771c3708ecb136522d2280bb"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Miser.uasset",
+      "Sha256": "ef4c63f5765c7b1cce0d18e49a4f811fab1ee88c2150e1ec4d54d06ae3a3c893"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_MomsFriendsSon.uasset",
+      "Sha256": "14263115bb5a5cb7f8bb6c0ab3ee25172f8d9d80bdc6611d579a81e59ec675aa"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_MoneyBurner.uasset",
+      "Sha256": "2cb9a6e9109afd58f8ed8aade2a7d501625918798f48b802284775df2c7b2d4c"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_OneManArmy.uasset",
+      "Sha256": "17c1de70c9087608f3e696268dd3dade1900e92b2b1cb81bd00c6bc375313fa1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Pacifist.uasset",
+      "Sha256": "da44ea11750bcf9ac4182724a024f3324d30a627622bce392ec803acd32c54eb"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Rat.uasset",
+      "Sha256": "264eb0c8b7084de805a6dabe98d03297334862f66b69cf048986ce884e7dc4ac"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Saboteur.uasset",
+      "Sha256": "70513a863d2bd9238f41b4ab0baed95bfd6339b6e289f97a973ca408369e27b2"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Scavenger.uasset",
+      "Sha256": "5f2f9596fe09a626f7806b8d483463ca39b9fb4c22e1a2da7803f95bc0341007"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Sommelier.uasset",
+      "Sha256": "3fb374b409d83bc7e0953818884e9ccc5e6fa92d49b8b46d8ca612e5997ddfa0"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_TroubleMagnet.uasset",
+      "Sha256": "67c1f319722c83ecf2e52ed2d2facc26c3203bd826b192758006a2d9cab95340"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_Untouchable.uasset",
+      "Sha256": "e4b2fb8dbee65e13e636d2b52000c8f91fdbd2d00a15724d47d5f62f78c0b263"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Player/MatchResult/DASADP_WorrestBump.uasset",
+      "Sha256": "c5ed40bd9d16af3592259a23c4c0ea20afdfe203855818a8afcd333ec1aefcea"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Team/DASADT_Deaths.uasset",
+      "Sha256": "567dd9c76f56c69b3a32119d64f4ee39679403971a798a0239def6f8da3988c8"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Team/DASADT_EnemiesKilled.uasset",
+      "Sha256": "f68f1b0d180109e55faedb2759a7c9a60adb65087e02725698a797598e25f7e1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Team/DASADT_FloorsPassed.uasset",
+      "Sha256": "b1ffd84870ec41dc0d4b1e7c630fbc022c00793e5012611b72f53c0a9fabed5f"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Team/DASADT_ItemsCollected.uasset",
+      "Sha256": "58b9ba07e383210161426253e58f153ad101b0b739c94cfecb0d880992467ef6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Content/Progression/Statistics/Accolades/Team/DASADT_TimeSpent.uasset",
+      "Sha256": "402e7c505d43502dabdabfbcfb4f9a082acf203ce4c922d867ff5382fa9adceb"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "AtlasFloorExample",
+  "Description": "Generated Gameplay GameFeature mod payload.",
+  "Category": "Advanced Modding System",
+  "CreatedBy": "Callback floor authoring example",
+  "CanContainContent": true,
+  "Installed": false,
+  "ExplicitlyLoaded": true,
+  "BuiltInInitialFeatureState": "Registered",
+  "Plugins": [
+    {
+      "Name": "AtlasQuestSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "ElevatorCore",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ]
+}

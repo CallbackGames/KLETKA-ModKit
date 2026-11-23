@@ -1,0 +1,89 @@
+{
+	"schemaVersion": 1,
+	"contentId": "atlas.floor.example",
+	"profile":
+	{
+		"displayName": "atlas floor example",
+		"card":
+		{
+			"shortDescription": "Starter Gameplay GameFeature created by Advanced Modding System.",
+			"description": "Starter Gameplay GameFeature created by Advanced Modding System.",
+			"author": "Callback floor authoring example",
+			"tags": [
+				"Gameplay",
+				"GameFeature"
+			],
+			"iconPath": "Media/Icon.png",
+			"bannerPath": "Media/Banner.png",
+			"previewImagePaths": [
+				"Media/PreviewImage_0.png"
+			],
+			"externalUrl": "",
+			"websiteUrl": "",
+			"discordUrl": ""
+		}
+	},
+	"release":
+	{
+		"version": "0.1.0",
+		"changelog": "",
+		"visibility": "Hidden",
+		"approvalState": "Draft"
+	},
+	"package":
+	{
+		"contentClass": "CreatorContent",
+		"distribution": "Filesystem",
+		"runtimeFormat": "GameFeaturePlugin",
+		"multiplayerScope": "PublicGameplay",
+		"entitlementType": "DirectInstall",
+		"joinEntitlementPolicy": "ClientMustOwn",
+		"pluginName": "AtlasFloorExample",
+		"activationPhases": [
+			"BeforeMultiplayerSession"
+		],
+		"bEnabledByDefault": true,
+		"dependencies": [],
+		"conflicts": [],
+		"compatibility":
+		{
+			"minGameBuild": "",
+			"maxGameBuild": "",
+			"supportedBranches": []
+		},
+		"compatibilityHash": "",
+		"artifacts":
+		{
+			"Win64":
+			{
+				"provider": "Filesystem",
+				"providerId": "",
+				"format": "GameFeaturePlugin",
+				"hashSha256": "",
+				"relativeInstallPath": "AtlasFloorExample.uplugin",
+				"providerReferences": []
+			}
+		},
+		"providerReferences": [],
+		"network":
+		{
+			"bServerRequired": true,
+			"bClientRequired": true,
+			"bCosmeticOnly": false,
+			"bPublicSafe": false,
+			"bCrossplaySafe": false
+		}
+	},
+	"trust":
+	{
+		"approvalReceiptId": "",
+		"approvalAuthority": "",
+		"signingKeyId": "",
+		"signatureAlgorithm": "",
+		"signature": "",
+		"payloadHashSha256": "",
+		"trustedAtUtc": "",
+		"bRequireTrustedSignature": false
+	},
+	"apiVersion": 1
+}

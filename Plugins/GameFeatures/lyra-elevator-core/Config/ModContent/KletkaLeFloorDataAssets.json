@@ -1,0 +1,734 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "LeFloorDataAsset",
+	"entries": [
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_AfterDust",
+			"displayName": "DAF_Anomaly_AfterDust",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Akira",
+			"displayName": "DAF_Anomaly_Akira",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Backrooms",
+			"displayName": "DAF_Anomaly_Backrooms",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_BigRoom",
+			"displayName": "DAF_Anomaly_BigRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_CompClub",
+			"displayName": "DAF_Anomaly_CompClub",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_DeadRoom",
+			"displayName": "-1",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Diner",
+			"displayName": "DAF_Anomaly_Diner",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Disco",
+			"displayName": "DAF_Anomaly_Disco",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Dogville",
+			"displayName": "DAF_Anomaly_Dogville",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Doom",
+			"displayName": "DAF_Anomaly_Doom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Doors",
+			"displayName": "DAF_Anomaly_Doors",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Exit8",
+			"displayName": "DAF_Anomaly_Exit8",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Facade",
+			"displayName": "DAF_Anomaly_Facade",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Fine",
+			"displayName": "DAF_Anomaly_Fine",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_FlatRoom",
+			"displayName": "DAF_Anomaly_FlatRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Forest",
+			"displayName": "DAF_Anomaly_Forest",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_FuelRush",
+			"displayName": "DAF_Anomaly_FuelRush",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_FunnyGames",
+			"displayName": "DAF_Anomaly_FunnyGames",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Galaxy",
+			"displayName": "∞",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Giantism",
+			"displayName": "DAF_Anomaly_Giantism",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Homage",
+			"displayName": "DAF_Anomaly_Homage",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_JunkYard",
+			"displayName": "DAF_Anomaly_JunkYard",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Labyrinth",
+			"displayName": "DAF_Anomaly_Labyrinth",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_LeninRoom",
+			"displayName": "DAF_Anomaly_LeninRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Lighthouse",
+			"displayName": "DAF_Anomaly_Lighthouse",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_LongRoom",
+			"displayName": "DAF_Anomaly_LongRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Malkovich",
+			"displayName": "DAF_Anomaly_Malkovich",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Matrix",
+			"displayName": "DAF_Anomaly_Matrix",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Omori",
+			"displayName": "DAF_Anomaly_Omori",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Parable",
+			"displayName": "DAF_Anomaly_Parable",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Parkour",
+			"displayName": "DAF_Anomaly_Parkour",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Platform",
+			"displayName": "DAF_Anomaly_Platform",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Pools",
+			"displayName": "DAF_Anomaly_Pools",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Portal",
+			"displayName": "DAF_Anomaly_Portal",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_RadioCorridor",
+			"displayName": "DAF_Anomaly_RadioCorridor",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_RedRoom",
+			"displayName": "DAF_Anomaly_RedRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_RedSquare",
+			"displayName": "DAF_Anomaly_RedSquare",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Severance",
+			"displayName": "DAF_Anomaly_Severance",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Sewers",
+			"displayName": "DAF_Anomaly_Sewers",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_SexRoom",
+			"displayName": "♂",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Shining",
+			"displayName": "DAF_Anomaly_Shining",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_SmallRoom",
+			"displayName": "DAF_Anomaly_SmallRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_SourceRoom",
+			"displayName": "ERROR",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_SovietRoom",
+			"displayName": "DAF_Anomaly_SovietRoom",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_Stalker",
+			"displayName": "DAF_Anomaly_Stalker",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_VAZCorridor",
+			"displayName": "DAF_Anomaly_VAZCorridor",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Anomaly_YumeNikki",
+			"displayName": "DAF_Anomaly_YumeNikki",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_BrickWall",
+			"displayName": "DAF_BrickWall",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Collegium",
+			"displayName": "DAF_Collegium",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Destroyed",
+			"displayName": "DAF_Destroyed",
+			"description": "",
+			"role": "Destroyed",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_F_ProceduralFloor_00",
+			"displayName": "DAF_F_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_FM_ProceduralFloor_00",
+			"displayName": "DAF_FM_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_FM_Simple_00",
+			"displayName": "DAF_FM_Simple_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_FM_Simple_01",
+			"displayName": "DAF_FM_Simple_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_FM_Simple_02",
+			"displayName": "DAF_FM_Simple_02",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_FM_Simple_03",
+			"displayName": "DAF_FM_Simple_03",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_GU_ProceduralFloor_00",
+			"displayName": "DAF_GU_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_GU_ProceduralFloor_01",
+			"displayName": "DAF_GU_ProceduralFloor_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_HeartOfGigastructure",
+			"displayName": "DAF_HeartOfGigastructure",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Invisible",
+			"displayName": "DAF_Invisible",
+			"description": "",
+			"role": "Invisible",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Lobby",
+			"displayName": "DAF_Lobby",
+			"description": "",
+			"role": "Lobby",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_MechanicalFly",
+			"displayName": "DAF_MechanicalFly",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_MindOfGigastructure",
+			"displayName": "DAF_MindOfGigastructure",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_MotherOfConcrete",
+			"displayName": "DAF_MotherOfConcrete",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_P_Simple_00",
+			"displayName": "DAF_P_Simple_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Potato",
+			"displayName": "DAF_Potato",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Prison_ProceduralFloor_00",
+			"displayName": "DAF_Prison_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RB_ProceduralFloor_00",
+			"displayName": "DAF_RB_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RB_ProceduralFloor_01",
+			"displayName": "DAF_RB_ProceduralFloor_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_ProceduralFloor_00",
+			"displayName": "DAF_RF_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_Simple_00",
+			"displayName": "DAF_RF_Simple_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_Simple_01",
+			"displayName": "DAF_RF_Simple_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_Simple_02",
+			"displayName": "DAF_RF_Simple_02",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_Simple_03",
+			"displayName": "DAF_RF_Simple_03",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_RF_Simple_04",
+			"displayName": "DAF_RF_Simple_04",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Rustbucket",
+			"displayName": "DAF_Rustbucket",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_ShackledOne",
+			"displayName": "DAF_ShackledOne",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Shop",
+			"displayName": "DAF_Shop",
+			"description": "",
+			"role": "Shop",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_00",
+			"displayName": "DAF_Simple_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_01",
+			"displayName": "DAF_Simple_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_02",
+			"displayName": "DAF_Simple_02",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_03",
+			"displayName": "DAF_Simple_03",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_04",
+			"displayName": "DAF_Simple_04",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_05",
+			"displayName": "DAF_Simple_05",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_06",
+			"displayName": "DAF_Simple_06",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_07",
+			"displayName": "DAF_Simple_07",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_08",
+			"displayName": "DAF_Simple_08",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_09",
+			"displayName": "DAF_Simple_09",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_10",
+			"displayName": "DAF_Simple_10",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_11",
+			"displayName": "DAF_Simple_11",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_12",
+			"displayName": "DAF_Simple_12",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_13",
+			"displayName": "DAF_Simple_13",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:DAF_Simple_Factory_00",
+			"displayName": "DAF_Simple_Factory_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_158E88E04AF6D54EFD9102AB6B72B14C",
+			"displayName": "DAF_GS_Simple_06",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_2C9186784CBDB34E9D49F1884AD78D10",
+			"displayName": "DAF_Anomaly_Control",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_5954BBEF4A28980FA18AA69F21D561C5",
+			"displayName": "DAF_GS_ProceduralFloor_00",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_769991194575F30F6474FBA35CF83F03",
+			"displayName": "DAF_GS_Simple_01",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_77C834C0416F21DE5A2926870027DBFE",
+			"displayName": "DAF_GS_Anomaly_Souls",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_91FFA54B4BE5162FFE5C61A126BE8A65",
+			"displayName": "DAF_GS_Anomaly_Control",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_9374A8104F4072F298496AB2761D6273",
+			"displayName": "DAF_GS_Simple_05",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_C0905E8847DF43750E6A49B91B69F780",
+			"displayName": "DAF_GS_Anomaly_Sponge",
+			"description": "",
+			"role": "Anomaly",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_C3FC01A148FCA53700B077A9F7DA250E",
+			"displayName": "DAF_Abracadabius",
+			"description": "",
+			"role": "Boss",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_C95D1B9D4BD704A442588D9944F1B8F5",
+			"displayName": "DAF_GS_Simple_04",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "LeFloorDataAsset:floor_CD811BD64958B837E974E28954F858D7",
+			"displayName": "DAF_GS_Simple_02",
+			"description": "",
+			"role": "Regular",
+			"ownerMount": "GastronomCore"
+		}
+	]
+}

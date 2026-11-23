@@ -1,0 +1,1211 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "InventoryItem",
+	"entries": [
+		{
+			"id": "InventoryItem:Gastronom.Bream",
+			"displayName": "Bream",
+			"description": "Hold tight.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "GastronomCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:Gastronom.Cleaver",
+			"displayName": "Cleaver",
+			"description": "Might be sharp. Be careful!",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "GastronomCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_030A4F4347EFCD6750442E8B6EAB1D34",
+			"displayName": "Bucket of Water",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_031F641047E7A80273BEDE8EB5D40115",
+			"displayName": "Drunkleton",
+			"description": "The ex-drunken master of bottle hoarding and self-proclaimed supply expert. Picks up every bottle in sight and delivers it to you without taking a sip, as his lifelong alcoholism got him on liver medication.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_0353918B422818E9A0D6589EF7A853C2",
+			"displayName": "Potates",
+			"description": "Engineered for surveillance. As there's no one left to watch, feel free to eat these!",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_054358EA498F28AAFB59E48B115FE3D3",
+			"displayName": "Meat Gas Can",
+			"description": "Refuel the Kletka’s tank.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_0878E2BC4CA05430C81D439343D903DF",
+			"displayName": "Nails",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_0A27A9B14ABE14B8DF8B4FA6BD4620F4",
+			"displayName": "Vodka",
+			"description": "A strong spirit that briefly steels the nerves: slightly increases damage resistance and helps you push through the worst of the Gigastructure.\r\nAlcohol can harm your health. Drink responsibly.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_0EB870B74C6DC2F4B6FB56904224E615",
+			"displayName": "Flamethrower",
+			"description": "If you have long hair, be sure to tie it up. Wait...what I'm even talking about? You're a shaved CONVICT!",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_1009592241770F8396D6E3B2B4A4B96D",
+			"displayName": "Flare Gun",
+			"description": "",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_10BD879A454EE55A1A1AE084F0B97B1D",
+			"displayName": "Unknown Berry",
+			"description": "Looks edible, but may have unexpected effects.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_10F47E9B424F3B1B80354192AE21E6F6",
+			"displayName": "Pepper Spray",
+			"description": "A short burst stuns susceptible enemies. Four charges.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "GastronomCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_11514784478266839BD24997257A8FCD",
+			"displayName": "Gigawrench",
+			"description": "Repair your Kletka even faster! Disarm mines and much more!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_115B0CEF4A97BFDF1BEB909561709B91",
+			"displayName": "Fire Essence",
+			"description": "Rumor has it that the Kletka is very greedy when it comes to organic essences. Maybe we should try to feed her a couple?",
+			"role": "Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_117D54B0481230CB82598AAFA72EFAC8",
+			"displayName": "Mop",
+			"description": "Mop's handle usage is only for its intended purpose!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_18358581457C2532A5B1D3AC87CD42F4",
+			"displayName": "Milk Balls",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_1979479C456A4277D88F449D7839AA4C",
+			"displayName": "Pickaxe",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_1F36D72F45D39B1EAA9781A85C1D14F6",
+			"displayName": "Rozochka",
+			"description": "A legendary weapon of the capital floors, perfect for settling any conflict before it even starts.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_257DD312486312A1A0213184BB6767C2",
+			"displayName": "Blood Pack",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_294082744E896C073608FF80B5C61C92",
+			"displayName": "Junkhurler",
+			"description": "The trash can is a part of you, as much as you are a part of it.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_29CBAEC64B1F394CC1E0F0846825E997",
+			"displayName": "Rat",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_2A1CE89E49514DFBF3D03C997055937B",
+			"displayName": "Red Health",
+			"description": "",
+			"role": "Inventory.Item.Category.UpgradeMaterial",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_2CB19800498A3A446F536DB7E918F434",
+			"displayName": "Samosbor Grenade",
+			"description": "A capsule filled with concentrated Samosbor smoke. Harmful to health and coordination.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_2E3A92094464ECE989122B949C0C850A",
+			"displayName": "Quantum Grenade",
+			"description": "Originally designed as a tool for rapidly opening teleportation rifts. But, as usual, the outcome proved far more destructive than the noble intentions behind it.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_30BF2F114420669C459D0DB8A4398B31",
+			"displayName": "Shmauser",
+			"description": "Smells like the old days. Like my grandpa’s garage.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3167F98A4C22536628B808B55150E420",
+			"displayName": "Nailgun",
+			"description": "An imported submachine gun, an echo of war. Due to the lack of ammunition, it was modified to fire nails.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_316F3FDB452A88F748F713BB2B9EF82C",
+			"displayName": "Roasted Meat",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_327296AC4F7BBAADC9BF2EA3B549B9E8",
+			"displayName": "Battery",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_329BCEB641E8A4E0F8A7FEA4F353E599",
+			"displayName": "Meat Concentrate",
+			"description": "The party overdid it. Words are still superfluous.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3456F00E40F2A1BECF1BDD965F61CCF7",
+			"displayName": "Haste Gear",
+			"description": "Improve your Kletka’s speed.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_38558C864C1366E34B6389B048626889",
+			"displayName": "Schwag",
+			"description": "A cigarette capsule packed with an unknown substance... It helps you recover for a short while, but each puff slightly lowers your maximum health, and heavy use causes nausea, dizziness, and blurred vision.\r\n\r\nSmoking is harmful to your health — and your character’s.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_385636C34BE32D94682FF0B74CCC6B72",
+			"displayName": "Bottle",
+			"description": "",
+			"role": "Inventory.Item.Category.Currency",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_39EFECCE4134A6FBC157A89D3A7A316A",
+			"displayName": "Crowbar",
+			"description": "Sometimes... I dream about... Crowbar...",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3A5CF113448257BE65436DAA4FA38387",
+			"displayName": "Meat Ore",
+			"description": "Try to recycle this piece of stone meat into something more useful...",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3A6451F34632B433EAE6C5B438A8B196",
+			"displayName": "Triple Action",
+			"description": "A homemade triple-barrel gun with a fuse ignition. Occasionally misfires.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3A83001A44E307C6E5F293BAFCB38CCC",
+			"displayName": "Gas Can",
+			"description": "Refuel the Kletka’s tank.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3AB7D849451AF4D8666E6C9D7E3BB75B",
+			"displayName": "Human Flesh",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3B9750E3429340F1C2026F89ADD568DE",
+			"displayName": "Schwag",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3D2EB7D047AC9D2AF77DEA8582766F4C",
+			"displayName": "Soapun",
+			"description": "Hygiene matters, but discipline matters more. Don’t drop it.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_3E02FC844F5EF7A7F63D95A4AC3D39EC",
+			"displayName": "Boltspitter",
+			"description": "The rotor howls. So do the enemies.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_405F01E94523CC28DEAAA5A00AAF8BB7",
+			"displayName": "Bolts",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_432E1D9440FB67BBF9B5EB9A15E2AE9F",
+			"displayName": "Electric Essence",
+			"description": "Rumor has it that the Kletka is very greedy when it comes to organic essences. Maybe we should try to feed her a couple?",
+			"role": "Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_4452A76F4E12977CC0758DA9B9293328",
+			"displayName": "Signal Flares",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_446057854D78C472104EAB8258DE0EAC",
+			"displayName": "Milk Balls",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_4A2F26DF4EB22F6C31F0A5978C6CE06B",
+			"displayName": "Modular Turret",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_4A4C9D8848D063E6CCCD078B7F647F2A",
+			"displayName": "Medkit",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_4B7DE69D4F570E3EBF2B0FA1FAAE1D0B",
+			"displayName": "Gruel",
+			"description": "Fills the stomach, empties the soul.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_4F0244D6444DFB597F11BBBF59B7DEAA",
+			"displayName": "Extinguisher",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5316463B41DA47D7AE071D9826F4B321",
+			"displayName": "Hard Worker",
+			"description": "",
+			"role": "Inventory.Item.Category.UpgradeMaterial",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_53D31137477188BD46AB94B773C419A7",
+			"displayName": "Snowball",
+			"description": "",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_54E4337D4908C8648E1CD886346299AF",
+			"displayName": "Bear Trap",
+			"description": "You've got a killer tool. It's time to hunt.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_58F4D82840EDAECA3B65D08BB41510C4",
+			"displayName": "Handcuffs",
+			"description": "For the naughty ones.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_59FDA689411762B2BC9CB3AAD3E69492",
+			"displayName": "Bottle",
+			"description": "",
+			"role": "Inventory.Item.Category.Currency",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5B68829949F291FC5399BB973E23C44F",
+			"displayName": "Monster Meat",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5BB1271E48B88D27C0524784E93EEC13",
+			"displayName": "№281",
+			"description": "?",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5D9747DB4371FEAD398B15BA287147BD",
+			"displayName": "Spray Paint",
+			"description": "Let's make some art!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5E76A9C74F27FDCF360D318DFA82E1E3",
+			"displayName": "Bag",
+			"description": "Adds 1 more slot to your equipment.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_5F88AB654C6E0079C12374B00D65DB6F",
+			"displayName": "Mine",
+			"description": "Boooom!",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_61D3BA244617840D9BA07CAF651DC581",
+			"displayName": "Nails",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_6B4BD9914501B5B3D1C6BAA0C9557A12",
+			"displayName": "Rake",
+			"description": "Clear slime with this tool!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_6DC8A73D4FBAF7F014AB97970BF3F687",
+			"displayName": "Journal",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_6ED445364A0DCB8716BF04BA7CD97F49",
+			"displayName": "Bottle",
+			"description": "",
+			"role": "Inventory.Item.Category.Currency",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_761ADD944F2BCB45B86E4FBC7A9FDD37",
+			"displayName": "Schwagorat",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_7929C1D3457C3BEAB53D4097880F64CC",
+			"displayName": "Molocannon",
+			"description": "A powerful single-shot gun.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_7C13EADF41272BEE18E7CBA14D24B5FB",
+			"displayName": "Human Leg",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_7CAFD4A84A5DBC9A59DCCF960EC4BF12",
+			"displayName": "Seismograph",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_7F0DD56A4B378543C60DE98192B91AD7",
+			"displayName": "Zapper",
+			"description": "A blunt tool for hands-on electrical work. Mostly on people.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_7F9F17F441B04EF937AB31AC51C9BD78",
+			"displayName": "Tuber",
+			"description": "",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_802D2DCE4B2E614557502C8CFABD2FD4",
+			"displayName": "Chifir",
+			"description": "A brutal prison tea concentrate. Kicks your brain into overdrive, then... You'll see...",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_8259E3134CB69C9C0EBC9A868A097833",
+			"displayName": "Bepis Cola",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_829492AC414C7E402416D99C6FF60F31",
+			"displayName": "Coggy",
+			"description": "",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_83FE1BC84C24D125F0F64EB39C2D85D9",
+			"displayName": "Repair Kit",
+			"description": "Repair any vulnerable item with this miracle kit!",
+			"role": "Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_847C38764D7CA0E496800E912620730F",
+			"displayName": "Gas Can",
+			"description": "Refuel the Kletka’s tank.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_883403FA4B440F582FC8AEB8362C1295",
+			"displayName": "Throwstick",
+			"description": "A real man's weapon.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_8D0F9BEC4C52536A99A52CB2B46E8C21",
+			"displayName": "Screechroot",
+			"description": "A carrot… or a human being grown inside?",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_8E187DD44F8AF7BD472176BE57697422",
+			"displayName": "XShroom",
+			"description": "See items even through walls. Side effects guaranteed.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_926A8F3F4611690792C58AA20EF6A01E",
+			"displayName": "Gas Can",
+			"description": "Refuel the Kletka’s tank.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_92DCF7A041D6A2584E91C890C9FB6CBD",
+			"displayName": "Pressure",
+			"description": "A unique cassette recording of a famous artist. Obtained with blood and sweat.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_94D9CDAA4954C32C394BB78F671122CD",
+			"displayName": "Gear",
+			"description": "Upgrade one of your Kletka’s technologies.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_96B717A846A70FA204D9FA8946A42944",
+			"displayName": "Megaphone",
+			"description": "Give the whole Gigastructure a good shouting match!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_96DC10624CBBE0E7B68A3C937D12F571",
+			"displayName": "Shank",
+			"description": "Made of concrete. Made by locals. Made for killing.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_976045EB45FD5C8CC3D9679CED6840E7",
+			"displayName": "Luminumber",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_9B291AD1457D7DE62D16DC9FADFB9669",
+			"displayName": "Whip",
+			"description": "Make them SCREAM!",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_9B2B42BB412F7C8AE05606948A44A6D3",
+			"displayName": "Gas Mine",
+			"description": "Covers everything within a small radius in poisonous gas.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_A095971D4DC78ED94A789A84C08117B1",
+			"displayName": "Care Package",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_A15CF38746B2BDA66FD02D9E7F08F582",
+			"displayName": "Ronin Plus",
+			"description": "With this thing, you'll descend quite deep. Without a doubt.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_A42B811046CA1DD1187637A831B99E30",
+			"displayName": "Human Arm",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_A7C297BB4AE3C706A6915E9FA0551CBC",
+			"displayName": "Wrench",
+			"description": "Repair your Kletka even faster! Disarm mines and much more!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_A857E3434AA47F0D0EFD1C9D4A7C6604",
+			"displayName": "Guitar",
+			"description": "Ah... My favourite weapon...",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_AB8D1BFF45C7F4B747C34783E6228231",
+			"displayName": "Cassette",
+			"description": "There's definitely something recorded on it! Insert the tape into the player. That's an order.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_AFAFE8E445FF2D61F24D19B3A4E79E8D",
+			"displayName": "Wayseer Eye",
+			"description": "Paves the way to Kletka in all three dimensions.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B50B50894E14A055C756238DD3997210",
+			"displayName": "Trial Amulet",
+			"description": "This glowing thing contains symbols you do not recognize. You may be able to figure out their meaning.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B7A67C2D4684C05FE544ED9C4D6BECB2",
+			"displayName": "Milk Balls",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B7B552174AF9C1C34872D1ADCA705064",
+			"displayName": "Slime ball",
+			"description": "",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B85AC29540318BE2A3CE2DA18A9E9119",
+			"displayName": "Loaf of Bread",
+			"description": "A loaf of bread. About 10 years old.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B882CF1A4785DA750DDE9B91E8976DEA",
+			"displayName": "Kalak",
+			"description": "An ancient evil possessed this rifle, turning it into the eternally jamming—yet still murderous—Kalak that fires chunks of meat.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_B8F0555D48B217B510E58DB6A45C71AE",
+			"displayName": "Toxitom",
+			"description": "Extremely toxic. It's best to stay away from others after consumption.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_BAF6B69B41754031505ABB9D79B3DFB0",
+			"displayName": "Frost Essence",
+			"description": "Rumor has it that the Kletka is very greedy when it comes to organic essences. Maybe we should try to feed her a couple?",
+			"role": "Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_BDFFE39E4E834B90667E459C837FA64A",
+			"displayName": "Acid Essence",
+			"description": "Rumor has it that the Kletka is very greedy when it comes to organic essences. Maybe we should try to feed her a couple?",
+			"role": "Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_BFD514B7411926726E6F019EEF5AA8E3",
+			"displayName": "Lockpick",
+			"description": "It may be flimsy, but it can open a lot of doors!",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_C3E72F114959F4C6FD7E5D9C82E43F75",
+			"displayName": "Bottle",
+			"description": "",
+			"role": "Inventory.Item.Category.Currency",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_C918CADC41D9C30981E9248F752D77DE",
+			"displayName": "Equilibrist",
+			"description": "",
+			"role": "Inventory.Item.Category.UpgradeMaterial",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_CAD71364492DD50EC41C3FB3B28624FD",
+			"displayName": "Scrap",
+			"description": "Even junk like this is valuable in the Gigastructure. Might come in handy.",
+			"role": "Inventory.Item.Category.Ammo, Inventory.Item.Category.Resource.Crafting",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_CEA4C40543C0296619408BA73EA66D5E",
+			"displayName": "Flashlight",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_D28E03CA435B37ADAB00F28C97631B30",
+			"displayName": "Milk Balls",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_D5406D984D277AC97F059AAE0612B2AE",
+			"displayName": "Eyeroller",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_D8C638B44DD1FC466D776BB521D7FFDB",
+			"displayName": "Blueberry",
+			"description": "A small wild berry with a rich, sweet flavor and medicinal properties.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_D9CA6B9B4C1E29E6A7B14395FCAC522D",
+			"displayName": "Equilibrist",
+			"description": "",
+			"role": "Inventory.Item.Category.UpgradeMaterial",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_DE28BE644B0587EDB41A28A009D16009",
+			"displayName": "Panaceator",
+			"description": "You find a syringe with an unknown substance, haven't you? Contact your local power unit. They will help you quickly.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_DE5C038B4971D2D7438DE0B5E5F4955B",
+			"displayName": "Wolfberry",
+			"description": "Poisonous berry, dangerous even in small amounts.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_DF338F9049664538CA23B49E962FF405",
+			"displayName": "Ball",
+			"description": "",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_E592FF7E40E4C3E5F0EF8AAC30392823",
+			"displayName": "Poorifier",
+			"description": "Squishy demolition expert with highly questionable taste in ammunition. He doesn't aim to shoot but he sure shoots to kill. Every shot landed is a direct hit to one's dignity.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_E89D4B9A454662F7E89A90A11F29857F",
+			"displayName": "Gas Can",
+			"description": "Refuel the Kletka’s tank.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_EA34CA224D40F72E63C0C0828CDD77D2",
+			"displayName": "Gigabooze",
+			"description": "Resurrects all dead comrades.\r\nAlcohol can harm your health. Drink responsibly.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_EA84A80C49F3F1E3DDD97A9572ECDF4F",
+			"displayName": "Toofsucker",
+			"description": "Nasty little bloodsucking critter with a shark smile and a taste for blood. Latches onto enemies and feeds on their bodily fluids, slowly but surely. Be glad he can be tamed and used against your enemies.",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_EC49ACE3413711544319729BB2FACDBA",
+			"displayName": "Cone",
+			"description": "",
+			"role": "Inventory.Item.Category.Tool",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_EF35051B447E0C87C63FD78AB35BEE8B",
+			"displayName": "Food Concentrate",
+			"description": "The party did its best. Words are superfluous.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_F78E9EC24F87BF4F788BE580CBDFAC3C",
+			"displayName": "Hogweed Spore",
+			"description": "Due to their volatile nature, hogweed spores can serve as food to fuel the Kletka.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_F835814343934A6860D1C192561F471B",
+			"displayName": "Rounds 7,63×25mm",
+			"description": "",
+			"role": "Inventory.Item.Category.Ammo",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_FE3DED1D409FBB69E89921B5226DF072",
+			"displayName": "Rusty Grenade",
+			"description": "All components of this grenade have degraded over the years - use with caution!",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_FE4E3E4749AE2041B12A339EE9047838",
+			"displayName": "Live Beer",
+			"description": "A revitalizing drink created by an unknown Gigastructure entrepreneur—because even here, small business keeps the lights on.\r\nAlcohol can harm your health. Drink responsibly.",
+			"role": "Inventory.Item.Category.Resource",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		}
+	]
+}

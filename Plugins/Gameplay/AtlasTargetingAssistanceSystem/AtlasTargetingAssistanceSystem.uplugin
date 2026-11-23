@@ -1,0 +1,31 @@
+{
+  "FileVersion": 3,
+  "Version": 8,
+  "VersionName": "0.8.0",
+  "FriendlyName": "Atlas Targeting Assistance System",
+  "Description": "Product-neutral target discovery, scoring, selection, and local targeting-assistance framework.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasTargetingAssistanceSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasTargetingAssistanceSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    }
+  ]
+}

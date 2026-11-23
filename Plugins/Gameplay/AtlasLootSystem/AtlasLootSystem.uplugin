@@ -1,0 +1,47 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Atlas Loot System",
+  "Description": "Product-neutral deterministic loot generation and delivery contracts for authoritative games.",
+  "Category": "Callback Games|Gameplay|Loot",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EngineVersion": "5.8.0",
+  "CanContainContent": false,
+  "EnabledByDefault": true,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasLootSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasLootSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

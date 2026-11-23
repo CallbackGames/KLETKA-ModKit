@@ -1,0 +1,7 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasProgressionSystemEditor": "UnrealEditor-AtlasProgressionSystemEditor.dll",
+    "AtlasProgressionSystemRuntime": "UnrealEditor-AtlasProgressionSystemRuntime.dll"
+  }
+}

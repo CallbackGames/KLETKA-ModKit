@@ -1,0 +1,33 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Atlas Progression System",
+  "Description": "Subject-agnostic, data-driven progression, build composition, and authoritative transactions for single-player and multiplayer projects.",
+  "Category": "Callback Games|Gameplay|Progression",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasProgressionSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasProgressionSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

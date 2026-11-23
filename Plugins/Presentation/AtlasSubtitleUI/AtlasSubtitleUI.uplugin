@@ -1,0 +1,25 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Subtitle UI",
+  "Description": "Optional client subtitle presentation. Playback and data remain in AtlasSubtitleSystem.",
+  "Category": "Atlas|Presentation",
+  "CreatedBy": "Callback Games",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "AtlasSubtitleSystemUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AtlasSubtitleSystem",
+      "Enabled": true
+    }
+  ],
+  "Installed": true
+}

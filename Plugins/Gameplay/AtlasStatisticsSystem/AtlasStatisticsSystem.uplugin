@@ -1,0 +1,44 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Statistics System",
+  "Description": "Project-neutral statistics schemas, authoritative replicated state, deterministic contributions, and accolade evaluation.",
+  "Category": "Callback Games|Gameplay|Statistics",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasStatisticsSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasStatisticsSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

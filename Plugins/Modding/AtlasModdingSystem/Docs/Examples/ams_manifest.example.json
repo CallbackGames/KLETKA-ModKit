@@ -1,0 +1,58 @@
+{
+  "SchemaVersion": 1,
+  "ContentId": "ams.sample.cosmetic",
+  "DisplayName": "Atlas Sample Cosmetic Pack",
+  "Card": {
+    "ShortDescription": "Short text for mod list cards.",
+    "Description": "Longer player-facing description for a mod details screen.",
+    "Author": "Creator Name",
+    "Tags": [
+      "Cosmetic",
+      "Workshop",
+      "UI"
+    ],
+    "IconPath": "Media/Icon.png",
+    "BannerPath": "Media/Banner.png",
+    "ExternalUrl": ""
+  },
+  "ContentClass": "CreatorContent",
+  "Distribution": "SteamWorkshop",
+  "RuntimeFormat": "DataPack",
+  "ApprovalState": "Approved",
+  "Visibility": "Public",
+  "MultiplayerScope": "PublicCosmetic",
+  "EntitlementType": "DirectInstall",
+  "Version": "0.1.0",
+  "ApiVersion": 1,
+  "PluginName": "",
+  "LoadOrder": 100,
+  "ActivationPhases": [
+    "OnMainMenuReady"
+  ],
+  "bEnabledByDefault": true,
+  "Dependencies": [],
+  "Conflicts": [],
+  "Compatibility": {
+    "MinGameBuild": "0.1.0",
+    "MaxGameBuild": "",
+    "SupportedBranches": [
+      "dev"
+    ]
+  },
+  "Artifacts": {
+    "Win64": {
+      "Provider": "SteamWorkshop",
+      "ProviderId": "0000000000",
+      "Format": "DataPack",
+      "HashSha256": "",
+      "RelativeInstallPath": "."
+    }
+  },
+  "Network": {
+    "bServerRequired": false,
+    "bClientRequired": false,
+    "bCosmeticOnly": true,
+    "bPublicSafe": true,
+    "bCrossplaySafe": true
+  }
+}

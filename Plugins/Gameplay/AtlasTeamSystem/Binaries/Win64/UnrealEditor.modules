@@ -1,0 +1,7 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasTeamSystemEditor": "UnrealEditor-AtlasTeamSystemEditor.dll",
+    "AtlasTeamSystemRuntime": "UnrealEditor-AtlasTeamSystemRuntime.dll"
+  }
+}

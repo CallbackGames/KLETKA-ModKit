@@ -1,0 +1,36 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Atlas Modding System Authoring",
+  "Description": "ModKit-only editor workflow for creating, validating, packaging, testing, and preparing Atlas mods for publishing.",
+  "Category": "Modding",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasModdingSystemAuthoringEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "AtlasModdingSystem",
+      "Enabled": true
+    }
+  ]
+}

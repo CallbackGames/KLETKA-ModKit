@@ -1,0 +1,1018 @@
+{
+  "SchemaVersion": 1,
+  "DistributionKind": "BlueprintBinary",
+  "PublicApiVersion": "0.8.0",
+  "Owners": [
+    {
+      "Name": "AtlasSettingsFramework",
+      "Owner": "Atlas Settings Framework",
+      "Modules": [
+        "AtlasSettingsFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasSettingsFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasWorldIndicatorSystem",
+      "Owner": "Atlas World Indicator System",
+      "Modules": [
+        "AtlasWorldIndicatorSystemRuntime",
+        "AtlasWorldIndicatorSystemUI"
+      ],
+      "NativeSdkModules": [
+        "AtlasWorldIndicatorSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasDifficultySystem",
+      "Owner": "Atlas Difficulty System",
+      "Modules": [
+        "AtlasDifficultySystemRuntime",
+        "AtlasDifficultySystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasDifficultySystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasStatisticsSystem",
+      "Owner": "Atlas Statistics System",
+      "Modules": [
+        "AtlasStatisticsSystemRuntime",
+        "AtlasStatisticsSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasStatisticsSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Owner": "Atlas Variant Data Framework",
+      "Modules": [
+        "AtlasVariantDataFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasVariantDataFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Owner": "Atlas Abilities System",
+      "Modules": [
+        "AtlasAbilitiesSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAbilitiesSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Owner": "Atlas Game Features Framework",
+      "Modules": [
+        "AtlasGameFeaturesFrameworkRuntime",
+        "AtlasGameFeaturesFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameFeaturesFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayMessagesFramework",
+      "Owner": "Atlas Gameplay Messages Framework",
+      "Modules": [
+        "AtlasGameplayMessagesFrameworkRuntime",
+        "AtlasGameplayMessagesFrameworkNodes"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayMessagesFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasInputFramework",
+      "Owner": "Atlas Input Framework",
+      "Modules": [
+        "AtlasInputFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasInputFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasViewpointSystem",
+      "Owner": "Atlas Viewpoint System",
+      "Modules": [
+        "AtlasViewpointSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasViewpointSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasUISystem",
+      "Owner": "Atlas UI System",
+      "Modules": [
+        "AtlasUISystemExtensions",
+        "AtlasUISystemTypes",
+        "AtlasUISystemRuntime",
+        "AtlasUISystemGameFeatures",
+        "AtlasUISystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasUISystemTypes",
+        "AtlasUISystemExtensions",
+        "AtlasUISystemGameFeatures"
+      ]
+    },
+    {
+      "Name": "AtlasTargetingAssistanceSystem",
+      "Owner": "Atlas Targeting Assistance System",
+      "Modules": [
+        "AtlasTargetingAssistanceSystemRuntime",
+        "AtlasTargetingAssistanceSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTargetingAssistanceSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasModdingSystem",
+      "Owner": "Atlas Modding System",
+      "Modules": [
+        "AtlasModdingSystemRuntime",
+        "AtlasModdingSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasModdingSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasModdingSystemAuthoring",
+      "Owner": "Atlas Modding System Authoring",
+      "Modules": [
+        "AtlasModdingSystemAuthoringEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasModdingSystemAuthoringEditor"
+      ]
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Owner": "Atlas Asset Management Framework",
+      "Modules": [
+        "AtlasAssetManagementFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAssetManagementFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayPhaseFramework",
+      "Owner": "Atlas Gameplay Phase Framework",
+      "Modules": [
+        "AtlasGameplayPhaseFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayPhaseFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayExperienceFramework",
+      "Owner": "Atlas Gameplay Experience Framework",
+      "Modules": [
+        "AtlasGameplayExperienceFrameworkRuntime",
+        "AtlasGameplayExperienceFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayExperienceFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasInventorySystem",
+      "Owner": "Atlas Inventory System",
+      "Modules": [
+        "AtlasInventorySystemRuntime",
+        "AtlasInventorySystemUI",
+        "AtlasInventorySystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasInventorySystemRuntime",
+        "AtlasInventorySystemUI"
+      ]
+    },
+    {
+      "Name": "AtlasLootSystem",
+      "Owner": "Atlas Loot System",
+      "Modules": [
+        "AtlasLootSystemRuntime",
+        "AtlasLootSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasLootSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasJournalSystem",
+      "Owner": "Atlas Journal System",
+      "Modules": [
+        "AtlasJournalSystemRuntime",
+        "AtlasJournalSystemUI",
+        "AtlasJournalSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasJournalSystemRuntime",
+        "AtlasJournalSystemUI"
+      ]
+    },
+    {
+      "Name": "AtlasQuestSystem",
+      "Owner": "Atlas Quest System",
+      "Modules": [
+        "AtlasQuestSystemRuntime",
+        "AtlasQuestSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasQuestSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Owner": "Atlas Save Game Framework",
+      "Modules": [
+        "AtlasSaveGameFrameworkRuntime",
+        "AtlasSaveGameFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasSaveGameFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasTranslationSystem",
+      "Owner": "Atlas Translation System",
+      "Modules": [
+        "AtlasTranslationSystem",
+        "AtlasTranslationSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTranslationSystemEditor"
+      ]
+    },
+    {
+      "Name": "AtlasCosmeticsSystem",
+      "Owner": "Atlas Cosmetics System",
+      "Modules": [
+        "AtlasCosmeticsSystemRuntime",
+        "AtlasCosmeticsSystemEditor",
+        "AtlasCosmeticsSystemUI"
+      ],
+      "NativeSdkModules": [
+        "AtlasCosmeticsSystemRuntime",
+        "AtlasCosmeticsSystemUI"
+      ]
+    },
+    {
+      "Name": "AtlasLocomotionSystem",
+      "Owner": "Atlas Locomotion System",
+      "Modules": [
+        "AtlasLocomotionSystemEditor",
+        "AtlasLocomotionSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasLocomotionSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasPlayerCameraSystem",
+      "Owner": "Atlas Player Camera System",
+      "Modules": [
+        "AtlasPlayerCameraSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasPlayerCameraSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasContextEffectsSystem",
+      "Owner": "Atlas Context Effects System",
+      "Modules": [
+        "AtlasContextEffectsSystemRuntime",
+        "AtlasContextEffectsSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasContextEffectsSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasAISystem",
+      "Owner": "Atlas AI System",
+      "Modules": [
+        "AtlasAISystemRuntime",
+        "AtlasAISystemBehavior"
+      ],
+      "NativeSdkModules": [
+        "AtlasAISystemRuntime",
+        "AtlasAISystemBehavior"
+      ]
+    },
+    {
+      "Name": "AtlasTeamSystem",
+      "Owner": "Atlas Team System",
+      "Modules": [
+        "AtlasTeamSystemRuntime",
+        "AtlasTeamSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTeamSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Owner": "Atlas Gameplay Actors Framework",
+      "Modules": [
+        "AtlasGameplayActorsFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayActorsFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "ElevatorCore",
+      "Owner": "KLETKA floor content",
+      "Modules": [
+        "ElevatorCoreContent",
+        "ElevatorCoreContentEditor"
+      ],
+      "NativeSdkModules": [
+        "ElevatorCoreContent"
+      ]
+    },
+    {
+      "Name": "AtlasVehicleSystem",
+      "Owner": "AtlasVehicleSystem",
+      "Modules": [
+        "AtlasVehicleSystemRuntime",
+        "AtlasVehicleSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasVehicleSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasAgentControlSystem",
+      "Owner": "AtlasAgentControlSystem",
+      "Modules": [
+        "AtlasAgentControlSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAgentControlSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasLuaFramework",
+      "Owner": "Atlas Lua Framework",
+      "Modules": [
+        "AtlasLuaFrameworkRuntime",
+        "AtlasLuaFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasLuaFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "RoguelikeCore",
+      "Owner": "Shared roguelike content",
+      "Modules": [
+        "RoguelikeCoreContent",
+        "RoguelikeCoreComponents"
+      ],
+      "NativeSdkModules": [
+        "RoguelikeCoreContent",
+        "RoguelikeCoreComponents"
+      ]
+    },
+    {
+      "Name": "ElevatorCoreDungeonArchitect",
+      "Owner": "KLETKA optional Dungeon Architect floor adapter",
+      "Modules": [
+        "ElevatorCoreDungeonArchitect",
+        "ElevatorCoreDungeonArchitectEditor"
+      ],
+      "NativeSdkModules": [
+        "ElevatorCoreDungeonArchitect"
+      ]
+    },
+    {
+      "Name": "AtlasProgressionSystem",
+      "Owner": "Atlas Progression System",
+      "Modules": [
+        "AtlasProgressionSystemRuntime",
+        "AtlasProgressionSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasProgressionSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasSubtitleSystem",
+      "Owner": "Atlas Subtitle System",
+      "Modules": [
+        "AtlasSubtitleSystemRuntime",
+        "AtlasSubtitleSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasSubtitleSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasSubtitleUI",
+      "Owner": "Atlas Subtitle UI",
+      "Modules": [
+        "AtlasSubtitleSystemUI"
+      ],
+      "NativeSdkModules": []
+    },
+    {
+      "Name": "AtlasEquipment",
+      "Owner": "Atlas Equipment System",
+      "Modules": [
+        "AtlasEquipment",
+        "AtlasEquipmentUI",
+        "AtlasEquipmentEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasEquipment"
+      ]
+    },
+    {
+      "Name": "AtlasInteraction",
+      "Owner": "Atlas Interaction System",
+      "Modules": [
+        "AtlasInteraction",
+        "AtlasInteractionEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasInteraction"
+      ]
+    },
+    {
+      "Name": "AtlasSettings",
+      "Owner": "Atlas Settings composition",
+      "Modules": [
+        "AtlasSettingsPresentation",
+        "AtlasSettingsUI",
+        "AtlasSettingsEditor",
+        "AtlasSettingsAudio"
+      ],
+      "NativeSdkModules": [
+        "AtlasSettingsPresentation"
+      ]
+    },
+    {
+      "Name": "AtlasCombat",
+      "Owner": "Atlas gameplay composition",
+      "Modules": [
+        "AtlasCombat",
+        "AtlasCombatUI",
+        "AtlasCombatEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasCombat"
+      ]
+    },
+    {
+      "Name": "AtlasAI",
+      "Owner": "Atlas gameplay composition",
+      "Modules": [
+        "AtlasAI",
+        "AtlasAIEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasAI"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayAbilities",
+      "Owner": "Atlas gameplay composition",
+      "Modules": [
+        "AtlasGameplayAbilities"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayAbilities"
+      ]
+    },
+    {
+      "Name": "AtlasVehicles",
+      "Owner": "Atlas vehicle composition",
+      "Modules": [
+        "AtlasVehicles"
+      ],
+      "NativeSdkModules": [
+        "AtlasVehicles"
+      ]
+    },
+    {
+      "Name": "AtlasRewards",
+      "Owner": "Atlas rewards composition",
+      "Modules": [
+        "AtlasRewards"
+      ],
+      "NativeSdkModules": [
+        "AtlasRewards"
+      ]
+    },
+    {
+      "Name": "AtlasLoot",
+      "Owner": "Atlas loot composition",
+      "Modules": [
+        "AtlasLoot"
+      ],
+      "NativeSdkModules": [
+        "AtlasLoot"
+      ]
+    },
+    {
+      "Name": "AtlasContent",
+      "Owner": "Atlas Content authoring composition",
+      "Modules": [
+        "AtlasContentEditor"
+      ],
+      "NativeSdkModules": []
+    }
+  ],
+  "CookingBases": [
+    {
+      "SchemaVersion": 1,
+      "Release": "dev1-20261111-cl4775",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "0a8181e81fecdd9d2c50c818f243d24b11956ff3cd0139e880f5dacfe7013454"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "75e9ee7c5eef9ac1fd659db9b969709d2b7a1b31d32305964fb6a067b4386294"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "fa0237204cdb58d27fa3c08bc5d51753feb8cab9bcbb3a0a78d8a13e08a0e77d"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "dev1-20261118-cl5051",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "0e9ce29376327399182649efa72e6b1bab141f8ae4b57e78e6a53ba0d7bee9ed"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "251ced4b4e8bd1c56e10192ee48088478f199db2d7c6e81338632ba8b8739673"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "974c15fb4e716016d65c2ae621d42e0e2225b59502ae7579510949ffb86d0e6b"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "0777de91f9114f6363bb61c8fc0ab5a1d9161398534a34ab9871414118e5b164"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "dev1-20261119-cl5105",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "694725604a3502855f9ce5142ad53cbcbd929180eab57b3b57262a22fc3a32e6"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "ba704400b9c7f1ec6dad120f18e7acc9d6a2b6936323715aceaca832fe967b2d"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "ef1fc8c7a13ea3e9b9e70ac2e874365d93dacf44161034f1d14e7461defdd9a9"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "4a11acdf8a30f9493d1a41edca6a5bf865c315e81971ba71a9ebe7f83d84efd2"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "dev1-20261122-cl5286",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "781ba0d38186752c298824997595c9cabac8a8326c79ffa64ef64690d0688752"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "429155e2118db93ece0088282de7d4c19bc77fb6f46d9befdd76d1a28fc7275d"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "650dce3bf2193821138d8ecfea1191bce8d354dfd8e0fb01026bf63ff6337863"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "cd7877e775f573af2fe8c9ebda1aa8714fdc19094f239a2df312a6096607e4d0"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaBeta_20261020_accolades_r1",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "346b237956b5eac037f38389fde3226d8046782a142ef1a553e353c37fc53842"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "07b83ec7de7d708e1559f35565762f93901d0eba2aabc875e9908863bb44b4dd"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaBeta_20261020_r3",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "346b237956b5eac037f38389fde3226d8046782a142ef1a553e353c37fc53842"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "69c02b7683ae5f5e48bc9ba4c0433ad5a96a561480605f79d0154c0974b3477d"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaModKit_20261018",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "3581012183da5640b43d877da34ac2fb7e69026ca2ca300e4ff58b29722a6157"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "0c33d056c47fb56efb86b296c74fc2dd46fe5749cdc2bfeb97fb44e74dfd2d73"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "71f1208bcade535fbab58cb16aec49cb777764ddcf424f58d039e4863bc97e29"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaModKitCapability_20261028_r3",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "f1cd9d02f3680c4de55a8a6b111ff1542d5e7940887aedc38f920514b3e11ea7"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "f7be1782631c74688e440d231b64ccfc240af0769324fc8976948ea0d88cd8d7"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "afc7627c0109ec370904eb734b567ba51d9a4a4037247c47fe300b927f203628"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_cross_store_r1",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "1cdc7dbd62b73f8c74d3d2055c4f66effe4de08eb9b367e1fc8b427763c666fd"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "4dc474a85adcfcab06428a54c698c8947b1f6182322e65af79333de1984d02d6"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_cross_store_r2",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "cbcfedde89c614092f840947c6ac4a7fdace028155092ad5578c079c2cb2a838"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_cross_store_r3",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "fc80b1baaa5adc5d40ffd460cdf64b37c0545aa77ab6564c389a41921fe36091"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_cross_store_r4",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "aaba3585adac4be30bcf6d4e52b0c210fe85243fba7b2e73261b1f7131ccf57b"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_development_r15",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "2a1e9a49f207c82dd1d3d570907d7f26b7393d77a32552e806bd7274470d2e05"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "ac225a0c247e28ece8653fcef3f5ad218ffde44ecf2043be2369f105651179da"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "3f8efe8e03cc054f5a968fc25ec7050e6a4a33b38cccb927f42ae9b1bf56705e"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "KletkaReleaseReadiness_20261019_shipping_r6",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "edf790c975615d681a115db79a65b87c21ed775fa4f8c86f80b0052ad6f497ce"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "543dcaf6bdc9ac9fce6f4e56dc53eb86fabe2e7c942236c6c28ab9e695b7031c"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "52f08d9c71d004e6c668b2909b47ea25d405ad38a8116b7e345e64fd94504db6"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "modkit-local-20261120-guard-floor",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "5df1a8558e58fee49515ab5b90bc901a96dec78b38311a65847a5bfd08236290"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "c23c6e87619b078d5cf8078562752196439cb20307a17e9d7f01c75ea8e42b7c"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "e7d5126da63969c1701f3b05a695e2654eaff706ce8f53990e79eb8d394536b2"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "ecc388f76a269369b1a1bdb3910a57a2e160659e20fa10410117bb63a7967dd3"
+        }
+      ],
+      "Distribution": "UnpublishedLocalCandidate"
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "modkit-local-20261120-guard-floor-linux",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "475614e017b82e937ca21cf76c006fd5cd7c1b56e845fe3123fe95b6e15a6948"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "b1caa34eeff9ae196bc641c157bb9586f82feabe041b80e78e6206bf920b0bcb"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "940a6309dc164684cf59683d965b25fe39d95aabbca9aad687874f34f49e4cfd"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Development",
+          "Target": "KLETKA",
+          "Sha256": "162c3d7feb9b2c04e6257f8262866a53ca61da260103d57c2d3c34bb6bfa7a45"
+        }
+      ],
+      "Distribution": "UnpublishedLocalCandidate"
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "windows-shipping-20261122-ca9c0f8d",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "f9aa5cbf8577cb9ce9efc671409b8f19218b6aaba46e41692e05c7e53f0b66e6"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "2e6e1f68ab996032b6d47617d45d8637e0c0b71bbf49891c726390902d8a7710"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "bc81a646dc527ae7de556b561ba4ad493362948fc4fa5777818250a11e9715df"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "ca9c0f8d5f692571bcfd7886db2a0500b46a31dd8ba344ef61497fc3c639c572"
+        }
+      ]
+    }
+  ],
+  "CheckedLocalLinks": [
+    "Config/ModKitDistribution.json",
+    "Docs/Authoring/compatibility.html",
+    "Docs/Authoring/first-mod.html",
+    "Docs/Authoring/index.html",
+    "Docs/Authoring/modules.html",
+    "Docs/Authoring/packaging.html",
+    "Docs/Authoring/recipes.html",
+    "Docs/Authoring/style.css",
+    "Docs/GameplayTags/index.html",
+    "Plugins/Framework/AtlasGameplayPhaseFramework/Docs/Examples/CreatePhaseBindingsExample.py",
+    "Plugins/Framework/AtlasLuaFramework/Docs/Examples/CreateLuaDoorExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/AddQuestCompletionPhase.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateBossModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateCageAddonModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateCurseModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateDungeonArchitectFloorExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateEnemyModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFamiliarModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFloorModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreatePerkModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateProgressionModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateQuestFloorExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateResourceModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateRespawnPolicyExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateShopModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateSubtitleModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateWorldActorModExample.py",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModCube.png",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModSphere.png",
+    "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html",
+    "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticModExample.py",
+    "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py",
+    "Plugins/Gameplay/AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py",
+    "Plugins/Modding/AtlasModdingSystem/Docs/Examples/ams_manifest.example.json",
+    "Plugins/Presentation/AtlasUISystem/Documentation/Examples/CreateLoadingScreenModExample.py",
+    "Plugins/Presentation/AtlasUISystem/Documentation/Examples/CreateScreenModExample.py",
+    "Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+    "Releases/KletkaBeta_20261020_r3/cooking-base.json",
+    "Releases/KletkaModKitCapability_20261028_r3/cooking-base.json",
+    "Releases/KletkaModKit_20261018/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+    "Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+    "Releases/dev1-20261111-cl4775/cooking-base.json",
+    "Releases/dev1-20261118-cl5051/cooking-base.json",
+    "Releases/dev1-20261119-cl5105/cooking-base.json",
+    "Releases/dev1-20261122-cl5286/cooking-base.json",
+    "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+    "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
+    "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
+    "START_HERE.html",
+    "Tools/CookContentMod.py"
+  ]
+}

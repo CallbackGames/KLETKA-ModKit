@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Package and install | KLETKA ModKit</title><link rel="stylesheet" href="style.css"></head>
+<body><nav aria-label="ModKit guide"><a href="../../START_HERE.html">Create your first mod</a> <a href="first-mod.html">First mod · Первый мод</a> <a href="recipes.html">Authoring recipes</a> <a href="compatibility.html">Compatibility and multiplayer</a> <a href="modules.html">Module reference</a></nav><main><h1>Package and install</h1>
+<h2>Build and play from the editor</h2>
+<p>In the Mod Wizard, choose <strong>Release → Cook &amp; Publish...</strong> to open <strong>Content, Cook &amp; Publish</strong>: your current Game Feature
+is selected automatically. The same panel is available from <strong>Tools → Create Atlas Content</strong>.
+Select your Game Feature and the installed
+KLETKA executable in <strong>Packaged Game</strong>. This path is saved in your editor preferences.</p>
+<ol><li>Save the feature and its assets. Choose <strong>Cook Mod</strong>. The tool checks the
+installed game's registry and selects its matching delivered cooking base automatically.</li>
+<li>Choose <strong>Build Status</strong> for the job result and diagnostic paths. A failed cook,
+changed source asset or changed game version prevents installation.</li>
+<li>Choose <strong>Install Test Copy</strong>. The native installer creates an isolated copy and
+records its rollback journal; your normal mod installation is unchanged.</li>
+<li>Choose <strong>Launch Game</strong>. Each launch has a separate user/save directory. Enable the
+mod in the game's Mods menu and include it when hosting. Process launch alone does not confirm
+activation, gameplay or network compatibility.</li></ol>
+<p>For automation, <a href="../../Tools/CookContentMod.py">CookContentMod.py</a> exposes the same
+DLC cooker. Run <code>python Tools/CookContentMod.py --help</code> for its path arguments.</p>
+<p>To target Linux, declare a Linux artifact in your mod manifest and use <code>--platform Linux
+--base-release-root Releases --base-release RELEASE_NAME</code> with the Linux base for your game.</p>
+<p>Delivered cooking bases:</p><ul><li><a href="../../Releases/dev1-20261111-cl4775/cooking-base.json">dev1-20261111-cl4775 (Win64)</a></li>
+<li><a href="../../Releases/dev1-20261118-cl5051/cooking-base.json">dev1-20261118-cl5051 (Linux)</a></li>
+<li><a href="../../Releases/dev1-20261119-cl5105/cooking-base.json">dev1-20261119-cl5105 (Win64)</a></li>
+<li><a href="../../Releases/dev1-20261122-cl5286/cooking-base.json">dev1-20261122-cl5286 (Linux)</a></li>
+<li><a href="../../Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json">KletkaBeta_20261020_accolades_r1 (Win64)</a></li>
+<li><a href="../../Releases/KletkaBeta_20261020_r3/cooking-base.json">KletkaBeta_20261020_r3 (Win64)</a></li>
+<li><a href="../../Releases/KletkaModKit_20261018/cooking-base.json">KletkaModKit_20261018 (Win64)</a></li>
+<li><a href="../../Releases/KletkaModKitCapability_20261028_r3/cooking-base.json">KletkaModKitCapability_20261028_r3 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json">KletkaReleaseReadiness_20261019_cross_store_r1 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json">KletkaReleaseReadiness_20261019_cross_store_r2 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json">KletkaReleaseReadiness_20261019_cross_store_r3 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json">KletkaReleaseReadiness_20261019_cross_store_r4 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json">KletkaReleaseReadiness_20261019_development_r15 (Win64)</a></li>
+<li><a href="../../Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json">KletkaReleaseReadiness_20261019_shipping_r6 (Win64)</a></li>
+<li><a href="../../Releases/modkit-local-20261120-guard-floor/cooking-base.json">modkit-local-20261120-guard-floor (Win64, local unpublished Development build)</a></li>
+<li><a href="../../Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json">modkit-local-20261120-guard-floor-linux (Linux, local unpublished Development build)</a></li>
+<li><a href="../../Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json">windows-shipping-20261122-ca9c0f8d (Win64)</a></li></ul>
+<p>The AssetRegistry SHA256 must match the receiving game. A different base is rejected even
+when the editor versions match. Never copy a registry between releases to bypass this check.</p>
+<h2>Install</h2><p>Deliver the generated <code>Package</code> directory in full: plugin descriptor,
+manifest, receipt, Pak/IoStore containers and tag files. Loose project configuration is unsupported.
+Restart the game before replacing a version whose containers are already mounted.</p>
+<p><strong>Export Authoring Files</strong> shares editable source assets. Use the cooked Package
+for installation in the game.</p>
+<h2>Publication</h2><ol>
+<li>In <strong>Content, Cook &amp; Publish</strong>, select the saved Game Feature and its store.
+Use <strong>Cook Mod</strong> with the intended game installation.</li>
+<li>For the first upload, leave the item ID empty. To update an existing item, enter its ID and confirm the target.
+The wizard remembers each store's item ID for this mod on this machine.</li>
+<li>Choose <strong>Publish Privately...</strong>, review the game base, version and destination, then confirm.
+Steam Workshop uses the signed-in Steam client. For mod.io choose Steam or email. The email sign-in prompts for the code inside the upload window.</li>
+<li>When the upload completes, use <strong>Open store item</strong> to inspect the private page.
+Download the mod on a test installation and check activation, hosting, joining and save recovery before changing its visibility.</li>
+<li>For a new version, keep the ContentId, increment Version, save and cook again. Enter the existing ID for this store, confirm the target and choose <strong>Update Existing Release...</strong>. Verify the same ID, version and page visibility. Repeat with the other store’s own ID if you maintain both.</li>
+<li>For offline distribution, choose Manual and <strong>Export Bundle</strong> to produce a Windows ZIP.</li></ol>
+<p>Keep the same canonical ContentId on both services. Store IDs differ; publishing to Workshop does
+not make a mod available on mod.io or consoles. Only platforms actually built and tested may be selected.
+Native gameplay DLLs are not supported by this content package route.</p>
+<h2>Interrupted installation</h2><p>Inspect the reported <code>AMSInstallAttempts</code> directory.
+<strong>Restore Previous</strong> restores a missing destination; it keeps an existing installation intact.</p></main>
+<footer>KLETKA ModKit · BlueprintBinary · API 0.8.0<br>
+Copyright Callback LLP. All Rights Reserved.</footer></body></html>

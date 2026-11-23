@@ -1,0 +1,10 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasUISystemEditor": "UnrealEditor-AtlasUISystemEditor.dll",
+    "AtlasUISystemExtensions": "UnrealEditor-AtlasUISystemExtensions.dll",
+    "AtlasUISystemGameFeatures": "UnrealEditor-AtlasUISystemGameFeatures.dll",
+    "AtlasUISystemRuntime": "UnrealEditor-AtlasUISystemRuntime.dll",
+    "AtlasUISystemTypes": "UnrealEditor-AtlasUISystemTypes.dll"
+  }
+}

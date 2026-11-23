@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "requiredContentId": "kletka.dlc.gastronom",
+  "regenerateFromSeed": true,
+  "appearance": {
+    "poolId": "Gastronom.Mannequin.Appearance",
+    "assetType": "/Script/AtlasCombat.AtlasLimbProfile",
+    "baseEntries": [
+      {
+        "entryId": "Female",
+        "weight": 1.0
+      },
+      {
+        "entryId": "Male",
+        "weight": 1.0
+      }
+    ],
+    "action": "/Script/AtlasLootSystemRuntime.AtlasGameFeatureAction_AddLootContributions",
+    "operation": "Append"
+  },
+  "enemy": {
+    "targetTag": "World.Actor.Slot.Mannequin.Enemy",
+    "optionalInterface": "/Script/ElevatorCoreContent.LeMannequinEnemy",
+    "operation": "WeightedVariant",
+    "action": "/Script/AtlasGameplayActorsFrameworkRuntime.AtlasGameFeatureAction_AddActorPlacements",
+    "callback": "OnMannequinPlaced",
+    "seedInput": "PlacementSeed",
+    "baseWeight": 1,
+    "spawnChancePercent": 15.0,
+    "maxPerFloor": 4
+  }
+}

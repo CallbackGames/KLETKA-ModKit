@@ -1,0 +1,406 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "DisableEnginePluginsByDefault": true,
+  "Category": "KLETKA ModKit",
+  "Description": "Public KLETKA ModKit project assembled from Config/ModKitDistribution.json.",
+  "Modules": [
+    {
+      "Name": "AtlasEquipment",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasEquipmentEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasEquipmentUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasInteraction",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasInteractionEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSettingsPresentation",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSettingsUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSettingsEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasSettingsAudio",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasCombat",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasCombatUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasCombatEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasAI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasAIEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasGameplayAbilities",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasVehicles",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasRewards",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasLoot",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasContentEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AtlasSettingsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasWorldIndicatorSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasDifficultySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasStatisticsSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayMessagesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasInputFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasViewpointSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasUISystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasTargetingAssistanceSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasModdingSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasModdingSystemAuthoring",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayPhaseFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayExperienceFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasInventorySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasLootSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasJournalSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasQuestSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasTranslationSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasCosmeticsSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasLocomotionSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasPlayerCameraSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasContextEffectsSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAISystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasTeamSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "ElevatorCore",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasVehicleSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAgentControlSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasLuaFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "RoguelikeCore",
+      "Enabled": true
+    },
+    {
+      "Name": "ElevatorCoreDungeonArchitect",
+      "Enabled": false
+    },
+    {
+      "Name": "AtlasProgressionSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSubtitleSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSubtitleUI",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystem",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemNull",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "ACLPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "BinkMedia",
+      "Enabled": true
+    },
+    {
+      "Name": "AnimationLocomotionLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "AnimationWarping",
+      "Enabled": true
+    },
+    {
+      "Name": "MotionWarping",
+      "Enabled": true
+    },
+    {
+      "Name": "PoseSearch",
+      "Enabled": true
+    },
+    {
+      "Name": "Chooser",
+      "Enabled": true
+    },
+    {
+      "Name": "ControlRig",
+      "Enabled": true
+    },
+    {
+      "Name": "IKRig",
+      "Enabled": true
+    },
+    {
+      "Name": "DrawDebugLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "CurveExpression",
+      "Enabled": true
+    },
+    {
+      "Name": "Mover",
+      "Enabled": true
+    },
+    {
+      "Name": "NetworkPrediction",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveLink",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveLinkControlRig",
+      "Enabled": true
+    },
+    {
+      "Name": "RigLogic",
+      "Enabled": true
+    },
+    {
+      "Name": "HairStrands",
+      "Enabled": true
+    },
+    {
+      "Name": "SmartObjects",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayInteractions",
+      "Enabled": true
+    },
+    {
+      "Name": "AudioModulation",
+      "Enabled": true
+    },
+    {
+      "Name": "PropertyBindingUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "StateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "ChaosVehiclesPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "DataValidation",
+      "Enabled": true
+    }
+  ]
+}

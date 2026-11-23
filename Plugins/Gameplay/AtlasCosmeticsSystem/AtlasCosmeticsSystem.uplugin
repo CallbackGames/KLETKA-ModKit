@@ -1,0 +1,82 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Atlas Cosmetics System",
+  "Description": "Project-neutral replicated appearance composition and cosmetic presentation runtime.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasCosmeticsSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasCosmeticsSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasCosmeticsSystemUI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "AtlasModTemplates": {
+    "SchemaVersion": 1,
+    "Templates": [
+      {
+        "Id": "AtlasCosmeticsSystem.Cosmetic",
+        "Category": "Cosmetics & UI",
+        "Label": "Mod cosmetic",
+        "Description": "Creates a cosmetic actor with a visible marker, a stable definition and Add Mod Cosmetics registration. No store ownership is granted.",
+        "Recipe": "Documentation/Examples/CreateCosmeticModExample.py",
+        "RequiredPlugins": [
+          "AtlasCosmeticsSystem"
+        ],
+        "AssetPaths": [
+          "CosmeticExample/BP_ExampleCosmetic",
+          "CosmeticExample/DA_ExampleCosmetic"
+        ],
+        "NextSteps": [
+          "Replace the marker under BP_ExampleCosmetic.WorldView with your own mesh. Keep collision disabled and fit the attachment socket/offset to your character.",
+          "Choose the intended cosmetic slot and edit DA_ExampleCosmetic display data, styles and presentation. Keep its generated identity when renaming the asset.",
+          "Add Mod Cosmetics publishes this feature's own cosmetic. Test selecting and clearing it, a remote player, first-person visibility and deactivation before Cook & Publish."
+        ]
+      }
+    ]
+  }
+}

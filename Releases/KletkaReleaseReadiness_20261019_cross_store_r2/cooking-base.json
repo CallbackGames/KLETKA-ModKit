@@ -1,0 +1,23 @@
+{
+  "SchemaVersion": 1,
+  "Release": "KletkaReleaseReadiness_20261019_cross_store_r2",
+  "Engine": "5.8",
+  "Platform": "Win64",
+  "Files": [
+    {
+      "Path": "Windows/AssetRegistry.bin",
+      "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+    },
+    {
+      "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+    }
+  ],
+  "GameExecutables": [
+    {
+      "Configuration": "Development",
+      "Target": "KLETKA",
+      "Sha256": "cbcfedde89c614092f840947c6ac4a7fdace028155092ad5578c079c2cb2a838"
+    }
+  ]
+}

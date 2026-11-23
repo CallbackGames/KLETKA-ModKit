@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Atlas Vehicle System",
+  "Description": "Reusable Chaos vehicle mechanics. Gameplay composition belongs to Source AtlasVehicles.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "AtlasVehicleSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasVehicleSystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ChaosVehiclesPlugin",
+      "Enabled": true
+    }
+  ],
+  "Installed": true
+}

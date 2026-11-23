@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "AtlasInventoryExample",
+  "Description": "Generated Gameplay GameFeature mod payload.",
+  "Category": "Advanced Modding System",
+  "CreatedBy": "Atlas Inventory example",
+  "CanContainContent": true,
+  "Installed": false,
+  "ExplicitlyLoaded": true,
+  "BuiltInInitialFeatureState": "Registered",
+  "Plugins": [
+    {
+      "Name": "AtlasInventorySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ]
+}

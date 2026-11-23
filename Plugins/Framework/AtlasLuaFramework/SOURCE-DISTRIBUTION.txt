@@ -1,0 +1,31 @@
+AtlasLuaFramework source distribution
+=====================================
+
+This package contains the complete selected Runtime and Editor module sources,
+their build rules, the Lua C++ compilation wrappers and the vendored Lua runtime.
+LICENSE.txt grants MIT permissions for the Callback-owned integration; the Lua
+license and upstream version are in ThirdParty/Lua.
+The vendored Lua 5.5.1 subset contains 52 upstream .c/.h files. Their content
+matches the official release after CRLF/LF normalization. The standalone lua/luac
+programs and the unexposed coroutine, debug, I/O, package, OS and UTF-8 libraries
+are not part of this embedded runtime. Runtime compilation wrappers select the
+actual units; upstream parser/compiler and VM sources are included.
+
+The source plugin descriptor omits the internal test module, which is not part of
+the integration delivered to users. No engine installation or compiler is bundled.
+
+Building:
+1. Use the Unreal Engine version specified by the matching ModKit release.
+2. Use the matching NativeSdk ModKit for the AtlasVariantDataFramework dependency.
+   Its existing license is unchanged; it is not relicensed by this package.
+3. In a separate working copy, replace the binary-only AtlasLuaFramework plugin
+   with this source plugin. Generate project files and build the editor target
+   with the compiler supported by that Unreal version.
+4. Keep the source bundle with any redistribution of this integration. Retain
+   both MIT notices. Do not present other Atlas or Unreal code as MIT-licensed.
+
+In both NativeSdk and BlueprintBinary ModKits, the source bundle is supplied at
+Legal/AtlasLuaFramework-source.zip. Keeping the full source in this separate ZIP
+avoids making the Blueprint-only user compile anything just to open the ModKit.
+The outer release inventory and Sources.json inside the ZIP record file hashes.
+These hashes certify package contents, not the legal status of unrelated modules.

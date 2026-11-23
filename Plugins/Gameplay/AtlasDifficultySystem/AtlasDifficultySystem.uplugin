@@ -1,0 +1,36 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Atlas Difficulty System",
+  "Description": "Project-neutral difficulty profiles, deterministic rule resolution, Game Feature contributions, and authoritative replication.",
+  "Category": "Callback Games|Gameplay|Difficulty",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EngineVersion": "5.8.0",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasDifficultySystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasDifficultySystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

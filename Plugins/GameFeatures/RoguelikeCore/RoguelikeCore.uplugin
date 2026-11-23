@@ -1,0 +1,58 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "RoguelikeCore",
+  "Description": "",
+  "Category": "Game Features",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "RoguelikeCoreContent",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "RoguelikeCoreComponents",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "ExplicitlyLoaded": false,
+  "BuiltInInitialFeatureState": "Installed",
+  "Plugins": [
+    {
+      "Name": "AtlasModdingSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasInventorySystem",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    }
+  ]
+}

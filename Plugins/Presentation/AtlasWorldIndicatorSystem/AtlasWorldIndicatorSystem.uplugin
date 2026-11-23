@@ -1,0 +1,32 @@
+{
+  "FileVersion": 3,
+  "FriendlyName": "Atlas World Indicator System",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasWorldIndicatorSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasWorldIndicatorSystemUI",
+      "Type": "ClientOnly",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "Description": "World-space indicators, markers, and contextual player guidance UI.",
+  "Category": "Callback Games|Presentation|World Indicators",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "SupportURL": "solarponny@gmail.com",
+  "Plugins": [
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    }
+  ]
+}

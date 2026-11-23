@@ -1,0 +1,28 @@
+{
+  "SchemaVersion": 1,
+  "Release": "modkit-local-20261120-guard-floor",
+  "Engine": "5.8",
+  "Platform": "Win64",
+  "Files": [
+    {
+      "Path": "Windows/AssetRegistry.bin",
+      "Sha256": "5df1a8558e58fee49515ab5b90bc901a96dec78b38311a65847a5bfd08236290"
+    },
+    {
+      "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Sha256": "c23c6e87619b078d5cf8078562752196439cb20307a17e9d7f01c75ea8e42b7c"
+    },
+    {
+      "Path": "Windows/ModCompatibility.json",
+      "Sha256": "e7d5126da63969c1701f3b05a695e2654eaff706ce8f53990e79eb8d394536b2"
+    }
+  ],
+  "GameExecutables": [
+    {
+      "Configuration": "Development",
+      "Target": "KLETKA",
+      "Sha256": "ecc388f76a269369b1a1bdb3910a57a2e160659e20fa10410117bb63a7967dd3"
+    }
+  ],
+  "Distribution": "UnpublishedLocalCandidate"
+}

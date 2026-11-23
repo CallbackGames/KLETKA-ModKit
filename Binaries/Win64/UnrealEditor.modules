@@ -1,0 +1,24 @@
+{
+  "BuildId": "55116800",
+  "Modules": {
+    "AtlasEquipment": "UnrealEditor-AtlasEquipment.dll",
+    "AtlasEquipmentUI": "UnrealEditor-AtlasEquipmentUI.dll",
+    "AtlasEquipmentEditor": "UnrealEditor-AtlasEquipmentEditor.dll",
+    "AtlasInteraction": "UnrealEditor-AtlasInteraction.dll",
+    "AtlasInteractionEditor": "UnrealEditor-AtlasInteractionEditor.dll",
+    "AtlasSettingsPresentation": "UnrealEditor-AtlasSettingsPresentation.dll",
+    "AtlasSettingsUI": "UnrealEditor-AtlasSettingsUI.dll",
+    "AtlasSettingsEditor": "UnrealEditor-AtlasSettingsEditor.dll",
+    "AtlasSettingsAudio": "UnrealEditor-AtlasSettingsAudio.dll",
+    "AtlasCombat": "UnrealEditor-AtlasCombat.dll",
+    "AtlasCombatUI": "UnrealEditor-AtlasCombatUI.dll",
+    "AtlasCombatEditor": "UnrealEditor-AtlasCombatEditor.dll",
+    "AtlasAI": "UnrealEditor-AtlasAI.dll",
+    "AtlasAIEditor": "UnrealEditor-AtlasAIEditor.dll",
+    "AtlasGameplayAbilities": "UnrealEditor-AtlasGameplayAbilities.dll",
+    "AtlasVehicles": "UnrealEditor-AtlasVehicles.dll",
+    "AtlasRewards": "UnrealEditor-AtlasRewards.dll",
+    "AtlasLoot": "UnrealEditor-AtlasLoot.dll",
+    "AtlasContentEditor": "UnrealEditor-AtlasContentEditor.dll"
+  }
+}

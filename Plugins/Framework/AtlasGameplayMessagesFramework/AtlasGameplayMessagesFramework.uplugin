@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Atlas Gameplay Messages Framework",
+  "Description": "Atlas-owned typed local and network gameplay messaging.",
+  "Category": "Framework",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasGameplayMessagesFrameworkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasGameplayMessagesFrameworkNodes",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

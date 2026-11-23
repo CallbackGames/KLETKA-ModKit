@@ -1,0 +1,84 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "ResourcePack",
+	"entries": [
+		{
+			"id": "ResourcePack:DARB_BaseItems",
+			"displayName": "DARB_BaseItems",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_BaseItems_SmallFloor",
+			"displayName": "DARB_BaseItems_SmallFloor",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_BDSM",
+			"displayName": "DARB_BDSM",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Factory",
+			"displayName": "DARB_Factory",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Fleshmine",
+			"displayName": "DARB_Fleshmine",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_GreenhouseUnit",
+			"displayName": "DARB_GreenhouseUnit",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Lobby",
+			"displayName": "DARB_Lobby",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Null",
+			"displayName": "DARB_Null",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Prison",
+			"displayName": "DARB_Prison",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_ResearchFacility",
+			"displayName": "DARB_ResearchFacility",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_ResidentialBlock",
+			"displayName": "DARB_ResidentialBlock",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_SecretRoom",
+			"displayName": "DARB_SecretRoom",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:DARB_Shop",
+			"displayName": "DARB_Shop",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		}
+	]
+}

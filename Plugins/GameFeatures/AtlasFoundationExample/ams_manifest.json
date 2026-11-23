@@ -1,0 +1,89 @@
+{
+	"schemaVersion": 1,
+	"contentId": "sample.atlasfoundationexample",
+	"profile":
+	{
+		"displayName": "Foundation Lifecycle Sample",
+		"card":
+		{
+			"shortDescription": "Starter Gameplay GameFeature created by Advanced Modding System.",
+			"description": "Starter Gameplay GameFeature created by Advanced Modding System.",
+			"author": "Atlas sample",
+			"tags": [
+				"Gameplay",
+				"GameFeature"
+			],
+			"iconPath": "Media/Icon.png",
+			"bannerPath": "Media/Banner.png",
+			"previewImagePaths": [
+				"Media/PreviewImage_0.png"
+			],
+			"externalUrl": "",
+			"websiteUrl": "",
+			"discordUrl": ""
+		}
+	},
+	"release":
+	{
+		"version": "0.1.0",
+		"changelog": "",
+		"visibility": "Hidden",
+		"approvalState": "Draft"
+	},
+	"package":
+	{
+		"contentClass": "CreatorContent",
+		"distribution": "Filesystem",
+		"runtimeFormat": "GameFeaturePlugin",
+		"multiplayerScope": "OfflineOnly",
+		"entitlementType": "DirectInstall",
+		"joinEntitlementPolicy": "ClientMustOwn",
+		"pluginName": "AtlasFoundationExample",
+		"activationPhases": [
+			"BeforeMultiplayerSession"
+		],
+		"bEnabledByDefault": false,
+		"dependencies": [],
+		"conflicts": [],
+		"compatibility":
+		{
+			"minGameBuild": "",
+			"maxGameBuild": "",
+			"supportedBranches": []
+		},
+		"compatibilityHash": "",
+		"artifacts":
+		{
+			"Win64":
+			{
+				"provider": "Filesystem",
+				"providerId": "",
+				"format": "GameFeaturePlugin",
+				"hashSha256": "",
+				"relativeInstallPath": "AtlasFoundationExample.uplugin",
+				"providerReferences": []
+			}
+		},
+		"providerReferences": [],
+		"network":
+		{
+			"bServerRequired": false,
+			"bClientRequired": false,
+			"bCosmeticOnly": false,
+			"bPublicSafe": false,
+			"bCrossplaySafe": false
+		}
+	},
+	"trust":
+	{
+		"approvalReceiptId": "",
+		"approvalAuthority": "",
+		"signingKeyId": "",
+		"signatureAlgorithm": "",
+		"signature": "",
+		"payloadHashSha256": "",
+		"trustedAtUtc": "",
+		"bRequireTrustedSignature": false
+	},
+	"apiVersion": 1
+}

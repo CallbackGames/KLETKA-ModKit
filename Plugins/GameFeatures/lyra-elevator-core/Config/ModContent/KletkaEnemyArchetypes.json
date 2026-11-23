@@ -1,0 +1,246 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "EnemyArchetype",
+	"entries": [
+		{
+			"id": "EnemyArchetype:enemy_1B4E2E99411D932A72760C8527F16CF0",
+			"displayName": "Rover",
+			"description": "In the past, people who hadn't found their place in life would often, without much thought, take jobs as security guards in grocery stores; but with the arrival of these rovers, many of them have had to reinvent themselves—as shoplifters. Claims that you \"forgot to pay\" won't convince this turret on wheels of your innocence.",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_20173A63425857EE51FA009F3A89C323",
+			"displayName": "Sales Consultant",
+			"description": "Afraid of talking to clerks? In this grocery store, this fear is finally justified. Keep your distance. The 'service' here is, shall we say, exceptionally intrusive, and the work shift never ends.",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_40354D964B8557F8B820039C34AE3DA4",
+			"displayName": "Shop Guard",
+			"description": "Food-retail security's finest — the kind no robot could ever replace! Whether or not you actually tried to make off with a bottle of vodka, rest assured: you’ll be invited to the back room for a little chat.",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_40D045E44548316439226DBFB2D001A3",
+			"displayName": "Flewfish",
+			"description": "These doomed escapees from the fish counter will never return to the waters they once inhabited. One could even feel sorry for them, if they weren't so intent on gnawing the faces off the patrons of this bizarre grocery store. Remind them exactly where they belong in the food chain.",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_4EE78C9248D9F37F3042ACA2BDFC90AD",
+			"displayName": "Cloppy",
+			"description": "A shopping trip is fun for the whole family! The jaw-dropping pirouettes of the sprightly clown named Cloppy are sure to leave visitors anything but indifferent. And if you’re not a fan of overbearing entertainers—strike back hard and don’t let him scurry away!",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_521F14784134FD31FB2514AF41357D60",
+			"displayName": "Dead Beer",
+			"description": "A vending machine goes hungry after decades without refills. Stale synthetic beerproduct doesn't cut it anymore, so it's ready to add some human blood and jerky to its fine selection of snacks and beverages. \r\nFeeds on unsuspecting idiots.",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:enemy_96939F654675CA9F8BD0B2B5243A2807",
+			"displayName": "Deadstock",
+			"description": "An absolutely ordinary mannequin. Not some horror-movie type that comes to life. Not a monster, not an apparition. Don’t believe it? Just turn your back on it.",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Barnacle",
+			"displayName": "B_Barnacle",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_BetonEater",
+			"displayName": "B_BetonEater",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Anton",
+			"displayName": "B_Bot_Anton",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Attendant",
+			"displayName": "B_Bot_Attendant",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Bighead",
+			"displayName": "B_Bot_Bighead",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Bombardiro",
+			"displayName": "B_Bot_Bombardiro",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Catroach",
+			"displayName": "B_Bot_Catroach",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Caveman",
+			"displayName": "B_Bot_Caveman",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Chainbearer",
+			"displayName": "B_Bot_Chainbearer",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_ExplosiveCrawler",
+			"displayName": "B_Bot_ExplosiveCrawler",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_FakeSoul",
+			"displayName": "B_Bot_FakeSoul",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Fleshweaver",
+			"displayName": "B_Bot_Fleshweaver",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Fungus",
+			"displayName": "B_Bot_Fungus",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Gasman",
+			"displayName": "B_Bot_Gasman",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Glooper",
+			"displayName": "B_Bot_Glooper",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Gretchin",
+			"displayName": "B_Bot_Gretchin",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Inmate",
+			"displayName": "B_Bot_Inmate",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_LivingCone",
+			"displayName": "B_Bot_LivingCone",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_LivingSlime",
+			"displayName": "B_Bot_LivingSlime",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Lurker",
+			"displayName": "B_Bot_Lurker",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Pollinator",
+			"displayName": "B_Bot_Pollinator",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Seeder",
+			"displayName": "B_Bot_Seeder",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Sizzler",
+			"displayName": "B_Bot_Sizzler",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Witch",
+			"displayName": "B_Bot_Witch",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Worm_Meat",
+			"displayName": "B_Bot_Worm_Meat",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_Bot_Zealot",
+			"displayName": "B_Bot_Zealot",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_EyeRoller",
+			"displayName": "B_EyeRoller",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_EyeRoller_Meat",
+			"displayName": "B_EyeRoller_Meat",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_B_RatBall",
+			"displayName": "B_RatBall",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_BEV_ToyCar",
+			"displayName": "BEV_ToyCar",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_BEV_Zara",
+			"displayName": "BEV_Zara",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:EnemyArchetype_Warden",
+			"displayName": "Warden",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "EnemyArchetype:Gastronom.Butcher",
+			"displayName": "Butcher",
+			"description": "The ham of this meat counter queen have long since been coated in a slimy layer of cadaveric bacteria, and the putrid stench of her own innards ranks as the foulest of all the rotten, expired goods in the grocery store. But don’t be fooled: this decaying carcass hasn’t forgotten how to wield a meat hook and a cleaver.\r\nIn the old days, she at least used to ask how much you wanted her to chop off.",
+			"ownerMount": "GastronomCore"
+		}
+	]
+}

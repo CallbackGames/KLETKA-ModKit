@@ -1,0 +1,2352 @@
+{
+  "SchemaVersion": 1,
+  "ReleaseVersion": "0.1.0-rc.1",
+  "PublicApiVersion": "0.8.0",
+  "Engine": {
+    "MajorMinor": "5.8",
+    "Root": "K:/Programs/UE_5.8"
+  },
+  "ProjectDescriptor": "KLETKA_ModKit.uproject",
+  "PublicAssetsManifest": "Config/ModKitPublicAssets.json",
+  "GlobalExcludedDirectoryNames": [
+    "__pycache__",
+    ".vs",
+    "Binaries",
+    "DerivedDataCache",
+    "Intermediate",
+    "Saved"
+  ],
+  "RootPlugins": [
+    "AtlasAssetManagementFramework",
+    "AtlasDifficultySystem",
+    "AtlasGameplayExperienceFramework",
+    "AtlasInventorySystem",
+    "AtlasJournalSystem",
+    "AtlasLootSystem",
+    "AtlasModdingSystem",
+    "AtlasModdingSystemAuthoring",
+    "AtlasQuestSystem",
+    "AtlasSaveGameFramework",
+    "AtlasStatisticsSystem",
+    "AtlasTargetingAssistanceSystem",
+    "AtlasTranslationSystem",
+    "AtlasVariantDataFramework",
+    "AtlasAISystem",
+    "AtlasAbilitiesSystem",
+    "AtlasContextEffectsSystem",
+    "AtlasCosmeticsSystem",
+    "AtlasGameFeaturesFramework",
+    "AtlasGameplayMessagesFramework",
+    "AtlasInputFramework",
+    "AtlasLocomotionSystem",
+    "AtlasPlayerCameraSystem",
+    "AtlasSettingsFramework",
+    "AtlasTeamSystem",
+    "AtlasUISystem",
+    "AtlasViewpointSystem",
+    "AtlasWorldIndicatorSystem",
+    "ElevatorCore",
+    "AtlasVehicleSystem",
+    "AtlasAgentControlSystem",
+    "AtlasLuaFramework",
+    "RoguelikeCore",
+    "AtlasGameplayPhaseFramework",
+    "ElevatorCoreDungeonArchitect",
+    "AtlasProgressionSystem",
+    "AtlasSubtitleSystem",
+    "AtlasSubtitleUI"
+  ],
+  "ForbiddenPlugins": [
+    "DungeonArchitect",
+    "KletkaModdingBridge",
+    "KletkaModdingSDK",
+    "Modio",
+    "SteamShared"
+  ],
+  "ForbiddenModules": [
+    "AtlasSettingsMenu",
+    "AtlasGameplayInput",
+    "AtlasPlayerPreferences",
+    "DungeonArchitectRuntime",
+    "LyraGame",
+    "AtlasGame",
+    "AtlasGameEditor",
+    "AtlasIntegrationTests",
+    "RoguelikeCoreRuntime",
+    "RoguelikeCoreInternal",
+    "ElevatorCoreRuntime",
+    "ElevatorCoreInternal",
+    "ElevatorCoreMigration",
+    "KletkaModdingBridgeRuntime",
+    "Modio",
+    "OnlineSubsystemRedpointEOS",
+    "SteamShared",
+    "AtlasTextChatSystemRuntime",
+    "AtlasVoiceChatSystem",
+    "AtlasOnlineServicesChatUI",
+    "AtlasOnlineServicesCommunicationIntegration",
+    "AtlasInputFrameworkGameFeatures"
+  ],
+  "ForbiddenSourceTokens": [
+    "AtlasSettingsMenu",
+    "AtlasGameplayInput",
+    "AtlasPlayerPreferences",
+    "DungeonArchitect",
+    "LyraGame",
+    "AtlasGame",
+    "AtlasGameEditor",
+    "AtlasIntegrationTests",
+    "RoguelikeCoreRuntime",
+    "RoguelikeCoreInternal",
+    "ElevatorCoreRuntime",
+    "ElevatorCoreInternal",
+    "ElevatorCoreMigration",
+    "KletkaModdingBridgeRuntime",
+    "OnlineSubsystemRedpointEOS",
+    "RedpointEOS",
+    "Steamworks"
+  ],
+  "EnginePluginAllowList": [
+    "OnlineSubsystem",
+    "OnlineSubsystemUtils",
+    "OnlineSubsystemNull",
+    "PythonScriptPlugin",
+    "EditorScriptingUtilities",
+    "ACLPlugin",
+    "CommonUI",
+    "EnhancedInput",
+    "GameFeatures",
+    "GameplayAbilities",
+    "ModularGameplay",
+    "Niagara",
+    "BinkMedia",
+    "AnimationLocomotionLibrary",
+    "AnimationWarping",
+    "MotionWarping",
+    "PoseSearch",
+    "Chooser",
+    "ControlRig",
+    "IKRig",
+    "DrawDebugLibrary",
+    "CurveExpression",
+    "Mover",
+    "NetworkPrediction",
+    "LiveLink",
+    "LiveLinkControlRig",
+    "RigLogic",
+    "HairStrands",
+    "SmartObjects",
+    "GameplayInteractions",
+    "AudioModulation",
+    "PropertyBindingUtils",
+    "StateTree",
+    "GameplayStateTree",
+    "ChaosVehiclesPlugin",
+    "PCG",
+    "DataValidation"
+  ],
+  "EngineModuleAllowList": [
+    "PythonScriptPlugin",
+    "AIModule",
+    "AnimGraphRuntime",
+    "AnimationBlueprintLibrary",
+    "AnimationModifiers",
+    "ApplicationCore",
+    "AssetDefinition",
+    "AssetReferenceRestrictions",
+    "AssetRegistry",
+    "AssetTools",
+    "AudioMixer",
+    "AudioMixerCore",
+    "AudioModulation",
+    "BlueprintGraph",
+    "Chooser",
+    "CommonInput",
+    "CommonUI",
+    "ContentBrowser",
+    "ContentBrowserData",
+    "Core",
+    "CoreUObject",
+    "DataValidation",
+    "DesktopPlatform",
+    "DeveloperSettings",
+    "EditorWidgets",
+    "Engine",
+    "EnhancedInput",
+    "GameFeatures",
+    "GameplayAbilities",
+    "GameplayStateTreeModule",
+    "GameplayTags",
+    "GameplayTasks",
+    "GraphEditor",
+    "HTTP",
+    "HTTPServer",
+    "IKRig",
+    "ImageCore",
+    "ImageWrapper",
+    "InputCore",
+    "IrisCore",
+    "Json",
+    "JsonUtilities",
+    "Kismet",
+    "KismetCompiler",
+    "Localization",
+    "LocalizationCommandletExecution",
+    "LocalizationService",
+    "MainFrame",
+    "MediaAssets",
+    "ModularGameplay",
+    "MotionWarping",
+    "NavigationSystem",
+    "NetCore",
+    "CoreOnline",
+    "Niagara",
+    "OpenSSL",
+    "PakFile",
+    "MeshDescription",
+    "SkeletalMeshDescription",
+    "StaticMeshDescription",
+    "PhysicsCore",
+    "PoseSearch",
+    "PreLoadScreen",
+    "Projects",
+    "PropertyBindingUtils",
+    "PropertyEditor",
+    "ClassViewer",
+    "RHI",
+    "RenderCore",
+    "Serialization",
+    "Settings",
+    "Slate",
+    "SlateCore",
+    "StateTreeEditorModule",
+    "StateTreeModule",
+    "ToolMenus",
+    "UMG",
+    "UnrealEd",
+    "ChaosVehicles",
+    "Chaos",
+    "ChaosVehiclesCore",
+    "ComponentVisualizers",
+    "MessageLog",
+    "PCG",
+    "Overlay",
+    "UMGEditor"
+  ],
+  "Plugins": [
+    {
+      "Name": "AtlasSettingsFramework",
+      "Path": "Plugins/Framework/AtlasSettingsFramework",
+      "Owner": "Atlas Settings Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasSettingsFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasSettingsFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasSettingsFrameworkRuntime/Options/AtlasOptionTypes.h",
+        "Source/AtlasSettingsFrameworkRuntime/Types/AtlasBundle.h",
+        "Source/AtlasSettingsFrameworkRuntime/Types/AtlasTypes.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasSettingDefinition.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasSettingsDefinitionSource.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasBundleSchema.h",
+        "Source/AtlasSettingsFrameworkRuntime/Values/AtlasSettingValueSource.h",
+        "Source/AtlasSettingsFrameworkRuntime/Networking/AtlasSessionRulesComponent.h",
+        "Source/AtlasSettingsFrameworkRuntime/Features/GameFeatureAction_AddAtlasDefinitions.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasContributor.h",
+        "Source/AtlasSettingsFrameworkRuntime/Subsystems/AtlasRegistrySubsystem.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasSettingApplier.h",
+        "Source/AtlasSettingsFrameworkRuntime/Options/AtlasOptionCondition.h",
+        "Source/AtlasSettingsFrameworkRuntime/Options/AtlasOptionSource.h",
+        "Source/AtlasSettingsFrameworkRuntime/Types/AtlasApplyTypes.h",
+        "Source/AtlasSettingsFrameworkRuntime/Definitions/AtlasKeyChordSettingDefinition.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "DescriptorPluginDependenciesExcluded": [],
+      "IncludeRoots": [
+        "AtlasSettingsFramework.uplugin",
+        "Source/AtlasSettingsFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasWorldIndicatorSystem",
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem",
+      "Owner": "Atlas World Indicator System",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasWorldIndicatorSystemRuntime",
+        "AtlasWorldIndicatorSystemUI"
+      ],
+      "NativeSdkModules": [
+        "AtlasWorldIndicatorSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasWorldIndicatorSystemRuntime/Layers/AtlasIndicatorLayer.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Layers/AtlasIndicatorLayer_CustomDepth.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Layers/AtlasIndicatorLayer_MaterialOverlay.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Profiles/AtlasIndicatorProfile.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Types/AtlasIndicatorTypes.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Blueprint/AtlasWorldIndicatorBlueprintLibrary.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Settings/AtlasWorldIndicatorDeveloperSettings.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/Subsystems/AtlasWorldIndicatorSubsystem.h",
+        "Source/AtlasWorldIndicatorSystemRuntime/WorldMarkers/AtlasWorldMarkerContentProvider.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasWorldIndicatorSystemEditor",
+        "AtlasWorldIndicatorSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasWorldIndicatorSystem.uplugin",
+        "Config",
+        "Source/AtlasWorldIndicatorSystemRuntime",
+        "Source/AtlasWorldIndicatorSystemUI",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasDifficultySystem",
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem",
+      "Owner": "Atlas Difficulty System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasDifficultySystemRuntime",
+        "AtlasDifficultySystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasDifficultySystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasDifficultySystemRuntime/Contributions/AtlasDifficultyCompositionReport.h",
+        "Source/AtlasDifficultySystemRuntime/Contributions/AtlasDifficultyRegistrySubsystem.h",
+        "Source/AtlasDifficultySystemRuntime/Core/AtlasDifficultyTypes.h",
+        "Source/AtlasDifficultySystemRuntime/Core/AtlasDifficultyTags.h",
+        "Source/AtlasDifficultySystemRuntime/Definitions/AtlasDifficultyDefinitions.h",
+        "Source/AtlasDifficultySystemRuntime/GameFeatures/AtlasGameFeatureAction_AddDifficultyContent.h",
+        "Source/AtlasDifficultySystemRuntime/Integration/AtlasDifficultyPublication.h",
+        "Source/AtlasDifficultySystemRuntime/Runtime/AtlasDifficultyResolver.h",
+        "Source/AtlasDifficultySystemRuntime/Runtime/AtlasDifficultyStateComponent.h",
+        "Source/AtlasDifficultySystemRuntime/Runtime/AtlasDifficultySubsystem.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasDifficultySystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasDifficultySystem.uplugin",
+        "Config",
+        "Source/AtlasDifficultySystemRuntime",
+        "Source/AtlasDifficultySystemEditor",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasStatisticsSystem",
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem",
+      "Owner": "Atlas Statistics System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasStatisticsSystemRuntime",
+        "AtlasStatisticsSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasStatisticsSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasStatisticsSystemRuntime/Accolades/AtlasAccoladeContributions.h",
+        "Source/AtlasStatisticsSystemRuntime/Accolades/AtlasAccoladeRegistrySubsystem.h",
+        "Source/AtlasStatisticsSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddAccoladeContent.h",
+        "Source/AtlasStatisticsSystemRuntime/Accolades/AtlasStatisticsAccolades.h",
+        "Source/AtlasStatisticsSystemRuntime/Accolades/AtlasStatisticsSubsystem.h",
+        "Source/AtlasStatisticsSystemRuntime/Contributions/AtlasStatisticsCompositionReport.h",
+        "Source/AtlasStatisticsSystemRuntime/Contributions/AtlasStatisticsRegistrySubsystem.h",
+        "Source/AtlasStatisticsSystemRuntime/Core/AtlasStatisticsTypes.h",
+        "Source/AtlasStatisticsSystemRuntime/Definitions/AtlasStatisticsSchema.h",
+        "Source/AtlasStatisticsSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddStatisticsSchemas.h",
+        "Source/AtlasStatisticsSystemRuntime/Persistence/AtlasStatisticsSnapshotResolver.h",
+        "Source/AtlasStatisticsSystemRuntime/Runtime/AtlasStatisticsComponent.h",
+        "Source/AtlasStatisticsSystemRuntime/Runtime/AtlasStatisticsResolver.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasStatisticsSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasStatisticsSystem.uplugin",
+        "Config",
+        "Source/AtlasStatisticsSystemRuntime",
+        "Source/AtlasStatisticsSystemEditor",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Path": "Plugins/Framework/AtlasVariantDataFramework",
+      "Owner": "Atlas Variant Data Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasVariantDataFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasVariantDataFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasVariantDataFrameworkRuntime/Blueprint/VariantStoreLibrary.h",
+        "Source/AtlasVariantDataFrameworkRuntime/Blueprint/VariantValueLibrary.h",
+        "Source/AtlasVariantDataFrameworkRuntime/Types/VariantDataTypes.h",
+        "Source/AtlasVariantDataFrameworkRuntime/Text/AtlasRichTextData.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasVariantDataFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasVariantDataFramework.uplugin",
+        "Source/AtlasVariantDataFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasAbilitiesSystem",
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem",
+      "Owner": "Atlas Abilities System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasAbilitiesSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAbilitiesSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasAbilityCost.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasAbilityFailureFeedbackProfile.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasAbilitySimpleFailureMessage.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasGameplayAbility.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasGameplayAbility_Death.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasGameplayAbility_Jump.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Abilities/AtlasGameplayAbility_Reset.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Actors/AtlasAbilityActor.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Animation/AtlasAbilitySystemAnimInstanceInterface.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySet.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySourceInterface.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySystemComponent.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySystemGlobals.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilitySystemOwnerInterface.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasAbilityTagRelationshipMapping.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasGameplayAbilityTargetData_SingleTargetHit.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasCueCameraEffects.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasGameplayCueManager.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasGameplayEffectContext.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasNativeGameplayTags.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Attributes/AtlasAttributeSet.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Attributes/AtlasHealthSet.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Components/AtlasAbilityAvatarComponent.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Components/AtlasHealthComponent.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Executions/AtlasBaseHealExecution.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Executions/AtlasSelfDestructExecution.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Messages/AtlasVerbMessageGameplayCueLibrary.h",
+        "Source/AtlasAbilitiesSystemRuntime/AtlasAbilitiesSystemLog.h",
+        "Source/AtlasAbilitiesSystemRuntime/AtlasAbilitiesSystemRuntime.h",
+        "Source/AtlasAbilitiesSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddAbilities.h",
+        "Source/AtlasAbilitiesSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddGameplayCuePaths.h",
+        "Source/AtlasAbilitiesSystemRuntime/GameFeatures/AtlasGameplayCuePathObserver.h",
+        "Source/AtlasAbilitiesSystemRuntime/Blueprint/AtlasAbilityBlueprintLibrary.h",
+        "Source/AtlasAbilitiesSystemRuntime/GameplayTags/AtlasGameplayTagLibrary.h",
+        "Source/AtlasAbilitiesSystemRuntime/Settings/AtlasAbilityFailureFeedbackSettings.h",
+        "Source/AtlasAbilitiesSystemRuntime/Settings/AtlasHealingSettings.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/AtlasStartupAttributesProvider.h",
+        "Source/AtlasAbilitiesSystemRuntime/Execution/AtlasAbilityExecutionComponent.h",
+        "Source/AtlasAbilitiesSystemRuntime/AbilitySystem/Components/AtlasDestructibleHealthComponent.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasAbilitiesSystemEditor",
+        "AtlasAbilitiesSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasAbilitiesSystem.uplugin",
+        "Config",
+        "Source/AtlasAbilitiesSystemRuntime",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Path": "Plugins/Framework/AtlasGameFeaturesFramework",
+      "Owner": "Atlas Game Features Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameFeaturesFrameworkRuntime",
+        "AtlasGameFeaturesFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameFeaturesFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasGameFeaturesFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasGameFeaturesFramework.uplugin",
+        "Source/AtlasGameFeaturesFrameworkRuntime",
+        "Source/AtlasGameFeaturesFrameworkEditor"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayMessagesFramework",
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework",
+      "Owner": "Atlas Gameplay Messages Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameplayMessagesFrameworkRuntime",
+        "AtlasGameplayMessagesFrameworkNodes"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayMessagesFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasGameplayMessagesFrameworkTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [
+        "GameplayTagsEditor"
+      ],
+      "IncludeRoots": [
+        "AtlasGameplayMessagesFramework.uplugin",
+        "Config",
+        "Source/AtlasGameplayMessagesFrameworkRuntime",
+        "Source/AtlasGameplayMessagesFrameworkNodes"
+      ]
+    },
+    {
+      "Name": "AtlasInputFramework",
+      "Path": "Plugins/Framework/AtlasInputFramework",
+      "Owner": "Atlas Input Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasInputFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasInputFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasInputFrameworkEditor",
+        "AtlasInputFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasInputFramework.uplugin",
+        "Config",
+        "Source/AtlasInputFrameworkRuntime",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasViewpointSystem",
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem",
+      "Owner": "Atlas Viewpoint System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasViewpointSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasViewpointSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasViewpointSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasViewpointSystem.uplugin",
+        "Config",
+        "Source/AtlasViewpointSystemRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasUISystem",
+      "Path": "Plugins/Presentation/AtlasUISystem",
+      "Owner": "Atlas UI System",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasUISystemExtensions",
+        "AtlasUISystemTypes",
+        "AtlasUISystemRuntime",
+        "AtlasUISystemGameFeatures",
+        "AtlasUISystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasUISystemTypes",
+        "AtlasUISystemExtensions",
+        "AtlasUISystemGameFeatures"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasUISystemStartup",
+        "AtlasUISystemTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [
+        "AtlasGameplayExperienceFramework",
+        "AtlasPlayerCameraSystem"
+      ],
+      "IncludeRoots": [
+        "AtlasUISystem.uplugin",
+        "Config",
+        "Source/AtlasUISystemExtensions",
+        "Source/AtlasUISystemTypes",
+        "Resources",
+        "Source/AtlasUISystemRuntime",
+        "Source/AtlasUISystemGameFeatures",
+        "Documentation/Examples/CreateScreenModExample.py",
+        "Source/AtlasUISystemEditor",
+        "Documentation/Examples/CreateLoadingScreenModExample.py"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasUISystemTypes/Frontend/AtlasLobbyBackground.h",
+        "Source/AtlasUISystemTypes/Loading/AtlasLoadingReasonConfig.h",
+        "Source/AtlasUISystemTypes/Messaging/AtlasSystemMessageConfig.h",
+        "Source/AtlasUISystemExtensions/Screens/AtlasUIScreenRoleRegistry.h",
+        "Source/AtlasUISystemGameFeatures/GameFeatures/AtlasGameFeatureAction_ReplaceScreens.h",
+        "Source/AtlasUISystemExtensions/Loading/AtlasLoadingScreenDefinition.h",
+        "Source/AtlasUISystemExtensions/Loading/AtlasLoadingScreenCatalog.h",
+        "Source/AtlasUISystemGameFeatures/GameFeatures/AtlasGameFeatureAction_AddLoadingScreens.h"
+      ]
+    },
+    {
+      "Name": "AtlasTargetingAssistanceSystem",
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem",
+      "Owner": "Atlas Targeting Assistance System",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasTargetingAssistanceSystemRuntime",
+        "AtlasTargetingAssistanceSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTargetingAssistanceSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasTargetingAssistanceSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasTargetingAssistanceSystem.uplugin",
+        "Config",
+        "Source/AtlasTargetingAssistanceSystemRuntime",
+        "Source/AtlasTargetingAssistanceSystemEditor",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasModdingSystem",
+      "Path": "Plugins/Modding/AtlasModdingSystem",
+      "Owner": "Atlas Modding System",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasModdingSystemRuntime",
+        "AtlasModdingSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasModdingSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasModdingSystemRuntime/Configuration/AtlasModdingFoundationBlueprintLibrary.h",
+        "Source/AtlasModdingSystemRuntime/Configuration/AtlasModdingFoundationSettings.h",
+        "Source/AtlasModdingSystemRuntime/ContentContributions/AtlasModExtensionCatalog.h",
+        "Source/AtlasModdingSystemRuntime/ContentContributions/AtlasModExtensionTypes.h",
+        "Source/AtlasModdingSystemRuntime/ContentModel/AtlasContentProfile.h",
+        "Source/AtlasModdingSystemRuntime/ContentModel/AtlasContentTypes.h",
+        "Source/AtlasModdingSystemRuntime/RuntimeContracts/AtlasRuntimeContractRegistry.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasModdingSystemSteam",
+        "AtlasModdingSystemModIo",
+        "AtlasModdingSystemModIoEditor",
+        "AtlasModdingSystemSteamEditor",
+        "AtlasModdingSystemTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [
+        "SteamShared",
+        "Modio"
+      ],
+      "IncludeRoots": [
+        "AtlasModdingSystem.uplugin",
+        "Config",
+        "Source/AtlasModdingSystemRuntime",
+        "Source/AtlasModdingSystemEditor",
+        "Resources",
+        "Docs/Examples/ams_manifest.example.json",
+        "Docs/GameplayTags/Contracts.json"
+      ]
+    },
+    {
+      "Name": "AtlasModdingSystemAuthoring",
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring",
+      "Owner": "Atlas Modding System Authoring",
+      "Disposition": "EditorTool",
+      "DescriptorModulesExcluded": [
+        "AtlasModdingSystemAuthoringTests"
+      ],
+      "Modules": [
+        "AtlasModdingSystemAuthoringEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasModdingSystemAuthoringEditor"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasModdingSystemAuthoringEditor/ModAuthoring/AMSModAuthoringBlueprintLibrary.h",
+        "Source/AtlasModdingSystemAuthoringEditor/ModAuthoring/AMSModAuthoringProjectTemplates.h",
+        "Source/AtlasModdingSystemAuthoringEditor/Validation/AMSManifestValidationTypes.h"
+      ],
+      "IncludeRoots": [
+        "AtlasModdingSystemAuthoring.uplugin",
+        "Source/AtlasModdingSystemAuthoringEditor",
+        "Examples/FoundationLifecycle",
+        "Docs/ModTemplates.html"
+      ]
+    },
+    {
+      "Name": "AtlasAssetManagementFramework",
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework",
+      "Owner": "Atlas Asset Management Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasAssetManagementFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAssetManagementFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasAssetManagementFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasAssetManagementFramework.uplugin",
+        "Config",
+        "Source/AtlasAssetManagementFrameworkRuntime"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayPhaseFramework",
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework",
+      "Owner": "Atlas Gameplay Phase Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameplayPhaseFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayPhaseFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasGameplayPhaseFrameworkRuntime/Phases/AtlasGamePhaseAbility.h",
+        "Source/AtlasGameplayPhaseFrameworkRuntime/Phases/AtlasGamePhaseBindingsComponent.h",
+        "Source/AtlasGameplayPhaseFrameworkRuntime/Phases/AtlasGamePhaseSubsystem.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasGameplayPhaseFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasGameplayPhaseFramework.uplugin",
+        "Config",
+        "Source/AtlasGameplayPhaseFrameworkRuntime",
+        "Docs/Examples/CreatePhaseBindingsExample.py"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayExperienceFramework",
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework",
+      "Owner": "Atlas Gameplay Experience Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameplayExperienceFrameworkRuntime",
+        "AtlasGameplayExperienceFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayExperienceFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Blueprint/AtlasGameplayAsyncExperienceAction.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Consumers/AtlasGameplayExperienceConsumer.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Definitions/AtlasGameplayExperienceDefinition.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Definitions/AtlasGameplayExperienceLaunchDefinition.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Definitions/AtlasGameplayExperienceModifier.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Definitions/AtlasGameplayExperiencePack.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/GameFeatures/AtlasGameplayGameFeatureActionsFragment.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Pawn/AtlasGameplayPawnDefinition.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Pawn/PawnSetupFragment.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Selection/AtlasGameplayExperienceSelectionPolicy.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Subsystems/AtlasGameplayExperienceWorldSubsystem.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Types/AtlasGameplayLifecycleTypes.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/Types/AtlasGameplayTypes.h",
+        "Source/AtlasGameplayExperienceFrameworkRuntime/World/AtlasGameplayWorldSettings.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasGameplayExperienceFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasGameplayExperienceFramework.uplugin",
+        "Config",
+        "Source/AtlasGameplayExperienceFrameworkRuntime",
+        "Source/AtlasGameplayExperienceFrameworkEditor",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasInventorySystem",
+      "Path": "Plugins/Gameplay/AtlasInventorySystem",
+      "Owner": "Atlas Inventory System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasInventorySystemRuntime",
+        "AtlasInventorySystemUI",
+        "AtlasInventorySystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasInventorySystemRuntime",
+        "AtlasInventorySystemUI"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasInventorySystemRuntime/Blueprint/AsyncActions/AtlasLoadCraftingRecipesAsyncAction.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/AsyncActions/AtlasLoadInventoryAssetsAsyncAction.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/AsyncActions/AtlasRestoreContainerAsyncAction.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/AsyncActions/AtlasRestoreCraftingJobAsyncAction.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/AsyncActions/AtlasRestoreCraftingQueueAsyncAction.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/Libraries/AtlasInventoryAssetCatalog.h",
+        "Source/AtlasInventorySystemRuntime/Blueprint/Libraries/AtlasInventoryBlueprintLibrary.h",
+        "Source/AtlasInventorySystemRuntime/Containers/AtlasInventoryContainerComponent.h",
+        "Source/AtlasInventorySystemRuntime/Containers/AtlasInventoryContainerDefinition.h",
+        "Source/AtlasInventorySystemRuntime/Containers/Specialized/QuickBar/AtlasQuickBarActivationAdapter.h",
+        "Source/AtlasInventorySystemRuntime/Containers/Specialized/QuickBar/AtlasQuickBarComponent.h",
+        "Source/AtlasInventorySystemRuntime/Containers/Specialized/SingleItem/AtlasInventorySingleItemContainerComponent.h",
+        "Source/AtlasInventorySystemRuntime/Containers/Specialized/Wallet/AtlasInventoryWalletContainerComponent.h",
+        "Source/AtlasInventorySystemRuntime/Containers/Transactions/AtlasInventoryTransaction.h",
+        "Source/AtlasInventorySystemRuntime/Contributions/AtlasInventoryContentSet.h",
+        "Source/AtlasInventorySystemRuntime/Contributions/AtlasInventoryContentRegistry.h",
+        "Source/AtlasInventorySystemRuntime/GameFeatures/AtlasGameFeatureAction_AddInventoryContent.h",
+        "Source/AtlasInventorySystemRuntime/Core/AtlasInventoryNativeGameplayTags.h",
+        "Source/AtlasInventorySystemRuntime/Core/AtlasInventoryProvenance.h",
+        "Source/AtlasInventorySystemRuntime/Core/AtlasInventoryTypes.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingMatcher.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingOutputAllocator.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingRecipeDefinition.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingRecipeEffect.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingRequestPolicy.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingStationComponent.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftingStationProvider.h",
+        "Source/AtlasInventorySystemRuntime/Crafting/AtlasCraftPlan.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/AtlasInventoryManagerComponent.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/AtlasInventoryPredictionStoreComponent.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/AtlasMainInventoryContainerComponent.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/Policies/AtlasInventoryCapacityProvider.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/Policies/AtlasInventoryRequestPolicy.h",
+        "Source/AtlasInventorySystemRuntime/Inventory/Routing/AtlasInventoryRoutingPolicy.h",
+        "Source/AtlasInventorySystemRuntime/Items/AtlasInventoryItemDefinition.h",
+        "Source/AtlasInventorySystemRuntime/Items/AtlasInventoryItemInstance.h",
+        "Source/AtlasInventorySystemRuntime/Items/AtlasInventoryItemFragment.h",
+        "Source/AtlasInventorySystemRuntime/Items/ContextActions/AtlasContextActionDefinition.h",
+        "Source/AtlasInventorySystemRuntime/Items/ContextActions/AtlasContextActionSet.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Core/InventoryFragment_InventoryIcons.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Core/InventoryFragmentTypes.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Crafting/InventoryFragment_RecipeCatalogue.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Economy/InventoryFragment_TradeOffer.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Gameplay/InventoryFragment_ContextActions.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Gameplay/InventoryFragment_OperationRestrictions.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/World/InventoryFragment_DroppedActor.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/World/InventoryFragment_PickupPresentation.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/World/InventoryFragment_Placement.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/World/InventoryFragment_WorldActor.h",
+        "Source/AtlasInventorySystemRuntime/Operations/AtlasInventoryOperationsSubsystem.h",
+        "Source/AtlasInventorySystemRuntime/Operations/AtlasInventoryOperationTypes.h",
+        "Source/AtlasInventorySystemRuntime/Persistence/AtlasInventoryDurabilityProvider.h",
+        "Source/AtlasInventorySystemRuntime/Persistence/AtlasInventoryPersistenceSubsystem.h",
+        "Source/AtlasInventorySystemRuntime/Subsystems/AtlasInventoryContainerRegistrySubsystem.h",
+        "Source/AtlasInventorySystemRuntime/World/Actors/AtlasInventoryWorldCollectable.h",
+        "Source/AtlasInventorySystemRuntime/World/AtlasInventoryExchangeComponent.h",
+        "Source/AtlasInventorySystemRuntime/World/Actors/AtlasInventoryWorldContainer.h",
+        "Source/AtlasInventorySystemUI/UI/AtlasInventoryDragDropOperation.h",
+        "Source/AtlasInventorySystemUI/UI/Interfaces/AtlasDragAndDropWidgetInterface.h",
+        "Source/AtlasInventorySystemRuntime/Items/AtlasItemStatValue.h",
+        "Source/AtlasInventorySystemRuntime/Items/Descriptions/InventoryItemDescriptionTypes.h",
+        "Source/AtlasInventorySystemRuntime/Items/Descriptions/AtlasItemStatDescriptionRow.h",
+        "Source/AtlasInventorySystemRuntime/Items/Fragments/Presentation/InventoryFragment_ItemDescription.h",
+        "Source/AtlasInventorySystemRuntime/Contributions/AtlasInventoryContentEdits.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasInventorySystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasInventorySystem.uplugin",
+        "Config",
+        "Resources",
+        "Source/AtlasInventorySystemRuntime",
+        "Source/AtlasInventorySystemUI",
+        "Source/AtlasInventorySystemEditor",
+        "Docs/Examples/CreateInventoryModExample.py",
+        "Docs/PublicApiSurface.json"
+      ]
+    },
+    {
+      "Name": "AtlasLootSystem",
+      "Path": "Plugins/Gameplay/AtlasLootSystem",
+      "Owner": "Atlas Loot System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasLootSystemRuntime",
+        "AtlasLootSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasLootSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasLootSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasLootSystem.uplugin",
+        "Config",
+        "Source/AtlasLootSystemRuntime",
+        "Source/AtlasLootSystemEditor",
+        "Resources"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasLootSystemRuntime/Blueprint/AtlasLootBlueprintLibrary.h",
+        "Source/AtlasLootSystemRuntime/Components/AtlasLootQueryTagsComponent.h",
+        "Source/AtlasLootSystemRuntime/Components/AtlasLootSourceComponent.h",
+        "Source/AtlasLootSystemRuntime/Contributions/AtlasLootCatalogRegistrySubsystem.h",
+        "Source/AtlasLootSystemRuntime/Contributions/AtlasLootCompositionReport.h",
+        "Source/AtlasLootSystemRuntime/Contributions/AtlasLootContributionTags.h",
+        "Source/AtlasLootSystemRuntime/Definitions/AtlasLootGenerator.h",
+        "Source/AtlasLootSystemRuntime/Delivery/AtlasLootDeliveryTarget.h",
+        "Source/AtlasLootSystemRuntime/Delivery/AtlasLootTransactionComponent.h",
+        "Source/AtlasLootSystemRuntime/Delivery/World/AtlasWorldLootActor.h",
+        "Source/AtlasLootSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddLootContributions.h",
+        "Source/AtlasLootSystemRuntime/Generation/AtlasGenerationSession.h",
+        "Source/AtlasLootSystemRuntime/Generation/AtlasLootSpawnAdjustments.h",
+        "Source/AtlasLootSystemRuntime/Generation/AtlasLootTypes.h",
+        "Source/AtlasLootSystemRuntime/Operations/AtlasWorldLootOperationsSubsystem.h",
+        "Source/AtlasLootSystemRuntime/Operations/AtlasWorldLootOperationsTypes.h",
+        "Source/AtlasLootSystemRuntime/Queries/AtlasLootQueryTagProvider.h",
+        "Source/AtlasLootSystemRuntime/Rules/AtlasLootCondition.h",
+        "Source/AtlasLootSystemRuntime/Rules/AtlasLootModifier.h",
+        "Source/AtlasLootSystemRuntime/Rules/AtlasLootRule.h"
+      ]
+    },
+    {
+      "Name": "AtlasJournalSystem",
+      "Path": "Plugins/Gameplay/AtlasJournalSystem",
+      "Owner": "Atlas Journal System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasJournalSystemRuntime",
+        "AtlasJournalSystemUI",
+        "AtlasJournalSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasJournalSystemRuntime",
+        "AtlasJournalSystemUI"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasJournalSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasJournalSystem.uplugin",
+        "Source/AtlasJournalSystemRuntime",
+        "Source/AtlasJournalSystemUI",
+        "Source/AtlasJournalSystemEditor",
+        "Resources"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasJournalSystemRuntime/Contributions/AtlasJournalCatalogRegistrySubsystem.h",
+        "Source/AtlasJournalSystemRuntime/Contributions/AtlasJournalCompositionReport.h",
+        "Source/AtlasJournalSystemRuntime/Core/AtlasJournalEntryProvider.h",
+        "Source/AtlasJournalSystemRuntime/Core/AtlasJournalTypes.h",
+        "Source/AtlasJournalSystemRuntime/Definitions/AtlasJournalDefinitions.h",
+        "Source/AtlasJournalSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddJournalContent.h",
+        "Source/AtlasJournalSystemRuntime/Runtime/AtlasJournalComponent.h",
+        "Source/AtlasJournalSystemRuntime/Tags/AtlasJournalTags.h",
+        "Source/AtlasJournalSystemUI/Presentation/AtlasJournalPresentationProfile.h",
+        "Source/AtlasJournalSystemUI/UI/AtlasJournalDescriptorWidget.h",
+        "Source/AtlasJournalSystemUI/UI/AtlasJournalScreen.h",
+        "Source/AtlasJournalSystemUI/UI/AtlasJournalNavigation.h"
+      ]
+    },
+    {
+      "Name": "AtlasQuestSystem",
+      "Path": "Plugins/Gameplay/AtlasQuestSystem",
+      "Owner": "Atlas Quest System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasQuestSystemRuntime",
+        "AtlasQuestSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasQuestSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasQuestSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasQuestSystem.uplugin",
+        "Config",
+        "Source/AtlasQuestSystemRuntime",
+        "Source/AtlasQuestSystemEditor",
+        "Resources"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasQuestSystemRuntime/Blueprint/AtlasQuestBlueprintLibrary.h",
+        "Source/AtlasQuestSystemRuntime/Contributions/AtlasQuestCatalogRegistrySubsystem.h",
+        "Source/AtlasQuestSystemRuntime/Contributions/AtlasQuestContributionTypes.h",
+        "Source/AtlasQuestSystemRuntime/Core/AtlasQuestTypes.h",
+        "Source/AtlasQuestSystemRuntime/Definitions/AtlasDefinitionTypes.h",
+        "Source/AtlasQuestSystemRuntime/Definitions/AtlasQuestBlueprint.h",
+        "Source/AtlasQuestSystemRuntime/Definitions/AtlasQuestDefinition.h",
+        "Source/AtlasQuestSystemRuntime/Definitions/AtlasQuestPublishedRevision.h",
+        "Source/AtlasQuestSystemRuntime/Evaluation/AtlasObjectiveEvaluator.h",
+        "Source/AtlasQuestSystemRuntime/Evaluation/AtlasQuestExtension.h",
+        "Source/AtlasQuestSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddQuestContent.h",
+        "Source/AtlasQuestSystemRuntime/Persistence/AtlasSnapshotMigration.h",
+        "Source/AtlasQuestSystemRuntime/Rewards/AtlasRewardDefinition.h",
+        "Source/AtlasQuestSystemRuntime/Rewards/AtlasRewardExecutor.h",
+        "Source/AtlasQuestSystemRuntime/Rewards/AtlasRewardSet.h",
+        "Source/AtlasQuestSystemRuntime/Runtime/AtlasQuestManagerComponent.h",
+        "Source/AtlasQuestSystemRuntime/Scheduling/AtlasQuestSchedule.h"
+      ]
+    },
+    {
+      "Name": "AtlasSaveGameFramework",
+      "Path": "Plugins/Framework/AtlasSaveGameFramework",
+      "Owner": "Atlas Save Game Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasSaveGameFrameworkRuntime",
+        "AtlasSaveGameFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasSaveGameFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasSaveGameFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasSaveGameFramework.uplugin",
+        "Config",
+        "Source/AtlasSaveGameFrameworkRuntime",
+        "Source/AtlasSaveGameFrameworkEditor",
+        "Docs/SaveContentCompatibility.html",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasTranslationSystem",
+      "Path": "Plugins/EditorTools/AtlasTranslationSystem",
+      "Owner": "Atlas Translation System",
+      "Disposition": "EditorTool",
+      "Modules": [
+        "AtlasTranslationSystem",
+        "AtlasTranslationSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTranslationSystemEditor"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasTranslationSystemEditor/Public/AtlasModLocalizationService.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasTranslationSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasTranslationSystem.uplugin",
+        "Source/AtlasTranslationSystem",
+        "Source/AtlasTranslationSystemEditor"
+      ]
+    },
+    {
+      "Name": "AtlasCosmeticsSystem",
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem",
+      "Owner": "Atlas Cosmetics System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasCosmeticsSystemRuntime",
+        "AtlasCosmeticsSystemEditor",
+        "AtlasCosmeticsSystemUI"
+      ],
+      "NativeSdkModules": [
+        "AtlasCosmeticsSystemRuntime",
+        "AtlasCosmeticsSystemUI"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasCosmeticsSystemDeveloper",
+        "AtlasCosmeticsSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasCosmeticsSystem.uplugin",
+        "Config",
+        "Source/AtlasCosmeticsSystemRuntime",
+        "Source/AtlasCosmeticsSystemEditor",
+        "Resources",
+        "Documentation/Examples/CreateCosmeticsExample.py",
+        "Documentation/Examples/CreateCosmeticModExample.py",
+        "Source/AtlasCosmeticsSystemUI"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasCosmeticsSystemRuntime/Access/AtlasCosmeticAccessPolicy.h",
+        "Source/AtlasCosmeticsSystemRuntime/Actors/AtlasCosmeticActor.h",
+        "Source/AtlasCosmeticsSystemRuntime/Actors/AtlasWardrobePreviewActor.h",
+        "Source/AtlasCosmeticsSystemRuntime/Appearance/AtlasAppearanceApplicationPlan.h",
+        "Source/AtlasCosmeticsSystemRuntime/Appearance/AtlasAppearanceRecipeCompiler.h",
+        "Source/AtlasCosmeticsSystemRuntime/Appearance/AtlasAppearanceResolver.h",
+        "Source/AtlasCosmeticsSystemRuntime/Appearance/AtlasAppearanceSelectionResult.h",
+        "Source/AtlasCosmeticsSystemRuntime/Appearance/AtlasAppearanceTypes.h",
+        "Source/AtlasCosmeticsSystemRuntime/Blueprint/AtlasCosmeticBlueprintLibrary.h",
+        "Source/AtlasCosmeticsSystemRuntime/BodyStyle/AtlasBodyStyleTypes.h",
+        "Source/AtlasCosmeticsSystemRuntime/Components/AtlasAppearanceComponent.h",
+        "Source/AtlasCosmeticsSystemRuntime/Components/AtlasAppearanceSourceComponent.h",
+        "Source/AtlasCosmeticsSystemRuntime/Definitions/AtlasAppearancePreset.h",
+        "Source/AtlasCosmeticsSystemRuntime/Definitions/AtlasCosmeticDefinition.h",
+        "Source/AtlasCosmeticsSystemRuntime/Lifecycle/AtlasCosmeticLifecycle.h",
+        "Source/AtlasCosmeticsSystemRuntime/Subsystems/AtlasAppearancePresetSubsystem.h",
+        "Source/AtlasCosmeticsSystemRuntime/Subsystems/AtlasAppearanceSelectionSubsystem.h",
+        "Source/AtlasCosmeticsSystemRuntime/Tags/AtlasGameplayTags.h",
+        "Source/AtlasCosmeticsSystemRuntime/Contributions/AtlasModCosmeticRegistry.h",
+        "Source/AtlasCosmeticsSystemRuntime/GameFeatures/AtlasGameFeatureAction_AddModCosmetics.h",
+        "Source/AtlasCosmeticsSystemUI/Wardrobe/AtlasModCosmeticMenu.h"
+      ]
+    },
+    {
+      "Name": "AtlasLocomotionSystem",
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem",
+      "Owner": "Atlas Locomotion System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasLocomotionSystemEditor",
+        "AtlasLocomotionSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasLocomotionSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasLocomotionSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasLocomotionSystem.uplugin",
+        "Config",
+        "Source/AtlasLocomotionSystemEditor",
+        "Source/AtlasLocomotionSystemRuntime",
+        "Resources"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasLocomotionSystemRuntime/Flight/AtlasFlightProfile.h",
+        "Source/AtlasLocomotionSystemRuntime/Surface/AtlasSurfaceProfile.h",
+        "Source/AtlasLocomotionSystemRuntime/Traversal/AtlasTraversalProfile.h",
+        "Source/AtlasLocomotionSystemRuntime/Traversal/AtlasTraversalComponent.h",
+        "Source/AtlasLocomotionSystemRuntime/Traversal/AtlasTraversalBody.h",
+        "Source/AtlasLocomotionSystemRuntime/Flight/AtlasFlightComponent.h",
+        "Source/AtlasLocomotionSystemRuntime/Surface/AtlasSurfaceMovementComponent.h",
+        "Source/AtlasLocomotionSystemRuntime/Movement/AtlasCharacterMovementComponent.h",
+        "Source/AtlasLocomotionSystemRuntime/Rope/AtlasRopeMovementSourceInterface.h",
+        "Source/AtlasLocomotionSystemRuntime/Movement/AtlasLocomotionInputModifier.h"
+      ]
+    },
+    {
+      "Name": "AtlasPlayerCameraSystem",
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem",
+      "Owner": "Atlas Player Camera System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasPlayerCameraSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasPlayerCameraSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasPlayerCameraSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasPlayerCameraSystem.uplugin",
+        "Config",
+        "Source/AtlasPlayerCameraSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraAssistInterface.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraComponent.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraMode.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraModeProvider.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraMode_FirstPerson.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasCameraMode_ThirdPerson.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasPenetrationAvoidanceFeeler.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasPlayerCameraManager.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasPlayerCameraPolicyProvider.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasReplicatedViewComponent.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Camera/AtlasUICameraManagerComponent.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Photography/AtlasPhotoCameraProfile.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Photography/AtlasPhotoCameraActor.h",
+        "Source/AtlasPlayerCameraSystemRuntime/Photography/AtlasPhotographySessionPolicy.h"
+      ]
+    },
+    {
+      "Name": "AtlasContextEffectsSystem",
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem",
+      "Owner": "Atlas Context Effects System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasContextEffectsSystemRuntime",
+        "AtlasContextEffectsSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasContextEffectsSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasContextEffectsSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasContextEffectsSystem.uplugin",
+        "Config",
+        "Source/AtlasContextEffectsSystemRuntime",
+        "Source/AtlasContextEffectsSystemEditor"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasContextEffectsSystemRuntime/Components/AtlasContextEffectComponent.h",
+        "Source/AtlasContextEffectsSystemRuntime/Interfaces/AtlasContextEffectsInterface.h",
+        "Source/AtlasContextEffectsSystemRuntime/Libraries/AtlasContextEffectsLibrary.h",
+        "Source/AtlasContextEffectsSystemRuntime/Notifies/AnimNotify_AtlasContextEffects.h",
+        "Source/AtlasContextEffectsSystemRuntime/Subsystems/AtlasContextEffectsSubsystem.h"
+      ]
+    },
+    {
+      "Name": "AtlasAISystem",
+      "Path": "Plugins/Gameplay/AtlasAISystem",
+      "Owner": "Atlas AI System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasAISystemRuntime",
+        "AtlasAISystemBehavior"
+      ],
+      "NativeSdkModules": [
+        "AtlasAISystemRuntime",
+        "AtlasAISystemBehavior"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasAISystem.uplugin",
+        "Config",
+        "Resources",
+        "Content",
+        "Source/AtlasAISystemRuntime",
+        "Source/AtlasAISystemBehavior"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasAISystemRuntime/Actions/AtlasAIAction.h",
+        "Source/AtlasAISystemRuntime/Actions/AtlasAITaskContext.h",
+        "Source/AtlasAISystemRuntime/Context/AtlasAIContext.h",
+        "Source/AtlasAISystemRuntime/Context/AtlasAIHearingSettings.h",
+        "Source/AtlasAISystemRuntime/Context/AtlasAIReactionSettings.h",
+        "Source/AtlasAISystemRuntime/Profiles/AtlasAIMemoryProfile.h",
+        "Source/AtlasAISystemRuntime/Selection/AtlasAITargetPolicy.h",
+        "Source/AtlasAISystemRuntime/Components/AtlasAIAgentComponent.h",
+        "Source/AtlasAISystemBehavior/Components/AtlasAIPerceptionComponent.h",
+        "Source/AtlasAISystemBehavior/Coordination/AtlasAISearchProfile.h",
+        "Source/AtlasAISystemBehavior/Traversal/AtlasAIPathObstacle.h",
+        "Source/AtlasAISystemBehavior/Traversal/AtlasAIPathObstacleComponent.h",
+        "Source/AtlasAISystemBehavior/Traversal/AtlasAITraversalPolicyProvider.h",
+        "Source/AtlasAISystemBehavior/BehaviorTree/Services/AtlasBTService_Traversal.h"
+      ]
+    },
+    {
+      "Name": "AtlasTeamSystem",
+      "Path": "Plugins/Gameplay/AtlasTeamSystem",
+      "Owner": "Atlas Team System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasTeamSystemRuntime",
+        "AtlasTeamSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasTeamSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasTeamSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasTeamSystem.uplugin",
+        "Config",
+        "Resources",
+        "Source/AtlasTeamSystemRuntime",
+        "Source/AtlasTeamSystemEditor"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasTeamSystemRuntime/Core/AtlasTeamTypes.h",
+        "Source/AtlasTeamSystemRuntime/Membership/AtlasTeamAgentComponent.h"
+      ]
+    },
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework",
+      "Owner": "Atlas Gameplay Actors Framework",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameplayActorsFrameworkRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayActorsFrameworkRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasGameplayActorsFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasGameplayActorsFramework.uplugin",
+        "Config",
+        "Source/AtlasGameplayActorsFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasGameplayActorsFrameworkRuntime/Presentation/AtlasPresentationViewComponent.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Presentation/AtlasPresentationViewPolicy.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Presentation/AtlasPresentationViewTypes.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Spawning/AtlasActorPlacement.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Spawning/AtlasActorPlacementComponent.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Spawning/AtlasActorPlacementTypes.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Spawning/AtlasActorPlacementRegistrySubsystem.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/GameFeatures/AtlasGameFeatureAction_AddActorPlacements.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/World/AtlasSaveParticipant.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/World/AtlasWorldProgressPolicy.h",
+        "Source/AtlasGameplayActorsFrameworkRuntime/Actors/AtlasModularAIController.h"
+      ]
+    },
+    {
+      "Name": "ElevatorCore",
+      "Path": "Plugins/GameFeatures/lyra-elevator-core",
+      "Owner": "KLETKA floor content",
+      "Disposition": "PublicProductContent",
+      "Modules": [
+        "ElevatorCoreContent",
+        "ElevatorCoreContentEditor"
+      ],
+      "NativeSdkModules": [
+        "ElevatorCoreContent"
+      ],
+      "NativeSdkHeaders": [
+        "Source/ElevatorCoreContent/Core/QuestSystem/LeQuestFloorCandidate.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Contributions/LeFloorContentRegistrySubsystem.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Contributions/LeFloorContentSnapshot.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Contributions/LeFloorContentBlock.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Contributions/LeGameFeatureAction_AddFloorContent.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Contributions/LePrankPoolComposition.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorBundleDefinition.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorBundleEntry.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorDefinition.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorLootTags.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorSelectionWeight.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorAvailabilityFragment.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorBuiltInFragments.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorFragment.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorGenerationFragment.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorPresentationFragment.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Fragments/LeFloorSpawnFragment.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorGenerationBackend.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorGenerationContext.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorGenerationRules.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorGenerationSelector.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorGenerationTypes.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Generation/LeFloorSpawnCondition.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/LeFloorGenerationProfile.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/LeFloorRole.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Maps/LeFloorLayoutComponent.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorPrankDefinition.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Definitions/LeFloorPrankTags.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Pranks/LePrankRegistry.h",
+        "Source/ElevatorCoreContent/Character/Definitions/LeEnemyArchetypeDefinition.h",
+        "Source/ElevatorCoreContent/Character/Contributions/LeEnemyArchetypeCatalog.h",
+        "Source/ElevatorCoreContent/Character/Contributions/LeMannequinEnemy.h",
+        "Source/ElevatorCoreContent/Character/Contributions/LeGameFeatureAction_AddEnemyContent.h",
+        "Source/ElevatorCoreContent/Core/TerritorySystem/Runtime/LeFloorRuntimeComponent.h",
+        "Source/ElevatorCoreContent/Character/Components/LeEnemyArchetypeComponent.h",
+        "Source/ElevatorCoreContent/AbilitySystem/Attributes/LeCageAttributeSet.h",
+        "Source/ElevatorCoreContent/AbilitySystem/LeCageAbilityComponent.h",
+        "Source/ElevatorCoreContent/Core/Run/LeRespawnCostPolicy.h",
+        "Source/ElevatorCoreContent/Vehicles/LeVehicleContentLibrary.h",
+        "Source/ElevatorCoreContent/Vehicles/LeSceneryVehicleControl.h",
+        "Source/ElevatorCoreContent/Shop/LeShopAssortment.h",
+        "Source/ElevatorCoreContent/Shop/LeGameFeatureAction_AddShopContent.h",
+        "Source/ElevatorCoreContent/Cage/LeCageDeviceContentLibrary.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "ElevatorCoreRuntime",
+        "ElevatorCoreInternal",
+        "ElevatorCoreMigration",
+        "ElevatorCoreEditor",
+        "ElevatorCoreTests",
+        "ElevatorCorePublicApiTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [
+        "Niagara",
+        "AtlasOnlineServicesCore",
+        "GameplayStateTree",
+        "StateTree",
+        "DataValidation",
+        "AtlasPlayerCameraSystem",
+        "AtlasTargetingAssistanceSystem",
+        "AtlasTeamSystem",
+        "AtlasSettingsFramework",
+        "GameSettings",
+        "AtlasGameplayExperienceFramework",
+        "AtlasStatisticsSystem",
+        "AtlasGameplayPhaseFramework",
+        "AtlasFirstPerson",
+        "ModularGameplay",
+        "AtlasStatusEffects",
+        "AtlasWaterCore",
+        "DungeonArchitect",
+        "AtlasOnlineServicesFramework",
+        "AtlasJournalSystem",
+        "AtlasTextModerationSystem",
+        "OnlineSubsystemPS5",
+        "AtlasInputFramework",
+        "AtlasGameplayMessagesFramework",
+        "AtlasContextEffectsSystem",
+        "AtlasUISystem",
+        "AtlasTextChatSystem"
+      ],
+      "DescriptorAuthoringOnly": true,
+      "IncludeRoots": [
+        "ElevatorCore.uplugin",
+        "Source/ElevatorCoreContent",
+        "Source/ElevatorCoreContentEditor",
+        "Resources/DataAssetIcons/LeBiomeDataAsset.png",
+        "Resources/DataAssetIcons/LeBiomeDataAsset.svg",
+        "Resources/DataAssetIcons/LeCampaignFloorGenerationProfile.png",
+        "Resources/DataAssetIcons/LeCampaignFloorGenerationProfile.svg",
+        "Resources/DataAssetIcons/LeEndlessFloorGenerationProfile.png",
+        "Resources/DataAssetIcons/LeEndlessFloorGenerationProfile.svg",
+        "Resources/DataAssetIcons/LeFloorBundleDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorBundleDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorGenerationProfile.png",
+        "Resources/DataAssetIcons/LeFloorGenerationProfile.svg",
+        "Resources/DataAssetIcons/LeFloorMusicListDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorMusicListDataAsset.svg",
+        "Resources/Icons/FloorCategory_General.png",
+        "Resources/Icons/FloorCategory_Pranks.png",
+        "Resources/Icons/FloorFragment_Availability.png",
+        "Resources/Icons/FloorFragment_BossPranks.png",
+        "Resources/Icons/FloorFragment_CommonPranks.png",
+        "Resources/Icons/FloorFragment_CursePranks.png",
+        "Resources/Icons/FloorFragment_EnemyPranks.png",
+        "Resources/Icons/FloorFragment_Generation.png",
+        "Resources/Icons/FloorFragment_Loot.png",
+        "Resources/Icons/FloorFragment_Presentation.png",
+        "Resources/Icons/FloorFragment_Quests.png",
+        "Resources/Icons/FloorFragment_SpawnPolicy.png",
+        "Docs/Examples/CreateFloorModExample.py",
+        "Resources/DataAssetIcons/LeFloorBossPrankDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorBossPrankDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorCommonPrankDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorCommonPrankDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorCursePrankDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorCursePrankDataAsset.png",
+        "Resources/DataAssetIcons/LeFloorEnemiesPrankDataAsset.svg",
+        "Resources/DataAssetIcons/LeFloorEnemiesPrankDataAsset.png",
+        "Resources/DataAssetIcons/LeSamosborPrankDataAsset.svg",
+        "Resources/DataAssetIcons/LeSamosborPrankDataAsset.png",
+        "Config/Tags/WorldPlacement/ElevatorCorePlacementTags.ini",
+        "Config/Tags/PublicContent/ElevatorFloorFlowTags.ini",
+        "Config/Tags/PublicContent/ElevatorSessionSettings.ini",
+        "Config/Tags/PublicContent/ElevatorPerkPoolTags.ini",
+        "Docs/Examples/CreateRespawnPolicyExample.py",
+        "Docs/Examples/CreateQuestFloorExample.py",
+        "Docs/Examples/AddQuestCompletionPhase.py",
+        "Config/Tags/PublicContent/ElevatorPhaseTags.ini",
+        "Docs/Examples/CreateDungeonArchitectFloorExample.py",
+        "Docs/Examples/CreatePerkModExample.py",
+        "Docs/Examples/EntityModStarter.py",
+        "Docs/Examples/TestEnemyOnClient.py",
+        "Docs/Examples/CreateEnemyModExample.py",
+        "Docs/Examples/CreateFamiliarModExample.py",
+        "Docs/Examples/CreateBossModExample.py",
+        "Docs/Examples/CreateWorldActorModExample.py",
+        "Docs/Examples/GastronomMannequins.html",
+        "Docs/Examples/FirstModCube.png",
+        "Docs/Examples/FirstModSphere.png",
+        "Docs/Examples/CreateCurseModExample.py",
+        "Docs/Examples/CreateResourceModExample.py",
+        "Docs/Examples/CreateShopModExample.py",
+        "Docs/ShopAssortments.html",
+        "Docs/Examples/CapabilityModStarter.py",
+        "Docs/Examples/CreateCageAddonModExample.py",
+        "Docs/Examples/CreateProgressionModExample.py",
+        "Docs/Examples/CreateSubtitleModExample.py"
+      ]
+    },
+    {
+      "Name": "AtlasVehicleSystem",
+      "Path": "Plugins/Gameplay/AtlasVehicleSystem",
+      "Owner": "AtlasVehicleSystem",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasVehicleSystemRuntime",
+        "AtlasVehicleSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasVehicleSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasVehicleSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasVehicleSystem.uplugin",
+        "Source/AtlasVehicleSystemRuntime",
+        "Source/AtlasVehicleSystemEditor"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasVehicleSystemRuntime/Vehicles/AtlasWheeledVehiclePawn.h",
+        "Source/AtlasVehicleSystemRuntime/Movement/AtlasWheeledVehicleMovementComponent.h",
+        "Source/AtlasVehicleSystemRuntime/Definitions/AtlasVehicleDefinition.h",
+        "Source/AtlasVehicleSystemRuntime/Presentation/AtlasVehicleWheelVisualsComponent.h",
+        "Source/AtlasVehicleSystemRuntime/Simulation/AtlasVehicleRuntimeParameters.h"
+      ]
+    },
+    {
+      "Name": "AtlasAgentControlSystem",
+      "Path": "Plugins/Gameplay/AtlasAgentControlSystem",
+      "Owner": "AtlasAgentControlSystem",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasAgentControlSystemRuntime"
+      ],
+      "NativeSdkModules": [
+        "AtlasAgentControlSystemRuntime"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasAgentControlSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasAgentControlSystem.uplugin",
+        "Source/AtlasAgentControlSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasAgentControlSystemRuntime/Core/AtlasControlTypes.h",
+        "Source/AtlasAgentControlSystemRuntime/Core/AtlasAgentControlTargetInterface.h",
+        "Source/AtlasAgentControlSystemRuntime/Components/AtlasAgentControlSourceComponent.h",
+        "Source/AtlasAgentControlSystemRuntime/Components/AtlasAgentControlTargetComponent.h"
+      ]
+    },
+    {
+      "Name": "AtlasLuaFramework",
+      "Path": "Plugins/Framework/AtlasLuaFramework",
+      "Owner": "Atlas Lua Framework",
+      "SourceDistribution": {
+        "Archive": "Legal/AtlasLuaFramework-source.zip",
+        "License": "LICENSE.txt",
+        "LicenseId": "MIT",
+        "Modules": [
+          "AtlasLuaFrameworkRuntime",
+          "AtlasLuaFrameworkEditor"
+        ],
+        "Roots": [
+          "AtlasLuaFramework.uplugin",
+          "LICENSE.txt",
+          "SOURCE-DISTRIBUTION.txt",
+          "Source/AtlasLuaFrameworkRuntime",
+          "Source/AtlasLuaFrameworkEditor",
+          "ThirdParty/Lua"
+        ]
+      },
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasLuaFrameworkRuntime",
+        "AtlasLuaFrameworkEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasLuaFrameworkRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasLuaFrameworkRuntime/Scripts/AtlasLuaScript.h",
+        "Source/AtlasLuaFrameworkRuntime/Components/AtlasLuaComponent.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasLuaFrameworkTests"
+      ],
+      "IncludeRoots": [
+        "AtlasLuaFramework.uplugin",
+        "LICENSE.txt",
+        "SOURCE-DISTRIBUTION.txt",
+        "Source/AtlasLuaFrameworkRuntime",
+        "Source/AtlasLuaFrameworkEditor",
+        "ThirdParty/Lua",
+        "Docs/Examples/CreateLuaDoorExample.py"
+      ]
+    },
+    {
+      "Name": "RoguelikeCore",
+      "Path": "Plugins/GameFeatures/RoguelikeCore",
+      "Owner": "Shared roguelike content",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "RoguelikeCoreContent",
+        "RoguelikeCoreComponents"
+      ],
+      "NativeSdkModules": [
+        "RoguelikeCoreContent",
+        "RoguelikeCoreComponents"
+      ],
+      "NativeSdkHeaders": [
+        "Source/RoguelikeCoreContent/Core/Perks/RoguelikePerkDefinition.h",
+        "Source/RoguelikeCoreContent/Core/Perks/RoguelikePerkBlueprintLibrary.h",
+        "Source/RoguelikeCoreContent/Core/Perks/RoguelikePerkTypes.h",
+        "Source/RoguelikeCoreContent/Core/Perks/RoguelikePerkCatalog.h",
+        "Source/RoguelikeCoreContent/Core/Perks/RoguelikeGameFeatureAction_AddPerkContent.h",
+        "Source/RoguelikeCoreComponents/Familiars/RoFamiliarComponent.h",
+        "Source/RoguelikeCoreComponents/Bosses/RoBossEncounterComponent.h",
+        "Source/RoguelikeCoreComponents/Bosses/RoBossEncounterTypes.h",
+        "Source/RoguelikeCoreComponents/Bosses/RoBossEncounterDefinition.h",
+        "Source/RoguelikeCoreComponents/Perks/RoPerkSelectionComponent.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "RoguelikeCoreRuntime",
+        "RoguelikeCoreInternal",
+        "RoguelikeCoreEditor",
+        "RoguelikeCoreTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [
+        "AtlasAISystem",
+        "GameplayStateTree",
+        "StateTree",
+        "AtlasInputFramework",
+        "AtlasStatisticsSystem",
+        "AtlasDifficultySystem",
+        "AtlasJournalSystem",
+        "AtlasLocomotionSystem",
+        "AtlasAgentControlSystem",
+        "AtlasTeamSystem",
+        "AtlasPlayerCameraSystem",
+        "AtlasViewpointSystem",
+        "AtlasSettingsFramework",
+        "AtlasVariantDataFramework",
+        "AtlasQuestSystem",
+        "AtlasGameplayExperienceFramework",
+        "AtlasGameplayMessagesFramework",
+        "AtlasCosmeticsSystem",
+        "AtlasLootSystem",
+        "AtlasWorldIndicatorSystem",
+        "AtlasUISystem",
+        "AtlasFirstPerson",
+        "ModularGameplay",
+        "AtlasOnlineServicesFramework",
+        "ChaosVehiclesPlugin",
+        "SmoothSyncPlugin",
+        "AtlasVehicleSystem"
+      ],
+      "DescriptorAuthoringOnly": true,
+      "IncludeRoots": [
+        "RoguelikeCore.uplugin",
+        "Source/RoguelikeCoreContent",
+        "Source/RoguelikeCoreComponents"
+      ]
+    },
+    {
+      "Name": "ElevatorCoreDungeonArchitect",
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect",
+      "Owner": "KLETKA optional Dungeon Architect floor adapter",
+      "Disposition": "PublicProductContent",
+      "Modules": [
+        "ElevatorCoreDungeonArchitect",
+        "ElevatorCoreDungeonArchitectEditor"
+      ],
+      "NativeSdkModules": [
+        "ElevatorCoreDungeonArchitect"
+      ],
+      "NativeSdkHeaders": [
+        "Source/ElevatorCoreDungeonArchitect/Floor/Generation/LeDungeonArchitectFloorGenerationConfig.h",
+        "Source/ElevatorCoreDungeonArchitect/Floor/Generation/LeDungeonArchitectFloorGenerationBackend.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "ElevatorCoreDungeonArchitectTests"
+      ],
+      "DescriptorPluginDependenciesExcluded": [],
+      "OptionalDistributionPlugin": true,
+      "ExternalPluginDependencies": [
+        "DungeonArchitect"
+      ],
+      "ExternalModuleDependencies": [
+        "DungeonArchitectRuntime"
+      ],
+      "IncludeRoots": [
+        "ElevatorCoreDungeonArchitect.uplugin",
+        "Source/ElevatorCoreDungeonArchitect",
+        "Source/ElevatorCoreDungeonArchitectEditor",
+        "Docs/ModKit.html"
+      ],
+      "ExcludeGlobs": []
+    },
+    {
+      "Name": "AtlasProgressionSystem",
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem",
+      "Owner": "Atlas Progression System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasProgressionSystemRuntime",
+        "AtlasProgressionSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasProgressionSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasProgressionSystemRuntime/Components/AtlasProgressionComponent.h",
+        "Source/AtlasProgressionSystemRuntime/Conditions/AtlasProgressionCondition.h",
+        "Source/AtlasProgressionSystemRuntime/Progression/AtlasProgressionEngine.h",
+        "Source/AtlasProgressionSystemRuntime/Schema/AtlasProgressionSchema.h",
+        "Source/AtlasProgressionSystemRuntime/Tags/AtlasTags.h",
+        "Source/AtlasProgressionSystemRuntime/Types/AtlasProgressionTypes.h",
+        "Source/AtlasProgressionSystemRuntime/Components/AtlasProgressionSaveComponent.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasProgressionSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasProgressionSystem.uplugin",
+        "Source/AtlasProgressionSystemRuntime",
+        "Source/AtlasProgressionSystemEditor",
+        "Config",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasSubtitleSystem",
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem",
+      "Owner": "Atlas Subtitle System",
+      "Disposition": "PublicPresentation",
+      "Modules": [
+        "AtlasSubtitleSystemRuntime",
+        "AtlasSubtitleSystemEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasSubtitleSystemRuntime"
+      ],
+      "NativeSdkHeaders": [
+        "Source/AtlasSubtitleSystemRuntime/Components/SubtitleEmitterComponent.h",
+        "Source/AtlasSubtitleSystemRuntime/Data/SpatialSubtitleAssetUserData.h",
+        "Source/AtlasSubtitleSystemRuntime/Players/MediaSubtitlesPlayer.h",
+        "Source/AtlasSubtitleSystemRuntime/Subsystems/SubtitlePlaybackSubsystem.h",
+        "Source/AtlasSubtitleSystemRuntime/Text/SubtitleTextProcessor.h",
+        "Source/AtlasSubtitleSystemRuntime/Types/SubtitleDisplayTypes.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasSubtitleSystem.uplugin",
+        "Source/AtlasSubtitleSystemRuntime",
+        "Source/AtlasSubtitleSystemEditor",
+        "Config",
+        "Resources"
+      ]
+    },
+    {
+      "Name": "AtlasSubtitleUI",
+      "Path": "Plugins/Presentation/AtlasSubtitleUI",
+      "Owner": "Atlas Subtitle UI",
+      "Disposition": "PublicPresentation",
+      "Modules": [
+        "AtlasSubtitleSystemUI"
+      ],
+      "NativeSdkModules": [],
+      "NativeSdkHeaders": [],
+      "DescriptorModulesExcluded": [
+        "AtlasSubtitleSystemTests"
+      ],
+      "IncludeRoots": [
+        "AtlasSubtitleUI.uplugin",
+        "Source/AtlasSubtitleSystemUI"
+      ]
+    }
+  ],
+  "GeneratedArtifacts": {
+    "PublicApiInventory": "Build/ModKit/Generated/KletkaModKitPublicApiInventory.json",
+    "DependencyReport": "Build/ModKit/Generated/KletkaModKitDependencyClosure.json",
+    "ReleaseManifest": "Config/ModKitReleaseManifest.json"
+  },
+  "SourceFamilies": [
+    {
+      "Name": "AtlasEquipment",
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment",
+      "Owner": "Atlas Equipment System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasEquipment",
+        "AtlasEquipmentUI",
+        "AtlasEquipmentEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasEquipment"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasEquipment/Actions/Abilities/AtlasEquipmentGameplayAbility.h",
+        "AtlasEquipment/Actions/Abilities/AtlasEquipmentGameplayAbility_BehaviorExecutor.h",
+        "AtlasEquipment/Actions/Abilities/AtlasEquipmentGameplayAbility_DropItem.h",
+        "AtlasEquipment/Actions/Abilities/AtlasEquipmentGameplayAbility_UseItem.h",
+        "AtlasEquipment/Actions/AtlasEquipmentActionBehavior.h",
+        "AtlasEquipment/Actions/AtlasEquipmentActionBehaviorRegistry.h",
+        "AtlasEquipment/Actions/AtlasEquipmentActionCheckpoint.h",
+        "AtlasEquipment/Actions/AtlasEquipmentActionSet.h",
+        "AtlasEquipment/Actions/AtlasEquipmentActionSpec.h",
+        "AtlasEquipment/Actions/AtlasUseItemOutcome.h",
+        "AtlasEquipment/Actions/AtlasUseItemTypes.h",
+        "AtlasEquipment/Actors/AtlasEquipmentActor.h",
+        "AtlasEquipment/Attachments/AtlasEquipmentAttachmentOperations.h",
+        "AtlasEquipment/Blueprint/AtlasEquipmentBlueprintLibrary.h",
+        "AtlasEquipment/Blueprint/AtlasLoadEquipmentDefinitionsAsyncAction.h",
+        "AtlasEquipment/Components/AtlasEquipmentAnchorComponent.h",
+        "AtlasEquipment/Components/AtlasEquipmentAttachTargetComponent.h",
+        "AtlasEquipment/Components/AtlasEquipmentManagerComponent.h",
+        "AtlasEquipment/Components/AtlasEquipmentViewComponent.h",
+        "AtlasEquipment/Core/AtlasEquipmentCompilation.h",
+        "AtlasEquipment/Core/AtlasEquipmentExtensionTypes.h",
+        "AtlasEquipment/Core/AtlasEquipmentNativeGameplayTags.h",
+        "AtlasEquipment/Core/AtlasEquipmentResolvedPlan.h",
+        "AtlasEquipment/Core/AtlasEquipmentTypes.h",
+        "AtlasEquipment/Definitions/AtlasEquipmentArchetypePreset.h",
+        "AtlasEquipment/Definitions/AtlasEquipmentDefinition.h",
+        "AtlasEquipment/Definitions/AtlasEquipmentSlotLayout.h",
+        "AtlasEquipment/Features/AtlasEquipmentFeature.h",
+        "AtlasEquipment/Features/Feedback/AtlasEquipmentInputDeviceFeature.h",
+        "AtlasEquipment/Features/Presentation/AtlasEquipmentAnimationFeature.h",
+        "AtlasEquipment/Features/Presentation/AtlasEquipmentBreakPresentationFeature.h",
+        "AtlasEquipment/GameFeatures/AtlasGameFeatureAction_AddEquipmentPresentation.h",
+        "AtlasEquipment/Instances/AtlasEquipmentInstance.h",
+        "AtlasEquipment/Inventory/Containers/Armor/AtlasArmorContainerComponent.h",
+        "AtlasEquipment/Inventory/Fragments/AtlasConsumableActionFragment.h",
+        "AtlasEquipment/Inventory/Fragments/InventoryFragment_AttachmentHost.h",
+        "AtlasEquipment/Inventory/Fragments/InventoryFragment_AttachmentItem.h",
+        "AtlasEquipment/Inventory/Fragments/InventoryFragment_EquipmentUpgrade.h",
+        "AtlasEquipment/Inventory/Fragments/InventoryFragment_Equippable.h",
+        "AtlasEquipment/Parts/AtlasEquipmentPartDefinition.h",
+        "AtlasEquipment/Parts/AtlasEquipmentPartGraph.h",
+        "AtlasEquipment/Presentation/AtlasEquipmentPresentationProfile.h",
+        "AtlasEquipment/Presentation/AtlasEquipmentViewMontages.h",
+        "AtlasEquipment/Settings/AtlasEquipmentDeveloperSettings.h",
+        "AtlasEquipment/Upgrades/AtlasEquipmentUpgradeCrafting.h",
+        "AtlasEquipment/Upgrades/AtlasEquipmentUpgradeDefinition.h",
+        "AtlasEquipment/Upgrades/AtlasEquipmentUpgradeOperations.h",
+        "AtlasEquipment/Upgrades/AtlasEquipmentUpgradeTypes.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasEquipmentTests"
+      ],
+      "IncludeRoots": [
+        "AtlasEquipment",
+        "AtlasEquipmentUI",
+        "AtlasEquipmentEditor"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasEquipment",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasEquipmentEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasEquipmentUI",
+          "Type": "ClientOnly",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasInteraction",
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction",
+      "Owner": "Atlas Interaction System",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasInteraction",
+        "AtlasInteractionEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasInteraction"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasInteraction/Abilities/AtlasGameplayAbility_Interaction.h",
+        "AtlasInteraction/Abilities/AtlasInteractionAbilityParticipant.h",
+        "AtlasInteraction/Abilities/AtlasInteractionAbilityLibrary.h",
+        "AtlasInteraction/Abilities/AtlasInteractionAbilityPayload.h",
+        "AtlasInteraction/Actions/AtlasInteractionActionComponent.h",
+        "AtlasInteraction/Actions/AtlasInteractionActionLibrary.h",
+        "AtlasInteraction/Actions/AtlasInteractionActionOwner.h",
+        "AtlasInteraction/AtlasInteractionTypes.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapability.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapabilityComponent.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapabilityLibrary.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapabilityProvider.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapabilityTags.h",
+        "AtlasInteraction/Capabilities/AtlasInteractionCapabilityTypes.h",
+        "AtlasInteraction/Capabilities/AtlasScalarInteractionCapabilityComponent.h",
+        "AtlasInteraction/Capabilities/AtlasScalarTransactionCapabilityComponent.h",
+        "AtlasInteraction/Components/AtlasInteractionManagerComponent.h",
+        "AtlasInteraction/Components/AtlasInteractionApproach.h",
+        "AtlasInteraction/Components/AtlasInteractionTargetComponent.h",
+        "AtlasInteraction/Costs/AtlasInteractionCost.h",
+        "AtlasInteraction/Costs/AtlasInteractionCost_Attribute.h",
+        "AtlasInteraction/Execution/AtlasInteractionExecutor.h",
+        "AtlasInteraction/Interfaces/AtlasInteractionOptionProvider.h",
+        "AtlasInteraction/Interfaces/AtlasInteractionSourceProvider.h",
+        "AtlasInteraction/Modifiers/AtlasInteractionOptionModifier.h",
+        "AtlasInteraction/Options/AtlasInteractionOption.h",
+        "AtlasInteraction/Profiles/AtlasInteractionProfile.h",
+        "AtlasInteraction/Query/AtlasInteractionQueryProvider.h",
+        "AtlasInteraction/Query/AtlasInteractionQueryProvider_CameraTrace.h",
+        "AtlasInteraction/Query/AtlasInteractionQueryProvider_OverlapRadius.h",
+        "AtlasInteraction/Query/AtlasInteractionQueryProvider_Registry.h",
+        "AtlasInteraction/Query/AtlasInteractionScannerProfile.h",
+        "AtlasInteraction/Recipes/AtlasInteractionOperation.h",
+        "AtlasInteraction/Recipes/AtlasInteractionRecipe.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_ActorClass.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_Capability.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_ComponentClass.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_Cooldown.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_GameplayTags.h",
+        "AtlasInteraction/Requirements/AtlasInteractionRequirement_Trait.h",
+        "AtlasInteraction/Resolution/AtlasInteractionOptionResolverPolicy.h",
+        "AtlasInteraction/Traits/AtlasInteractionTraitComponent.h",
+        "AtlasInteraction/Traits/AtlasInteractionTraitLibrary.h",
+        "AtlasInteraction/Traits/AtlasInteractionTraitProvider.h",
+        "AtlasInteraction/Traits/AtlasInteractionTraitTags.h",
+        "AtlasInteraction/Utilities/AtlasInteractionBlueprintLibrary.h",
+        "AtlasInteraction/Utilities/AtlasInteractionContextLibrary.h",
+        "AtlasInteraction/Utilities/AtlasInteractionFailureLibrary.h",
+        "AtlasInteraction/State/AtlasLockComponent.h",
+        "AtlasInteraction/State/AtlasDoorComponent.h",
+        "AtlasInteraction/State/AtlasTrapComponent.h",
+        "AtlasInteraction/State/AtlasPowerGridComponent.h",
+        "AtlasInteraction/State/IAtlasLockable.h",
+        "AtlasInteraction/State/AtlasPoweredObjectComponent.h",
+        "AtlasInteraction/State/IAtlasPoweredObject.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasInteractionTests",
+        "AtlasInteractionUI"
+      ],
+      "IncludeRoots": [
+        "AtlasInteraction",
+        "AtlasInteractionEditor",
+        "AtlasInteraction/Config/Tags/AtlasInteractionSystemInputTags.ini"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasInteraction",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasInteractionEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasSettings",
+      "Path": "Source/AtlasGame/Framework/AtlasSettings",
+      "Owner": "Atlas Settings composition",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasSettingsPresentation",
+        "AtlasSettingsUI",
+        "AtlasSettingsEditor",
+        "AtlasSettingsAudio"
+      ],
+      "NativeSdkModules": [
+        "AtlasSettingsPresentation"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasSettingsPresentation/Catalog/AtlasPresentationCatalog.h",
+        "AtlasSettingsPresentation/Catalog/AtlasSettingsCategory.h",
+        "AtlasSettingsPresentation/Catalog/AtlasSettingsItem.h",
+        "AtlasSettingsPresentation/Catalog/AtlasSettingsCommand.h",
+        "AtlasSettingsPresentation/Types/AtlasPresentationTypes.h",
+        "AtlasSettingsPresentation/Types/AtlasSettingsSnapshot.h",
+        "AtlasSettingsPresentation/Catalog/AtlasSettingPresentationEntry.h",
+        "AtlasSettingsPresentation/Catalog/AtlasSettingsSectionTree.h",
+        "AtlasSettingsPresentation/Authoring/AtlasSessionSettingsSource.h",
+        "AtlasSettingsPresentation/Targets/AtlasEditableTarget.h",
+        "AtlasSettingsPresentation/Resolvers/AtlasPresentationResolver.h",
+        "AtlasSettingsPresentation/Conditions/AtlasPresentationCondition.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasSettingsTests",
+        "AtlasSettingsMenu",
+        "AtlasPlayerPreferences"
+      ],
+      "IncludeRoots": [
+        "AtlasSettingsPresentation",
+        "AtlasSettingsUI",
+        "AtlasSettingsEditor",
+        "AtlasSettingsAudio"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasSettingsPresentation",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasSettingsUI",
+          "Type": "ClientOnly",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasSettingsEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasSettingsAudio",
+          "Type": "ClientOnly",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasCombat",
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat",
+      "Owner": "Atlas gameplay composition",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasCombat",
+        "AtlasCombatUI",
+        "AtlasCombatEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasCombat"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasCombat/Abilities/AtlasGameplayAbility_FromCombatEquipment.h",
+        "AtlasCombat/Blueprint/AtlasCombatBlueprintLibrary.h",
+        "AtlasCombat/Blueprint/AtlasCombatEquipmentLibrary.h",
+        "AtlasCombat/Damage/AtlasBaseDamageExecution.h",
+        "AtlasCombat/Damage/AtlasCombatTargetPolicy.h",
+        "AtlasCombat/Damage/AtlasContextualDamageModifierProfile.h",
+        "AtlasCombat/Damage/AtlasDamageModel.h",
+        "AtlasCombat/Damage/AtlasDamageOutcome.h",
+        "AtlasCombat/Damage/AtlasLimbDamage.h",
+        "AtlasCombat/Damage/AtlasDamagePreview.h",
+        "AtlasCombat/Damage/AtlasDamageResponsePipeline.h",
+        "AtlasCombat/Enchantment/AtlasEnchantmentCatalogFragment.h",
+        "AtlasCombat/Enchantment/AtlasEnchantmentDefinition.h",
+        "AtlasCombat/Enchantment/AtlasEnchantmentTypes.h",
+        "AtlasCombat/Extensions/AtlasCombatActionAugments.h",
+        "AtlasCombat/Extensions/AtlasCombatEquipmentParticipants.h",
+        "AtlasCombat/Extensions/AtlasCombatActionCatalogFeature.h",
+        "AtlasCombat/Extensions/AtlasCombatActionModifierFeature.h",
+        "AtlasCombat/Extensions/AtlasCombatActionModifierOperations.h",
+        "AtlasCombat/Extensions/AtlasCombatActionPlan.h",
+        "AtlasCombat/Extensions/AtlasCombatActionUpgradeFragment.h",
+        "AtlasCombat/Impact/AtlasHitEffectsComponent.h",
+        "AtlasCombat/Impact/AtlasImpactResponseProfile.h",
+        "AtlasCombat/Presentation/AtlasCombatEquipmentView.h",
+        "AtlasCombat/Settings/AtlasCombatNetworkingPolicy.h",
+        "AtlasCombat/Targeting/AtlasAuthorityRewindProvider.h",
+        "AtlasCombat/Weapons/AtlasCombatActionBehaviors.h",
+        "AtlasCombat/Weapons/AtlasCombatActionConfig.h",
+        "AtlasCombat/Weapons/AtlasCombatDeliveryTypes.h",
+        "AtlasCombat/Weapons/AtlasCombatPresentationTypes.h",
+        "AtlasCombat/Weapons/AtlasCombatResolvedAction.h",
+        "AtlasCombat/Weapons/AtlasCombatResourcePolicy.h",
+        "AtlasCombat/Weapons/AtlasWeaponAIHintsFeature.h",
+        "AtlasCombat/Damage/AtlasCombatSet.h",
+        "AtlasCombat/Enchantment/AtlasEnchantmentBase.h",
+        "AtlasCombat/Projectiles/AtlasProjectileBase.h",
+        "AtlasCombat/Weapons/AtlasCombatEquipmentInstance.h",
+        "AtlasCombat/Enchantment/AtlasEnchantmentHandler.h",
+        "AtlasCombat/Damage/AtlasResistanceSet.h",
+        "AtlasCombat/Actors/AtlasDestructibleActor.h",
+        "AtlasCombat/Impact/AtlasExplosionComponent.h",
+        "AtlasCombat/Presentation/AtlasWeaponVisualsComponent.h",
+        "AtlasCombat/Interaction/AtlasWorldWeaponUnloadInteractionOption.h",
+        "AtlasCombat/Projectiles/AtlasProjectileDetonationComponent.h",
+        "AtlasCombat/Presentation/AtlasWeaponActionPresentationComponent.h",
+        "AtlasCombat/Impact/AtlasImpactTriggerComponent.h",
+        "AtlasCombat/Presentation/AtlasWeaponActionPresentation.h",
+        "AtlasCombat/Persistence/AtlasHealthSaveComponent.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasCombatTests"
+      ],
+      "IncludeRoots": [
+        "AtlasCombat",
+        "AtlasCombatUI",
+        "AtlasCombatEditor"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasCombat",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasCombatUI",
+          "Type": "ClientOnly",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasCombatEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasAI",
+      "Path": "Source/AtlasGame/Gameplay/AtlasAI",
+      "Owner": "Atlas gameplay composition",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasAI",
+        "AtlasAIEditor"
+      ],
+      "NativeSdkModules": [
+        "AtlasAI"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasAI/Actions/AtlasAINavigateAction.h",
+        "AtlasAI/Attacks/AtlasAIAttackComponent.h",
+        "AtlasAI/Attacks/AtlasAIAttackCoordinationSubsystem.h",
+        "AtlasAI/Authoring/AtlasNPCActivityDefinition.h",
+        "AtlasAI/Authoring/AtlasNPCAutonomy.h",
+        "AtlasAI/Authoring/AtlasNPCBehavior.h",
+        "AtlasAI/Authoring/AtlasNPCBehaviorLibrary.h",
+        "AtlasAI/Authoring/AtlasNPCCharacter.h",
+        "AtlasAI/Authoring/AtlasNPCComponent.h",
+        "AtlasAI/Tasks/AtlasNPCTaskOffer.h",
+        "AtlasAI/Authoring/AtlasNPCController.h",
+        "AtlasAI/Authoring/AtlasNPCCoverSettings.h",
+        "AtlasAI/Authoring/AtlasNPCDefaultBehaviorSettings.h",
+        "AtlasAI/Authoring/AtlasNPCDefinition.h",
+        "AtlasAI/Authoring/AtlasNPCBehaviorPackage.h",
+        "AtlasAI/Authoring/AtlasNPCMovementRecovery.h",
+        "AtlasAI/Authoring/AtlasNPCNeedsProfile.h",
+        "AtlasAI/Authoring/AtlasNPCReconfigurationRequest.h",
+        "AtlasAI/Authoring/AtlasNPCWakeCondition.h",
+        "AtlasAI/Coordination/AtlasCombatPositionSubsystem.h",
+        "AtlasAI/Decisions/AtlasNPCBehaviorSelection.h",
+        "AtlasAI/Decisions/AtlasNPCDecision.h",
+        "AtlasAI/Decisions/AtlasNPCDecisionConsideration.h",
+        "AtlasAI/Navigation/AtlasTraversalNavigation.h",
+        "AtlasAI/Persistence/AtlasNPCSnapshot.h",
+        "AtlasAI/Scheduling/AtlasNPCDecisionScheduling.h",
+        "AtlasAI/Selection/AtlasAITeamTargetPolicy.h",
+        "AtlasAI/Tasks/AtlasNPCActivityExecution.h",
+        "AtlasAI/Tasks/AtlasNPCBehaviorContinuation.h",
+        "AtlasAI/Attacks/AtlasAIAttackCoordinationProfile.h",
+        "AtlasAI/Components/AtlasAIStateTreeComponent.h",
+        "AtlasAI/Tasks/AtlasAITask_MovementLease.h"
+      ],
+      "DescriptorModulesExcluded": [
+        "AtlasAITests"
+      ],
+      "IncludeRoots": [
+        "AtlasAI",
+        "AtlasAIEditor"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasAI",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AtlasAIEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasGameplayAbilities",
+      "Path": "Source/AtlasGame/Gameplay/AtlasGameplayAbilities",
+      "Owner": "Atlas gameplay composition",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasGameplayAbilities"
+      ],
+      "NativeSdkModules": [
+        "AtlasGameplayAbilities"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasGameplayAbilities/WorldEvents/AtlasWorldEventDefinition.h",
+        "AtlasGameplayAbilities/ContextualActions/Inventory/AtlasInventoryTransferActionComponent.h",
+        "AtlasGameplayAbilities/ContextualActions/Fragments/AtlasInventoryFragment_WorldSlotted.h",
+        "AtlasGameplayAbilities/ContextualActions/World/AtlasInteractiveWorldCollectable.h",
+        "AtlasGameplayAbilities/ContextualActions/World/AtlasWorldEquipmentSlot.h",
+        "AtlasGameplayAbilities/ContextualActions/World/AtlasWorldEquipmentPad.h",
+        "AtlasGameplayAbilities/ContextualActions/World/AtlasWorldEquipmentLayout.h",
+        "AtlasGameplayAbilities/Photography/AtlasPhotographyProfile.h",
+        "AtlasGameplayAbilities/Photography/AtlasPhotographyComponent.h",
+        "AtlasGameplayAbilities/Photography/AtlasStudioPoseCatalog.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasGameplayAbilities"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasGameplayAbilities",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasVehicles",
+      "Path": "Source/AtlasGame/Gameplay/AtlasVehicles",
+      "Owner": "Atlas vehicle composition",
+      "Disposition": "PublicFramework",
+      "Modules": [
+        "AtlasVehicles"
+      ],
+      "NativeSdkModules": [
+        "AtlasVehicles"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasVehicles/Attributes/AtlasVehicleAttributeSet.h",
+        "AtlasVehicles/Control/AtlasControlledVehicleMovementComponent.h",
+        "AtlasVehicles/Control/AtlasVehicleSeatControl.h",
+        "AtlasVehicles/Vehicles/AtlasGameplayVehiclePawn.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasVehicles"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasVehicles",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasRewards",
+      "Path": "Source/AtlasGame/Gameplay/AtlasRewards",
+      "Owner": "Atlas rewards composition",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasRewards"
+      ],
+      "NativeSdkModules": [
+        "AtlasRewards"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasRewards/Quests/AtlasGameplayQuestManagerComponent.h",
+        "AtlasRewards/Rewards/AtlasGameplayRewardDefinitions.h",
+        "AtlasRewards/Rewards/AtlasGameplayRewardExecutors.h",
+        "AtlasRewards/Rewards/AtlasGameplayRewardTags.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasRewards"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasRewards",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasLoot",
+      "Path": "Source/AtlasGame/Gameplay/AtlasLoot",
+      "Owner": "Atlas loot composition",
+      "Disposition": "PublicGameplay",
+      "Modules": [
+        "AtlasLoot"
+      ],
+      "NativeSdkModules": [
+        "AtlasLoot"
+      ],
+      "NativeSdkHeaders": [
+        "AtlasLoot/Containers/AtlasInventoryLootContainerComponent.h",
+        "AtlasLoot/Containers/AtlasInventoryLootTypes.h",
+        "AtlasLoot/Inventory/AtlasInitialInventoryOperation.h",
+        "AtlasLoot/Resources/AtlasResourceTypes.h",
+        "AtlasLoot/Resources/AtlasResourceDefinition.h",
+        "AtlasLoot/Resources/AtlasResourceBundle.h",
+        "AtlasLoot/Resources/AtlasResourceGenerationRule.h",
+        "AtlasLoot/Resources/AtlasWorldResourceComponent.h",
+        "AtlasLoot/Diagnostics/AtlasResourceDiagnostics.h",
+        "AtlasLoot/Persistence/AtlasInventorySaveComponent.h",
+        "AtlasLoot/Resources/AtlasResourceCatalog.h",
+        "AtlasLoot/Resources/AtlasResourceMaterializationLibrary.h"
+      ],
+      "DescriptorModulesExcluded": [],
+      "IncludeRoots": [
+        "AtlasLoot"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasLoot",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        }
+      ]
+    },
+    {
+      "Name": "AtlasContent",
+      "Path": "Source/AtlasGame/Framework/AtlasContent",
+      "Owner": "Atlas Content authoring composition",
+      "Disposition": "EditorTool",
+      "Modules": [
+        "AtlasContentEditor"
+      ],
+      "NativeSdkModules": [],
+      "NativeSdkHeaders": [],
+      "DescriptorModulesExcluded": [
+        "AtlasContent",
+        "AtlasContentTests"
+      ],
+      "IncludeRoots": [
+        "AtlasContentEditor"
+      ],
+      "Layout": "SourceFamily",
+      "ModuleDescriptors": [
+        {
+          "Name": "AtlasContentEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        }
+      ]
+    }
+  ],
+  "RootSourceFamilies": [
+    "AtlasEquipment",
+    "AtlasInteraction",
+    "AtlasSettings",
+    "AtlasCombat",
+    "AtlasAI",
+    "AtlasGameplayAbilities",
+    "AtlasVehicles",
+    "AtlasRewards",
+    "AtlasLoot",
+    "AtlasContent"
+  ],
+  "SourceFamilyDistributionStatus": "Supported by canonical Source-family staging; current build and authoring certification is required per distribution.",
+  "GlobalExcludedFileExtensions": [
+    ".md",
+    ".pdb"
+  ],
+  "GlobalExcludedFilePatterns": [
+    "*.evidence.json",
+    "*.log",
+    "*.pyc"
+  ],
+  "AuthoringCatalog": "Config/AtlasAuthoringTasks.json",
+  "ExternalProviders": [
+    {
+      "Name": "DungeonArchitect",
+      "Modules": [
+        "DungeonArchitectRuntime"
+      ],
+      "VersionName": "3.6.0",
+      "Redistribute": false
+    }
+  ],
+  "DependencyOnlyEnginePlugins": [
+    "PCG"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "1.1.0",
+  "FriendlyName": "Atlas UI System",
+  "Description": "Shared CommonUI foundation, layout coordination, messaging, loading presentation contracts, themes, typography, and scale for Atlas projects.",
+  "Category": "Callback Games|Presentation|UI",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasUISystemEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasUISystemTypes",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasUISystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasUISystemExtensions",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "AtlasUISystemGameFeatures",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasVariantDataFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    }
+  ],
+  "AtlasModTemplates": {
+    "SchemaVersion": 1,
+    "Templates": [
+      {
+        "Id": "AtlasUISystem.ScreenReplacement",
+        "Category": "Cosmetics & UI",
+        "Label": "Main menu screen",
+        "Description": "Creates an editable CommonUI screen and Replace UI Screens action for the published main-menu role. The game retains its standard-menu recovery control.",
+        "Recipe": "Documentation/Examples/CreateScreenModExample.py",
+        "RequiredPlugins": [
+          "AtlasUISystem"
+        ],
+        "AssetPaths": [
+          "ScreenExample/W_ExampleMainScreen"
+        ],
+        "NextSteps": [
+          "Open W_ExampleMainScreen in Designer and Graph. Replace the sample text and author your navigation; the starter does not duplicate the game menu.",
+          "The action targets UI.Frontend.Screen.Main. Authentication, entitlement and save/content compatibility dialogs are not replacement targets.",
+          "Choose an explicit priority if another mod replaces the same role. Equal-priority replacements are errors, not activation-order winners.",
+          "Test mouse, keyboard and controller focus, Use Standard Menu, closing a screen above this one and disabling the feature while its screen is hidden. Then Cook & Publish."
+        ],
+        "BaseTemplate": "UIExtension"
+      },
+      {
+        "Id": "AtlasUISystem.LoadingScreen",
+        "Category": "Cosmetics & UI",
+        "Label": "Loading screen",
+        "Description": "Adds an editable loading artwork widget to the active game rotation, retaining standard progress and error reporting.",
+        "Recipe": "Documentation/Examples/CreateLoadingScreenModExample.py",
+        "RequiredPlugins": [
+          "AtlasUISystem"
+        ],
+        "AssetPaths": [
+          "LoadingExample/W_ExampleLoadingScreen",
+          "LoadingExample/DA_ExampleLoadingScreen"
+        ],
+        "NextSteps": [
+          "Edit W_ExampleLoadingScreen in Designer. Keep the presentation noninteractive and self-contained.",
+          "DA_ExampleLoadingScreen defines a unique content-prefixed ID and selection weight. Each base screen has weight 1.",
+          "Leave context tags empty for general use. Required and excluded tags only work when explicitly supplied by the host game.",
+          "Test enabling and disabling the feature while loading. The host keeps progress, errors and base fallback. Startup movies are separate."
+        ],
+        "BaseTemplate": "UIExtension"
+      }
+    ]
+  }
+}

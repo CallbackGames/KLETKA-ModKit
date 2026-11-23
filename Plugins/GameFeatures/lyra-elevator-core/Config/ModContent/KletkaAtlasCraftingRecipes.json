@@ -1,0 +1,196 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "AtlasCraftingRecipe",
+	"entries": [
+		{
+			"id": "AtlasCraftingRecipe:DA_TestCraftingRecipe",
+			"displayName": "None",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "Inventory.Crafting.Station.Workbench",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Acid.L1",
+			"displayName": "DACR_Encht_Acid.L1",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Acid.L2",
+			"displayName": "DACR_Encht_Acid.L2",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Acid.L3",
+			"displayName": "DACR_Encht_Acid.L3",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Burn.L1",
+			"displayName": "DACR_Encht_Burn.L1",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Burn.L2",
+			"displayName": "DACR_Encht_Burn.L2",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Burn.L3",
+			"displayName": "DACR_Encht_Burn.L3",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Freeze.L1",
+			"displayName": "DACR_Encht_Freeze.L1",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Freeze.L2",
+			"displayName": "DACR_Encht_Freeze.L2",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Freeze.L3",
+			"displayName": "DACR_Encht_Freeze.L3",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Shock.L1",
+			"displayName": "DACR_Encht_Shock.L1",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Shock.L2",
+			"displayName": "DACR_Encht_Shock.L2",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_Encht_Shock.L3",
+			"displayName": "DACR_Encht_Shock.L3",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_RepairWithKit",
+			"displayName": "DACR_RepairWithKit",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_RepairWithScrap.L1",
+			"displayName": "DACR_RepairWithScrap.L1",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_RepairWithScrap.L2",
+			"displayName": "DACR_RepairWithScrap.L2",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:DACR_RepairWithScrap.L3",
+			"displayName": "DACR_RepairWithScrap.L3",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:Migrated_ID_Gigawrench_40ADF8E5",
+			"displayName": "Migrated_ID_Gigawrench_40ADF8E5",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		},
+		{
+			"id": "AtlasCraftingRecipe:Migrated_ID_Shakemeter_D0330D86",
+			"displayName": "Migrated_ID_Shakemeter_D0330D86",
+			"description": "Crafting recipe; station requirements and accepted job plans remain owner-controlled.",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.RecipeEdits.TargetId",
+			"requiredStationTags": "",
+			"persistence": "New craft choices use the selection; accepted jobs retain their frozen plans."
+		}
+	]
+}

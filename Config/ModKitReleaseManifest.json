@@ -1,0 +1,3956 @@
+{
+  "SchemaVersion": 1,
+  "ReleaseVersion": "0.1.0-rc.1",
+  "PublicApiVersion": "0.8.0",
+  "DistributionKind": "BlueprintBinary",
+  "Engine": {
+    "MajorMinor": "5.8",
+    "Root": "K:/Programs/UE_5.8"
+  },
+  "SourceManifestSha256": "4e38695fdcf6a330355d24fb1b80c00595c4a4306fa87678ac60578834817b4c",
+  "LatestSubmittedKletkaChange": 5309,
+  "RequireCleanSource": false,
+  "FileCount": 788,
+  "Files": [
+    {
+      "Path": "Binaries/Win64/KLETKA_ModKitEditor.target",
+      "Size": 896,
+      "Sha256": "6a565ae289c7bd281069b66acefcf4eec4fdf5e8f0b25351ac684d69386e27ff"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasAI.dll",
+      "Size": 2189312,
+      "Sha256": "e9be5e565fac2569f6a418933270daa3db68d07bcf9db7833e9286f5ebe803a9"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasAIEditor.dll",
+      "Size": 595968,
+      "Sha256": "a8484bdabcce6d6742cf5591c422ec9bec03fd5d203fe4aa3b15c2c0b4d6a51d"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasCombat.dll",
+      "Size": 4084736,
+      "Sha256": "43974249083b85102f53adb319b304d2fa5057dbe03c56022b21f4cd1fb92926"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasCombatEditor.dll",
+      "Size": 1533952,
+      "Sha256": "a5deefae64b5f30b21e3ce80452492b2c641e74a67b98affe3030bea7b6e4ec0"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasCombatUI.dll",
+      "Size": 396800,
+      "Sha256": "68e71d8166cd71d29ce5e651d397217d0343c402da92f03bd9cf3b0fa48ff649"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasContentEditor.dll",
+      "Size": 558592,
+      "Sha256": "d5a89937bdd0f852fa0f7aee658fb23137fcac33b0366ff5f1e4d10073971194"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasEquipment.dll",
+      "Size": 2212352,
+      "Sha256": "32213f597898f831d82258d563e35f8d664421af2338eac23af4491151537ce3"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasEquipmentEditor.dll",
+      "Size": 1172480,
+      "Sha256": "4207f4cfc714c91774fbe5b4813fe2fc2c4ad77282aec41d2e37503d7b2adc3f"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasEquipmentUI.dll",
+      "Size": 513024,
+      "Sha256": "e3a1152588bf84e92f1cf3873145ba1a40cbe0f07f6e1c04ed209ad9cc260085"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasGameplayAbilities.dll",
+      "Size": 1325056,
+      "Sha256": "8a33e7917dc153ffeb01ad1a154106f36400f9b540f72dc6045ac02fbb656fe5"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasInteraction.dll",
+      "Size": 2253824,
+      "Sha256": "fddd4813160cbf96eb9214391a707454c0693e46ac6a3ac213200e55fdc97ad1"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasInteractionEditor.dll",
+      "Size": 867328,
+      "Sha256": "078081182f4c416cf4f5cd405c38a392eaaaddecfc9502dedcee57d361758156"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasLoot.dll",
+      "Size": 1031680,
+      "Sha256": "d76d34081076e155e9bbf8849fa5cd36496f6a569f91e57e1ec69b7711349b5d"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasRewards.dll",
+      "Size": 308224,
+      "Sha256": "5fefcb1bf2dc29a6c2d98256cb99f7cdf9c02ebe6cefabcb40265692109237c1"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasSettingsAudio.dll",
+      "Size": 356352,
+      "Sha256": "48770733705356513e2a88091ab255c4d6a9982d0a227a465e5544aa0c950112"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasSettingsEditor.dll",
+      "Size": 1218048,
+      "Sha256": "e698089e522fe5f3c17b84745b66a63d1c922a8deda5a617558676904ee5a644"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasSettingsPresentation.dll",
+      "Size": 1200640,
+      "Sha256": "df8593ecba49d50ccee9ce74ae170b7f5c06b3b8d95d64ace78168e76b413083"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasSettingsUI.dll",
+      "Size": 744960,
+      "Sha256": "c7e1d272f5be53543b87180d54fa37d8d652503838a4c6ddb76f0e6e3613d894"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-AtlasVehicles.dll",
+      "Size": 381440,
+      "Sha256": "283a38cbc6faaad87245a26f65121d480a9363d4db6de4db16e4f38b4d870954"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor.modules",
+      "Size": 1222,
+      "Sha256": "10d7185bd410f3435d8c14f892f5a2413f6842a7dc708b38dca8496fb8660da7"
+    },
+    {
+      "Path": "Build/ModKit/Generated/KletkaModKitPublicApiInventory.json",
+      "Size": 12424221,
+      "Sha256": "08835d33584644853ac391bdbb4804aee90ed6300f09b1f829e1555057d0cae2"
+    },
+    {
+      "Path": "Build/ModKit/Generated/ModKitSourceInputs.json",
+      "Size": 652125,
+      "Sha256": "7a67eaf784e3f583506540e8f56250a6353d7c3636a1a0f22b29d65066058716"
+    },
+    {
+      "Path": "Config/AtlasSaveHostCatalog.ini",
+      "Size": 203,
+      "Sha256": "d61d65db01a96b8af4ef7ebf7df5db1e6f471023c993dec53d1125fd0612d44b"
+    },
+    {
+      "Path": "Config/DefaultEngine.ini",
+      "Size": 9120,
+      "Sha256": "acfd141ce7b6396951d8ad667b47a45d777ca10e8f8f27fe32e4c27625dd199e"
+    },
+    {
+      "Path": "Config/DefaultGame.ini",
+      "Size": 7393,
+      "Sha256": "5953cb94d89fea7275a75a37c6c506f51d858a7338f82f27afd3421aa6e85f86"
+    },
+    {
+      "Path": "Config/DefaultInput.ini",
+      "Size": 645,
+      "Sha256": "3e02e2b7978066b9dee689beb7426ed1096f5c43882ac9f9a6e8c5762bbe12d1"
+    },
+    {
+      "Path": "Config/KletkaSessionGateCatalog.ini",
+      "Size": 1354,
+      "Sha256": "747f37c7268bc1349e78468a37b0b7968b7d3443484de486869c2333052d85b6"
+    },
+    {
+      "Path": "Config/ModKitDistribution.json",
+      "Size": 100641,
+      "Sha256": "4e38695fdcf6a330355d24fb1b80c00595c4a4306fa87678ac60578834817b4c"
+    },
+    {
+      "Path": "Config/ModKitPublicAssets.json",
+      "Size": 50521,
+      "Sha256": "876098ceea78ec75c1b44f8be9c3d0a4d0a968bdb2b30a8b4dd71b1406501fa5"
+    },
+    {
+      "Path": "Config/ModKitPublishing.json",
+      "Size": 226,
+      "Sha256": "a74a8e0b698bad8ad2f86a99c37d775b41c3e402d231c337a4d5c2ce00281f3e"
+    },
+    {
+      "Path": "Config/Tags/AtlasEquipmentSystemTags.ini",
+      "Size": 4330,
+      "Sha256": "673a1f9f1864d1310e149138bc52a9b7ea03e0fdfc25eed8e8d59cc68cbbd183"
+    },
+    {
+      "Path": "Config/Tags/AtlasInteractionSystemInputTags.ini",
+      "Size": 499,
+      "Sha256": "12a5e03c53c11ed87d0be372f8da33938014dd4d2ea099c6dc8aa382e0cdb11a"
+    },
+    {
+      "Path": "Config/Tags/AtlasPublicExamplesTags.ini",
+      "Size": 791,
+      "Sha256": "cf844a242fe4531f09a76caa90531a1d1529e84f41adb1688f64a2782be02851"
+    },
+    {
+      "Path": "Config/Tags/KletkaPublicScreenRoles.ini",
+      "Size": 359,
+      "Sha256": "79ef170e6644ad95752e27ddf760a0da18ee117a5f4f577d203db2c7035b11f4"
+    },
+    {
+      "Path": "Content/AtlasExamples/Cosmetics/BP_ExamplePart.uasset",
+      "Size": 23981,
+      "Sha256": "f7bfdbe11ae41c53de2cb48e3b4cc799bfd9bc6cebff3982bd280fdc0930a88d"
+    },
+    {
+      "Path": "Content/AtlasExamples/Cosmetics/DA_ExampleAppearancePreset.uasset",
+      "Size": 2790,
+      "Sha256": "14c263316569917542c775ccedfaadaa2dc81aab9e95638ccb223662c5d8aa36"
+    },
+    {
+      "Path": "Content/AtlasExamples/Cosmetics/DA_ExampleAppearanceProfile.uasset",
+      "Size": 1961,
+      "Sha256": "e2f75c827e2f3e41976b9d5fc691bc8d885651899260c9e4d3f39ff6992ca9b4"
+    },
+    {
+      "Path": "Content/AtlasExamples/Cosmetics/DA_ExampleCosmetic.uasset",
+      "Size": 4245,
+      "Sha256": "5571862b8d74096850a577ae29d9407f5cd53984ddef5c00f9da47e5e7ddd0f6"
+    },
+    {
+      "Path": "Content/AtlasExamples/DA_Equipment.uasset",
+      "Size": 1438,
+      "Sha256": "8b8692e84531f8b4ba8956497299c928413ffa5709679a7eec27775932fda93e"
+    },
+    {
+      "Path": "Content/AtlasExamples/DA_HitscanWeapon.uasset",
+      "Size": 4833,
+      "Sha256": "68d550833030cd20dff1e55f6c49aef48423d116df770505bf93c4ab26f2b5bd"
+    },
+    {
+      "Path": "Content/AtlasExamples/DA_Interaction.uasset",
+      "Size": 1266,
+      "Sha256": "f05c84aabcdfaf31703d122556498f230820239fefc129f0ae1af8bb214bdbc5"
+    },
+    {
+      "Path": "Content/AtlasExamples/DA_SettingsCatalog.uasset",
+      "Size": 1317,
+      "Sha256": "80203bcad8ed71811b4d5c0ca89ed4a1125a74e1eb5243d57d1b12df3422dbba"
+    },
+    {
+      "Path": "Content/AtlasExamples/NPC/BP_Guard.uasset",
+      "Size": 31139,
+      "Sha256": "56980565b77c13d971c04d29cd965831f49e1c8c5000b9bb79bce8465de0f35c"
+    },
+    {
+      "Path": "Content/AtlasExamples/NPC/NPC_Guard.uasset",
+      "Size": 1871,
+      "Sha256": "790925690d2ce4d750e10597e000a4917f1bfd341f5d51e8acf43e17cc128447"
+    },
+    {
+      "Path": "Content/AtlasExamples/NPC/ST_Guard.uasset",
+      "Size": 273968,
+      "Sha256": "b947300d5ee083302ed801c99babebe581c908ee4f7bbff40c8c2c2824e27836"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_IngredientPickup.uasset",
+      "Size": 27878,
+      "Sha256": "9781fc8c6a750ac871f2a45f2fcf443df2e90bf303a7062de4a3ca47b1f242d0"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_ItemRack.uasset",
+      "Size": 24124,
+      "Sha256": "9f2dbebf6369aa1f0437ad45a447a9e1a02486b8a50a42a46d7b3677c04ac185"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_ItemRackSlot.uasset",
+      "Size": 28005,
+      "Sha256": "256e6e66dadce62f867b5323fcace65a34dcc30755d1cf0dd66c4a6b19c3c9ce"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundCharacter.uasset",
+      "Size": 30353,
+      "Sha256": "c54dc25726429d5ceb7f3f91a72bf2c6ac2c337dbc1e03a699e5e002f7a15934"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundController.uasset",
+      "Size": 207305,
+      "Sha256": "277c21637066712eaa59809f8c31f5a653d1f04c35d8cba5995e20967c28c614"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundGameMode.uasset",
+      "Size": 22334,
+      "Sha256": "568736ee993102bfac435f7ac96247d9aae88c68037901c9677ab8a85f096e94"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundHUD.uasset",
+      "Size": 60054,
+      "Sha256": "334f6fb8aab4fd8c2e8ee6a450bcf0eee4ae55869ac4d0043f82c41bb4fd7582"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundQuest.uasset",
+      "Size": 25745,
+      "Sha256": "d7e4d2ea0da8645a85e2003788438ec17a2a6fe58c7c8921c1e0ffabfcc8e4a9"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundTarget.uasset",
+      "Size": 50709,
+      "Sha256": "d386b4882f7b18421ab7161e55f83aaea3117db74a3fae83362d6ea0577612b5"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/BP_PlaygroundWeapon.uasset",
+      "Size": 28777,
+      "Sha256": "4ca2418203b7a97412ca26057d89349625178f693efcfbb42925ea6d45d405ea"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_ItemRackLayout.uasset",
+      "Size": 2952,
+      "Sha256": "d0eccf13275769fbbe0fe18ff8a999e7fc669fb6476d178348630ae2ef1dc68e"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_PlaygroundEquipmentRig.uasset",
+      "Size": 2225,
+      "Sha256": "4689af9af9db77f4b45f2e103b9f1ad495cec807acd0b30548c3a101c7e8d557"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_PlaygroundExperience.uasset",
+      "Size": 3274,
+      "Sha256": "7f681a8eb54662bb72ccacf0cbfb60374460933f299842518c6063be2fb7926c"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_PlaygroundIngredient.uasset",
+      "Size": 3529,
+      "Sha256": "826b2f44c89c4d5b4cea216e4ed4ee456df8c7422460de3d224a3a8b52a4f0e6"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_PlaygroundStatistics.uasset",
+      "Size": 4173,
+      "Sha256": "c0e8c767c5c33fa2d3b6939603567f7b6e3d70e043939d9ac621ba63e11c85d4"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/DA_PlaygroundWeapon.uasset",
+      "Size": 7689,
+      "Sha256": "0718c67484bb0c53858d162bc3bd55f5e6232e7535445ba8c2cf98d90ca70472"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/IO_PlaygroundPickup.uasset",
+      "Size": 2439,
+      "Sha256": "be450b6c69ca598987d42f8fe9bc7da90047d4fa635ab87a6eafecf82fda6a96"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/IO_RackPut.uasset",
+      "Size": 2387,
+      "Sha256": "c75d87e1c1d2d23418a12119dbd154ae266317eccc36ce3bddb8f5e86a3df35b"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/IO_RackTake.uasset",
+      "Size": 2394,
+      "Sha256": "be1128c6ce16f7461512a68c892bb80fda5129b557e2c7b26e9bf0705d0ce524"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/IP_ItemRack.uasset",
+      "Size": 1734,
+      "Sha256": "2eb5df079c5447dbc1709684f9b7d7f958b34c18c92319b5800eb672577b4e11"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/IP_PlaygroundPickup.uasset",
+      "Size": 1637,
+      "Sha256": "ef8e75777e2c04a54de6fba0a5f33e5830fa50a97ef1947b2b771859c76bcef6"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/L_Playground.umap",
+      "Size": 46033,
+      "Sha256": "b3bf2219d09a41eea0fb3c9b6f35cb0de7c653de0d0f482be462bcb16c58a687"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/NPC_PlaygroundTarget.uasset",
+      "Size": 1550,
+      "Sha256": "7d2c537bf6d4cd435daee6705687fa649b3686cdc18115c6e4044071f80910b0"
+    },
+    {
+      "Path": "Content/AtlasExamples/Playground/ST_PlaygroundTarget.uasset",
+      "Size": 274046,
+      "Sha256": "b994d580d55e6dbd227cf61af002aa4a289220ae3656d41607052a9f31a8e45c"
+    },
+    {
+      "Path": "Content/AtlasExamples/Vehicles/BP_ExampleRoadCar.uasset",
+      "Size": 82827,
+      "Sha256": "97053862658bc422bffe0064b7a7bdf56a595c114b749eea5e8ae9322f950935"
+    },
+    {
+      "Path": "Content/AtlasExamples/Vehicles/BP_VehicleGameMode.uasset",
+      "Size": 21293,
+      "Sha256": "d936141b0b1e9aac1e9b71aea0be03e45ab0072ccba741bcb9a49533e8342744"
+    },
+    {
+      "Path": "Content/AtlasExamples/Vehicles/DA_ExampleRoadCar.uasset",
+      "Size": 5750,
+      "Sha256": "0f0ad1ae4a9872c21175e044c213e1a005a40acfd3320ef9bcb31c5aa930cb1f"
+    },
+    {
+      "Path": "Content/AtlasExamples/Vehicles/L_Vehicles.umap",
+      "Size": 20230,
+      "Sha256": "35621a204f29037b61f8912f0090f80a6187ff4a0897cfa932537e554e93a108"
+    },
+    {
+      "Path": "Docs/Authoring/accolade-catalog.json",
+      "Size": 17047,
+      "Sha256": "813c6bbab8e8d6e9dc0356b5944d530531d0f9a86213dffad39c7ffe89c39766"
+    },
+    {
+      "Path": "Docs/Authoring/compatibility.html",
+      "Size": 4563,
+      "Sha256": "6e4f4c4639af438f8ec80ffac98c6d00cfe70a6272d729f7c83de392ec24d27f"
+    },
+    {
+      "Path": "Docs/Authoring/first-mod.html",
+      "Size": 8781,
+      "Sha256": "039aa047e9f1548f65b996cda407a438277c806e85a90144eaccb97d77dbb906"
+    },
+    {
+      "Path": "Docs/Authoring/index.html",
+      "Size": 80504,
+      "Sha256": "35b38be9fd019ce454385aa5eea0c97dd558893369c49ef046fc0ebd8b35dd38"
+    },
+    {
+      "Path": "Docs/Authoring/modules.html",
+      "Size": 8691,
+      "Sha256": "93c29acf1cb46dbe6a5b51b934ca926c8d1d2dba6812b274f31196442530bc35"
+    },
+    {
+      "Path": "Docs/Authoring/packaging.html",
+      "Size": 7189,
+      "Sha256": "3f46b4a1795890ed55c938fb1f51f0b216ca0c6de77c917af0f02e2042dc6bed"
+    },
+    {
+      "Path": "Docs/Authoring/recipes.html",
+      "Size": 15566,
+      "Sha256": "a337ad8568ef6d836a92bc0224aa6acd8083597dc2715fea21dacd2cec0a7795"
+    },
+    {
+      "Path": "Docs/Authoring/style.css",
+      "Size": 669,
+      "Sha256": "909a7b76c49d65dad1ffafd57aa32af3d4396de52485ca82d679db5b742edb2d"
+    },
+    {
+      "Path": "Docs/Authoring/surface.json",
+      "Size": 31215,
+      "Sha256": "71156ddc667a4069c447091405757e552e568118f3338983185879c463508b49"
+    },
+    {
+      "Path": "Docs/Authoring/tasks.json",
+      "Size": 96601,
+      "Sha256": "3fd1dfc0a90cbfc7426066509868b33e38b48df91f32c7abf524fc0f2affe210"
+    },
+    {
+      "Path": "Docs/GameplayTags/Catalog.json",
+      "Size": 11149507,
+      "Sha256": "0db5261a7ab3f18f8b9007957d446b5d4a2dae0736454b1e98defa797a6768b5"
+    },
+    {
+      "Path": "Docs/GameplayTags/Contracts.json",
+      "Size": 38823,
+      "Sha256": "e282efddc95af404b96225b4c72ff80e84babe0b9826128e9952f5c1ff9c44fe"
+    },
+    {
+      "Path": "Docs/GameplayTags/index.html",
+      "Size": 1222031,
+      "Sha256": "6edf62f778649024db41face7e1413a107789a304d4debaf3e9b4a3c7dddc218"
+    },
+    {
+      "Path": "KLETKA_ModKit.uproject",
+      "Size": 7946,
+      "Sha256": "79231ad21455a52856f76e6a97496aacaada3c1f8389787c263247f7981a6b11"
+    },
+    {
+      "Path": "Legal/AtlasLuaFramework-source.zip",
+      "Size": 284507,
+      "Sha256": "9f0b1c420be9753decf64ec3660b042885f840fcb882d1540bde62225dd0d437"
+    },
+    {
+      "Path": "Plugins/EditorTools/AtlasTranslationSystem/AtlasTranslationSystem.uplugin",
+      "Size": 674,
+      "Sha256": "3c13ebf185e56cab2da9a7dbb69dc65fea0f3c29e0660f320de368937e923316"
+    },
+    {
+      "Path": "Plugins/EditorTools/AtlasTranslationSystem/Binaries/Win64/UnrealEditor-AtlasTranslationSystem.dll",
+      "Size": 259584,
+      "Sha256": "99d9e4708949440218c70ba101063adcb231384502e1ecdf119396ddb86cf803"
+    },
+    {
+      "Path": "Plugins/EditorTools/AtlasTranslationSystem/Binaries/Win64/UnrealEditor-AtlasTranslationSystemEditor.dll",
+      "Size": 3945984,
+      "Sha256": "6c8adbe4fd3c77951bf17f6dd7548351c6983118770bea04a46895aa74afe21f"
+    },
+    {
+      "Path": "Plugins/EditorTools/AtlasTranslationSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 210,
+      "Sha256": "26698cf14e0051ffca46c36dd85d2c2fb8cccc9982df6249f984dbefe505a8d5"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/AtlasAssetManagementFramework.uplugin",
+      "Size": 752,
+      "Sha256": "1168326bc3a87a9d58c32579334d2d8012fbd070ed310d13b849aaabaabe38d6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/Binaries/Win64/UnrealEditor-AtlasAssetManagementFrameworkRuntime.dll",
+      "Size": 348672,
+      "Sha256": "e039489af5b7f658624dba1bc21939900b334fd09869a4ffaf15114e1bdacbc5"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 152,
+      "Sha256": "71f1a2bdbe5a7a7c6efe2694dd7d90b5bcce20fcd053aecb214640bd4884867a"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/Config/DefaultAtlasAssetManagementFramework.ini",
+      "Size": 531,
+      "Sha256": "3d8ef4207c819f53bf3695e306c7715fcf35f82fe76e70ca50b401db64acf091"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasAssetManagementFramework/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameFeaturesFramework/AtlasGameFeaturesFramework.uplugin",
+      "Size": 942,
+      "Sha256": "c3019c3f06bf15cc1f23c7eb77b34c90ab843cd5f6f6df095f1603326c26ced9"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameFeaturesFramework/Binaries/Win64/UnrealEditor-AtlasGameFeaturesFrameworkEditor.dll",
+      "Size": 603136,
+      "Sha256": "d9354cbb9b67df6c06b31e52e507ab75d986f6b07820bf587607549e2fc4bebe"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameFeaturesFramework/Binaries/Win64/UnrealEditor-AtlasGameFeaturesFrameworkRuntime.dll",
+      "Size": 429568,
+      "Sha256": "750590f2141ed968a1fffc0fa7d23b9f1b88b79d54425945d3a56878fac09730"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameFeaturesFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 240,
+      "Sha256": "0ed8d6a83356f26351d40a8e90c135e72f1689cf4aabb7b98c65aad7b165eee2"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/AtlasGameplayActorsFramework.uplugin",
+      "Size": 826,
+      "Sha256": "d4411fbfec3d2b99a4fa69279096dcf02dbc5db55b2348772ba4d612d49214ab"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/Binaries/Win64/UnrealEditor-AtlasGameplayActorsFrameworkRuntime.dll",
+      "Size": 888832,
+      "Sha256": "9f7095791fe09b5eb8be31b098c1851126d65b8486fd7ac082fc5c5de7a4de11"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 150,
+      "Sha256": "372e5b570f4d25d8d4a10f231412c1ae4b75c7a3d774672f577c3e42fe723e12"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/Config/DefaultAtlasGameplayActorsFramework.ini",
+      "Size": 6844,
+      "Sha256": "e3c07c0b8b9ed2a7f029070387fe612eb702e9d58c17ea4baeecfa6b4a3dbfd7"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayActorsFramework/Config/Tags/AtlasActorPlacementTags.ini",
+      "Size": 362,
+      "Sha256": "3cdf13dcb1e5e8e0220e17392f71f84bac41e89db629113815610a73ad42dd73"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/AtlasGameplayExperienceFramework.uplugin",
+      "Size": 1041,
+      "Sha256": "425c18c1b45e1d9bd771f8e178ca879a08bfcdce88da4d30ecd617e513dcd43c"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor-AtlasGameplayExperienceFrameworkEditor.dll",
+      "Size": 805888,
+      "Sha256": "2670e5d53ccb1e04fc97768ed6abe6cf13781660103ce7a4213d879f5038ce23"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor-AtlasGameplayExperienceFrameworkRuntime.dll",
+      "Size": 1116672,
+      "Sha256": "5581cbbd7f840fe2a5d3e1fb16792187eb55c43bce92133d0fa2a1425d30d543"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 264,
+      "Sha256": "7d7a0ea59f82f9f28586ab5859654e30885ac980a5cfe241b19d9616988ba1fb"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Config/DefaultAtlasGameplayExperienceFramework.ini",
+      "Size": 857,
+      "Sha256": "1c662ccbe5efc75299179c10620d360a3215d1f1fcc6df9caf6318edc032df17"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Config/DefaultEngine.ini",
+      "Size": 140,
+      "Sha256": "cca73cd57d2db0208aab4f55dd09dcc153f6fb2771d0ae7e8b9234675b492053"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Config/FilterPlugin.ini",
+      "Size": 381,
+      "Sha256": "fe95e3dbbde63c87204601ebf918ed40a37263633e8e4f02244e6e9f8c9792e1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Config/Tags/AtlasGameplayExperienceFrameworkTestTags.ini",
+      "Size": 273,
+      "Sha256": "0262c624892ef1633b320d4db01df88758084f012b4cf0ea473b3773023ee7a7"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceDefinition.png",
+      "Size": 18003,
+      "Sha256": "ca309c81998649e9487f21f88d15f1fbccd702f69ad153fc518a98d81cbbe4a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceDefinition.svg",
+      "Size": 1038,
+      "Sha256": "2f6925b4438e1912ce2a4e9acd0672d24c86d25afd5eade27e738a35d29586c4"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceLaunchDefinition.png",
+      "Size": 15491,
+      "Sha256": "0486065eb34970bae637494ea9c3a7465fa3749e7678ef5c2037d7aff38dfd3a"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceLaunchDefinition.svg",
+      "Size": 732,
+      "Sha256": "22813e1efcedd3761dcaa48b65763ad4f8d879e0daee0ad5adfda0b397b8cacb"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceModifier.png",
+      "Size": 16201,
+      "Sha256": "a9be66e124a7d667b930d04ff7901955825230d378b8c9d591ebfd974655aa25"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperienceModifier.svg",
+      "Size": 734,
+      "Sha256": "11d4708a63b433441af927edf7db837baa5a6d3c60b0719306fd8365c0e76997"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperiencePack.png",
+      "Size": 14625,
+      "Sha256": "6b505338afd3cd6fc24b81fff2387c744a68e2b9a67e670bd32cd40ee3e78990"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayExperiencePack.svg",
+      "Size": 896,
+      "Sha256": "6cf017f535fdb5394587d86ea63ffe6e96d06eee5c55309ce1d2fbb45f2b6b6b"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayPawnDefinition.png",
+      "Size": 9854,
+      "Sha256": "9e869cbd1fe8eb0c28eb98b85b3df80c480ad6a8ba47673685447f80cdc6ee81"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Resources/DataAssetIcons/AtlasGameplayPawnDefinition.svg",
+      "Size": 693,
+      "Sha256": "b63f842e0e1f8acf4cfede88731e2525cdd9422515a0848212b41fc96e10790b"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/AtlasGameplayMessagesFramework.uplugin",
+      "Size": 724,
+      "Sha256": "d408fa2555b78586d588abdfb57905692ca39775d262102fa4fab6c70ed6fc23"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Binaries/Win64/UnrealEditor-AtlasGameplayMessagesFrameworkNodes.dll",
+      "Size": 209920,
+      "Sha256": "5262a29845a1d5d30eb630153998a12b16863d8afdc617e4f04399eec1cf92da"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Binaries/Win64/UnrealEditor-AtlasGameplayMessagesFrameworkRuntime.dll",
+      "Size": 405504,
+      "Sha256": "4e66c3606c23e2147b763c138e4baa23e8684f9e59debc3476f1bbc53e362f8b"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 254,
+      "Sha256": "eb4ee8ac3168b66a18fe92014eed5bab0b1220171b15ce06be525a0a81afd258"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Config/DefaultAtlasGameplayMessagesFramework.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Config/Tags/AtlasGameplayMessagesFrameworkTestTags.ini",
+      "Size": 791,
+      "Sha256": "d99ffb6b4dc7f2a0728fd73c7e75246de1b978157d3caf10f2665e193c85e578"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/AtlasGameplayPhaseFramework.uplugin",
+      "Size": 794,
+      "Sha256": "bcd27b79c1c7cf9cbd4961373dfcc4a1382a69ec14fa601c70014b4001e9bda3"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/Binaries/Win64/UnrealEditor-AtlasGameplayPhaseFrameworkRuntime.dll",
+      "Size": 346112,
+      "Sha256": "049699ed14a9c7fc5ce2ddb5935f9aef3128a3d53f47f1c013ecb40fc59bb817"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 148,
+      "Sha256": "bbfa0379a8c48113ad64605e77fb9ab50bdb9806d14a8b86878e5598bb668e81"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasGameplayPhaseFramework/Docs/Examples/CreatePhaseBindingsExample.py",
+      "Size": 3016,
+      "Sha256": "0277862e5c0e2cb4a5869004814576539085f14e8f16e4713ce0754d2ce5e022"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/AtlasInputFramework.uplugin",
+      "Size": 965,
+      "Sha256": "acbe66fd7bfd7ac7905f15558b71d13189bad8038d04a595f331d938bbc9e1a3"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Binaries/Win64/UnrealEditor-AtlasInputFrameworkRuntime.dll",
+      "Size": 651264,
+      "Sha256": "01001dfad7b0704db8eea054c986412b92eae34c614c0fc4f454ec08ce1a8537"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 132,
+      "Sha256": "11aa0c4ca95f0eb7eaeb6eebd68be607cd36de4b50ffe9cca52424bc6b31ef1d"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Config/DefaultAtlasInputFramework.ini",
+      "Size": 526,
+      "Sha256": "1db133b889b357c9a85915b72f84474962c3b00c52b381ddd7730f10548ee9e7"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Config/Editor.ini",
+      "Size": 190,
+      "Sha256": "bf5b29dfc56f226b3e6f666be7cfe44d27ddf15f8093d9890b3e3a41f510adb6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Config/Tags/AtlasInputFrameworkTags.ini",
+      "Size": 4805,
+      "Sha256": "fb570a430fd7dffb94f3363809e5f3ea6586b20fe869f874f49dcab538a98d45"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Resources/DataAssetIcons/AtlasAimSensitivityData.png",
+      "Size": 14278,
+      "Sha256": "5743fb889ad17e0545df736761ed30dd76546d6a9a9e672abe0dd77e4db22412"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Resources/DataAssetIcons/AtlasAimSensitivityData.svg",
+      "Size": 789,
+      "Sha256": "86cc359de411ff5d93c75cd29f8ce79bcf988407410e4e808275416dceb58947"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Resources/DataAssetIcons/AtlasInputConfig.png",
+      "Size": 15918,
+      "Sha256": "d1e575afc807eedd144a3409cb5cd28489e6fe3c55a500e1f5e319faa67f1ff6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasInputFramework/Resources/DataAssetIcons/AtlasInputConfig.svg",
+      "Size": 837,
+      "Sha256": "dab933e7647eb82390ae24d072d9c335bc4a45c6b0f9a555649ba7624bc09944"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/AtlasLuaFramework.uplugin",
+      "Size": 768,
+      "Sha256": "b063e9ff11f1d91b7e43f1a1eac017e6afa97c76156e0eaf116e15d8bcce24f6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/Binaries/Win64/UnrealEditor-AtlasLuaFrameworkEditor.dll",
+      "Size": 211968,
+      "Sha256": "bfcb7652d11be6c05047011ef0e9b58b61e1a4b6bd1ea452268d8d6c3c159900"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/Binaries/Win64/UnrealEditor-AtlasLuaFrameworkRuntime.dll",
+      "Size": 560640,
+      "Sha256": "deb17549717c8552a4db99c6f6e76c20f45957b60ab136227394228bee69462a"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 204,
+      "Sha256": "7db976ced352eeaca5551aef1539e755763c16c7eb5bcbe5b14b81b3383d83bd"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/Docs/Examples/CreateLuaDoorExample.py",
+      "Size": 9895,
+      "Sha256": "f665d18cc0c56bfdf5c206e4ad2977899474a91a8b0d3f8e4788b4b43c710ba2"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/LICENSE.txt",
+      "Size": 1565,
+      "Sha256": "ecca1ec6c1a4cda59b7cf638a23dc7632c2290ce369a39807ac7624e1ee74540"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/SOURCE-DISTRIBUTION.txt",
+      "Size": 1945,
+      "Sha256": "942aeafe929ebaf6b623f66f320ee818cf9d2c5e0cc5c7dd1483bddb9da7f4e6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/ThirdParty/Lua/LICENSE.txt",
+      "Size": 1086,
+      "Sha256": "0df9f5b648a59a404a740270bd3ce213580cfcdd97c5132815b21eca564b43df"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasLuaFramework/ThirdParty/Lua/UPSTREAM.txt",
+      "Size": 269,
+      "Sha256": "8b0371e205382b6c1261d9bc14354cbba35569df7fe2d99b210e8531015ca993"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/AtlasSaveGameFramework.uplugin",
+      "Size": 1000,
+      "Sha256": "96ea838cd1593f3ce2eb6d72647dfc031989a522d52706662d4cd9bf4d2be082"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor-AtlasSaveGameFrameworkEditor.dll",
+      "Size": 953344,
+      "Sha256": "72bd0c6a688a48e4b94d74e5517190e9ae2daa19d10d5f6d1d3f29b0ee5b1d5b"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor-AtlasSaveGameFrameworkRuntime.dll",
+      "Size": 1578496,
+      "Sha256": "5af1615e93ec05b2f2b8e14a9cb279c84d00ae09d21af1f9aaebe23cd6d33393"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 224,
+      "Sha256": "161fd339bc38be8584e238243171b431598dd19be5cf82dd5b2ea9b316de1216"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Config/DefaultAtlasSaveGameFramework.ini",
+      "Size": 216,
+      "Sha256": "47a67f91c6e3279f79554038f90f9ee65ba5154d8d1af8747a0a46461a5a4f02"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Docs/SaveContentCompatibility.html",
+      "Size": 12240,
+      "Sha256": "c751c9381ecb93cedace6e59be452902493e1e7b6c99655c75d1506019f4fe19"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Resources/DataAssetIcons/AtlasSaveProfile.png",
+      "Size": 13601,
+      "Sha256": "123f6c291c3b11b1106fb8178abfc883604374bc2fbd19a25500aeecc9103eb4"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSaveGameFramework/Resources/DataAssetIcons/AtlasSaveProfile.svg",
+      "Size": 776,
+      "Sha256": "1b84e92c4b99a6e297f8b178a4be27b21c9ed65cade3124e32f36cb0e68471b3"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSettingsFramework/AtlasSettingsFramework.uplugin",
+      "Size": 845,
+      "Sha256": "16b2ce28194518624c577d4b6ec2ac46a8551b8bab41b35e313a235caed53387"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSettingsFramework/Binaries/Win64/UnrealEditor-AtlasSettingsFrameworkRuntime.dll",
+      "Size": 1761792,
+      "Sha256": "924ccb3d632fc7c5fb440941ca16f16bd7e803db8a0a50858f86bd1e00cbaccb"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasSettingsFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 138,
+      "Sha256": "5470682519762c38d36d7de27e765bd1c58390410eb97d61241ba31cf202779c"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasVariantDataFramework/AtlasVariantDataFramework.uplugin",
+      "Size": 682,
+      "Sha256": "405b7ca73b7fb1a6a3817985d92571fb155cc0d579d19c76ae24d981aebe378e"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasVariantDataFramework/Binaries/Win64/UnrealEditor-AtlasVariantDataFrameworkRuntime.dll",
+      "Size": 364544,
+      "Sha256": "a1279194f4c796fa856055760ba83c08e0c743e0684ebf83528e300eb6c35f4b"
+    },
+    {
+      "Path": "Plugins/Framework/AtlasVariantDataFramework/Binaries/Win64/UnrealEditor.modules",
+      "Size": 144,
+      "Sha256": "03b26da8225a12799db8e7f2a707ddca2e6f524dc39634ba34fca3f5c0513b37"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/ams_manifest.json",
+      "Size": 2023,
+      "Sha256": "c70f2bca104fcb20cd17396177fe9c496281deed4bd3b70d8ea94c039fe988dd"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/AtlasFloorExample.uplugin",
+      "Size": 630,
+      "Sha256": "99f231c9cd739a88f8f65a357c56317a499e97136fbe24bdd402da072226ced7"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/AtlasFloorExample.uasset",
+      "Size": 5342,
+      "Sha256": "11fcaf7f1331920a4fde78b48429eec5ea10afb2f7d205e4cfdcb26221e4a143"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorLayout.uasset",
+      "Size": 24467,
+      "Sha256": "92f37b8c0e4da4047951930bb03fda525720468d2128c5f211a5995b95b44858"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/BP_FloorQuest.uasset",
+      "Size": 15194,
+      "Sha256": "fd0a17d09930f7bf447724d2b0d935a0a96c0683aa0a3d608008c6e14b42aace"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Biome.uasset",
+      "Size": 1909,
+      "Sha256": "3123ce2ecbf759288e0da12be5f05538fd71a6db36ffe821f9f176bcaa4e8028"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Bundle.uasset",
+      "Size": 2311,
+      "Sha256": "cad8c6b08d9d6fcbf2a610a69249403b5d76b188330020ac9faad9933e016d66"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/DA_Floor.uasset",
+      "Size": 2927,
+      "Sha256": "4190abfb89abdd8c8402b28a3a07b87c69cbf3ca47309a3e1d644dc5747d8f87"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Content/FloorExample/L_ExampleFloor.umap",
+      "Size": 22558,
+      "Sha256": "8e3c4e3294316f9d2a8e4692b4fb7e54bbbe957c53f047429ac9108d62cc82e7"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Media/Banner.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Media/Icon.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFloorExample/Media/PreviewImage_0.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/ams_manifest.json",
+      "Size": 2031,
+      "Sha256": "9e821a43e8761290a5d2945c1b76630cc5ee2afe043af13d60128931fc941d25"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/AtlasFoundationExample.uplugin",
+      "Size": 631,
+      "Sha256": "93699167921c732f836f0a72b159eec9f7c290c6f2cedf892663354a3f784768"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Content/AtlasFoundationExample.uasset",
+      "Size": 2798,
+      "Sha256": "f7f2dcfc258809b46e7581efbd322f2230440da50fec6d2df094bc901d0fedba"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/BP_SampleProgress.uasset",
+      "Size": 8111,
+      "Sha256": "fc1216e8e03f53870a3a35d263685832f23035942a9f76405a2a0a515c6affdc"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleEnabled.uasset",
+      "Size": 1656,
+      "Sha256": "6ee0e6e155618455534824e9cb847cc156a4c628526b3931f426a052492a2389"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Content/Foundation/DA_SampleSettings.uasset",
+      "Size": 1746,
+      "Sha256": "494b29c06e9035baad618345d6a7514cdcfb15dda3da15c9f19c2152d1269dda"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Media/Banner.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Media/Icon.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasFoundationExample/Media/PreviewImage_0.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/ams_manifest.json",
+      "Size": 2030,
+      "Sha256": "7d1dde433f0e13263a5359b28fb80b2247eebdeae3fc754f80366174774cc297"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/AtlasInventoryExample.uplugin",
+      "Size": 560,
+      "Sha256": "a4f8adec1ef7c3345a16d568f9b68035a755f84765691ac8bb1211d938cde9ee"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Content/AtlasInventoryExample.uasset",
+      "Size": 3040,
+      "Sha256": "f28d1537208e33919363ee41bc5f3cbe86700985f2b08f5a6e9bd9b3da654fdd"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleItem.uasset",
+      "Size": 1767,
+      "Sha256": "96542c2bc0a290cc7a134bb33fe51fe9cf849d15af16a58f400b6ea6a82e76e1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_ExampleRecipe.uasset",
+      "Size": 4414,
+      "Sha256": "265b7f7902bdfb8d471d2ea6c9ea928fbad2d0f08ac1e78d1e3bfc338564029b"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_Ingredient.uasset",
+      "Size": 1531,
+      "Sha256": "8af7fe7613febb6c7d1e3dbd957f685c6c01305b2c265bcd7d35f69766bdb182"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Content/InventoryExample/DA_InventoryContent.uasset",
+      "Size": 1939,
+      "Sha256": "d2e88e69d0ebcc8dfab71c3f3fb316d4c72feb5452a78439a2370fd4fd431077"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Media/Banner.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Media/Icon.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/AtlasInventoryExample/Media/PreviewImage_0.png",
+      "Size": 68,
+      "Sha256": "43739c566e26fd7cb88f69d3864ea34740372f5ee99acac169e090beffbce5c6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor-ElevatorCoreContent.dll",
+      "Size": 1553408,
+      "Sha256": "1a3151f52e02922ba2788fc3419a73d6aae9bb3c202eb5a42b0e8eb585163a00"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor-ElevatorCoreContentEditor.dll",
+      "Size": 1053696,
+      "Sha256": "176e9c4c0779bdd78a0869e48e212cdd6d5de7df16f5f24406b3d91ceed85ecf"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor.modules",
+      "Size": 198,
+      "Sha256": "e61c680e5b65528d968703c0cb17a66768bed7435712812cf690b1a282238172"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaAtlasCraftingRecipes.json",
+      "Size": 9030,
+      "Sha256": "05c6aeb7cea319253ac0c5f7d8e37ed94d165a03119ab4cc39c817b40ea9b2f4"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaEnemyArchetypes.json",
+      "Size": 8620,
+      "Sha256": "0d93eb7e238059a15b6194e6f0050ca90e2a1f7af95047ce069242118673b54c"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaInventoryItems.json",
+      "Size": 56080,
+      "Sha256": "5c58e035dd021fa2e48bd1fd428f50be7a2f30c063a7dfaf20f878e7aee8e1d7"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeBiomeDataAssets.json",
+      "Size": 2185,
+      "Sha256": "9078766f0225243a75800bf2d0333afdf5aa53f844307b602a2624a96effc429"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeFloorBundleDataAssets.json",
+      "Size": 465,
+      "Sha256": "9d95e1baa710273ece5b98326c492516cb1fdc636fcac17b897e8fe27ad54987"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaLeFloorDataAssets.json",
+      "Size": 18944,
+      "Sha256": "c8dfea1f43e23ebfb0cd11e06e4ddeb2b13580c0311de7132f893a1a758aba45"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaMannequinTargets.json",
+      "Size": 969,
+      "Sha256": "42de8048564372a55264f7f673f0fbd21c6b631079918832b17ffde13c6ac3e6"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaPranks.json",
+      "Size": 42217,
+      "Sha256": "883a1229e98bec96721127e7f2abf9ad37bbf3b23fee18d475bcf59c9283edcb"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResourcePacks.json",
+      "Size": 1981,
+      "Sha256": "897c752e3540b4e3a7d3ffa4cf0654f71be6ea7a38f26ec8e53e735138d184c9"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResourcePolicies.json",
+      "Size": 784,
+      "Sha256": "ebfb33f7745f09c664d4adbc73fac3ba5df6b606ddaf66e107ed0f1aa2df945d"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaResources.json",
+      "Size": 18181,
+      "Sha256": "aa6cdc3e48cf40992d54d2f53e54859a7f103f417d66c9a13ab76932d2e19551"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaRoguelikePerks.json",
+      "Size": 9143,
+      "Sha256": "ad326668bdc21adab3ab50eaeea66014c913295867f95832acf2ec4d6ae318d2"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/ModContent/KletkaShopAssortments.json",
+      "Size": 8403,
+      "Sha256": "6fe53503bf3d39152f93b86a5a76cf6cbfd5d00ce993a6d458a26be9eaabab9e"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/Tags/PublicContent/ElevatorFloorFlowTags.ini",
+      "Size": 1827,
+      "Sha256": "8b10f60ac55fa77c2cfe0881f0b29598d5cb62faba45839167e014f7b958cbd9"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/Tags/PublicContent/ElevatorPerkPoolTags.ini",
+      "Size": 553,
+      "Sha256": "c62fc3316a0b6f6618abf4b20196610809b0f66c7816809ded93eea8965b7166"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/Tags/PublicContent/ElevatorPhaseTags.ini",
+      "Size": 1167,
+      "Sha256": "ec377f8d623151a9e4448cfb7168ef9ca86a1e7ad8f58ac41ffe434fb3a675ee"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/Tags/PublicContent/ElevatorSessionSettings.ini",
+      "Size": 4675,
+      "Sha256": "8bab88c53fbff0623fef193cccc8970b5c76312a6136167e9cca70f9024bcfbe"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Config/Tags/WorldPlacement/ElevatorCorePlacementTags.ini",
+      "Size": 4115,
+      "Sha256": "f968de5615030c0ab1e339f364594a150959091d89479ba2a1382574b6a98bd3"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/AddQuestCompletionPhase.py",
+      "Size": 4266,
+      "Sha256": "6b81e61eb9b77049076bbdb007f67a32f0401d30fd58e5dfd49cb60589eee14a"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CapabilityModStarter.py",
+      "Size": 14186,
+      "Sha256": "caf56ef27fdbfcb23cda8c9ff1a48a6685e2c619f513d5975cd34d69d50491e1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateBossModExample.py",
+      "Size": 430,
+      "Sha256": "d1b433c827ab730df241dc958b6b10065bbc288c8ece8237e7bf65df7cbadec4"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateCageAddonModExample.py",
+      "Size": 400,
+      "Sha256": "60800d0f7e12f2804d927a738cd2aff934d7a76b355d7593668ec1c832b74ece"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateCurseModExample.py",
+      "Size": 7950,
+      "Sha256": "4000cf491dae8bbf197171a8eb2404c8a1a156f496ed8b4b2dc978335621d53d"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateDungeonArchitectFloorExample.py",
+      "Size": 1774,
+      "Sha256": "18a251b768a5ae8ed544994fee15deaf67499a60103c8b7fe4fa1fceb9ecfca1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateEnemyModExample.py",
+      "Size": 431,
+      "Sha256": "1a7c8460e9a5999fa55359a250d60c599dfe9c77dbe40190a06756de01d0aeaf"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFamiliarModExample.py",
+      "Size": 434,
+      "Sha256": "3a058a5d5fd634180916761ec4c2efd65c25bbe15eb8d1a4be5fdfc557a845aa"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateFloorModExample.py",
+      "Size": 17584,
+      "Sha256": "4ba27dcf273f34fb3cc0f8b0836ba0405e5aea947141eeecd29d62b38df75b57"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreatePerkModExample.py",
+      "Size": 5695,
+      "Sha256": "0e2ad951e034a1ff5a32aac660956be126ed77f42932d1c8ff55b68d0edc6e9b"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateProgressionModExample.py",
+      "Size": 414,
+      "Sha256": "3d0fdfe6fab0bae220df00810de99587c21b859809cbb738994eed666b1ee1e0"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateQuestFloorExample.py",
+      "Size": 14358,
+      "Sha256": "b99d15ec620e8014d4002e7802ca7d5d8f7759f02fdf05990f0b43631b8b80c3"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateResourceModExample.py",
+      "Size": 4800,
+      "Sha256": "74df1978d48a51495293b42a11b0800da2da21a67ffd3bc24b30c742c9b685a9"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateRespawnPolicyExample.py",
+      "Size": 4190,
+      "Sha256": "f7777879a655c18d2ed1b9476ea0a2e8f9e3b3d37bf71b14046691eff4f238fb"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateShopModExample.py",
+      "Size": 3734,
+      "Sha256": "aa655517d3f464845cdc053021f7da0b8e48b5864939fed1677472c0939cdc6d"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateSubtitleModExample.py",
+      "Size": 420,
+      "Sha256": "ee3970b8964335343689dbd7911dc871b8a62acb19eea95ac4568389f97b47ea"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/CreateWorldActorModExample.py",
+      "Size": 436,
+      "Sha256": "4a64a23876d4ba1eb5c85a2475556b2c323bef06e2da46585d5dfe483c6327e1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/EntityModStarter.py",
+      "Size": 20711,
+      "Sha256": "676b3f940e720341cedae1f251d459b85898239f7f3384a1c0915759bc5716cd"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModCube.png",
+      "Size": 79019,
+      "Sha256": "15af9aa1977ef09dbcd465c75abf4a2bc1078e3369ad46e9e35245ca1a561a47"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModSphere.png",
+      "Size": 77948,
+      "Sha256": "a3844f241aef223f8267dbb1a08b23c8ba68fa03631407702512bc3224baba99"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/GastronomMannequins.html",
+      "Size": 3063,
+      "Sha256": "5ab2ac59ba778e3e8d8dfe1299e89d80ae1248da02e3ecc2a2b9d5103bd2db55"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/TestEnemyOnClient.py",
+      "Size": 14262,
+      "Sha256": "c880eb7512c239f48017f212ce3839f0ea7f1e50ade68e8498a06e18f7081521"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html",
+      "Size": 34870,
+      "Sha256": "b2da4b9251b66d2e9d6d5ffb6c5da6cb173d1d5b94e3da2f3acb2db1f635c90a"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Docs/ShopAssortments.html",
+      "Size": 4540,
+      "Sha256": "73b72dcdc7627e99a987bd9219041261532aa50a92fa081dbcdf829e1382ca98"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/ElevatorCore.uplugin",
+      "Size": 20364,
+      "Sha256": "693fc6437d7b11e558f2adf1daf2982607c113e5e8dd690c794456adfa6d8112"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.png",
+      "Size": 14238,
+      "Sha256": "7a981fd0277b4a995697b86da1404b316a908869401a86e3724901e696536066"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.svg",
+      "Size": 702,
+      "Sha256": "5cb4baa9d53d978ee42445e7d3ec12a647b211ff1e931836a17f3ebff1576fb1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeCampaignFloorGenerationProfile.png",
+      "Size": 14764,
+      "Sha256": "7f28d363de6284d00f561dcd7e23358376b2bc49210c81a9f3c0620ec8a07693"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeCampaignFloorGenerationProfile.svg",
+      "Size": 692,
+      "Sha256": "6364bc8f40adbe6fd844c6b55eab40a396a690d907de65132425e882a4ab8aba"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeEndlessFloorGenerationProfile.png",
+      "Size": 17989,
+      "Sha256": "71ba1679a6949b2cd5fd4f2002f50d3fed14e641dd89e6b145e53e0f7e5dd947"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeEndlessFloorGenerationProfile.svg",
+      "Size": 622,
+      "Sha256": "35a0d19ed3cfca462b264177db3c998c880a72b1a8b624aa3c926a5d51db1149"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorBossPrankDataAsset.png",
+      "Size": 14081,
+      "Sha256": "4843d23d7e5b3024eae97b01b860e59c3c74fbb757afca6bb3da3e6f9d835f81"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorBossPrankDataAsset.svg",
+      "Size": 625,
+      "Sha256": "d84383053ed184d7fba5fc6a7bdcf87ff73e140fc40a0c988cc45e96bad586aa"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorBundleDataAsset.png",
+      "Size": 13998,
+      "Sha256": "90ed58caa78db6de8493820c80451288369f3698fe41b3731d38f8c494903e0b"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorBundleDataAsset.svg",
+      "Size": 631,
+      "Sha256": "7ee238029625d10595c650904695c9d25c9f1ea028e06f903d435be7e50c4564"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorCommonPrankDataAsset.png",
+      "Size": 13257,
+      "Sha256": "ef0db836069ecf57ae0726bd1312161cb7ccabdcb5e6454a8eac065dca9e6dfc"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorCommonPrankDataAsset.svg",
+      "Size": 691,
+      "Sha256": "b4fcabfbfda85396aefabe86f045abfc39e034af6e8d6b51cb0393b08afbd01c"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorCursePrankDataAsset.png",
+      "Size": 14677,
+      "Sha256": "d609990894cdcc06352ecfbe60f7ea45d9ec27a9925e82fb740fff8612ed6953"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorCursePrankDataAsset.svg",
+      "Size": 699,
+      "Sha256": "52d656f5c9cc1daa870ffbda5047d62e44a4acfb712ac31d007b976cf4fa137a"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorDataAsset.png",
+      "Size": 12406,
+      "Sha256": "cb59ac47f4bc22c5fcb694aef16a51fcc1d01dd67bd3d437881dde2bf1d8ad69"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorDataAsset.svg",
+      "Size": 758,
+      "Sha256": "71c3754e0c086dc512a6feea7a07607a3a64e8f4334825460c380e719a5605a8"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorEnemiesPrankDataAsset.png",
+      "Size": 12459,
+      "Sha256": "4b3e2b8a941a4c564fa13cc7da090d9e5f9ae4427e1fe4e4034083f5c01d9330"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorEnemiesPrankDataAsset.svg",
+      "Size": 784,
+      "Sha256": "5c9b5bd185b9587f0c0709d665238704051e335cc1fb775bb6e6b4bcecbef229"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorGenerationProfile.png",
+      "Size": 16192,
+      "Sha256": "16da62897793bf16666dcd5f8f7d8eea06361a14870ba005bcd695f038fd0176"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorGenerationProfile.svg",
+      "Size": 769,
+      "Sha256": "b71f9f9798753bc9fd2eac573884b404e1de9a76d4aa1b4e5055985f6aa56735"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorMusicListDataAsset.png",
+      "Size": 15854,
+      "Sha256": "c2796023db114d85316cf5d042df58fbac590bed6eefe78d52d85c4306c17804"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeFloorMusicListDataAsset.svg",
+      "Size": 796,
+      "Sha256": "e430495568bcd08b765938213b99ec82f7aea443163559316f9c820fe6b5f2cf"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeSamosborPrankDataAsset.png",
+      "Size": 14460,
+      "Sha256": "175c0c3564e34adad9d8f6e53b554d2566c789ce71641aa762ade4e55d10ecc4"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeSamosborPrankDataAsset.svg",
+      "Size": 631,
+      "Sha256": "4b2a9eb478af795be48e06361026a0263ca9898dd63506e93f4fb792cbb8051e"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorCategory_General.png",
+      "Size": 30092,
+      "Sha256": "ad3ac92fe41c75694d93486106eb345aba963295dccdc37ca695e33e5c035a39"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorCategory_Pranks.png",
+      "Size": 17372,
+      "Sha256": "d021bc596395c8db7b5def57313a3f7de6b14d931acaf417036a5cb31634eac4"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_Availability.png",
+      "Size": 18672,
+      "Sha256": "dedb3f2ceeaa87c227440ff1e8d5777bc86b52ec17ba3234ae3aa7a1e2021168"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_BossPranks.png",
+      "Size": 31217,
+      "Sha256": "eeec3bdb962dd0aca91073456b4176f496a9323f0b08b5001a7dc47fac93b353"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_CommonPranks.png",
+      "Size": 27636,
+      "Sha256": "6d3a606ef4dee09562d8d5864b0b9ff824d173ffd8e8a6d133b62d94e53bb262"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_CursePranks.png",
+      "Size": 36602,
+      "Sha256": "aeb533428368ca23dff55c57de037415b9d37e58ffb278945d1e8cb5ccf7c8d1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_EnemyPranks.png",
+      "Size": 26540,
+      "Sha256": "2f05b6641cfccf2cbbb00eaa9323023e067b1b552179f449fad5629140f2005c"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_Generation.png",
+      "Size": 19369,
+      "Sha256": "22c3c19e0ea9b001cf6d66d849f8f11a41f02e91ccc6e9bb2eb2cb195f90d4e1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_Loot.png",
+      "Size": 37238,
+      "Sha256": "c99829f398b8c57269aa81ee8969874af5c86b55a0cd807ba48117445964c5f1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_Presentation.png",
+      "Size": 18219,
+      "Sha256": "3507e05de61d5b23cf0922c4534572efe864768741622662cba09acb5468dcaf"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_Quests.png",
+      "Size": 27444,
+      "Sha256": "60d84cfed974c59776d4cc16b28d033cdfacf4b997fa46f58b87300e1a0564b1"
+    },
+    {
+      "Path": "Plugins/GameFeatures/lyra-elevator-core/Resources/Icons/FloorFragment_SpawnPolicy.png",
+      "Size": 31186,
+      "Sha256": "2bcaab5c176aac57dff88273b41fabaaf5bc0f8645b73b4340e643f7b2808c01"
+    },
+    {
+      "Path": "Plugins/GameFeatures/RoguelikeCore/Binaries/Win64/UnrealEditor-RoguelikeCoreComponents.dll",
+      "Size": 461312,
+      "Sha256": "6f73e05efbcf8b70dabecce3426e7da8f3f9f1c79a88a01f53377b9773e2fc5d"
+    },
+    {
+      "Path": "Plugins/GameFeatures/RoguelikeCore/Binaries/Win64/UnrealEditor-RoguelikeCoreContent.dll",
+      "Size": 395264,
+      "Sha256": "4cd1f5eab80ae41dbbc9f947b1c1972f3116d1e9160065b8c4c7431c8225e78c"
+    },
+    {
+      "Path": "Plugins/GameFeatures/RoguelikeCore/Binaries/Win64/UnrealEditor.modules",
+      "Size": 196,
+      "Sha256": "83b2621d1e6ba0a97dd4d4ce98aa6d184df30c1155b83c1724450c14302406b7"
+    },
+    {
+      "Path": "Plugins/GameFeatures/RoguelikeCore/RoguelikeCore.uplugin",
+      "Size": 1272,
+      "Sha256": "06199d35b988968e111189ec6943eafe6210edfcb070f1af3363e269de9b2ba1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/AtlasAbilitiesSystem.uplugin",
+      "Size": 930,
+      "Sha256": "45e141f0ee2b8bcdd0eaac17d201698e256d016cc6be48fa37fb44f74c3a3c4e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Binaries/Win64/UnrealEditor-AtlasAbilitiesSystemRuntime.dll",
+      "Size": 1166848,
+      "Sha256": "9063b3c9e57b6f2e39a366ba5bbbb86f6e93d4559cd7d569b0bdaa36baa429e4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 134,
+      "Sha256": "d0a4913fec914a017edf22eba67cf0ffc3e8b923ae5dc13ae4ff5f8b42d14f45"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Config/DefaultAtlasAbilitiesSystem.ini",
+      "Size": 3028,
+      "Sha256": "ad2abb7f4d862421976b12522e31b736478a4e8edcac328f138d4629a19b9589"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Config/Tags/AtlasAbilitiesSystemTestTags.ini",
+      "Size": 300,
+      "Sha256": "314e63fd7ca56d95fa123eda2bdcfed525b673c803d23fe76280e9cfc6010349"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilityFailureFeedbackProfile.png",
+      "Size": 10693,
+      "Sha256": "3a7b351cb5e2cd117f96da80e714025a90fce7276cc9294ac65584903350aa60"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilityFailureFeedbackProfile.svg",
+      "Size": 549,
+      "Sha256": "813b09185225e42ac6bb0952c226d29fc35fa403197c0c941d793412c40b7ccc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilitySet.png",
+      "Size": 12846,
+      "Sha256": "ff7bea0d07e0256d802948930c2d8320016209caadc36625d3bdd17f89c30a14"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilitySet.svg",
+      "Size": 631,
+      "Sha256": "7ee238029625d10595c650904695c9d25c9f1ea028e06f903d435be7e50c4564"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilityTagRelationshipMapping.png",
+      "Size": 13716,
+      "Sha256": "e2d55ea3f80b3663c35bbe9e3b1ae418fb8e06307a852f8a549f7598cdb54723"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Resources/DataAssetIcons/AtlasAbilityTagRelationshipMapping.svg",
+      "Size": 550,
+      "Sha256": "d656c451919dc7c0ace55f95a90fe118921031c77abf63634d9de90f90ff1ca7"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAgentControlSystem/AtlasAgentControlSystem.uplugin",
+      "Size": 664,
+      "Sha256": "da94e6021052195f0808a3dcdbd5b40297419987421914e141601a41cc44f5f6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAgentControlSystem/Binaries/Win64/UnrealEditor-AtlasAgentControlSystemRuntime.dll",
+      "Size": 335360,
+      "Sha256": "b7cb290c1df537710547cfc33223f93940f94ca8e228b68c666d34949d41b98c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAgentControlSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 140,
+      "Sha256": "8f4d717c282c5267e1dd377be91654871df5da3864703369145829188228f9a9"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/AtlasAISystem.uplugin",
+      "Size": 668,
+      "Sha256": "e4616c407796d7a4daa5bb0ffe1af791cdc9abd879fc07846a402e3e1cf12e4e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Binaries/Win64/UnrealEditor-AtlasAISystemBehavior.dll",
+      "Size": 670720,
+      "Sha256": "65ec056e185e2d3d12581ccd27e3a2a6f1ae8ec4a10f0e9385f9bacb0b49b36f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Binaries/Win64/UnrealEditor-AtlasAISystemRuntime.dll",
+      "Size": 503296,
+      "Sha256": "cd9e48dba831e077e4221ade429fc52169636035943362cdf7622d776e9870f8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 192,
+      "Sha256": "0c9b719297638c457a005a934bec4ccbb2b70c876a74c0bb57c9828ce124bc8e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Config/DefaultAtlasAISystem.ini",
+      "Size": 6758,
+      "Sha256": "118b80b56a24c2e7382eb02f7c84f30bb66ba9d0a1a4114ccc5479d83c8982ff"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/BP_ExampleGuard.uasset",
+      "Size": 31804,
+      "Sha256": "cdccc6d99f53bda91a570744d9825eed81837741d55ee085376e661169e4968b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/BP_ExampleWorker.uasset",
+      "Size": 31684,
+      "Sha256": "d6e00bf8be8eabd5b36bda399150358502e96f536f435fa0d1c56a5c702a8dd9"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/BP_ExampleWorkstation.uasset",
+      "Size": 28927,
+      "Sha256": "3da826e79edb5bebafecee64df512b115f3637eeabe0c0f6992c6ae0433f2878"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/BP_TrainingTarget.uasset",
+      "Size": 31706,
+      "Sha256": "9ec4daa45f6934b04d62ec803eb9402631c869023c6eca440800f15012bb2aa8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/BPC_ExampleWork.uasset",
+      "Size": 39705,
+      "Sha256": "d6e8d1d8ec55dec8943c47401df404280c63ed9163992f856c6e9582073b472b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/GA_ExampleGuardAttack.uasset",
+      "Size": 72792,
+      "Sha256": "8e785739d3a8a5400573453e35acabde7899ca9afe0ce0158bfff1a151d9a4ce"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/GE_ExampleGuardDamage.uasset",
+      "Size": 13019,
+      "Sha256": "d2ef61aa7d793e116d9774dfc11e7cd0e0c7165af3fb2ad1371f803f9f934d73"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/IO_ExampleWork.uasset",
+      "Size": 2973,
+      "Sha256": "8762a5f6f2c939a7ba5e3504b108a2cffa814cfa4c694b6e2af017fdaac6e713"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/L_NPCExamples.umap",
+      "Size": 44568,
+      "Sha256": "84f9aa4e33d52cc0d68be8f00fde37fdfb76cc5fef038f4bd1050829d88856ae"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/NPC_ExampleGuard.uasset",
+      "Size": 3704,
+      "Sha256": "56dc0b9e0c5540b6a3fb6fc1e8a407cc3578822f42bc196faa4d7c132d05dbf2"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/NPC_ExampleWorker.uasset",
+      "Size": 4650,
+      "Sha256": "e07a711fcd187ebd3f3c22e8499fe640ab2e295cc74a247d5eead2cbcfff3905"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/NPC_TrainingTarget.uasset",
+      "Size": 1945,
+      "Sha256": "d5ed609fd6cf2ab3cd8c79ae848243aef8a9bfdf1578bfa04ebd9a5d39c489fd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/ST_ExampleGuard.uasset",
+      "Size": 274036,
+      "Sha256": "d8e677f4291400b0a654898f1049310a273c2d65b502c8789cca51201fd258e0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/ST_ExampleWorker.uasset",
+      "Size": 274040,
+      "Sha256": "f29dcb7cfb8d74c33b0359aef4cd5b617ecaa8a06104642ab9e2fbe84b9b8aff"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/Authoring/ST_TrainingTarget.uasset",
+      "Size": 274044,
+      "Sha256": "1fa28232e68be4fb856e8f61f28ed325239029e81c1426d165a11e9da95bbdeb"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_AllTerrainNPC.uasset",
+      "Size": 29766,
+      "Sha256": "b614709b303bb5d8216149bbd4c2bf315784479a5296c6faaf8f2a15931fb442"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_AmphibiousNPC.uasset",
+      "Size": 29766,
+      "Sha256": "32dfdfc9b432cff215c841a8e972c71ca7a0af0fd3fad5ed5cbdc999fa82db0c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_FlyingNPC.uasset",
+      "Size": 29678,
+      "Sha256": "183796f0da2a318d3139cf2fea605899b9bc807f464c508bdcf3d457872a4896"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_NeutralWalker.uasset",
+      "Size": 29766,
+      "Sha256": "5dc5607c751fa7c939295f0f798d7fb4f0d9ce7cb160eeaf93aead48a206e619"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_SwimmerNPC.uasset",
+      "Size": 29702,
+      "Sha256": "12fda4c2ecb2f403492301bb55501ee7e9573e71ad206597641cd9914424689d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/BP_WallCrawlerNPC.uasset",
+      "Size": 29790,
+      "Sha256": "15cfe00b296af00049cdc99c9ed64d3589d43a935a002a0de090d7b0a58e3b2e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_AllTerrainNPC.uasset",
+      "Size": 2038,
+      "Sha256": "9bcc2b59160f6a0ae2f0a90ad4cf7fd3cf1d1737cc27c56aaa4fee782d70e24e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_AmphibiousNPC.uasset",
+      "Size": 1954,
+      "Sha256": "4b71694e07317f618e404d80757ee1e3859fb520d2d7a8867e3d697a3669561d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_FlyingNPC.uasset",
+      "Size": 2005,
+      "Sha256": "9b6566a9748ae764af177ad7070bd7f16d2ded586f90ef2ead8f92722f6d5055"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_NeutralWalker.uasset",
+      "Size": 1508,
+      "Sha256": "f9232e0d97b76bfa1b359820ae868a571b6b82b293c13635e44960bc8f3c4c0b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_SwimmerNPC.uasset",
+      "Size": 2014,
+      "Sha256": "d9a5155a0ef90498e848e87f4384625b44d74156ea44603c0b52056a69535aa0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/NPC_WallCrawlerNPC.uasset",
+      "Size": 2047,
+      "Sha256": "d6c165bb30c3d24e74bcf0931d791603c4e220409af83ef6f8352f83f1f6e63a"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_AllTerrainNPC.uasset",
+      "Size": 274020,
+      "Sha256": "71424c187e82e63ad87933e6f0a79d835f316baebb44204fc725be9e04d3d532"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_AmphibiousNPC.uasset",
+      "Size": 274020,
+      "Sha256": "8a0ded1096b798bdfb5105bb4e100f47e7d3a5d1d792cddd2e57686161503424"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_FlyingNPC.uasset",
+      "Size": 274004,
+      "Sha256": "c70016cbdcaaf388540b820716ddfeee8874ad17209c5e9c1f12421cb6b187c9"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_NeutralWalker.uasset",
+      "Size": 274020,
+      "Sha256": "86a0cc2334c2322ef6bd5ef2733a748ad82e7d1b3ec41713482d40c876a52d6b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_SwimmerNPC.uasset",
+      "Size": 274008,
+      "Sha256": "8f380b82dd41598384fa28637c8793866300cfeeab1f6be774bdf17e77661750"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Content/Examples/ST_WallCrawlerNPC.uasset",
+      "Size": 274024,
+      "Sha256": "e472a7a9e9db2dea2ed61d4eb8c6d617cd167ce2d106bffe622dcd5d47bbb2d2"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIAbilityAction.png",
+      "Size": 14366,
+      "Sha256": "7be5f95632e6db79da1306176e9283a77125e4cb317bedab862b30c5dab8bb97"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIAbilityAction.svg",
+      "Size": 611,
+      "Sha256": "aae7d96ed23cb4fce8e9ec6caa34f69fd1321b816ced683453ac4065b43802ae"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIGroundMoveAction.png",
+      "Size": 15940,
+      "Sha256": "25405b637a27831861f19e8aea7563485e4c0ad70fe64fefb367569503150958"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIGroundMoveAction.svg",
+      "Size": 748,
+      "Sha256": "d7994764e3fa971c780a880e2ffc17b337762c35720604caa2a1e3af6e0c3c3a"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIProfile.png",
+      "Size": 14459,
+      "Sha256": "cb78ff35355e8390b23c7c1d40f9fd5d92cc96a1dfbdc8eace903138cdd52f77"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAIProfile.svg",
+      "Size": 598,
+      "Sha256": "7e2623e58718dca367a0ce56b5181e3abf5c6f4bce552bd455c14584ad45ca03"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAITargetPolicy.png",
+      "Size": 15063,
+      "Sha256": "3f70144192d503afeb22b0c12b176b97e5aa058c587ca8934f79cc797bc514e6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAITargetPolicy.svg",
+      "Size": 602,
+      "Sha256": "8336ed5952cb937f31baa17242ead6c7a15186c63acca0c81fc26fd798f939e1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAITeamTargetPolicy.png",
+      "Size": 14450,
+      "Sha256": "20d9f13e86de0ae125d12fb8a4b7a70e4eabf9fa9ec4a6be9051d211ae67f1c4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasAISystem/Resources/DataAssetIcons/AtlasAITeamTargetPolicy.svg",
+      "Size": 678,
+      "Sha256": "348b3b75ee02ff14a4ba9c9bcbd0ce6b3764091df06861ee020e8d884c48cf02"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/AtlasContextEffectsSystem.uplugin",
+      "Size": 776,
+      "Sha256": "543265a4ac07d9e89b17d50bfc62fd0d73bb354ea975d7fe3412eba5406915d6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Binaries/Win64/UnrealEditor-AtlasContextEffectsSystemEditor.dll",
+      "Size": 236544,
+      "Sha256": "994e31fed10b39a3540fb081a01e6f56c4128fd5b34837be7cd82e3c524bcffc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Binaries/Win64/UnrealEditor-AtlasContextEffectsSystemRuntime.dll",
+      "Size": 396800,
+      "Sha256": "e16686cf0d71c6b44f1b38dd75881ccd4d61d2214ac8a366791dd17ee1062c65"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 236,
+      "Sha256": "0a1401ee9aaf90698bd0ce618da7f7547c174bcf5b0a203536fbce03b736f3ef"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Config/DefaultAtlasContextEffectsSystem.ini",
+      "Size": 2399,
+      "Sha256": "90b2f0d927624e2a5b5ac75a41dca0feaca360ffb829ae02106a1e9cdba04ba5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Config/DefaultGame.ini",
+      "Size": 856,
+      "Sha256": "d2a8b7743342e1c2b2f5301f9972361e88339aa07f438669abd0b9d6de297aa2"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Config/FilterPlugin.ini",
+      "Size": 56,
+      "Sha256": "31573e4a016741f2ffb9e2bf9e3ffe1de943fc2f796a5906fbb26bc381973876"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Config/Tags/AtlasContextEffectsSystemTags.ini",
+      "Size": 2142,
+      "Sha256": "43251d73da6325e12e91694f3ef0619d5d0f8a28d5dc952efe3714f9e06ea4fd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/AtlasCosmeticsSystem.uplugin",
+      "Size": 2528,
+      "Sha256": "387f978d87a549942a8d0791c1855f213f9a945d30083061196a8ac18b6bd6bc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor-AtlasCosmeticsSystemEditor.dll",
+      "Size": 387584,
+      "Sha256": "664c4d78cce8bc1faa1715d4726e9328a79101bbf966d496a04587f2a0798043"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor-AtlasCosmeticsSystemRuntime.dll",
+      "Size": 1063936,
+      "Sha256": "89f5b6445782dd2385bd8e8dd3cef23dc6927919e8af8d98ae5ece8dbd101a64"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor-AtlasCosmeticsSystemUI.dll",
+      "Size": 265216,
+      "Sha256": "79201e4997658bcdffee5d00df6fecacb34b462f9a1a4fd9ebe59204e7ca7de1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 290,
+      "Sha256": "b55570c4969303ffdde932b028a55ae116bf58b50570807e7702deec856d8f91"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Config/DefaultAtlasCosmeticsSystem.ini",
+      "Size": 3209,
+      "Sha256": "26fb1ec854c663b4efe6d9b64aae5b8dcaea12dd63b08037c752b768f31358e0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticModExample.py",
+      "Size": 4284,
+      "Sha256": "16f83a28999246cc5956bc7559b16cda5e3d654feeea571db256ea940574c180"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py",
+      "Size": 4748,
+      "Sha256": "a12fd1731a035cdf7136f3612550924d3f81448c07160524618737e9b2789633"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasAppearancePreset.png",
+      "Size": 10048,
+      "Sha256": "84a5481ab87b504b93af26385b82491feeba9c0b0f903a6e18516842759faadc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasAppearancePreset.svg",
+      "Size": 536,
+      "Sha256": "7696041a9c1b89cf8cc0d45bddbc0ac4a4a5ad5f81d56b7f981ae94bae1283ba"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasAppearanceProfile.png",
+      "Size": 9762,
+      "Sha256": "805ff6f7921252c7330cae18f33198f78df4bb717bb166105578419dd0f806cd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasAppearanceProfile.svg",
+      "Size": 637,
+      "Sha256": "bc932692f55cfeb09ad5b51bc5d47a6da41d130fa37d05ed0830812cc3e91bbd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasCosmeticDefinition.png",
+      "Size": 12297,
+      "Sha256": "cf75a52dd29c022d2f5e231d453fbc1ef1c58a16db15021f37b86627ec7789e4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Resources/DataAssetIcons/AtlasCosmeticDefinition.svg",
+      "Size": 491,
+      "Sha256": "993b058a33e149df90924cbd0ca2346e10f4bd124f2d63721a0eadda8d3871d0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/AtlasDifficultySystem.uplugin",
+      "Size": 945,
+      "Sha256": "2fba0dc734cc04dec08221eb15e0791e30c36e5928e519659b517be05399780d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Binaries/Win64/UnrealEditor-AtlasDifficultySystemEditor.dll",
+      "Size": 342016,
+      "Sha256": "e5aa77e0bdaa14713e0ae7c0a1d500f4d263e24208a0745f1f658a532b9e69b1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Binaries/Win64/UnrealEditor-AtlasDifficultySystemRuntime.dll",
+      "Size": 495616,
+      "Sha256": "27de86c0d500b24fa41f7bd4c60d8ee1f1d44b56b5ba9bcaffc5eed9ee0f2ba1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 220,
+      "Sha256": "e750721ed4c2f430831a86d492b98c931e4a33068f6e1bd4c49e5e77ae3d5478"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Config/DefaultAtlasDifficultySystem.ini",
+      "Size": 555,
+      "Sha256": "ff6d66edbe6367d5660ae7d6c2216400c6a8d60743b85d13a1be1944b7c912b6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Config/Tags/AtlasDifficultySystemTags.ini",
+      "Size": 354,
+      "Sha256": "7e3803e4c87ac1782d24ea8630f130a9cac91658c02beea9787956a2c9a098bc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Resources/DataAssetIcons/AtlasDifficultyProfile.png",
+      "Size": 10806,
+      "Sha256": "ca6543dd58d212901c71b16fcab87b82a869fa320ce470c573899f8db39d3ae3"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Resources/DataAssetIcons/AtlasDifficultyProfile.svg",
+      "Size": 632,
+      "Sha256": "73da65fdb38fb0d23724e354b80a4daf956d7bff413e337cf2ced51f91d4e989"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Resources/DataAssetIcons/AtlasDifficultySchema.png",
+      "Size": 11446,
+      "Sha256": "616b5477463e4cdf91010d5d2bf70b87b7b1eb64b4e3bab252263e6ba1c668b8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasDifficultySystem/Resources/DataAssetIcons/AtlasDifficultySchema.svg",
+      "Size": 707,
+      "Sha256": "e35743acbcb6bedf76da5296101a7dbc71e7b1e05a795080e8d7f3462cdd1260"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/AtlasInventorySystem.uplugin",
+      "Size": 2723,
+      "Sha256": "fc1ac9fe799ee4ed5fa26c01f9e2ac9b2596530a3877346948a29a7058813beb"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemEditor.dll",
+      "Size": 1137152,
+      "Sha256": "8cff5f07d98c7c78a909b2a7e75419a3f4bfa4c26376d5469cadff0d0d9e7f9e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemRuntime.dll",
+      "Size": 4237312,
+      "Sha256": "dea9fa86e98dc3218bb8df4fca9b261cbe8c501db2bdb95bad58e1b6e4236f3b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemUI.dll",
+      "Size": 254464,
+      "Sha256": "9ee8071eb0ebcd217738b76f8638ed99af8e012bd3115e388e75ae0fa42def5e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 290,
+      "Sha256": "596b4746ea2fa3bb371c3e38852dbc39e004106bbb54f4bc88ef9fab23486e9f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/DefaultAtlasInventorySystem.ini",
+      "Size": 7214,
+      "Sha256": "604f4704e15bbc1aca9433988f1a41ccf913ffa31ebd27c7a2a17e84258688aa"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/DefaultGame.ini",
+      "Size": 305,
+      "Sha256": "5c138cb1d2ddd51ad3b1f424a261f95bfe958224c7716ca66d0084b5c2012557"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/Editor.ini",
+      "Size": 1962,
+      "Sha256": "3918890fe8048becdfc25462a624837ee78fa156ebc922d89a6ca43590cdb4f0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Config/Tags/AtlasInventorySystemTags.ini",
+      "Size": 7209,
+      "Sha256": "3c667414416574b6a10d4241728b6bdb2b464ff869b32f80d98c02e08e6dead1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py",
+      "Size": 5918,
+      "Sha256": "8758e83fce492441656871873504b351dcdd0c63adbb7eb93f7f7e7ef207e6c4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Docs/PublicApiSurface.json",
+      "Size": 55769,
+      "Sha256": "a3fbd2e15ec79d3bc5853b9da67b6f5e40c53a23ea6963efaec881dedc515f13"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Assets/ItemDefinition.png",
+      "Size": 15919,
+      "Sha256": "df26cfdf51ac0bac48b980552cb82714c8f1788b55e9577f9827e73e8cdbed19"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/Container.svg",
+      "Size": 1382,
+      "Sha256": "985ee0fbc7f602b687fcb962abd5b99c561944c0364455c83656ddff12df5212"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/CraftingStation.svg",
+      "Size": 512,
+      "Sha256": "573f5c8a5e03a6a477af8aba8ff2ec1b08c8cd8f0232d5b04843469319c40877"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/EquipmentAttachTarget.svg",
+      "Size": 213,
+      "Sha256": "55feac64dd9615448794ff27b878cd06e43d3a2954e9f3483dc7f04a0dea0b71"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/EquipmentManager.svg",
+      "Size": 542,
+      "Sha256": "3d96c59e7181dfd64cab1ee6116b5622b80ce37bd612e96fc2ecfe5ce9e22f70"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/Inventory.svg",
+      "Size": 645,
+      "Sha256": "a22a2f7b79cea92b58431bbdb3c1e6f20b62b6c8453d0a026da4211e91c045dc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/InventoryManager.svg",
+      "Size": 1366,
+      "Sha256": "46f84df6bb11cbdb2662b6a96eabd9bf72272943a8d720acbe17f05758b8b944"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/PredictionStore.svg",
+      "Size": 170,
+      "Sha256": "c78eb332044b306d49b8c18e698cd5cf321bf575e46200e13cee695d1882446e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Components/QuickBar.svg",
+      "Size": 336,
+      "Sha256": "95c663c5b126a58112dded1ddf0fcbfe20d55a9c2750d3e696b948b69c7a32cc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasContextActionDefinition.png",
+      "Size": 10896,
+      "Sha256": "7b58c2d1e30405c47158e880a9e79c6b85ac5bfb174357ab83b1b80d86becb5d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasContextActionDefinition.svg",
+      "Size": 586,
+      "Sha256": "1cfa201d730042a7e307a878ad4f28f4bb1231772206e4e7dfbd2191f7ffe844"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasContextActionSet.png",
+      "Size": 11706,
+      "Sha256": "0d152eda0272ba3e93dd9784768ad7e8bcc60a1ea15b2cfb1bc0c033caff1b0b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasContextActionSet.svg",
+      "Size": 769,
+      "Sha256": "7e928c97a28356384a4d19f4aa695ee137fe140010128be8be744ebe8c44994b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasCraftingRecipeDefinition.png",
+      "Size": 15317,
+      "Sha256": "e9bd51df96f444c263c1fa44a0bbf4d47e4c357979b590b949f8cdf8a8854fd2"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasCraftingRecipeDefinition.svg",
+      "Size": 475,
+      "Sha256": "4b7a20b96d813f3a3c2a9fb66cc01941e8be55284a5242725f2835596fce4432"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryContainerDefinition.png",
+      "Size": 15797,
+      "Sha256": "89066d5dd1654c04f03e74dc0cb30997b2012c479156bc30cee406548147bc58"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryContainerDefinition.svg",
+      "Size": 797,
+      "Sha256": "941c38039d4a8e5d1c30d1dbccca16dec6c645e1d299ded51497bed41676e5df"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryContentSet.png",
+      "Size": 18059,
+      "Sha256": "058475dd4c3004fb1d41d864d6ff8855b45cf646d1cacdb0bd7cff3de65b2075"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryContentSet.svg",
+      "Size": 613,
+      "Sha256": "52ab71a6f90667ef0fc32ceebc52b995b88007bc4f8060fb56e83147af1c8645"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryRoutingPolicy.png",
+      "Size": 15169,
+      "Sha256": "1bd4d1f49c083db359e0a26ddabe429b619340d8a62888b6ea02a8e8a960d6d4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventoryRoutingPolicy.svg",
+      "Size": 623,
+      "Sha256": "a0b1e2011d79eb94319aa23ec7d531cf99ce687b4d9b72b9f56702ddfdb114b1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventorySlotLayoutDefinition.png",
+      "Size": 13090,
+      "Sha256": "1de8141873f56992fd3ca1c679d54032ccddbc9314c16ed8ab97c3fbb69c8d61"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/DataAssetIcons/AtlasInventorySlotLayoutDefinition.svg",
+      "Size": 716,
+      "Sha256": "51a0cccfb51461071a8336c794cd7a399f1aaaf40a4d7f2fd283f8023d3e4535"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Ability.svg",
+      "Size": 1385,
+      "Sha256": "ac83ed21925332d0ea43e784dd7528cae32ad3cf2474853826ce4710c3bc62f8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Attachment.svg",
+      "Size": 213,
+      "Sha256": "55feac64dd9615448794ff27b878cd06e43d3a2954e9f3483dc7f04a0dea0b71"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Building.svg",
+      "Size": 697,
+      "Sha256": "864dad1614d02be8aa3c332a752661bb8fc02a950783d580423e67b1ba04723b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Consumable.svg",
+      "Size": 883,
+      "Sha256": "328b0d08d484ba4ea8f84adf7dfda8d54d1ea0340346b9cd7120f48e3fc22b28"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/ContextActions.svg",
+      "Size": 442,
+      "Sha256": "d237b6f40729431048cc96f24d799153ea3fe23292a60aefa88700f50885011b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Drop.svg",
+      "Size": 647,
+      "Sha256": "144e276d33c7431163d920434e04560e2091b40b5c95a59d29d008ff9205dd13"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Durability.svg",
+      "Size": 170,
+      "Sha256": "c78eb332044b306d49b8c18e698cd5cf321bf575e46200e13cee695d1882446e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Economy.svg",
+      "Size": 512,
+      "Sha256": "573f5c8a5e03a6a477af8aba8ff2ec1b08c8cd8f0232d5b04843469319c40877"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Equipment.svg",
+      "Size": 542,
+      "Sha256": "3d96c59e7181dfd64cab1ee6116b5622b80ce37bd612e96fc2ecfe5ce9e22f70"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Equippable.png",
+      "Size": 34130,
+      "Sha256": "cbd31d9283c1d3203949b26a00714d26dcd8e4d13a97465b9f99bfb103a29753"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Gameplay.svg",
+      "Size": 508,
+      "Sha256": "ff276edb1cb92e258f7965b027d93f2c41cdc043c949742078d037af44100679"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/General.svg",
+      "Size": 1366,
+      "Sha256": "46f84df6bb11cbdb2662b6a96eabd9bf72272943a8d720acbe17f05758b8b944"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/ItemDescription.png",
+      "Size": 32948,
+      "Sha256": "ee278b46c9e128416ee07b5232cf9c6545bd985534253c04bb0dcc0edfdaa7be"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Magazine.png",
+      "Size": 23765,
+      "Sha256": "96a5305356a07134c0e2a9d704d0da5b0b1b0262705872a899855681293f6d54"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Metadata.svg",
+      "Size": 645,
+      "Sha256": "a22a2f7b79cea92b58431bbdb3c1e6f20b62b6c8453d0a026da4211e91c045dc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/OperationRestrictions.png",
+      "Size": 28478,
+      "Sha256": "84c7933673f7cf046c30023c81402aaebc7c025dbba7409ab0049f581d7722c8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/PickupPresentation.png",
+      "Size": 28756,
+      "Sha256": "1b98d50eed9ba1057fe767ddec2841c292c2dd77d864ad8610a9d198995944a1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Placement.png",
+      "Size": 19369,
+      "Sha256": "22c3c19e0ea9b001cf6d66d849f8f11a41f02e91ccc6e9bb2eb2cb195f90d4e1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/QuickBar.svg",
+      "Size": 336,
+      "Sha256": "95c663c5b126a58112dded1ddf0fcbfe20d55a9c2750d3e696b948b69c7a32cc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/TradeOffer.png",
+      "Size": 24901,
+      "Sha256": "f2678e45ca6e57b2497b5da3ba02ac32e9328a03cada31392ee2d02f0ec6a309"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Transform.svg",
+      "Size": 566,
+      "Sha256": "9cd4fdb7a164e29d9cd99bf68badc4177a7b8137268eae70465cf11c3573d52e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/Weapon.svg",
+      "Size": 491,
+      "Sha256": "97d12c2fb375f91c1f68cc140995976fb671db5f1a4b918c3ea63311a38ac774"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasInventorySystem/Resources/Fragments/World.svg",
+      "Size": 1382,
+      "Sha256": "985ee0fbc7f602b687fcb962abd5b99c561944c0364455c83656ddff12df5212"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/AtlasJournalSystem.uplugin",
+      "Size": 1017,
+      "Sha256": "cf60776c070603956dfb88038f7bf7c1fc89815ac1d60b4a83f6b2aeaf11e78c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Binaries/Win64/UnrealEditor-AtlasJournalSystemEditor.dll",
+      "Size": 309760,
+      "Sha256": "62ae3a23fd09ed82f51dd2a46787970e5c979c0ed8e416fd58830a71a5c161d2"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Binaries/Win64/UnrealEditor-AtlasJournalSystemRuntime.dll",
+      "Size": 490496,
+      "Sha256": "221f61121ec59cfb366043be62ee87f8ddbb731cca1c739c6256a4bfddc6ce8d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Binaries/Win64/UnrealEditor-AtlasJournalSystemUI.dll",
+      "Size": 238080,
+      "Sha256": "9791b7fda855336d9e50552d66a6ff4462506c547e2d6086187e39e7571faedc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 278,
+      "Sha256": "ecc9a9dee25dedea542bbad2f936dc5888e26159f17c67256692965189209697"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalCategoryDefinition.png",
+      "Size": 14582,
+      "Sha256": "80875a8194da2b8f5b28da82696677860d90f9e22029a4eb8187d818eb55f723"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalCategoryDefinition.svg",
+      "Size": 722,
+      "Sha256": "7bd2d053b6244720e5eaa39b2ffdaee777da0ac0698ba4e42ab7698d8a6983d5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalDefinition.png",
+      "Size": 12771,
+      "Sha256": "50805a01cf7ea820efd91f9361d44785cf7d855c064de8ccb1f0ba5a8e6f9af9"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalDefinition.svg",
+      "Size": 845,
+      "Sha256": "013782448d560ac3b20003ad110b3506398a9dd3785925f54f2b87c1dbf0ea28"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalEntryDefinition.png",
+      "Size": 12628,
+      "Sha256": "fd1bcd0a68b8813a3387ddf34780434179b7d6f0b52d5705e8001437f28747fb"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalEntryDefinition.svg",
+      "Size": 603,
+      "Sha256": "ebd0f907ee43e96a99ef21078b0773ce1a3de06025aac56ffced37d17d00cdda"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalPresentationProfile.png",
+      "Size": 11822,
+      "Sha256": "b096f65600f21e04bc4b0080193f9baffd6090027d802ceebf1e100edadfb6ea"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasJournalSystem/Resources/DataAssetIcons/AtlasJournalPresentationProfile.svg",
+      "Size": 750,
+      "Sha256": "157b25f6f3e9996a08eae03c6913bbdbbdb6af8d254f90ab7f4f8a8a607fc88b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/AtlasLocomotionSystem.uplugin",
+      "Size": 2062,
+      "Sha256": "65cd1d729dfce88765f91917488e8c9f9e8be44b3f1d9ef948ca4e0c08b825ff"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Binaries/Win64/UnrealEditor-AtlasLocomotionSystemEditor.dll",
+      "Size": 234496,
+      "Sha256": "0e6bb902f11e7e1019d2ecac56dafc312896b8422910554741f0f665ffad9ff7"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Binaries/Win64/UnrealEditor-AtlasLocomotionSystemRuntime.dll",
+      "Size": 1169408,
+      "Sha256": "bcaaf2398fccf59c366081e02d33eb1d3376c46af76206d6da6597794d01fee8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 220,
+      "Sha256": "228c26b84da9c331ecac2c15c882b992f1435a52ff27cd75ae4d46bf5d9e855b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Config/DefaultAtlasLocomotionSystem.ini",
+      "Size": 6707,
+      "Sha256": "018cc5b5abcead8d38db2fa9989cc4ccbc9356b11f968154092f5237731814cb"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Config/DefaultEngine.ini",
+      "Size": 2230,
+      "Sha256": "5c085d95e173973dc6dac1030f2cc6aab662179cdded7bc45eff018e17894ccd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Config/Tags/AtlasLocomotionSystemTags.ini",
+      "Size": 4982,
+      "Sha256": "60a1e0140345e46f5385692d52caea52bcdebce6a899260234bcb4c3a0647d57"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Resources/DataAssetIcons/AtlasLocomotionProfile.png",
+      "Size": 13206,
+      "Sha256": "db523315ecf3835ed64c26e30b4635c11a88f2a8b62d3d666a07cb40aed7d520"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Resources/DataAssetIcons/AtlasLocomotionProfile.svg",
+      "Size": 693,
+      "Sha256": "b63f842e0e1f8acf4cfede88731e2525cdd9422515a0848212b41fc96e10790b"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/AtlasLootSystem.uplugin",
+      "Size": 1123,
+      "Sha256": "570537a276f42565cf5aa917d4fd9ca352537caac864aa3ac74c7d557d6de852"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Binaries/Win64/UnrealEditor-AtlasLootSystemEditor.dll",
+      "Size": 612352,
+      "Sha256": "2457d0a3c2adade91ddc0fc81448cf1b09dbc99afbf1c7e89d537ed001e6ea61"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Binaries/Win64/UnrealEditor-AtlasLootSystemRuntime.dll",
+      "Size": 1051648,
+      "Sha256": "01f8310a81ad519e30e0a987637321f763567cc5a0770c798dbe16a992b67b94"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 196,
+      "Sha256": "f41b00a0410e2110cf958f709a0b518d20f0f6b82c5eb5818d9599070b3d67e5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Config/DefaultAtlasLootSystem.ini",
+      "Size": 1139,
+      "Sha256": "e308995ce811394370520b39520012744b8fec0c16c3b79a3817a0cc1b93055f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Resources/DataAssetIcons/AtlasLootGenerator.png",
+      "Size": 18998,
+      "Sha256": "df28ff98e941f34fcecd14a5d8b7d48a060edf2571e9ad12c027cecef79f2f6f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasLootSystem/Resources/DataAssetIcons/AtlasLootGenerator.svg",
+      "Size": 874,
+      "Sha256": "074bfef787e74f562ed3f552d199497d1ef24ec46e26b3e47ff3671dbc1b9d18"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/AtlasPlayerCameraSystem.uplugin",
+      "Size": 704,
+      "Sha256": "6a6cac12796ce10bc2e03f0a09e70567455312cc54f80a7dab5e2681aa952b79"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/Binaries/Win64/UnrealEditor-AtlasPlayerCameraSystemRuntime.dll",
+      "Size": 556032,
+      "Sha256": "8a78365250facc99c6dfdf56ca1842984d3dd0a0c2dbd162de3a2b829e1d93e8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 140,
+      "Sha256": "ad471a3a674296aef4dc6cf98da797f8867e83f24c267b992810b30077c963cd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/Config/DefaultAtlasPlayerCameraSystem.ini",
+      "Size": 586,
+      "Sha256": "2f322aa6bef916c109f80b234d61f533d88c173713e8be3e81e62d2b248ebcf1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasPlayerCameraSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/AtlasProgressionSystem.uplugin",
+      "Size": 918,
+      "Sha256": "e60adcaac987c3466bdb1b16f8369fcfa889b7ea650f8a4fe55b34155777f17a"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Binaries/Win64/UnrealEditor-AtlasProgressionSystemEditor.dll",
+      "Size": 222720,
+      "Sha256": "8b7da723c0ad87aaff3fe994f08d78dd97d61e34832d3f0d6073bf64267b341e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Binaries/Win64/UnrealEditor-AtlasProgressionSystemRuntime.dll",
+      "Size": 446976,
+      "Sha256": "ceebf58d659ad6f9367efbf6479f9338e655bb6617388a85610ebd5aecc2416f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 224,
+      "Sha256": "01a997006a0d6030a5fb823911c974dba2f8952c0c28d0479beac38f87beeb4c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Config/FilterPlugin.ini",
+      "Size": 403,
+      "Sha256": "8b0a9095f38e0c51ca5e6832ca99587bf2ee0968edd47faf6fed6a64ec217b33"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Config/Tags/AtlasProgressionSystemTags.ini",
+      "Size": 1832,
+      "Sha256": "051b5e99dd644744214c4a1fc12a2b753b1b783de307032e863afa02982c550c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Resources/DataAssetIcons/AtlasProgressionSchema.png",
+      "Size": 12252,
+      "Sha256": "5a345f79366157668fc7acb2a18f8d4309ce155bbc256cc849147827b122ea71"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasProgressionSystem/Resources/DataAssetIcons/AtlasProgressionSchema.svg",
+      "Size": 832,
+      "Sha256": "e8d77860086ebb84820df475710ecb085a6fcb73158c97d7154bfdbeabc4e1b4"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/AtlasQuestSystem.uplugin",
+      "Size": 1021,
+      "Sha256": "e4a3f8418b2286f0544bd848e748ed5b255941e202ec19856784e4782de7175d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Binaries/Win64/UnrealEditor-AtlasQuestSystemEditor.dll",
+      "Size": 1210368,
+      "Sha256": "fb363f073ce896efe3bed84619581b88a0e838ae320f9767559c8f508fb241e5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Binaries/Win64/UnrealEditor-AtlasQuestSystemRuntime.dll",
+      "Size": 1329664,
+      "Sha256": "b0ee15e41c332842f1ba673157f364c15c53a8b2b56555e6cd0be6602a114466"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 200,
+      "Sha256": "01b0289fc2339b518561aaf1511708a860ee54657a60afea09dfeee51427ad12"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Config/DefaultAtlasQuestSystem.ini",
+      "Size": 3164,
+      "Sha256": "a8dc7800cba423c21330339ab95585405726cd8cc4dc9a49697c14e0b7bc433e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Config/FilterPlugin.ini",
+      "Size": 27,
+      "Sha256": "093eba50f5c7587070e163ef6f1a614a7369cbb13292fbef5477eacfba0818c8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Config/Tags/AtlasQuestSystemTags.ini",
+      "Size": 215,
+      "Sha256": "380e772c9e53b5b2266df57c52acd1e6bcd30cb5ffa84a291eb9af442f0165ae"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Config/Tags/AtlasQuestSystemTestTags.ini",
+      "Size": 319,
+      "Sha256": "49df51f6faf9310dfa2c6f919a4d19c560420baa8044d80e456e9abf906ef8ce"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Resources/DataAssetIcons/AtlasQuestDefinition.png",
+      "Size": 15675,
+      "Sha256": "b0a3b676fbeb9743ab1cf70e11e8f9b661ccac4db2a5fde65dc175f17d4bcd4e"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Resources/DataAssetIcons/AtlasQuestDefinition.svg",
+      "Size": 920,
+      "Sha256": "8dd8de1c44a09ec5d9996e3de06a9a393989ea148542aee69855faa63f52d148"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Resources/DataAssetIcons/AtlasQuestPublishedRevision.png",
+      "Size": 13026,
+      "Sha256": "67dccaf463bb5fb672d216e18e07447cb3f06b878ce013f17000140c143018d8"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasQuestSystem/Resources/DataAssetIcons/AtlasQuestPublishedRevision.svg",
+      "Size": 785,
+      "Sha256": "e46f453de197d82bbd725ea959c0a86f948778d9aaa0f0268f698b1d44890ecd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/AtlasStatisticsSystem.uplugin",
+      "Size": 1111,
+      "Sha256": "6c473407d2d151704258bfe3352d553575e8c097f2ff7385b67ad439b5181859"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Binaries/Win64/UnrealEditor-AtlasStatisticsSystemEditor.dll",
+      "Size": 233984,
+      "Sha256": "0d943af70f9c92148d29169ca2341e90b25792265255ed6eace8bb8490ed2813"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Binaries/Win64/UnrealEditor-AtlasStatisticsSystemRuntime.dll",
+      "Size": 1069056,
+      "Sha256": "d2b07990c866016d2aff4926abefd892ee178f65b717af2e2fa7fe8df4689dfa"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 220,
+      "Sha256": "3c12154edc111c9579bbac2db9d295ea2b6ce34f051e439dee52626207d8ceb0"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Config/DefaultAtlasStatisticsSystem.ini",
+      "Size": 326,
+      "Sha256": "47843ea8e68c2c3f2b1260772e1b24c24f56c873303db92b8457ffa7c55411c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Config/Tags/AtlasStatisticsSystemTags.ini",
+      "Size": 332,
+      "Sha256": "0ad979aeae8ab66f414fdc76247b912734dd3d674c75710c13125324dd853b1d"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsAccoladeDefinition.png",
+      "Size": 13667,
+      "Sha256": "df8a62cb1d687f57e12dd5dd66ae510b322db90d94d2fd61369a8c66a43a9de5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsAccoladeDefinition.svg",
+      "Size": 629,
+      "Sha256": "720dcfb586ebef68b837eb5931252b65f056ffc60548426928868f2353a99e41"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsAccoladePreset.png",
+      "Size": 20214,
+      "Sha256": "6db4ccf358c18fc63140e639266fd5c9f0851d7149d98e9c21b678810f4c5b0c"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsAccoladePreset.svg",
+      "Size": 631,
+      "Sha256": "7ee238029625d10595c650904695c9d25c9f1ea028e06f903d435be7e50c4564"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsSchema.png",
+      "Size": 11492,
+      "Sha256": "a5f3dab6c1b6b0709d149aa18185074e58bd55f25f1fe39fad0a7d948a7b57b1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasStatisticsSystem/Resources/DataAssetIcons/AtlasStatisticsSchema.svg",
+      "Size": 721,
+      "Sha256": "8208e0f5308fe43c14e8a5423c7b1d84c29bfa21cbd021ef3eb1fbcccf5c7ed6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/AtlasTargetingAssistanceSystem.uplugin",
+      "Size": 806,
+      "Sha256": "083b3a708901c15369a1efe45d9364782cdf02544347b0710df1c1b1035cf810"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor-AtlasTargetingAssistanceSystemEditor.dll",
+      "Size": 167936,
+      "Sha256": "671898166b09602d75dcc00b441809332bb04dfe5d6848aa584004a844d56391"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor-AtlasTargetingAssistanceSystemRuntime.dll",
+      "Size": 557568,
+      "Sha256": "42db18d65114b9c9e58c699e574181c46c31e9d0e145e50fb3ef42bd87a86c30"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 256,
+      "Sha256": "d353b56345118d86cf5cd73b63ec7e29a3ac0be54e9830fc95960f84005db2ac"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Config/DefaultAtlasTargetingAssistanceSystem.ini",
+      "Size": 1258,
+      "Sha256": "1c31b30731e921220878de2761590046848e0722e7966e6ba79438003392c6b5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Resources/DataAssetIcons/AtlasTargetingAssistanceProfile.png",
+      "Size": 16485,
+      "Sha256": "dfa0f40195f1d7b4867900f27e9442d46de128a511a777f9280636b68480017f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Resources/DataAssetIcons/AtlasTargetingAssistanceProfile.svg",
+      "Size": 710,
+      "Sha256": "e94515a22bb1c803731ce7b8141cf4a375caf1a052afdb8fb70e65ecf42eaa94"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Resources/Targeted.png",
+      "Size": 27116,
+      "Sha256": "8031d91e31d2468c87cf82aabafeb9a247851ca9ab129143605d60d4678f1f1f"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/AtlasTeamSystem.uplugin",
+      "Size": 877,
+      "Sha256": "96159782a8d42a6776ef42102f149c4f92a78d075d611fbbbd2d2f86031f2945"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Binaries/Win64/UnrealEditor-AtlasTeamSystemEditor.dll",
+      "Size": 208896,
+      "Sha256": "a53186e2e11287f7017e1e8bab14e6074398a6ea877afd0bc03069938cb210d5"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Binaries/Win64/UnrealEditor-AtlasTeamSystemRuntime.dll",
+      "Size": 519680,
+      "Sha256": "ec9df4542eb4cf3caadb4555bd655868132075e273f4c62c42bf6e4e58996650"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 196,
+      "Sha256": "7b0655ac0d24447d2ef4db6bd2ebf381b1af732d95b0c917f169c7e242630d02"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Config/DefaultAtlasTeamSystem.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Config/Tags/AtlasTeamSystemTags.ini",
+      "Size": 265,
+      "Sha256": "2df553fd9cbf82a2175bc04d3ad65267d8ecf389bc4f103f794b530dd29a2243"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Resources/DataAssetIcons/AtlasTeamDisplayAsset.png",
+      "Size": 12374,
+      "Sha256": "d764cade7cf7343efa6bfd78787e7f0394c225061634e8840a142e22c23f5e20"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasTeamSystem/Resources/DataAssetIcons/AtlasTeamDisplayAsset.svg",
+      "Size": 636,
+      "Sha256": "7cfc39464b8a9d0967a2ad09c16dfbed05923b100981a8333dee26b5106d3f6a"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasVehicleSystem/AtlasVehicleSystem.uplugin",
+      "Size": 716,
+      "Sha256": "3079c2b6c1e0d7181070f8252f8502a366ca890e74f31e9d13a44b4286d83641"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasVehicleSystem/Binaries/Win64/UnrealEditor-AtlasVehicleSystemEditor.dll",
+      "Size": 310784,
+      "Sha256": "8978b555de0dba4c9a0c8199c3f70e0a23d93f0249bacb3f80fb607a3e7c3026"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasVehicleSystem/Binaries/Win64/UnrealEditor-AtlasVehicleSystemRuntime.dll",
+      "Size": 540672,
+      "Sha256": "2664b21923a47fb98eb7b2d9b25e916c7b00011aef1cd25bb832ff4e937986b3"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasVehicleSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 208,
+      "Sha256": "8492e081fbc0fb80fb1fc1d4fe29272d65249f08a1c5ff344aa449cac0a615ab"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/AtlasViewpointSystem.uplugin",
+      "Size": 681,
+      "Sha256": "b61b6bcc38cce9218be39f95d378efd11bdb83ca1d52b82f8241674d4fd42dbd"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/Binaries/Win64/UnrealEditor-AtlasViewpointSystemRuntime.dll",
+      "Size": 246272,
+      "Sha256": "bc9a9c78f9eb8ff77960a7e4624e481316d9e93a394cf05071cbde1e474945d6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 134,
+      "Sha256": "5c8d1e7506f0de198fd045cebc8ce02be7db6db097cbfcad212bbc9fd7212a63"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/Config/DefaultAtlasViewpointSystem.ini",
+      "Size": 819,
+      "Sha256": "d07058962bc850666c4c1c89128d838c21898a955920e65c9d976aa68b0cbcfc"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Gameplay/AtlasViewpointSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/AtlasModdingSystem.uplugin",
+      "Size": 998,
+      "Sha256": "560e02e8e3ce04395bdea50c209b9d1d8df881050313afe9e3dc33adaadc1c4f"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor-AtlasModdingSystemEditor.dll",
+      "Size": 441344,
+      "Sha256": "e40316fc391b36f1e0654162ac5ba51c0e1525b6755205c13553d0ac6c2187c8"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor-AtlasModdingSystemRuntime.dll",
+      "Size": 1970176,
+      "Sha256": "a301b67f0ade40d7d8c09b1bfb6fef4bb1692c2ab41bb72e6d58a349e1fa69a2"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 208,
+      "Sha256": "a241bdfcd1b357e9e58ed0707b4ac58fc2c033219ae6da7b315fd7ce0139ad85"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Config/DefaultAtlasModdingFoundation.ini",
+      "Size": 147,
+      "Sha256": "7cccf27f01cdef23cd8056502ddde94636ecd96f83589e25d5cc91e43c28b231"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Config/DefaultAtlasModdingSystem.ini",
+      "Size": 1082,
+      "Sha256": "57c338c2e72a3affe4b2112399bd7cbc5ad8cf0f71e56697436c8d417db18a66"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Config/DefaultEngine.ini",
+      "Size": 2502,
+      "Sha256": "e691c56855fd7858f199a14a1d3b469d25c38078d2f196e22650ebac85da8cdf"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Docs/Examples/ams_manifest.example.json",
+      "Size": 1435,
+      "Sha256": "95530cd9938dc7cd4f7a69200ce9ef49f4d53966a521e9136a24849714debb1c"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Docs/GameplayTags/Contracts.json",
+      "Size": 3556,
+      "Sha256": "fea2bb9a2812c95c6546d1232cfd81ab51ce25d3db491bd02862e591c92179b2"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Resources/DataAssetIcons/AtlasModExtensionCatalog.png",
+      "Size": 10886,
+      "Sha256": "a778b9d6e8bc525ae4a13826ed3fd8d1e05db2f1635f85bb6a48a95688361052"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Resources/DataAssetIcons/AtlasModExtensionCatalog.svg",
+      "Size": 582,
+      "Sha256": "3fc0e31431b704a2d371154f8c7898f02150bdd3b62fefee63f302a0e339e5be"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystem/Resources/ThirdPartyLicenses/libzip_LICENSE.txt",
+      "Size": 1454,
+      "Sha256": "01c022eca6d566e2e8792fd0f091a28653b2a608319922bcd4de91c49d1438e1"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/AtlasModdingSystemAuthoring.uplugin",
+      "Size": 888,
+      "Sha256": "27d63135cdd9b743e7de7ad47d2ba2dc957214ef6931ccbf189fc26a4cb30715"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Binaries/Win64/UnrealEditor-AtlasModdingSystemAuthoringEditor.dll",
+      "Size": 2335744,
+      "Sha256": "0a0710cc933a0214ee7d082e4c383ae3e11a73764ee432df1e8f9b80009becf8"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Binaries/Win64/UnrealEditor.modules",
+      "Size": 146,
+      "Sha256": "0d3294882f71f16d0c2f9447bcc79fc0463f43e3fe789627eb54173078b69c66"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Docs/ModTemplates.html",
+      "Size": 10609,
+      "Sha256": "1151d600aa109e36637cbd65fdf7db837ac65d5e5f089c841c13e6bcbbabc202"
+    },
+    {
+      "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Examples/FoundationLifecycle/create_sample.py",
+      "Size": 8111,
+      "Sha256": "0a0b78bd43aca89324e4011d4feffe918db87b3f008252347e2b5573141ff30a"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/AtlasSubtitleSystem.uplugin",
+      "Size": 728,
+      "Sha256": "9429abd0f79e2b8bb14b526392d3b423d3a4bd8fb114a9e668e5fd80028c0fa5"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemEditor.dll",
+      "Size": 163328,
+      "Sha256": "8187badd5c00b345d05753c379990d40a291e46231a01b687df50cb626d04317"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemRuntime.dll",
+      "Size": 279040,
+      "Sha256": "a4d45575b87ac9eb12d078195a71b9d8b9dfca3b917b455341af02b7db18ec94"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 212,
+      "Sha256": "896c5088be78abd116881e501b9c84eb267ec75c6c100b064e5e4d2962d489d0"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Config/Tags/PluginTags.ini",
+      "Size": 325,
+      "Sha256": "251f8c6fdb4fbee2bf8a86974dc5dba0d531225143bf414c91b5a0769461da72"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Resources/DataAssetIcons/SubtitleDisplayOptions.png",
+      "Size": 10841,
+      "Sha256": "2e33627beeb407e8740159251775412a86d8a22c7e9c7de85c6012bf91e4fb51"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleSystem/Resources/DataAssetIcons/SubtitleDisplayOptions.svg",
+      "Size": 707,
+      "Sha256": "2ec89330053ab7d16976a081d02d78529de4c967987b6e1640abd66c51e1e1a1"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleUI/AtlasSubtitleUI.uplugin",
+      "Size": 608,
+      "Sha256": "2b5dd2859b7f3114e7cf065f4e6220e314ddd5e5d209781687ffba41afaefc00"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleUI/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemUI.dll",
+      "Size": 289792,
+      "Sha256": "979c6748127e8bec46bb0ffeb0625296c9a9c9328f7b55742c8633767db9cd54"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasSubtitleUI/Binaries/Win64/UnrealEditor.modules",
+      "Size": 122,
+      "Sha256": "f1e9b4f8a50d2fa52f61a59587a6c558c18ce945858b73ced00f07f7ddb7196e"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/AtlasUISystem.uplugin",
+      "Size": 4209,
+      "Sha256": "1223e86db96d58dd44df2d516f237e9273082db40a8aa861cc4212ed64100ea1"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemEditor.dll",
+      "Size": 197632,
+      "Sha256": "222d3abf91a935a9bab20b3d0b03e856776e0b3f9894a0aceeeabd9e0d111941"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemExtensions.dll",
+      "Size": 629248,
+      "Sha256": "3a7f29fa725341cac275c8c7ff5c961dec822b663ce8c84fcd2b92ebfd9f97d8"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemGameFeatures.dll",
+      "Size": 283648,
+      "Sha256": "00a6e7990f9d9bcb8569c1036f7f318005c3ae580cf1b020f79fb2881a956b8e"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemRuntime.dll",
+      "Size": 1260032,
+      "Sha256": "b11aa9e5b04f93dd2bd30f45a582538cff31f93f1dc9ccfc030cad2867ce5ef8"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemTypes.dll",
+      "Size": 185856,
+      "Sha256": "6d604e20758f70598231ab61779b9aa10cb7cb97a8b8047c854edaf23e29ab49"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 410,
+      "Sha256": "8476c1b5d10016dc2ca9f304ec55c44d4d80aa31bbe80dacfeb153d632bba2c8"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Config/DefaultAtlasUISystem.ini",
+      "Size": 6960,
+      "Sha256": "64cf858071248f45d0a4d9788a2f31441b7bf33cd36974a21b735f478f955fe4"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Config/Tags/AtlasHUDSlotTags.ini",
+      "Size": 2815,
+      "Sha256": "edb4e0b1293d652976f625df62fa055828ec60c534fb7c55ad0f69c02dca48cf"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Config/Tags/AtlasUISystemTags.ini",
+      "Size": 1283,
+      "Sha256": "d6730f0bda7221bd2e4810ea39d0a29941c0bf2c8e3856ec3939d9e370724d9f"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Documentation/Examples/CreateLoadingScreenModExample.py",
+      "Size": 3236,
+      "Sha256": "6ad486aac193c7674bdc648cf1e7df7848f610be6b436cb3f03e61ad0c72b529"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Documentation/Examples/CreateScreenModExample.py",
+      "Size": 3698,
+      "Sha256": "5f58ce70bbb90ca65d8869ada18da5dd74105dbc81752d03bca0ac28a02f7f1a"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Resources/DataAssetIcons/AtlasUITheme.png",
+      "Size": 13923,
+      "Sha256": "41a5161f77a6d95165271664934563aeb6797199f6682d8e8e9dd11e4301df00"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasUISystem/Resources/DataAssetIcons/AtlasUITheme.svg",
+      "Size": 726,
+      "Sha256": "d298df5250f3fabcbffbeec82e3dce260637139842c714b2d08e6aafd24f239e"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/AtlasWorldIndicatorSystem.uplugin",
+      "Size": 830,
+      "Sha256": "f3be451c1305256483d9417c8384963feab8d8b8e9e134daf71e6959085622c7"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Binaries/Win64/UnrealEditor-AtlasWorldIndicatorSystemRuntime.dll",
+      "Size": 448512,
+      "Sha256": "1dc1c2bf9c5a4eff9cd703e070ee3bba40b1b533541ae5f5dd97e7b5c6a3d7d9"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Binaries/Win64/UnrealEditor-AtlasWorldIndicatorSystemUI.dll",
+      "Size": 469504,
+      "Sha256": "244626d80b7768e1297e6522f08cb38b935e5b711a1ce23ea8a90ba0f0fb583c"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Binaries/Win64/UnrealEditor.modules",
+      "Size": 228,
+      "Sha256": "5a1aeb5036ca2f6645a57ee9581c215439b6cd82584421e03aa35fd5b8da5b31"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Config/DefaultAtlasWorldIndicatorSystem.ini",
+      "Size": 242,
+      "Sha256": "9bd7cbf1d294c7cf60cc2b50fa356e82442dc277b9f3439fbeca4f5d961c6237"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Config/DefaultEngine.ini",
+      "Size": 2,
+      "Sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Config/Editor.ini",
+      "Size": 191,
+      "Sha256": "33c45e0a01a41afa59314c665ade5984a42c3af6e8d069aee4cb402757ef071e"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Config/FilterPlugin.ini",
+      "Size": 367,
+      "Sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Config/Tags/AtlasWorldIndicatorSystemTags.ini",
+      "Size": 398,
+      "Sha256": "90cebba665af1556a923f0fed21d0291f71f80337189c2fa8dfadfee02bc3a1d"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Resources/DataAssetIcons/AtlasIndicatorProfile.png",
+      "Size": 11232,
+      "Sha256": "b65e9785535f9dd7897799a08f3ae0c2e5503052afe85546d7ef1b0b68db2921"
+    },
+    {
+      "Path": "Plugins/Presentation/AtlasWorldIndicatorSystem/Resources/DataAssetIcons/AtlasIndicatorProfile.svg",
+      "Size": 543,
+      "Sha256": "4ea87cc10dda15b9e871ca6ff96553a53371dfbc81247bb0c1f8418812b93b98"
+    },
+    {
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor-ElevatorCoreDungeonArchitect.dll",
+      "Size": 361984,
+      "Sha256": "36f94480dd3ea1c1b4185f8c72a7e74d9c4a5ea965e0826a2ec380c10f703afa"
+    },
+    {
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor-ElevatorCoreDungeonArchitectEditor.dll",
+      "Size": 283648,
+      "Sha256": "3381370fe30ade1aab09423ed3d9913c1f01cfe927e948f29cb090dd8d7c937b"
+    },
+    {
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor.modules",
+      "Size": 234,
+      "Sha256": "3c987058d681ac62c34cb386066dd0d30783414472a20dd1140b7b6b81b5a28b"
+    },
+    {
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Docs/ModKit.html",
+      "Size": 2079,
+      "Sha256": "504219ec3d0d1519593e17bdaab0103678a2b9ff95da6a4c703f9824bcbde663"
+    },
+    {
+      "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/ElevatorCoreDungeonArchitect.uplugin",
+      "Size": 1094,
+      "Sha256": "ac1790e9264cbb8955d249d80d55fdfecaff0335a51de6d1d35f953ca3e44288"
+    },
+    {
+      "Path": "Releases/dev1-20261111-cl4775/cooking-base.json",
+      "Size": 626,
+      "Sha256": "6e0475edfaf4a38fa878e16776a8ac632216436be95fc348d90e4deb3bd6e93a"
+    },
+    {
+      "Path": "Releases/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
+      "Size": 4974256,
+      "Sha256": "0a8181e81fecdd9d2c50c818f243d24b11956ff3cd0139e880f5dacfe7013454"
+    },
+    {
+      "Path": "Releases/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13755059,
+      "Sha256": "75e9ee7c5eef9ac1fd659db9b969709d2b7a1b31d32305964fb6a067b4386294"
+    },
+    {
+      "Path": "Releases/dev1-20261118-cl5051/cooking-base.json",
+      "Size": 767,
+      "Sha256": "0dfd909995f87ace00d540854502bfc0d0a91364500297b2645d7048981511dd"
+    },
+    {
+      "Path": "Releases/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
+      "Size": 5020068,
+      "Sha256": "0e9ce29376327399182649efa72e6b1bab141f8ae4b57e78e6a53ba0d7bee9ed"
+    },
+    {
+      "Path": "Releases/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13866831,
+      "Sha256": "251ced4b4e8bd1c56e10192ee48088478f199db2d7c6e81338632ba8b8739673"
+    },
+    {
+      "Path": "Releases/dev1-20261118-cl5051/Linux/ModCompatibility.json",
+      "Size": 7752247,
+      "Sha256": "974c15fb4e716016d65c2ae621d42e0e2225b59502ae7579510949ffb86d0e6b"
+    },
+    {
+      "Path": "Releases/dev1-20261119-cl5105/cooking-base.json",
+      "Size": 773,
+      "Sha256": "4daf61dd2291bcd8d8b40c8cbcd12c5fcae805a48a5df5ef83d0282b8cc05395"
+    },
+    {
+      "Path": "Releases/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
+      "Size": 5029440,
+      "Sha256": "694725604a3502855f9ce5142ad53cbcbd929180eab57b3b57262a22fc3a32e6"
+    },
+    {
+      "Path": "Releases/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13892896,
+      "Sha256": "ba704400b9c7f1ec6dad120f18e7acc9d6a2b6936323715aceaca832fe967b2d"
+    },
+    {
+      "Path": "Releases/dev1-20261119-cl5105/Windows/ModCompatibility.json",
+      "Size": 7765114,
+      "Sha256": "ef1fc8c7a13ea3e9b9e70ac2e874365d93dacf44161034f1d14e7461defdd9a9"
+    },
+    {
+      "Path": "Releases/dev1-20261122-cl5286/cooking-base.json",
+      "Size": 767,
+      "Sha256": "4db111a272e53bcb6e7ef6c7ea3ecf4f185cbd998d46aae76ca7d4328b50f2f2"
+    },
+    {
+      "Path": "Releases/dev1-20261122-cl5286/Linux/AssetRegistry.bin",
+      "Size": 5266504,
+      "Sha256": "781ba0d38186752c298824997595c9cabac8a8326c79ffa64ef64690d0688752"
+    },
+    {
+      "Path": "Releases/dev1-20261122-cl5286/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14209840,
+      "Sha256": "429155e2118db93ece0088282de7d4c19bc77fb6f46d9befdd76d1a28fc7275d"
+    },
+    {
+      "Path": "Releases/dev1-20261122-cl5286/Linux/ModCompatibility.json",
+      "Size": 8062558,
+      "Sha256": "650dce3bf2193821138d8ecfea1191bce8d354dfd8e0fb01026bf63ff6337863"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+      "Size": 641,
+      "Sha256": "b4553fa48717b22de62a98806f395e13ab1f2fafbf7c821c912b5deac5fce355"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "346b237956b5eac037f38389fde3226d8046782a142ef1a553e353c37fc53842"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_r3/cooking-base.json",
+      "Size": 631,
+      "Sha256": "a772a05398d1912840d0666431f0ef7d25b42b833d528e75d0ea399218197485"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+    },
+    {
+      "Path": "Releases/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "346b237956b5eac037f38389fde3226d8046782a142ef1a553e353c37fc53842"
+    },
+    {
+      "Path": "Releases/KletkaModKit_20261018/cooking-base.json",
+      "Size": 630,
+      "Sha256": "6cc2639b27a273da9456bc43fe9e03bf0459a935442f4b3bcade6738f9c2d3ab"
+    },
+    {
+      "Path": "Releases/KletkaModKit_20261018/Windows/AssetRegistry.bin",
+      "Size": 4796428,
+      "Sha256": "3581012183da5640b43d877da34ac2fb7e69026ca2ca300e4ff58b29722a6157"
+    },
+    {
+      "Path": "Releases/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13001803,
+      "Sha256": "0c33d056c47fb56efb86b296c74fc2dd46fe5749cdc2bfeb97fb44e74dfd2d73"
+    },
+    {
+      "Path": "Releases/KletkaModKitCapability_20261028_r3/cooking-base.json",
+      "Size": 643,
+      "Sha256": "8b5f4ccbff234c7f7fd833e81a0b6017219d6ff55e83db2f45570961d796ea62"
+    },
+    {
+      "Path": "Releases/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
+      "Size": 4907428,
+      "Sha256": "f1cd9d02f3680c4de55a8a6b111ff1542d5e7940887aedc38f920514b3e11ea7"
+    },
+    {
+      "Path": "Releases/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13562036,
+      "Sha256": "f7be1782631c74688e440d231b64ccfc240af0769324fc8976948ea0d88cd8d7"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+      "Size": 655,
+      "Sha256": "768204b3c4c60d8c50925274a3b49e4b7c62ff8acb4f468952f428d85500cfc6"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "4abfaa9fc1029d51fc8b70029cba54bc9dc3df6e40b3d90c2f6cd2f17874be83"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "1cdc7dbd62b73f8c74d3d2055c4f66effe4de08eb9b367e1fc8b427763c666fd"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+      "Size": 655,
+      "Sha256": "27c645913f5a98e2db52525102fc878a262014a464481e2030b8b34b08941020"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+      "Size": 655,
+      "Sha256": "9684bb85505525d92ea4250ff76c887662c41dd5f8dfd3ccabc7efc44baaf795"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+      "Size": 655,
+      "Sha256": "52475cabe41a6bd4aee930e0f5042ab80bef6de33b127478a41862f27c3d76a3"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
+      "Size": 4811288,
+      "Sha256": "c1227a515d3efb0d1e67ad6e40051e3fe6252945d6e2b6b41b5fb6e796aee5c2"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13322265,
+      "Sha256": "496c9793a1202d94ad00428e528cfd89ab0e3eadcdb8ecca0e780c1c15dc12b9"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+      "Size": 656,
+      "Sha256": "6b6d0bc1e1d1dc23cf4a9f3c32fce3fa5679258a88a2fcc9ee02f5bacd6834a4"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
+      "Size": 4811992,
+      "Sha256": "2a1e9a49f207c82dd1d3d570907d7f26b7393d77a32552e806bd7274470d2e05"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13324752,
+      "Sha256": "ac225a0c247e28ece8653fcef3f5ad218ffde44ecf2043be2369f105651179da"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+      "Size": 649,
+      "Sha256": "663eef22d2140ef51353e9dc249444597fb20445fe1a7ebdbe637cbf9d8a4b7e"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
+      "Size": 4811992,
+      "Sha256": "edf790c975615d681a115db79a65b87c21ed775fa4f8c86f80b0052ad6f497ce"
+    },
+    {
+      "Path": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13324752,
+      "Sha256": "543dcaf6bdc9ac9fce6f4e56dc53eb86fabe2e7c942236c6c28ab9e695b7031c"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+      "Size": 837,
+      "Sha256": "4c8fdd5243cda56cebfa5f917742c24944c6d2f1dceb3e6d5166e18821ee73c9"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
+      "Size": 5032684,
+      "Sha256": "475614e017b82e937ca21cf76c006fd5cd7c1b56e845fe3123fe95b6e15a6948"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13901434,
+      "Sha256": "b1caa34eeff9ae196bc641c157bb9586f82feabe041b80e78e6206bf920b0bcb"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor-linux/Linux/ModCompatibility.json",
+      "Size": 7769969,
+      "Sha256": "940a6309dc164684cf59683d965b25fe39d95aabbca9aad687874f34f49e4cfd"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
+      "Size": 837,
+      "Sha256": "6d4c6c606b899764bec4445d9271a553710907ee0150e32ffdd916390e29a6ff"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
+      "Size": 5032684,
+      "Sha256": "5df1a8558e58fee49515ab5b90bc901a96dec78b38311a65847a5bfd08236290"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 13901450,
+      "Sha256": "c23c6e87619b078d5cf8078562752196439cb20307a17e9d7f01c75ea8e42b7c"
+    },
+    {
+      "Path": "Releases/modkit-local-20261120-guard-floor/Windows/ModCompatibility.json",
+      "Size": 7769969,
+      "Sha256": "e7d5126da63969c1701f3b05a695e2654eaff706ce8f53990e79eb8d394536b2"
+    },
+    {
+      "Path": "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
+      "Size": 787,
+      "Sha256": "33d9dbf629a48b0ccf8c2d3d3045bf7316c4f58b10f1d58b1f0161f62712cca8"
+    },
+    {
+      "Path": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin",
+      "Size": 5267556,
+      "Sha256": "f9aa5cbf8577cb9ce9efc671409b8f19218b6aaba46e41692e05c7e53f0b66e6"
+    },
+    {
+      "Path": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14211849,
+      "Sha256": "2e6e1f68ab996032b6d47617d45d8637e0c0b71bbf49891c726390902d8a7710"
+    },
+    {
+      "Path": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/ModCompatibility.json",
+      "Size": 8060511,
+      "Sha256": "bc81a646dc527ae7de556b561ba4ad493362948fc4fa5777818250a11e9715df"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasContent/AtlasContentEditor/Resources/atlas_authoring.py",
+      "Size": 63043,
+      "Sha256": "72c29c998f9d5224cb7b8992880f51fa897e63536d0a2241e3c5f838b708bf5f"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasAudioOutputOptionSource.png",
+      "Size": 10708,
+      "Sha256": "8c3b5628b4fc0a0197445e54652b364864a7bf8eea422ed7e40cfc9ae9c11749"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasAudioOutputOptionSource.svg",
+      "Size": 713,
+      "Sha256": "731801ad62c714d953e079ab238c830240e8d06a303e5f7c7cbbecd0e84d4b6e"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundlePreset.png",
+      "Size": 11082,
+      "Sha256": "3ca630bc0e4bb5e4170446af4e18c7484d4aaec8df5a6c5f8f376e8abde6c23d"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundlePreset.svg",
+      "Size": 556,
+      "Sha256": "6c5a865354110b46a0d8f2a0a81c4f41e79aec79e9543271c5350165be6bb23c"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundleSchema.png",
+      "Size": 11555,
+      "Sha256": "c5cc23d8b73ca06db87411c2dc27d695f96c44f687b057ede956b6cc8b3f1eb6"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundleSchema.svg",
+      "Size": 716,
+      "Sha256": "51a0cccfb51461071a8336c794cd7a399f1aaaf40a4d7f2fd283f8023d3e4535"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundleSchemaCatalog.png",
+      "Size": 12633,
+      "Sha256": "7a9bd31ea3fd96463e9bb2b6b3ba2222c1bd35fe9c7a3628a8e4071d43ac4acf"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasBundleSchemaCatalog.svg",
+      "Size": 932,
+      "Sha256": "1bac5a2a39cc71edeba373a8e39eef8d1ee66706e440cb35f902c63f95f4cb17"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasContributor.png",
+      "Size": 12653,
+      "Sha256": "4fbc0bf45e12cb38ce31e344cd8a18359ee09231d05032474eba04021a0e9e88"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasContributor.svg",
+      "Size": 623,
+      "Sha256": "2d59b10cde3902bf4495dd0908a4b63d7d17edb2137cdd932258052b62f0549c"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasCultureOptionSourceDefinition.png",
+      "Size": 14210,
+      "Sha256": "ecb02549491674c0421e10903b4eb33e60064ec1396640d4f4f7da0e5fda3d18"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasCultureOptionSourceDefinition.svg",
+      "Size": 810,
+      "Sha256": "a5aa48f129c96cc35ba1c8ceeb5b2535d37c93737d9e240708fd6d6fa87e5f43"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasPresentationCatalog.png",
+      "Size": 15394,
+      "Sha256": "9a84f8069de51231cdcae1e8aba0b3b3fdafe7291369f05ac85bf066a048340a"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasPresentationCatalog.svg",
+      "Size": 829,
+      "Sha256": "b028448c68a15bc5c84180d9adcbd6a4bd97d3da3afbda3d656c5880943aff8a"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasPresentationContribution.png",
+      "Size": 13331,
+      "Sha256": "b4d2f6204967eddafa1522c6d8db617d4e5b01cf7bb853e7c4f1129556edbbf4"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasPresentationContribution.svg",
+      "Size": 580,
+      "Sha256": "68fbbfd1966dcf971882d1c836f8d8955e1c13431d00294635003289246bbe79"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasResolutionOptionSource.png",
+      "Size": 12065,
+      "Sha256": "ab544bca5711d059a058ceb6819ad493de51e1b8324fc409f6af27a99e019a09"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasResolutionOptionSource.svg",
+      "Size": 804,
+      "Sha256": "1f662ff983ea20539135a83c816a11fbec6ae8bd66a8382921bcc76301434dea"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasSettingCollectionDefinition.png",
+      "Size": 10829,
+      "Sha256": "abeb63b537fe8ff7fa001bae440fab9e3643e09b875e3a734e325b2d5fc0f9c1"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasSettingCollectionDefinition.svg",
+      "Size": 710,
+      "Sha256": "97b917c75b5aa78b88cce0219cd9d6b47949495006c8d82926e7a51211c4c9d9"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasSettingsVisualData.png",
+      "Size": 12216,
+      "Sha256": "518585d3ef3205766ff75c9266b038b0c3e164e5ba03ed21da32d7ce104c907d"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasSettingsVisualData.svg",
+      "Size": 657,
+      "Sha256": "cbfd8ac955b081bc5b45e76097bf349f4db038099139cd2a44343ec454ab0d54"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasStaticOptionSourceDefinition.png",
+      "Size": 9602,
+      "Sha256": "f6884afe995bc3a9b5407b2b56ee6e7ae3eae843a8faee6a87baf72465adcc55"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/AtlasStaticOptionSourceDefinition.svg",
+      "Size": 800,
+      "Sha256": "935ba870fa5be4eb17890923841fe9585c28c3f4edba1a3c1cbe897d70eda883"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/Bool.svg",
+      "Size": 546,
+      "Sha256": "bb8b97533916f4d9d6ce529f8e2126a8d773c267aa1739c8dccee0a96a7ca317"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/FixedChoice.svg",
+      "Size": 740,
+      "Sha256": "51f70dbc2e7e50d67faed6109cd5925dfac6d6cdd28538c673fc61f2e587ef05"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/GameplayTag.svg",
+      "Size": 638,
+      "Sha256": "a1fcaa3d9ef24d7fba7c2022494bf1a7e5761618e09d1ebe52c6e28ac0d0d2c3"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/Integer.svg",
+      "Size": 569,
+      "Sha256": "cdad0952589446595c1edd0df6854e7d2fcf4fb41e310724e336b983649d8e53"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/KeyBinding.svg",
+      "Size": 656,
+      "Sha256": "80046d43354a27613007a45cdae95e18dad7ce96884a204e6c7ef72220df8818"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/KeyChord.svg",
+      "Size": 547,
+      "Sha256": "8c0dcc72147d27ff673c23684dce80bc925855c61ee0b4ed32f436d140b43a41"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/NameChoice.svg",
+      "Size": 719,
+      "Sha256": "d315d5211a43f8ecd513046bd6c34854403878381792263317f2de5ccaecca0e"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/Scalar.svg",
+      "Size": 719,
+      "Sha256": "9edae6b85efd8e4d82bb5e6547dd144d6fd4be2e2094a4145b27a6b5752bb167"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/String.svg",
+      "Size": 555,
+      "Sha256": "d43e5bd0ff3524c4ec0432eeb30bef3b6d005e60d8b4ad0662ec04d016698f79"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/DataAssetIcons/StringChoice.svg",
+      "Size": 636,
+      "Sha256": "b136747302e518dc70ef6d0389c0410b62f6a65f56deb6f1337ceeed7a99d301"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/Bool.png",
+      "Size": 484136,
+      "Sha256": "3081c64a4e54aeb7ca65296765bc9979d89f3a35ac85e6433172b9beced258f7"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/FixedChoice.png",
+      "Size": 475303,
+      "Sha256": "3f4579623d275b0269412d51c182a4d5140d1859c9e24e5c8c0e6a4543dedd0a"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/GameplayTag.png",
+      "Size": 481723,
+      "Sha256": "7b8b581ec71351f87fdf30dd91ecd4be2b7a4afa9ee079f9585aba3e2f428446"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/Generation.json",
+      "Size": 7059,
+      "Sha256": "8229eef0e16640ea0d5f34869cfdf6b8e49aa882c5067f70546fca0d11de87c9"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/Integer.png",
+      "Size": 486221,
+      "Sha256": "20fcc8680f330cee8f88333897eecb1d920fd3c4e62e7ccea3bacd5c696f9b56"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/KeyBinding.png",
+      "Size": 463334,
+      "Sha256": "7b23cf88e331b7d35c8e7fbebc9967e996d063c915cb41b8f932c33e9100fdd4"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/KeyChord.png",
+      "Size": 467136,
+      "Sha256": "cd64a30a7dc7c0936e79a9c90850c10c8825780f246e09ab3e5200176a8d081b"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/NameChoice.png",
+      "Size": 487644,
+      "Sha256": "ef413a683ca467cb9ce79f6b687ad3602e8fd0c9da330d66878bc25fab5c7641"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/Scalar.png",
+      "Size": 506042,
+      "Sha256": "9e109a14c463c92b188c4c6de9303844fbe00b5b4cf2c3fa60b7045fe92849f5"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/String.png",
+      "Size": 475969,
+      "Sha256": "a29f69a9d3650663a517b4b887af5f78685cffeba1870b598b70a1cebe74879c"
+    },
+    {
+      "Path": "Source/AtlasGame/Framework/AtlasSettings/AtlasSettingsEditor/Resources/Settings/StringChoice.png",
+      "Size": 478052,
+      "Sha256": "1578e6b64bd7bb27fe0b5064e3d35ce84609b92f550697395026ae1bdf0be147"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Assets/AuthoringProfile.png",
+      "Size": 30039,
+      "Sha256": "13b19d79a5c9ed6e0fc58f7355cb840ee9eb8ae1eccadd152500660bb6dc2baf"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Assets/ContextualRules.png",
+      "Size": 37363,
+      "Sha256": "92d1bf7e893c79c2e4188c81f601b6948a3720446e5e6eedfbbaa6c12965af98"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Assets/DamageModel.png",
+      "Size": 33561,
+      "Sha256": "417003136a550bd4bfa2bc3290803f915121fd9850749343aaee884909f9c7b3"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Assets/ImpactProfile.png",
+      "Size": 28907,
+      "Sha256": "f45a787942fd7839bf5c43be5ea99f9b4b9889d6b9bf9121396ce04c33c1d4b7"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Assets/ScalingProfile.png",
+      "Size": 14929,
+      "Sha256": "8bf7b6f4d408674ade09b7fd5055cd3b69508f1112ea161df2acb8cad65087f3"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasCombatProjectRules.png",
+      "Size": 14286,
+      "Sha256": "17fdb2dcb446f2d67a1832b4b51158c5786d879d94a64294104542dd4ee7c77d"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasCombatProjectRules.svg",
+      "Size": 707,
+      "Sha256": "2b5ef3a036df883352fbf5482d6e1a9b88e3ed277b7c2c40b239e534c08d3c43"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasCombatTargetPolicyData.png",
+      "Size": 15463,
+      "Sha256": "c701fdc7c200b02a7376d5318df1f53c94f29db3e2bdc4c26d3df926c8cbf6f8"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasCombatTargetPolicyData.svg",
+      "Size": 789,
+      "Sha256": "86cc359de411ff5d93c75cd29f8ce79bcf988407410e4e808275416dceb58947"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamagePopStyle.png",
+      "Size": 12180,
+      "Sha256": "ae4f33634491ab77d5e166b202c5a1d184ce7b2e7c5e74bc9db79f7fc0d532ff"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamagePopStyle.svg",
+      "Size": 569,
+      "Sha256": "a414fe6f76611af63085b37cc6ed0c2aef450edfaf60734cd698dddd5839e7ff"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamagePopStyleNiagara.png",
+      "Size": 12432,
+      "Sha256": "87de6fcbeaeaa327e7367f27501e9ec2ed884ed8c610e3f40d0ca646a18b1aaf"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamagePopStyleNiagara.svg",
+      "Size": 487,
+      "Sha256": "d8b650423078356fe98c87d29afe802f0aeb625928dc1d8798237ac3fddf277c"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamageResponsePipeline.png",
+      "Size": 11754,
+      "Sha256": "d09802e785fab748bb0b097b3ac99162e953761e9a4ce25339f5fcb555d4f322"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasDamageResponsePipeline.svg",
+      "Size": 472,
+      "Sha256": "e9b481db32dc7bcd79ea4481a1fca6963042c6f770fd1a6ac25cef82f8eb9526"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtCharacterDataAssetBase.png",
+      "Size": 12808,
+      "Sha256": "60b455ff9398f9dea1d104b7ae6eaa512293df82d3ef98300138bfebfd49ae8f"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtCharacterDataAssetBase.svg",
+      "Size": 626,
+      "Sha256": "55b5090f54e3e9e21fd90661969b20e8199dd8b25d3c8d0ba4d129d83dc63547"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtWeaponMeleeDataAsset.png",
+      "Size": 13188,
+      "Sha256": "cb1e447bc3cd84f6f0ce9027946a0b4e943c7ffd991322bb84fb9a6a56e637c5"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtWeaponMeleeDataAsset.svg",
+      "Size": 626,
+      "Sha256": "0d8848a29fb181e4f04c1d5c9efd4d424f41b5022b108749ea90e387a15aded4"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtWeaponRangeDataAsset.png",
+      "Size": 14556,
+      "Sha256": "181d185088483a8fbbe888d6825541b0c207e5359b66a0913886bf0e5401a092"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasEnchtWeaponRangeDataAsset.svg",
+      "Size": 631,
+      "Sha256": "7ec9301737b9cf7a74dc70130b45409ac1f8ed2d8b3221e9e47fbb45a016b251"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasImpactResponseData.png",
+      "Size": 14611,
+      "Sha256": "6d3839a4b3e83a3d83f64e863b7c4a4e78a07768d2ba740e5231ce23339b069e"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/DataAssetIcons/AtlasImpactResponseData.svg",
+      "Size": 660,
+      "Sha256": "5a482bc0f3495a817b36f2a7f4026b654f1e0b0bdb541bf7c1d6c010840e4722"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Enchantment/AtlasEnchantmentHandler_16.png",
+      "Size": 490,
+      "Sha256": "732abaf8cf89477ae9432382792a52dfb4847913118f1cc69963296f7c03e1e5"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasCombat/AtlasCombatEditor/Resources/Enchantment/AtlasEnchantmentHandler_64.png",
+      "Size": 2148,
+      "Sha256": "ed02eb762a8c89675595e0e4d84ff3351d1957bfb0423c885f0398d75dbc93e0"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Hitscan.png",
+      "Size": 23116,
+      "Sha256": "97e112cbb22d2eeca667bdfa51fe9d9ce3c29af70f93d7fdba0e62e113151a57"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Melee.png",
+      "Size": 31257,
+      "Sha256": "d499f7eb552db7789447189bb8d8688900bc9b46c2d6b72ff4b1e9eb7c388923"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Projectile.png",
+      "Size": 21974,
+      "Sha256": "9d2e70da0668b4eaa69a01023e94489132c9c99d1fc84a6a2e435e55267252f7"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Reload.png",
+      "Size": 34900,
+      "Sha256": "b761d03179c928edbf96e128cb18a449b92333e00ce1043bdfd328a0d3fc67fa"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Thrown.png",
+      "Size": 21301,
+      "Sha256": "a089b79fa0c37c79c8947d82d6d753ed3aa61e3f3fba2e7d9e461350ada0465e"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/Actions/Unload.png",
+      "Size": 25750,
+      "Sha256": "f3f666926456a92e282c2e041661247dc0d43bdd539a7c9dc3eef76496a314fa"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/EquipmentDefinition.png",
+      "Size": 34130,
+      "Sha256": "cbd31d9283c1d3203949b26a00714d26dcd8e4d13a97465b9f99bfb103a29753"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Assets/EquipmentInstance.png",
+      "Size": 29999,
+      "Sha256": "ca3fa6c0add33afd0fcb7e63a4d385bb09d1a3da3f0a58cdcd2f0f3bfdaa1b03"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasCraftingPresentationProfile.png",
+      "Size": 17476,
+      "Sha256": "e22ee96f198f10b0c2e5ed75b11409f6aabd1221da2aee3c14c04a6759a410f5"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasCraftingPresentationProfile.svg",
+      "Size": 475,
+      "Sha256": "4b7a20b96d813f3a3c2a9fb66cc01941e8be55284a5242725f2835596fce4432"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentActionSet.png",
+      "Size": 13518,
+      "Sha256": "da579994d3ee7583ec42fecc64326f4cb572e39244f8bc60aa61021e81a13043"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentActionSet.svg",
+      "Size": 536,
+      "Sha256": "833ee0d034845dbcab93ef542c8615c1462a011a2a9ddb66cc725e4f100d2da6"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentArchetypePreset.png",
+      "Size": 12823,
+      "Sha256": "153b2f646eaae2edac5d4f2608438c8b9f5363610a22f8829f5effe15ec338c0"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentArchetypePreset.svg",
+      "Size": 534,
+      "Sha256": "c0a982218fae35eaaf3eec4889793330250efd38a6980b20060a361d5035f2b9"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentPartDefinition.png",
+      "Size": 16865,
+      "Sha256": "e2b75e0fc1fbe801016c9b51cd5e7f7a5e99b197d16325575c5a1687816cca3d"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentPartDefinition.svg",
+      "Size": 561,
+      "Sha256": "05cd150689a5123bf8a21956fae93fd188190793d6fabfb2469eedfb62c44155"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentSlotLayout.png",
+      "Size": 16528,
+      "Sha256": "c18bb4875ba738167aa761d6c2aaa4dc3f2dd282628b537a927e8e506e322e1d"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentSlotLayout.svg",
+      "Size": 710,
+      "Sha256": "c0e118b89ea7f2b8322608bcca588d5cfc9cc3f858f10668b258bee447d58959"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentUpgradeDefinition.png",
+      "Size": 14966,
+      "Sha256": "501f2e3301724f427f162b3adaed2b65a14249cb648d0c32324bd0a1bd67a679"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/DataAssetIcons/AtlasEquipmentUpgradeDefinition.svg",
+      "Size": 538,
+      "Sha256": "1c2f75dfcebbf6431260cab169ff6c7a26467f98b00ef28d8ffb7c2567f74b17"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Fragments/AttachmentHost.png",
+      "Size": 13930,
+      "Sha256": "f00536837eeda068bc5438a24354777fefbd3ef579b56191eb85bce81bb9a7b1"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Fragments/AttachmentItem.png",
+      "Size": 19645,
+      "Sha256": "484fa871cbb0e02576e213311c666ca10ca218ff7f7e7b9006de9417b196e3dc"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasEquipment/AtlasEquipmentEditor/Resources/Fragments/EquipmentUpgrade.png",
+      "Size": 19250,
+      "Sha256": "518902d51903328ccaf689891ead0f9171d93999c20d951f58c2a64b4f140ccf"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Assets/InteractionOption.png",
+      "Size": 36414,
+      "Sha256": "5384e4e3a1e98aeac105be059c1ea55ace1b33d4f6bb15d8bc3886a4d5b9b2e5"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Assets/InteractionProfile.png",
+      "Size": 31186,
+      "Sha256": "2bcaab5c176aac57dff88273b41fabaaf5bc0f8645b73b4340e643f7b2808c01"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Components/InteractionManager.png",
+      "Size": 23646,
+      "Sha256": "2a1e4a297d91d30fcfe50030f47fb55a9585fe92a23dc2e3debc46d8c81d81e7"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Components/InteractionManager.svg",
+      "Size": 520,
+      "Sha256": "bb8f6eb884db3056570e9f666d55a28bddc78ddbb8ae6c0d5ec4d4840539a411"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Components/InteractionTarget.png",
+      "Size": 23638,
+      "Sha256": "a5267ba26279937ebb1bfc2ad13978ed374482ba3c63e4c93da9a51a7b6b9ebe"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/Components/InteractionTarget.svg",
+      "Size": 461,
+      "Sha256": "7c88f66a4d27ca765ea5712955d8b1ee590be87fec2c0b3feaba0ddedf287249"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionOptionResolverPolicy.png",
+      "Size": 12885,
+      "Sha256": "a01b8ab1db93abec778819a6e55d16fe28109cb689402605183066d752d88e6b"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionOptionResolverPolicy.svg",
+      "Size": 892,
+      "Sha256": "b31e4a55fad5bfb2e0b3e0945959aef3da128bb55b2f1dc30d6ec3d1bf6f8fcd"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionRecipe.png",
+      "Size": 13587,
+      "Sha256": "f208a37d1885a83de6c002b109d941f2f7ad411768fd2f253c7e202953005271"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionRecipe.svg",
+      "Size": 593,
+      "Sha256": "64127955af25b6b47f5517ef47932caab8f99a1feba56113c9422181a221ba3d"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionScannerProfile.png",
+      "Size": 15835,
+      "Sha256": "1fe5fcefe8803137d31daee25f1ec4d2e9714b4ae0ec07d41317e3aa7305291d"
+    },
+    {
+      "Path": "Source/AtlasGame/Gameplay/AtlasInteraction/AtlasInteractionEditor/Resources/DataAssetIcons/AtlasInteractionScannerProfile.svg",
+      "Size": 759,
+      "Sha256": "0dd748eb75a3232bc84e221e63c26ae768ee22c1362a4d8e42bce29855cf4e20"
+    },
+    {
+      "Path": "START_HERE.html",
+      "Size": 1463,
+      "Sha256": "c2941f53851dcd321ae4645ebbfd65e8ae61b3a25b4466ae3e3be4a4e64516f5"
+    },
+    {
+      "Path": "Tools/ContentModWorkflow.py",
+      "Size": 18912,
+      "Sha256": "9da8f816b8cee0b0e146ed480f1694ff0c297dcc66c8cd43428ad8267dd23208"
+    },
+    {
+      "Path": "Tools/CookContentMod.py",
+      "Size": 16832,
+      "Sha256": "f6da72aab398da6f31e5a505fc0c452f982602b82fa1e8a4882ec3ddb04e773d"
+    },
+    {
+      "Path": "Tools/CreatePlayground.py",
+      "Size": 28743,
+      "Sha256": "056a19b7ca50708bc8eb16fd19140e6094203b02eb714a503b374017d6b85e8e"
+    },
+    {
+      "Path": "Tools/CreateVehiclePlayground.py",
+      "Size": 12062,
+      "Sha256": "e718e1f204183fb444ee8920e025709ad8560cbfd4200d39f272efe309297730"
+    },
+    {
+      "Path": "Tools/ModIoPublisher.py",
+      "Size": 11852,
+      "Sha256": "6754e06572bf9bcec9107e34a16d17efbaef057cea8584547b4d67bbd1652b93"
+    },
+    {
+      "Path": "Tools/PublishContentMod.py",
+      "Size": 29634,
+      "Sha256": "d439a68eef21a91fbf8d198375217c209e927e0e52982f1b1170fcf295c14454"
+    },
+    {
+      "Path": "Tools/SteamWorkshopMetadata.py",
+      "Size": 20313,
+      "Sha256": "5020ba882d3e40e8776cff5d2a7310b6a2d9fe8edf2da872a88e75fa915d0272"
+    },
+    {
+      "Path": "Tools/WizardStoreUpload.py",
+      "Size": 11253,
+      "Sha256": "216af296241621f317497d57d6266fbdcd7fafa0e61d367279b46dcbbf471feb"
+    }
+  ]
+}

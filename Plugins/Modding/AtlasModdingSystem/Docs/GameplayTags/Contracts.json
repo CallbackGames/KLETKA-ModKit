@@ -1,0 +1,50 @@
+{
+  "copyright": "Copyright Callback LLP. All Rights Reserved.",
+  "schema_version": 1,
+  "rules": [
+    "Each exact name has one declaration owner. Multiple features may contribute content using that name.",
+    "Feature deactivation releases its handles/counts/listeners. Resident dictionary registration does not mean the feature is active.",
+    "Use tags for semantic membership and routes; use asset references for definitions and typed fields for quantities/order.",
+    "Hierarchical matching is opt-in at the consuming API. An exact lookup does not automatically support a mod child.",
+    "Place mod identity below the supported semantic parent, for example Damage.Type.Melee.Mod.Author.Pack.Thorn. Do not move the semantic parent below a global Mod root.",
+    "GameplayCue descendants are reserved for GAS cues. A cooldown state is a separate contract, even when a legacy cue name contains Cooldown.",
+    "Authority and ownership are enforced by the executing system, never by possession of a tag alone.",
+    "Gameplay messages are local events. A late subscriber needs a state snapshot before subscribing to changes; the message channel is not replicated storage.",
+    "Save and public identities use names, never transient network indices.",
+    "Renames retain exact redirects. Do not create redirect chains, loops, self-redirects or active definitions under the old name.",
+    "Gameplay feature selection is fixed during a session. Between sessions the product uses name/token encoding so load history cannot reinterpret global indices."
+  ],
+  "coverage": "Reusable extension rules. Each product publishes its reviewed tag cards and catalog separately.",
+  "authoring_examples": [
+    {
+      "purpose": "Mod damage classification",
+      "tag": "Damage.Type.Melee.Mod.Author.Pack.Thorn",
+      "definition": "GameplayTagList=(Tag=\"Damage.Type.Melee.Mod.Author.Pack.Thorn\",DevComment=\"Thorn damage from Author.Pack; handled by the pack damage configuration.\")",
+      "requirements": [
+        "Keep Damage.Type.Melee as semantic parent.",
+        "Use the stable manifest ContentId to choose a persistent namespace; do not regenerate it from a localized display name.",
+        "A parent HasTag/query can include this child. An exact key lookup requires explicit registration.",
+        "The definition alone neither implements damage nor grants authority."
+      ]
+    },
+    {
+      "purpose": "Overlapping state owners",
+      "sequence": [
+        "Each owner retains its own GAS effect/ability-set handle or one loose-tag count.",
+        "Releasing owner A must preserve owner B.",
+        "Release only owned handles on cancellation, EndPlay or feature deactivation; never set the shared total count to zero."
+      ],
+      "verification": "AtlasAbilitiesSystem.AbilitySet.SharedOwnership; Atlas.Abilities.Tags.LocalContributionOwnership"
+    },
+    {
+      "purpose": "Message subscription",
+      "sequence": [
+        "Read the owning component current state for an initial snapshot.",
+        "Register the matching payload type; ExactMatch is the default, PartialMatch includes descendants.",
+        "Retain and unregister the listener handle on owner teardown.",
+        "Use the explicit networking component/envelope for remote delivery; local BroadcastMessage alone does not replicate."
+      ],
+      "verification": "Atlas.GameplayMessages.Local.RouterBehavior; Atlas.GameplayMessages.Local.AsyncLifetime; Atlas.GameplayMessages.Local.StaleHandle"
+    }
+  ]
+}

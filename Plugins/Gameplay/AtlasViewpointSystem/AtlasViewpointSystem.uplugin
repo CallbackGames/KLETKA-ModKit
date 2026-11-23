@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Atlas Viewpoint System",
+  "Description": "Project-neutral local viewpoint context for camera, character appearance, and equipment representations.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "AtlasViewpointSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AtlasGameplayActorsFramework",
+      "Enabled": true
+    }
+  ]
+}

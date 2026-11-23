@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "FriendlyName": "Atlas Abilities System",
+  "CanContainContent": false,
+  "Installed": true,
+  "Plugins": [
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameplayMessagesFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "AtlasGameFeaturesFramework",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AtlasAbilitiesSystemRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "Description": "Gameplay Ability System extensions, ability sets, activation policies, and reusable gameplay-ability utilities.",
+  "Category": "Gameplay",
+  "CreatedBy": "Callback Games",
+  "CreatedByURL": "https://callbackgames.com/",
+  "SupportURL": "solarponny@gmail.com"
+}

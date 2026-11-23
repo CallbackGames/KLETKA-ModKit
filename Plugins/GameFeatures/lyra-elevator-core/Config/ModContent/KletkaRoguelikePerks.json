@@ -1,0 +1,250 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "RoguelikePerk",
+	"entries": [
+		{
+			"id": "RoguelikePerk:Acrobat",
+			"displayName": "Acrobat",
+			"description": "A second jump in mid-air is no longer a problem for you.",
+			"role": "Perk.Pool.UpgradeManual.Equilibrist",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BankRobber",
+			"displayName": "A bank robbery with a single pinky finger.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BareKnuckleMaster",
+			"displayName": "Bare-Knuckle Master",
+			"description": "Your punches have a chance to knock enemies out.",
+			"role": "Perk.Pool.UpgradeManual.Equilibrist",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BeerThief",
+			"displayName": "Theft of two cans of beer from the 69th floor store.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BigBoy",
+			"displayName": "Numerous body jams in the passages of the Residential Block.",
+			"description": "Boxes collapse under the onslaught of your body, and enemies literally fly away from your attacks. However, there is no way for you to enter the narrow gaps anymore.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BornLucky",
+			"displayName": "Born Lucky",
+			"description": "You are like a walking four-leaf clover. You are lucky in everything you do.",
+			"role": "Perk.Pool.UpgradeManual.HardWorker",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:BottleCollector",
+			"displayName": "Illegal collection and sale of glass bottles to foreign investors.",
+			"description": "You’ve gotten so good at collecting glass bottles that now they practically fly doubled into your pockets. Only with a slight chance, to be honest.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Bullseye",
+			"displayName": "Bullseye",
+			"description": "Years of training have sharpened your aim, letting you deal increased damage to enemies.",
+			"role": "Perk.Pool.UpgradeManual.RedHealth",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Cannibal",
+			"displayName": "Gnawed a cellmate to their core.",
+			"description": "Health is replenished by eating any meat.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Cattler",
+			"displayName": "Ate monthly supply of protein bars.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Coward",
+			"displayName": "Leaving a fellow party member to be eaten by a concrete devourer.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:DieHarder",
+			"displayName": "Self-immolation using AI-80 gasoline.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Fraudster",
+			"displayName": "Especially petty fraud.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:GoldenHands",
+			"displayName": "Clandestine blacksmithing business.",
+			"description": "Any items in your hands spend {0}% less durability.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Grade52Technician",
+			"displayName": "Grade-52 Technician",
+			"description": "Your training in the local restroom taught you to quickly handle disarming, repairing, and lockpicking.",
+			"role": "Perk.Pool.UpgradeManual.HardWorker",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:HealthyLifestyle",
+			"displayName": "Healthy Lifestyle",
+			"description": "Morning exercises have significantly boosted your overall health.",
+			"role": "Perk.Pool.UpgradeManual.RedHealth",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:HeavyLifter",
+			"displayName": "Heavy Lifter",
+			"description": "You can sprint at full carry weight with normal speed — at the cost of your health.",
+			"role": "Perk.Pool.UpgradeManual.Equilibrist",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Infectious",
+			"displayName": "Infection of a fellow party with coils (3rd degree).",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:IronImmunity",
+			"displayName": "Iron Immunity",
+			"description": "Your immune system blocks various types of damage.",
+			"role": "Perk.Pool.UpgradeManual.RedHealth",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Killer",
+			"displayName": "Killing a priest from the 451th floor. ",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:LiveMotor",
+			"displayName": "Consuming high-octane beverages in front of a minor audience.",
+			"description": "Your stomach digests gasoline like its water… even better! Drinking gasoline heals you!",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:LuckyBoy",
+			"displayName": "Illegal appropriation of two identical spice packets found in the same package of instant noodles.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:ManualTherapy",
+			"displayName": "Physical Therapy",
+			"description": "Regular trips to the doctors have left a mark on your health: now it is slowly but surely regenerating.",
+			"role": "Perk.Pool.UpgradeManual.RedHealth",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Meteorism",
+			"displayName": "The poisoning of a co-partner by his own gas. Diagnosis: incurable.",
+			"description": "You have a serious stomach problem, expressed by a loud, attention-grabbing sound. Nevertheless, it gives you speed for a while.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Necromancer",
+			"displayName": "Participation in a cult with one successful resurrection of a dead man.",
+			"description": "You have been given {0} extra life.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Parkourist",
+			"displayName": "Regular sessions of jumping around the abandoned premises of the Gigastructure.",
+			"description": "You jump {0}% more powerfully.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Perfectionist",
+			"displayName": "Perfectionist",
+			"description": "Careful item handling is your philosophy — everything you touch degrades much slower.",
+			"role": "Perk.Pool.UpgradeManual.HardWorker",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:perk_D7C1DBCD4944877B68BE649CDF993429",
+			"displayName": "Night Shift",
+			"description": "Professional negligence: abandoning a guard post during the night shift; theft of gummy concentrates from closed retail outlets; feeding local vermin (rats).",
+			"ownerMount": "GastronomCore"
+		},
+		{
+			"id": "RoguelikePerk:Psychotic",
+			"displayName": "Escaping from a mental hospital while under the influence of sedatives.",
+			"description": "Sometimes you see objects through walls. But sometimes the world descends into utter darkness.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Pyromaniac",
+			"displayName": "Arson of a manure warehouse on the 2555th floor.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Revolutionary",
+			"displayName": "Throwing feces in the party council room on the 42nd floor.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Romeo",
+			"displayName": "A sham marriage to a member of the feuding Cappulet clan.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:StayHarder",
+			"displayName": "Murder during a fight. The opponent died from 33 fractures after being hit on the legs of a prisoner.",
+			"description": "Your legs are strong. Even an explosive wave won't be able to throw you off balance.",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Terrorist",
+			"displayName": "Elevator shaft attack.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "RoguelikePerk:Torturer",
+			"displayName": "Torture of a cellmate with a wrench.",
+			"description": "",
+			"role": "Perk.Pool.Sentence",
+			"ownerMount": "ElevatorCore"
+		}
+	]
+}

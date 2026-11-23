@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"primaryAssetType": "ResourcePolicy",
+	"entries": [
+		{
+			"id": "ResourcePolicy:DARB_BaseItems_GlobalRules",
+			"displayName": "DARB_BaseItems_GlobalRules",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePolicy:DARB_DefaultExperience_GlobalRules",
+			"displayName": "DARB_DefaultExperience_GlobalRules",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePolicy:DARB_Fleshmine_GlobalRules",
+			"displayName": "DARB_Fleshmine_GlobalRules",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePolicy:DARB_TurboMode_GlobalRules",
+			"displayName": "DARB_TurboMode_GlobalRules",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		}
+	]
+}
