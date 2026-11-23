@@ -618,7 +618,6 @@
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/GastronomMannequins.html
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/TestEnemyOnClient.py
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html
-!/Plugins/GameFeatures/lyra-elevator-core/Docs/ShopAssortments.html
 !/Plugins/GameFeatures/lyra-elevator-core/ElevatorCore.uplugin
 !/Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.png
 !/Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.svg
@@ -1151,6 +1150,6 @@
 !/Tools/WizardStoreUpload.py
 
 # Repository entry points
-!/README.md
 !/Update-ModKit.ps1
 !/modkit_update.py
+*.[mM][dD]
