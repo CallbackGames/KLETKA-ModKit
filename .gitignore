@@ -42,6 +42,8 @@
 !/Releases/modkit-local-20261120-guard-floor-linux/
 !/Releases/shipping-20261124-cl5416-linux/
 !/Releases/shipping-20261124-cl5416-win64/
+!/Releases/shipping-20261125-6b709da6-win64/
+!/Releases/shipping-20261125-aa2b0f7d-linux/
 !/Releases/windows-shipping-20261122-ca9c0f8d/
 !/Source/AtlasGame/
 !/Build/ModKit/Generated/
@@ -109,6 +111,8 @@
 !/Releases/modkit-local-20261120-guard-floor/Windows/
 !/Releases/shipping-20261124-cl5416-linux/Linux/
 !/Releases/shipping-20261124-cl5416-win64/Windows/
+!/Releases/shipping-20261125-6b709da6-win64/Windows/
+!/Releases/shipping-20261125-aa2b0f7d-linux/Linux/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/
 !/Source/AtlasGame/Framework/
 !/Source/AtlasGame/Gameplay/
@@ -236,6 +240,8 @@
 !/Releases/modkit-local-20261120-guard-floor/Windows/Metadata/
 !/Releases/shipping-20261124-cl5416-linux/Linux/Metadata/
 !/Releases/shipping-20261124-cl5416-win64/Windows/Metadata/
+!/Releases/shipping-20261125-6b709da6-win64/Windows/Metadata/
+!/Releases/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/
 !/Source/AtlasGame/Framework/AtlasContent/
 !/Source/AtlasGame/Framework/AtlasSettings/
@@ -1044,6 +1050,14 @@
 !/Releases/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/shipping-20261124-cl5416-win64/Windows/ModCompatibility.json
 !/Releases/shipping-20261124-cl5416-win64/cooking-base.json
+!/Releases/shipping-20261125-6b709da6-win64/Windows/AssetRegistry.bin
+!/Releases/shipping-20261125-6b709da6-win64/Windows/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261125-6b709da6-win64/Windows/ModCompatibility.json
+!/Releases/shipping-20261125-6b709da6-win64/cooking-base.json
+!/Releases/shipping-20261125-aa2b0f7d-linux/Linux/AssetRegistry.bin
+!/Releases/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json
+!/Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/ModCompatibility.json

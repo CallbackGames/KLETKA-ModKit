@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.1.0-rc.2",
+  "ReleaseVersion": "0.1.0-rc.3",
   "PublicApiVersion": "0.8.0",
   "Engine": {
     "MajorMinor": "5.8",

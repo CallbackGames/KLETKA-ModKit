@@ -986,6 +986,60 @@
     },
     {
       "SchemaVersion": 1,
+      "Release": "shipping-20261125-6b709da6-win64",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "75b1ffe22914d090d286668465042eccf46443c7047f3d8c31478298f379ea4a"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "e760476a6c1d298adb3bf3b064c9df02599c0fcfc59d7bfd963ef3e7659fe496"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "bca5e25efdaa19b98dca53b2a843aaa024a72ba7ecff1b9559effe6e25baf626"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "6b709da687fd9a3d43c790fff607a26b430feb071f721ee7e14de87e57ef62cb"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "shipping-20261125-aa2b0f7d-linux",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "75b1ffe22914d090d286668465042eccf46443c7047f3d8c31478298f379ea4a"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "4286ab80901ef725e0f754fd07314d31733acf28c437b2726c2f28dfda3246dd"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "f53403e2adf6649e2448250bdb69a5d95cb1989abddefe868f60488c51d07987"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "aa2b0f7dddeeb7fc9d25b0e984bc3395376e349618e3e6a25c4bbafd63e85d99"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
       "Release": "windows-shipping-20261122-ca9c0f8d",
       "Engine": "5.8",
       "Platform": "Win64",
@@ -1067,6 +1121,8 @@
     "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
     "Releases/shipping-20261124-cl5416-linux/cooking-base.json",
     "Releases/shipping-20261124-cl5416-win64/cooking-base.json",
+    "Releases/shipping-20261125-6b709da6-win64/cooking-base.json",
+    "Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
     "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
     "START_HERE.html",
     "Tools/CookContentMod.py"

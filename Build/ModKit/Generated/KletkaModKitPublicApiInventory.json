@@ -1,8 +1,8 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.1.0-rc.2",
+  "ReleaseVersion": "0.1.0-rc.3",
   "PublicApiVersion": "0.8.0",
-  "ManifestSha256": "ccdde1f8b7db4b016a18dabe167f40a814070e9c088d917b0248e489cdaacf01",
+  "ManifestSha256": "c418e4a60016380bcc181047db8a9e139e107154747e91c04a4e44f523bc325d",
   "SymbolCount": 17099,
   "Symbols": [
     {
