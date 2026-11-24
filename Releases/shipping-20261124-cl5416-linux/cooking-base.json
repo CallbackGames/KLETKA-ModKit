@@ -1,0 +1,27 @@
+{
+  "SchemaVersion": 1,
+  "Release": "shipping-20261124-cl5416-linux",
+  "Engine": "5.8",
+  "Platform": "Linux",
+  "Files": [
+    {
+      "Path": "Linux/AssetRegistry.bin",
+      "Sha256": "75a3d2a5bc3abe05d2aecd4fac24e61f820fbee32883d4a607c711cebc9562dc"
+    },
+    {
+      "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Sha256": "abb315361d3c7307127802a9086d01caae91aae8afc8f42dbb9d3794137ae057"
+    },
+    {
+      "Path": "Linux/ModCompatibility.json",
+      "Sha256": "c4640cc68b1cd4af729899f61b14290c640d93b93f537ae5077f521a46441231"
+    }
+  ],
+  "GameExecutables": [
+    {
+      "Configuration": "Shipping",
+      "Target": "KLETKA",
+      "Sha256": "ddf99811f70618b9e0e1bfc3e681cce3bd477a27bbda4767637bc0caf9d271bd"
+    }
+  ]
+}

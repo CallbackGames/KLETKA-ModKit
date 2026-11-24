@@ -29,8 +29,8 @@ Choose your enemy Blueprint and a positive weight.</li></ol>
 <p>To give the enemy the appearance of the display it replaced, implement the optional
 <b>Le Mannequin Enemy</b> interface. Its <b>On Mannequin Placed</b> event runs on the server and supplies
 the display point, skeletal mesh, limb profile and <b>Placement Seed</b>. Use that seed for a repeatable pose.</p>
-<p>The floor first decides whether a display may conceal an enemy. The default chance is 15%,
-with at most four selections across the floor. A contributed enemy competes for that selection.
-The level regenerates this selection from the same procedural seed, room identity and placement identity on reload.
-The contributed weight controls which enemy appears within the floor allowance. Neither pool writes mannequin choices to a save.</p>
+<p>Each placement has a separate 70% chance of producing an ordinary display. When the Deadstock
+floor prank runs, it can replace up to four existing displays. The contributed weight controls which
+enemy can use a selected display. The level regenerates these choices from its procedural seed and
+stable placement identities. Neither pool writes individual mannequin choices to a save.</p>
 </main></html>

@@ -302,6 +302,16 @@
 			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
 		},
 		{
+			"id": "InventoryItem:item_382CE8AE467A85D768F153A6DB64B13C",
+			"displayName": "Rolling Pin",
+			"description": "Rolls out dough. Works on other things, too.",
+			"role": "Inventory.Item.Category.Weapon",
+			"ownerMount": "GastronomCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
 			"id": "InventoryItem:item_38558C864C1366E34B6389B048626889",
 			"displayName": "Schwag",
 			"description": "A cigarette capsule packed with an unknown substance... It helps you recover for a short while, but each puff slightly lowers your maximum health, and heavy use causes nausea, dizziness, and blurred vision.\r\n\r\nSmoking is harmful to your health — and your character’s.",
@@ -1072,6 +1082,16 @@
 			"displayName": "Equilibrist",
 			"description": "",
 			"role": "Inventory.Item.Category.UpgradeMaterial",
+			"ownerMount": "ElevatorCore",
+			"gameplayRevision": 1,
+			"editContract": "InventoryContent.ItemEdits.TargetId",
+			"persistence": "Future grants/loot use the selection; existing instances and transfers retain their exact definition."
+		},
+		{
+			"id": "InventoryItem:item_DDE26BBA448EF9226919909EE5A21E78",
+			"displayName": "Broom",
+			"description": "For sweeping floors and clearing a path.",
+			"role": "Inventory.Item.Category.Weapon",
 			"ownerMount": "ElevatorCore",
 			"gameplayRevision": 1,
 			"editContract": "InventoryContent.ItemEdits.TargetId",

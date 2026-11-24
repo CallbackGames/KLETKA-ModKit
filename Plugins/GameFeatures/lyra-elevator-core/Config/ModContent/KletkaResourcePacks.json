@@ -79,6 +79,18 @@
 			"displayName": "DARB_Shop",
 			"description": "",
 			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:resource_bundle_A70F438D4F99C2A1C6C2F2A8527B106A",
+			"displayName": "DARB_Prison_SmallFloor",
+			"description": "",
+			"ownerMount": "ElevatorCore"
+		},
+		{
+			"id": "ResourcePack:resource_bundle_CA659AA94318E8384C652EA6B1E57004",
+			"displayName": "DARB_Gastronom",
+			"description": "",
+			"ownerMount": "GastronomCore"
 		}
 	]
 }

@@ -1,0 +1,27 @@
+{
+  "SchemaVersion": 1,
+  "Release": "shipping-20261124-cl5416-win64",
+  "Engine": "5.8",
+  "Platform": "Win64",
+  "Files": [
+    {
+      "Path": "Windows/AssetRegistry.bin",
+      "Sha256": "b72387209efb628f866f0db1345eaadda5b1983195e9bdfaf304c2ada26c6037"
+    },
+    {
+      "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Sha256": "6b82dbb962464245452dff33277992234085066d7f5cbbbe7610051ea2daa7db"
+    },
+    {
+      "Path": "Windows/ModCompatibility.json",
+      "Sha256": "c0a0af1e2f100d9ad1db067ff713d10fd7f2e00c0ea993c7f0e97b747fdf4b69"
+    }
+  ],
+  "GameExecutables": [
+    {
+      "Configuration": "Shipping",
+      "Target": "KLETKA",
+      "Sha256": "4319d5105fbb5b03da2b5a073349135df00321a7463c85f527cbf7306c28a9d9"
+    }
+  ]
+}

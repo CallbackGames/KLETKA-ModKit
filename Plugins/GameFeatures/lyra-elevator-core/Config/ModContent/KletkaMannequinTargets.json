@@ -1,7 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "requiredContentId": "kletka.dlc.gastronom",
   "regenerateFromSeed": true,
+  "display": {
+    "spawnChancePercent": 70.0
+  },
   "appearance": {
     "poolId": "Gastronom.Mannequin.Appearance",
     "assetType": "/Script/AtlasCombat.AtlasLimbProfile",
@@ -26,7 +29,8 @@
     "callback": "OnMannequinPlaced",
     "seedInput": "PlacementSeed",
     "baseWeight": 1,
-    "spawnChancePercent": 15.0,
+    "floorPrank": "Prank:prank_2D5A067243196FA1A5DCF08D03EB7F16",
+    "floorSpawnChancePercent": 24.0,
     "maxPerFloor": 4
   }
 }

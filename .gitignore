@@ -40,6 +40,8 @@
 !/Releases/dev1-20261122-cl5286/
 !/Releases/modkit-local-20261120-guard-floor/
 !/Releases/modkit-local-20261120-guard-floor-linux/
+!/Releases/shipping-20261124-cl5416-linux/
+!/Releases/shipping-20261124-cl5416-win64/
 !/Releases/windows-shipping-20261122-ca9c0f8d/
 !/Source/AtlasGame/
 !/Build/ModKit/Generated/
@@ -105,6 +107,8 @@
 !/Releases/dev1-20261122-cl5286/Linux/
 !/Releases/modkit-local-20261120-guard-floor-linux/Linux/
 !/Releases/modkit-local-20261120-guard-floor/Windows/
+!/Releases/shipping-20261124-cl5416-linux/Linux/
+!/Releases/shipping-20261124-cl5416-win64/Windows/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/
 !/Source/AtlasGame/Framework/
 !/Source/AtlasGame/Gameplay/
@@ -230,6 +234,8 @@
 !/Releases/dev1-20261122-cl5286/Linux/Metadata/
 !/Releases/modkit-local-20261120-guard-floor-linux/Linux/Metadata/
 !/Releases/modkit-local-20261120-guard-floor/Windows/Metadata/
+!/Releases/shipping-20261124-cl5416-linux/Linux/Metadata/
+!/Releases/shipping-20261124-cl5416-win64/Windows/Metadata/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/
 !/Source/AtlasGame/Framework/AtlasContent/
 !/Source/AtlasGame/Framework/AtlasSettings/
@@ -618,6 +624,7 @@
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/GastronomMannequins.html
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/TestEnemyOnClient.py
 !/Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html
+!/Plugins/GameFeatures/lyra-elevator-core/Docs/ShopAssortments.html
 !/Plugins/GameFeatures/lyra-elevator-core/ElevatorCore.uplugin
 !/Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.png
 !/Plugins/GameFeatures/lyra-elevator-core/Resources/DataAssetIcons/LeBiomeDataAsset.svg
@@ -1029,6 +1036,14 @@
 !/Releases/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/modkit-local-20261120-guard-floor/Windows/ModCompatibility.json
 !/Releases/modkit-local-20261120-guard-floor/cooking-base.json
+!/Releases/shipping-20261124-cl5416-linux/Linux/AssetRegistry.bin
+!/Releases/shipping-20261124-cl5416-linux/Linux/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261124-cl5416-linux/Linux/ModCompatibility.json
+!/Releases/shipping-20261124-cl5416-linux/cooking-base.json
+!/Releases/shipping-20261124-cl5416-win64/Windows/AssetRegistry.bin
+!/Releases/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261124-cl5416-win64/Windows/ModCompatibility.json
+!/Releases/shipping-20261124-cl5416-win64/cooking-base.json
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/ModCompatibility.json
@@ -1148,8 +1163,6 @@
 !/Tools/PublishContentMod.py
 !/Tools/SteamWorkshopMetadata.py
 !/Tools/WizardStoreUpload.py
-
-# Repository entry points
+*.[mM][dD]
 !/Update-ModKit.ps1
 !/modkit_update.py
-*.[mM][dD]

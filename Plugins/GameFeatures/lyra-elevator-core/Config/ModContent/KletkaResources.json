@@ -657,6 +657,22 @@
 			"ownerMount": "ElevatorCore",
 			"resourceType": "Resource.Type.Loot.Tool.Weapon",
 			"rarity": "None"
+		},
+		{
+			"id": "Resource:resource_45894B9A400219B214CC5CB83A7960C2",
+			"displayName": "DAR_Skalka",
+			"description": "",
+			"ownerMount": "GastronomCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
+		},
+		{
+			"id": "Resource:resource_4949819C4EFE26E442EE559C2B332189",
+			"displayName": "DAR_Broom",
+			"description": "",
+			"ownerMount": "ElevatorCore",
+			"resourceType": "Resource.Type.Loot.Tool.Weapon",
+			"rarity": "None"
 		}
 	]
 }

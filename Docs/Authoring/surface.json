@@ -932,6 +932,60 @@
     },
     {
       "SchemaVersion": 1,
+      "Release": "shipping-20261124-cl5416-linux",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "75a3d2a5bc3abe05d2aecd4fac24e61f820fbee32883d4a607c711cebc9562dc"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "abb315361d3c7307127802a9086d01caae91aae8afc8f42dbb9d3794137ae057"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "c4640cc68b1cd4af729899f61b14290c640d93b93f537ae5077f521a46441231"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "ddf99811f70618b9e0e1bfc3e681cce3bd477a27bbda4767637bc0caf9d271bd"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "shipping-20261124-cl5416-win64",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "b72387209efb628f866f0db1345eaadda5b1983195e9bdfaf304c2ada26c6037"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "6b82dbb962464245452dff33277992234085066d7f5cbbbe7610051ea2daa7db"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "c0a0af1e2f100d9ad1db067ff713d10fd7f2e00c0ea993c7f0e97b747fdf4b69"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "4319d5105fbb5b03da2b5a073349135df00321a7463c85f527cbf7306c28a9d9"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
       "Release": "windows-shipping-20261122-ca9c0f8d",
       "Engine": "5.8",
       "Platform": "Win64",
@@ -1011,6 +1065,8 @@
     "Releases/dev1-20261122-cl5286/cooking-base.json",
     "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
     "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
+    "Releases/shipping-20261124-cl5416-linux/cooking-base.json",
+    "Releases/shipping-20261124-cl5416-win64/cooking-base.json",
     "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
     "START_HERE.html",
     "Tools/CookContentMod.py"
