@@ -60,9 +60,10 @@
     "Templates": [
       {
         "Id": "AtlasCosmeticsSystem.Cosmetic",
+        "BaseTemplate": "CosmeticPack",
         "Category": "Cosmetics & UI",
         "Label": "Mod cosmetic",
-        "Description": "Creates a cosmetic actor with a visible marker, a stable definition and Add Mod Cosmetics registration. No store ownership is granted.",
+        "Description": "Start with a cosmetic Blueprint and a Cosmetic Definition. Add Mod Cosmetics is already set up. No inventory item or crafting recipe is needed.",
         "Recipe": "Documentation/Examples/CreateCosmeticModExample.py",
         "RequiredPlugins": [
           "AtlasCosmeticsSystem"
@@ -73,8 +74,8 @@
         ],
         "NextSteps": [
           "Replace the marker under BP_ExampleCosmetic.WorldView with your own mesh. Keep collision disabled and fit the attachment socket/offset to your character.",
-          "Choose the intended cosmetic slot and edit DA_ExampleCosmetic display data, styles and presentation. Keep its generated identity when renaming the asset.",
-          "Add Mod Cosmetics publishes this feature's own cosmetic. Test selecting and clearing it, a remote player, first-person visibility and deactivation before Cook & Publish."
+          "Edit the name and slot in DA_ExampleCosmetic. In KLETKA, use the Head or Body slot used by the wardrobe.",
+          "Compile and save. Cook the mod in Release → Cook & Publish, install the test copy, and enable it in game. Select it in the matching wardrobe tab."
         ]
       }
     ]

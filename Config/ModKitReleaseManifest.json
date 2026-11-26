@@ -1,16 +1,16 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.1.0-rc.3",
+  "ReleaseVersion": "0.1.0-rc.4",
   "PublicApiVersion": "0.8.0",
   "DistributionKind": "BlueprintBinary",
   "Engine": {
     "MajorMinor": "5.8",
     "Root": "K:/Programs/UE_5.8"
   },
-  "SourceManifestSha256": "c418e4a60016380bcc181047db8a9e139e107154747e91c04a4e44f523bc325d",
-  "LatestSubmittedKletkaChange": 5420,
+  "SourceManifestSha256": "f354637d57c85e24eb619a08b0df804e8698c17dcac97ecb0b0c54e1a05177e2",
+  "LatestSubmittedKletkaChange": 5472,
   "RequireCleanSource": false,
-  "FileCount": 804,
+  "FileCount": 814,
   "Files": [
     {
       "Path": "Binaries/Win64/KLETKA_ModKitEditor.target",
@@ -20,7 +20,7 @@
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasAI.dll",
       "Size": 2196480,
-      "Sha256": "d79404f54fc3790c2cd520028ca1baa914f9159dc6c20d70024074afbc33bb9f"
+      "Sha256": "dac36ba10e31aa123579680a64e1441b2bdcf2f4f403ced2cdab2edfa54c2ced"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasAIEditor.dll",
@@ -29,18 +29,18 @@
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasCombat.dll",
-      "Size": 4086272,
-      "Sha256": "ceb6b1a214513c2050effb33ac7155a67db599100e731767bc686e348d6e97a2"
+      "Size": 4090368,
+      "Sha256": "89268bb9cf9d2d22022ab3bfc6eaa5c2297f7e91367abd4dbb677c59433a35a2"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasCombatEditor.dll",
       "Size": 1533952,
-      "Sha256": "f1d301e844e5061eb022e647f758f7fc5f6823aced05c421dfce8009e61b1150"
+      "Sha256": "d93a4cae3ee67c53eab1eff15e785464bfc4b12ffd80a4c62c4f44af1ab4d5e2"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasCombatUI.dll",
       "Size": 396800,
-      "Sha256": "d393650406b04ec5945cb650996cc629aa10c1d5a153e0cc43d65eaae110951a"
+      "Sha256": "8c44f63220e20e5a5abe9c73112bbbabb8f41d7bfd31a581f091ae74ad1930ea"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasContentEditor.dll",
@@ -49,28 +49,28 @@
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasEquipment.dll",
-      "Size": 2212352,
-      "Sha256": "e3baa27db417a9563cb29e16aa11b3dbf7f462e512e1adfc6e63a375666dd24f"
+      "Size": 2212864,
+      "Sha256": "b14c00a1ad9ab0154d6dda4be58ee8bce12249734ad0e2ae9ce387f879b64a22"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasEquipmentEditor.dll",
       "Size": 1172480,
-      "Sha256": "4207f4cfc714c91774fbe5b4813fe2fc2c4ad77282aec41d2e37503d7b2adc3f"
+      "Sha256": "88fd6bafc9c45bf6850d51c2c140051d61c7c7465e80a71fe49fcc9d0c27eb17"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasEquipmentUI.dll",
       "Size": 513024,
-      "Sha256": "e3a1152588bf84e92f1cf3873145ba1a40cbe0f07f6e1c04ed209ad9cc260085"
+      "Sha256": "d1f600764c84be2510c8e8891724df9e603f623d200997658b4016a01b024e21"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasGameplayAbilities.dll",
       "Size": 1326592,
-      "Sha256": "64036afce1cffb85231badeafc12ad9c567af1f8517061d2cd8c42eac879286d"
+      "Sha256": "14d3ad8941a8372e28822914da4ee6beb010c694b401145b432eb76250547b71"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasInteraction.dll",
-      "Size": 2253824,
-      "Sha256": "fddd4813160cbf96eb9214391a707454c0693e46ac6a3ac213200e55fdc97ad1"
+      "Size": 2254848,
+      "Sha256": "0e3e8ee00b64980465622d0f3bf7191115cd39d70f7a1c5c736fdbbf320656fe"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasInteractionEditor.dll",
@@ -80,12 +80,12 @@
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasLoot.dll",
       "Size": 1031680,
-      "Sha256": "7c161778ae9a0a164608531cf73b123810693a27e6f62387a6564d7e79b4aca6"
+      "Sha256": "7446293f4bba668d3ac5ca07d22a36de356f016153557e1d54b589f0c8341bd1"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasRewards.dll",
       "Size": 308224,
-      "Sha256": "5fefcb1bf2dc29a6c2d98256cb99f7cdf9c02ebe6cefabcb40265692109237c1"
+      "Sha256": "028d250fbf8429df97f1407356f7f386a9a5bbc3752752fc27d3d0264251371d"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasSettingsAudio.dll",
@@ -109,8 +109,8 @@
     },
     {
       "Path": "Binaries/Win64/UnrealEditor-AtlasVehicles.dll",
-      "Size": 381440,
-      "Sha256": "283a38cbc6faaad87245a26f65121d480a9363d4db6de4db16e4f38b4d870954"
+      "Size": 385536,
+      "Sha256": "c324ff956c1c27cd04a7073bb307a1e26c9de346a2b8698ba4bdc17a361bdd85"
     },
     {
       "Path": "Binaries/Win64/UnrealEditor.modules",
@@ -119,13 +119,13 @@
     },
     {
       "Path": "Build/ModKit/Generated/KletkaModKitPublicApiInventory.json",
-      "Size": 12428121,
-      "Sha256": "09787d5234b7c28d65c014966080c5dcadfe90a0a01837043b5d5adf8b4cb0a3"
+      "Size": 12431768,
+      "Sha256": "76453c0237f2b135d9d4e4bcb81554537327a9f7454b9de36ef1b41354cbf9a3"
     },
     {
       "Path": "Build/ModKit/Generated/ModKitSourceInputs.json",
-      "Size": 655527,
-      "Sha256": "1eccfc6069e5ddcdb5bbfe32229d5e11f32f6630058defeed49ed9e100078b78"
+      "Size": 657158,
+      "Sha256": "d6a8d33fc62e01aa3be610de5c8a9e02d9badb2f48a76f6a555ed59d389425ee"
     },
     {
       "Path": "Config/AtlasSaveHostCatalog.ini",
@@ -154,13 +154,13 @@
     },
     {
       "Path": "Config/ModKitDistribution.json",
-      "Size": 100645,
-      "Sha256": "c418e4a60016380bcc181047db8a9e139e107154747e91c04a4e44f523bc325d"
+      "Size": 100659,
+      "Sha256": "f354637d57c85e24eb619a08b0df804e8698c17dcac97ecb0b0c54e1a05177e2"
     },
     {
       "Path": "Config/ModKitPublicAssets.json",
-      "Size": 54033,
-      "Sha256": "c855d6d6edfb935678ac2536b09164452bbd206365fef389b4fb2b188fb5e7aa"
+      "Size": 57176,
+      "Sha256": "8250eb2d4dccb9314a9579b30579ef1c68dc3e00f6c44137f2ad544cb5c067eb"
     },
     {
       "Path": "Config/ModKitPublishing.json",
@@ -186,6 +186,11 @@
       "Path": "Config/Tags/KletkaPublicScreenRoles.ini",
       "Size": 359,
       "Sha256": "79ef170e6644ad95752e27ddf760a0da18ee117a5f4f577d203db2c7035b11f4"
+    },
+    {
+      "Path": "Config/Tags/KletkaPublicWardrobeSlots.ini",
+      "Size": 411,
+      "Sha256": "3a52a4a3b19af202327eb1100e58842f7d67c070ca35d327aab828d4c6aa5e99"
     },
     {
       "Path": "Content/AtlasExamples/Cosmetics/BP_ExamplePart.uasset",
@@ -389,13 +394,18 @@
     },
     {
       "Path": "Docs/Authoring/compatibility.html",
-      "Size": 4563,
-      "Sha256": "6e4f4c4639af438f8ec80ffac98c6d00cfe70a6272d729f7c83de392ec24d27f"
+      "Size": 4642,
+      "Sha256": "fb02644d18a082af376a8e72d51ff4fff9e9e5b2bdd7f6b30ed770b6592d77df"
+    },
+    {
+      "Path": "Docs/Authoring/cosmetics.html",
+      "Size": 3925,
+      "Sha256": "bcbc4e16fb3567c45ac7b35f4db54bca2ad3ee9a7eeebc3df6538547a310a0a7"
     },
     {
       "Path": "Docs/Authoring/first-mod.html",
-      "Size": 8781,
-      "Sha256": "039aa047e9f1548f65b996cda407a438277c806e85a90144eaccb97d77dbb906"
+      "Size": 8860,
+      "Sha256": "9134166d678992aac2782da2bdcdaed6947713256415213e24293c0189a21b1d"
     },
     {
       "Path": "Docs/Authoring/index.html",
@@ -404,18 +414,18 @@
     },
     {
       "Path": "Docs/Authoring/modules.html",
-      "Size": 8691,
-      "Sha256": "93c29acf1cb46dbe6a5b51b934ca926c8d1d2dba6812b274f31196442530bc35"
+      "Size": 8770,
+      "Sha256": "a998754fd2f858be5b459c26bcf4c7ff22fc466ea5344be00eada84ceb540f6b"
     },
     {
       "Path": "Docs/Authoring/packaging.html",
-      "Size": 7705,
-      "Sha256": "27bd4c4ca2290a799dc89d00b7985d7c1e68d77db37e3b79eea1c35c73bbbd67"
+      "Size": 8046,
+      "Sha256": "5eadc29d27f3e6f7be7072bf060c6aef7c9b77803fd8bd93dd19b7bdfe8cf751"
     },
     {
       "Path": "Docs/Authoring/recipes.html",
-      "Size": 15566,
-      "Sha256": "a337ad8568ef6d836a92bc0224aa6acd8083597dc2715fea21dacd2cec0a7795"
+      "Size": 15821,
+      "Sha256": "4b87419f5692fcda1dbbb4223e1003bfdcbd480f1438571632929a3031baabd1"
     },
     {
       "Path": "Docs/Authoring/style.css",
@@ -424,8 +434,8 @@
     },
     {
       "Path": "Docs/Authoring/surface.json",
-      "Size": 35043,
-      "Sha256": "6fd7686e77b1c7d9c4ed5ed960c47627a8ab9894b4d50f3c18f15ae02fe148de"
+      "Size": 36904,
+      "Sha256": "c9404d69dd0b070e09f63ab21ce7cb68ca474104706e6996f76f8e6acc3c41c7"
     },
     {
       "Path": "Docs/Authoring/tasks.json",
@@ -465,7 +475,7 @@
     {
       "Path": "Plugins/EditorTools/AtlasTranslationSystem/Binaries/Win64/UnrealEditor-AtlasTranslationSystem.dll",
       "Size": 259584,
-      "Sha256": "99d9e4708949440218c70ba101063adcb231384502e1ecdf119396ddb86cf803"
+      "Sha256": "e68d71aa107d826516786edaf68fbc9169783fbd1d38eb7a105b7a88114375a4"
     },
     {
       "Path": "Plugins/EditorTools/AtlasTranslationSystem/Binaries/Win64/UnrealEditor-AtlasTranslationSystemEditor.dll",
@@ -515,7 +525,7 @@
     {
       "Path": "Plugins/Framework/AtlasGameFeaturesFramework/Binaries/Win64/UnrealEditor-AtlasGameFeaturesFrameworkEditor.dll",
       "Size": 603136,
-      "Sha256": "d9354cbb9b67df6c06b31e52e507ab75d986f6b07820bf587607549e2fc4bebe"
+      "Sha256": "74bd1ab9cc9cf156ffc38f46c0e8360979692faf3e656f2f53ffbed7074c6119"
     },
     {
       "Path": "Plugins/Framework/AtlasGameFeaturesFramework/Binaries/Win64/UnrealEditor-AtlasGameFeaturesFrameworkRuntime.dll",
@@ -565,12 +575,12 @@
     {
       "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor-AtlasGameplayExperienceFrameworkEditor.dll",
       "Size": 805888,
-      "Sha256": "2670e5d53ccb1e04fc97768ed6abe6cf13781660103ce7a4213d879f5038ce23"
+      "Sha256": "c5563587953c7f8d78f5bd9cd15a1d26843e98ae642151b13046b6dc92b2f6ec"
     },
     {
       "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor-AtlasGameplayExperienceFrameworkRuntime.dll",
-      "Size": 1116672,
-      "Sha256": "574b3389f52047a4bad953ed3076a76cc7554fde68b51241e37d7bd0afd6186a"
+      "Size": 1118208,
+      "Sha256": "244a9286946ea024880994f7447b552081734aa65d67ee1c8df665af5572f2a2"
     },
     {
       "Path": "Plugins/Framework/AtlasGameplayExperienceFramework/Binaries/Win64/UnrealEditor.modules",
@@ -655,7 +665,7 @@
     {
       "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Binaries/Win64/UnrealEditor-AtlasGameplayMessagesFrameworkNodes.dll",
       "Size": 209920,
-      "Sha256": "5262a29845a1d5d30eb630153998a12b16863d8afdc617e4f04399eec1cf92da"
+      "Sha256": "08689ad91795c2fa495843c1700e2c5b7d120837bfdb6ad6579851553c81c7b4"
     },
     {
       "Path": "Plugins/Framework/AtlasGameplayMessagesFramework/Binaries/Win64/UnrealEditor-AtlasGameplayMessagesFrameworkRuntime.dll",
@@ -785,7 +795,7 @@
     {
       "Path": "Plugins/Framework/AtlasLuaFramework/Binaries/Win64/UnrealEditor-AtlasLuaFrameworkEditor.dll",
       "Size": 211968,
-      "Sha256": "bfcb7652d11be6c05047011ef0e9b58b61e1a4b6bd1ea452268d8d6c3c159900"
+      "Sha256": "0f43101f09de0f0f29c92fc4b08de38f6af9c267ac7563d5130a22dd9e35dc15"
     },
     {
       "Path": "Plugins/Framework/AtlasLuaFramework/Binaries/Win64/UnrealEditor-AtlasLuaFrameworkRuntime.dll",
@@ -830,12 +840,12 @@
     {
       "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor-AtlasSaveGameFrameworkEditor.dll",
       "Size": 953344,
-      "Sha256": "a901c2be3f014dea2154a85e368e36f0071cb691fb725ceb87f81688f0fe6472"
+      "Sha256": "76402ced3b213ac07842ac4b27c5bc468a607f44a6f0c38efe5629262979c2e7"
     },
     {
       "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor-AtlasSaveGameFrameworkRuntime.dll",
-      "Size": 1581568,
-      "Sha256": "bcac12a9174e117d9e2782446554ba8abc217a22a2837eda4c004eb28eb3bfc2"
+      "Size": 1582592,
+      "Sha256": "23cd0fd1a4bb119018a6ccbce1d822ae902b3f773f3dc74ff81ca9583eb9ef1d"
     },
     {
       "Path": "Plugins/Framework/AtlasSaveGameFramework/Binaries/Win64/UnrealEditor.modules",
@@ -879,8 +889,8 @@
     },
     {
       "Path": "Plugins/Framework/AtlasSettingsFramework/Binaries/Win64/UnrealEditor-AtlasSettingsFrameworkRuntime.dll",
-      "Size": 1761792,
-      "Sha256": "46008fdc102658c91888e8d7c76f068fad51c7709e5c2b17011202c29e3457af"
+      "Size": 1763840,
+      "Sha256": "16dfaef10701d32f5264ef1b69a0322dd7b74c26f22b44320961ce1a0e676b9c"
     },
     {
       "Path": "Plugins/Framework/AtlasSettingsFramework/Binaries/Win64/UnrealEditor.modules",
@@ -1060,12 +1070,12 @@
     {
       "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor-ElevatorCoreContent.dll",
       "Size": 1553408,
-      "Sha256": "fc8800d7231849831270b1d8a30625f3683c94fb052496cb9fb1750b4fdddf78"
+      "Sha256": "cc96a5787b09695c2330ad20d8ef3a813998d9df323350cc389a4d77285829ac"
     },
     {
       "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor-ElevatorCoreContentEditor.dll",
       "Size": 1053696,
-      "Sha256": "176e9c4c0779bdd78a0869e48e212cdd6d5de7df16f5f24406b3d91ceed85ecf"
+      "Sha256": "1fd6f4ac3ea6cdd7366ae8040dbc9ddff67fec370901ff59394029195248a936"
     },
     {
       "Path": "Plugins/GameFeatures/lyra-elevator-core/Binaries/Win64/UnrealEditor.modules",
@@ -1469,8 +1479,8 @@
     },
     {
       "Path": "Plugins/GameFeatures/RoguelikeCore/Binaries/Win64/UnrealEditor-RoguelikeCoreComponents.dll",
-      "Size": 461312,
-      "Sha256": "6f73e05efbcf8b70dabecce3426e7da8f3f9f1c79a88a01f53377b9773e2fc5d"
+      "Size": 463872,
+      "Sha256": "4d80242be15bf70b3fc94766d0421de1486706bf129862c52106f3bc89759100"
     },
     {
       "Path": "Plugins/GameFeatures/RoguelikeCore/Binaries/Win64/UnrealEditor-RoguelikeCoreContent.dll",
@@ -1495,7 +1505,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Binaries/Win64/UnrealEditor-AtlasAbilitiesSystemRuntime.dll",
       "Size": 1166848,
-      "Sha256": "9f8bbc8d3a021fea9825c8db22ae1f59d17cb4db9938cc95cffb689e2e10609b"
+      "Sha256": "e6b95040f55491fb1321b2939668e42f4e074875a3149ea4c18b1a2b7205585a"
     },
     {
       "Path": "Plugins/Gameplay/AtlasAbilitiesSystem/Binaries/Win64/UnrealEditor.modules",
@@ -1815,7 +1825,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Binaries/Win64/UnrealEditor-AtlasContextEffectsSystemEditor.dll",
       "Size": 236544,
-      "Sha256": "994e31fed10b39a3540fb081a01e6f56c4128fd5b34837be7cd82e3c524bcffc"
+      "Sha256": "06dcc71d5315bcddb9f3212bc680e3058a74359bf9e46e9b78c0d28e05d44496"
     },
     {
       "Path": "Plugins/Gameplay/AtlasContextEffectsSystem/Binaries/Win64/UnrealEditor-AtlasContextEffectsSystemRuntime.dll",
@@ -1854,13 +1864,13 @@
     },
     {
       "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/AtlasCosmeticsSystem.uplugin",
-      "Size": 2528,
-      "Sha256": "387f978d87a549942a8d0791c1855f213f9a945d30083061196a8ac18b6bd6bc"
+      "Size": 2507,
+      "Sha256": "888d606ff99e396bdd48570633ced55ce91317b4c54e6abe2a7cecbc8527ccbe"
     },
     {
       "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor-AtlasCosmeticsSystemEditor.dll",
       "Size": 387584,
-      "Sha256": "664c4d78cce8bc1faa1715d4726e9328a79101bbf966d496a04587f2a0798043"
+      "Sha256": "255fc36f816c86db693bb78bb4f18e82b60a13b54b00ebb6d76a31b38e7182a7"
     },
     {
       "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Binaries/Win64/UnrealEditor-AtlasCosmeticsSystemRuntime.dll",
@@ -1894,8 +1904,8 @@
     },
     {
       "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticModExample.py",
-      "Size": 4284,
-      "Sha256": "16f83a28999246cc5956bc7559b16cda5e3d654feeea571db256ea940574c180"
+      "Size": 4517,
+      "Sha256": "24a091ef0d3d6163e726d34bea5171f84064533ad5ad34353696e3a2e6c962f7"
     },
     {
       "Path": "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py",
@@ -1944,8 +1954,8 @@
     },
     {
       "Path": "Plugins/Gameplay/AtlasDifficultySystem/Binaries/Win64/UnrealEditor-AtlasDifficultySystemRuntime.dll",
-      "Size": 495616,
-      "Sha256": "27de86c0d500b24fa41f7bd4c60d8ee1f1d44b56b5ba9bcaffc5eed9ee0f2ba1"
+      "Size": 497664,
+      "Sha256": "f948e0a70c26c3a522f241161e1bdbf8d674282667911aad7fc37e22ca1bb6a6"
     },
     {
       "Path": "Plugins/Gameplay/AtlasDifficultySystem/Binaries/Win64/UnrealEditor.modules",
@@ -1990,17 +2000,17 @@
     {
       "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemEditor.dll",
       "Size": 1137152,
-      "Sha256": "8cff5f07d98c7c78a909b2a7e75419a3f4bfa4c26376d5469cadff0d0d9e7f9e"
+      "Sha256": "879db791aa8653a71b2c0c006c6ae9f4a34361b3310341c5c63547dd258923d3"
     },
     {
       "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemRuntime.dll",
-      "Size": 4237824,
-      "Sha256": "3fb42a786bafd05f0c4229184bb0fc47960899b8aa76ca15f66cf1d0b1c382b2"
+      "Size": 4241408,
+      "Sha256": "e6f9b6b905664397da240155b5b4ee0c5fbe0a609cf36a7af245e98dac141d1b"
     },
     {
       "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor-AtlasInventorySystemUI.dll",
       "Size": 254464,
-      "Sha256": "9ee8071eb0ebcd217738b76f8638ed99af8e012bd3115e388e75ae0fa42def5e"
+      "Sha256": "0e8f380dccb7379d690edaeb0576cb0ebb03396da3e757d19434d32aec3ed4f0"
     },
     {
       "Path": "Plugins/Gameplay/AtlasInventorySystem/Binaries/Win64/UnrealEditor.modules",
@@ -2350,7 +2360,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Binaries/Win64/UnrealEditor-AtlasLocomotionSystemEditor.dll",
       "Size": 234496,
-      "Sha256": "0e6bb902f11e7e1019d2ecac56dafc312896b8422910554741f0f665ffad9ff7"
+      "Sha256": "1bc5a025370cc3ee976bfede598252985f530bf853d4cb1d3ef8b42fcda59f1e"
     },
     {
       "Path": "Plugins/Gameplay/AtlasLocomotionSystem/Binaries/Win64/UnrealEditor-AtlasLocomotionSystemRuntime.dll",
@@ -2475,7 +2485,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasProgressionSystem/Binaries/Win64/UnrealEditor-AtlasProgressionSystemEditor.dll",
       "Size": 222720,
-      "Sha256": "8b7da723c0ad87aaff3fe994f08d78dd97d61e34832d3f0d6073bf64267b341e"
+      "Sha256": "deee5cebf285e6311b9327c6aabf05a6949af172d5516cac124febc99a39bf82"
     },
     {
       "Path": "Plugins/Gameplay/AtlasProgressionSystem/Binaries/Win64/UnrealEditor-AtlasProgressionSystemRuntime.dll",
@@ -2645,12 +2655,12 @@
     {
       "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor-AtlasTargetingAssistanceSystemEditor.dll",
       "Size": 167936,
-      "Sha256": "671898166b09602d75dcc00b441809332bb04dfe5d6848aa584004a844d56391"
+      "Sha256": "fd7633ecb4ae6387dfff956d561e37cd5b96936bde0da4d2fe5d0efc8cfd2cee"
     },
     {
       "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor-AtlasTargetingAssistanceSystemRuntime.dll",
       "Size": 557568,
-      "Sha256": "42db18d65114b9c9e58c699e574181c46c31e9d0e145e50fb3ef42bd87a86c30"
+      "Sha256": "a04e1b79a2ca569b04cd2365c527bc928c7f2309af996134252c78bfd020b7eb"
     },
     {
       "Path": "Plugins/Gameplay/AtlasTargetingAssistanceSystem/Binaries/Win64/UnrealEditor.modules",
@@ -2695,7 +2705,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasTeamSystem/Binaries/Win64/UnrealEditor-AtlasTeamSystemEditor.dll",
       "Size": 208896,
-      "Sha256": "a53186e2e11287f7017e1e8bab14e6074398a6ea877afd0bc03069938cb210d5"
+      "Sha256": "587b07a4314b8d044feafef88de025e5cbb6f1675886e3cc1a591670a03d1094"
     },
     {
       "Path": "Plugins/Gameplay/AtlasTeamSystem/Binaries/Win64/UnrealEditor-AtlasTeamSystemRuntime.dll",
@@ -2750,7 +2760,7 @@
     {
       "Path": "Plugins/Gameplay/AtlasVehicleSystem/Binaries/Win64/UnrealEditor-AtlasVehicleSystemRuntime.dll",
       "Size": 541696,
-      "Sha256": "588a842b4fde920a6408cc93e11d7d83b09143e135b8e18314091e003f3903df"
+      "Sha256": "084c272273dd4205b91f13766599f69b4de9e5f409d13a60cc76ca6562bdd3f1"
     },
     {
       "Path": "Plugins/Gameplay/AtlasVehicleSystem/Binaries/Win64/UnrealEditor.modules",
@@ -2795,12 +2805,12 @@
     {
       "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor-AtlasModdingSystemEditor.dll",
       "Size": 441344,
-      "Sha256": "28d8b76e9ccce855146dc0a71dc5f7a2758d3c2f61bef7a98e0a09cc589abdea"
+      "Sha256": "994dbf4707492ff96d5914292cde671d000777cb89efeeeeca8511bc27707f18"
     },
     {
       "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor-AtlasModdingSystemRuntime.dll",
-      "Size": 1970688,
-      "Sha256": "960f2cd85c38170517b24214278c7c732cd71221d998bbe878d34a65bb3dc0eb"
+      "Size": 1984512,
+      "Sha256": "643608fdf79f5db780b8dd51b14351aff725bf962b642a8b0382fdabba6429f8"
     },
     {
       "Path": "Plugins/Modding/AtlasModdingSystem/Binaries/Win64/UnrealEditor.modules",
@@ -2859,8 +2869,8 @@
     },
     {
       "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Binaries/Win64/UnrealEditor-AtlasModdingSystemAuthoringEditor.dll",
-      "Size": 2335744,
-      "Sha256": "fbae59f2eb568f7dd8dfde88c1a09bf203d3aa247d65483446f44ac7a920068b"
+      "Size": 2336256,
+      "Sha256": "7bfb17e72384d894457affe9a4f2d9201bf85b143f3407eedfb85cd3365e20f6"
     },
     {
       "Path": "Plugins/Modding/AtlasModdingSystemAuthoring/Binaries/Win64/UnrealEditor.modules",
@@ -2885,7 +2895,7 @@
     {
       "Path": "Plugins/Presentation/AtlasSubtitleSystem/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemEditor.dll",
       "Size": 163328,
-      "Sha256": "8187badd5c00b345d05753c379990d40a291e46231a01b687df50cb626d04317"
+      "Sha256": "0bf41022c01025767ba810d97699f3a755924174db6f4f8ccfd41de6f701533f"
     },
     {
       "Path": "Plugins/Presentation/AtlasSubtitleSystem/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemRuntime.dll",
@@ -2925,7 +2935,7 @@
     {
       "Path": "Plugins/Presentation/AtlasSubtitleUI/Binaries/Win64/UnrealEditor-AtlasSubtitleSystemUI.dll",
       "Size": 289792,
-      "Sha256": "979c6748127e8bec46bb0ffeb0625296c9a9c9328f7b55742c8633767db9cd54"
+      "Sha256": "c164d598ebfe5ac1e94fd3211580489c574dd24c86e4e44fd7513c2f17b03e7c"
     },
     {
       "Path": "Plugins/Presentation/AtlasSubtitleUI/Binaries/Win64/UnrealEditor.modules",
@@ -2940,7 +2950,7 @@
     {
       "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemEditor.dll",
       "Size": 197632,
-      "Sha256": "222d3abf91a935a9bab20b3d0b03e856776e0b3f9894a0aceeeabd9e0d111941"
+      "Sha256": "daebe19c18a87c54134cc51080e7f922de553cc7ea1f1906331c3214c9ab7cb3"
     },
     {
       "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemExtensions.dll",
@@ -2955,12 +2965,12 @@
     {
       "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemRuntime.dll",
       "Size": 1260032,
-      "Sha256": "b11aa9e5b04f93dd2bd30f45a582538cff31f93f1dc9ccfc030cad2867ce5ef8"
+      "Sha256": "7a5aca99de889321919a5faa2c0f5dc291f27ba8bfe2de36819fb5443e9a70e2"
     },
     {
       "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor-AtlasUISystemTypes.dll",
       "Size": 185856,
-      "Sha256": "6d604e20758f70598231ab61779b9aa10cb7cb97a8b8047c854edaf23e29ab49"
+      "Sha256": "942f4a7530f9cbb7b41cccf2ca018ffab2350b2cf929fde462fb1c91f823992d"
     },
     {
       "Path": "Plugins/Presentation/AtlasUISystem/Binaries/Win64/UnrealEditor.modules",
@@ -3069,13 +3079,13 @@
     },
     {
       "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor-ElevatorCoreDungeonArchitect.dll",
-      "Size": 479744,
-      "Sha256": "2023337f16b2bf52e5064ed50892616f9694175ad08bcdef450b5c67616779ed"
+      "Size": 469504,
+      "Sha256": "916d13568bd8c87c843895a0e620d556408f950bcd2e3f680b97bf6dca966577"
     },
     {
       "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor-ElevatorCoreDungeonArchitectEditor.dll",
       "Size": 283648,
-      "Sha256": "3381370fe30ade1aab09423ed3d9913c1f01cfe927e948f29cb090dd8d7c937b"
+      "Sha256": "9f60710614e017a844437793ba558f287e703f08c776a24429c8ac54f9eff11c"
     },
     {
       "Path": "Plugins/Product/ElevatorCoreDungeonArchitect/Binaries/Win64/UnrealEditor.modules",
@@ -3436,6 +3446,46 @@
       "Path": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json",
       "Size": 8205191,
       "Sha256": "f53403e2adf6649e2448250bdb69a5d95cb1989abddefe868f60488c51d07987"
+    },
+    {
+      "Path": "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
+      "Size": 779,
+      "Sha256": "63847099cea9cb5f30b7b25f9b78330b8f90bbfa6bb52016d917c6119c85adef"
+    },
+    {
+      "Path": "Releases/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
+      "Size": 5335068,
+      "Sha256": "142e47d98f7422cb1c578d01a3a1f5d4832b502772048eaf495b96e393efa583"
+    },
+    {
+      "Path": "Releases/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14388603,
+      "Sha256": "c83a90aa70fdbf24671f07fd496bb62d92dcaa286f8773ca18082061eaf31dd6"
+    },
+    {
+      "Path": "Releases/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
+      "Size": 8207591,
+      "Sha256": "90cc312d6a9e49900c73af6288e3ce005ccbfcd939093ae9978014ec2a7e1c52"
+    },
+    {
+      "Path": "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
+      "Size": 785,
+      "Sha256": "86ea4742813444b14c2f28d6ce2ce1484541a868fe94a73800bd5a853923025d"
+    },
+    {
+      "Path": "Releases/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
+      "Size": 5335068,
+      "Sha256": "142e47d98f7422cb1c578d01a3a1f5d4832b502772048eaf495b96e393efa583"
+    },
+    {
+      "Path": "Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14388619,
+      "Sha256": "00210b31c8407fac2fc14dbdbca699a2895518483612cf61e46062d3ecd31ae9"
+    },
+    {
+      "Path": "Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
+      "Size": 8207591,
+      "Sha256": "6e5463265fa65beec5444b81ecee3de9940882cb9930b60dbc76f46a96bd4f03"
     },
     {
       "Path": "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
@@ -3989,18 +4039,18 @@
     },
     {
       "Path": "START_HERE.html",
-      "Size": 1463,
-      "Sha256": "c2941f53851dcd321ae4645ebbfd65e8ae61b3a25b4466ae3e3be4a4e64516f5"
+      "Size": 1714,
+      "Sha256": "39aed08f0bc16a3e5c53b9900d62d5a2e23f7373282bdb021c0368adb2484f18"
     },
     {
       "Path": "Tools/ContentModWorkflow.py",
-      "Size": 18912,
-      "Sha256": "9da8f816b8cee0b0e146ed480f1694ff0c297dcc66c8cd43428ad8267dd23208"
+      "Size": 19471,
+      "Sha256": "bb8767ea928f9a8ced7542966e22f8a5825c2675cef994f86b25a40d4936328b"
     },
     {
       "Path": "Tools/CookContentMod.py",
-      "Size": 16832,
-      "Sha256": "f6da72aab398da6f31e5a505fc0c452f982602b82fa1e8a4882ec3ddb04e773d"
+      "Size": 17701,
+      "Sha256": "5b9dabc209cd2c163100358da0ee6d7951cb74f08dc434bea5a31a3f96c4c775"
     },
     {
       "Path": "Tools/CreatePlayground.py",

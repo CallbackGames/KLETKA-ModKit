@@ -25,7 +25,7 @@ def read(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def record_dependencies(base, platform, direct, author_native, receipt):
+def record_dependencies(base, platform, direct, cooked_imports, author_native, receipt):
     catalog_path = base.parent / "ModCompatibility.json"
     if not catalog_path.is_file():
         return "This cooking base predates dependency catalogs; the original exact-base receipt was retained."
@@ -36,7 +36,12 @@ def record_dependencies(base, platform, direct, author_native, receipt):
     required = {}
     native = {}
     missing = set()
-    pending = set(direct) | {"/Script/CoreUObject", "/Script/Engine", "/Script/GameFeatures"}
+    # Released development registries carry editor-only imported-class metadata
+    # even for runtime assets. Actual cooked imports are checked separately.
+    editor_metadata = "/Script/UnrealEd"
+    if editor_metadata in cooked_imports:
+        raise ValueError("A cooked mod package imports /Script/UnrealEd. Remove the editor-only reference from the mod.")
+    pending = (set(direct) | {"/Script/CoreUObject", "/Script/Engine", "/Script/GameFeatures"}) - {editor_metadata}
     while pending:
         name = pending.pop()
         if name in required or name in missing:
@@ -54,7 +59,7 @@ def record_dependencies(base, platform, direct, author_native, receipt):
         if not re.fullmatch("[0-9a-fA-F]{64}", value):
             raise ValueError("Invalid released package fingerprint for " + name)
         required[name] = value
-        pending.update(catalog["Dependencies"].get(name, []))
+        pending.update(edge for edge in catalog["Dependencies"].get(name, []) if edge != editor_metadata)
     receipt.update(SchemaVersion=3, CookFormat=catalog["CookFormat"], NativeImports=dict(sorted(native.items())))
     if missing:
         receipt["ExactCatalogSha256"] = sha(catalog_path)
@@ -117,21 +122,24 @@ def main():
             + "result = unreal.AMSManifestValidationBlueprintLibrary.validate_manifest_file(" + repr(str(source_manifest)) + ")\n"
             + "valid = result is not None and result.valid\n"
             + "messages = [str(m.message) for m in result.messages] if result else ['Native manifest validation failed.']\n"
+            + "scanned_contract = unreal.AMSManifestValidationBlueprintLibrary.compute_plugin_network_contract(" + repr(plugin.stem) + ") if valid else ''\n"
             + "registry = unreal.AssetRegistryHelpers.get_asset_registry()\nregistry.search_all_assets(True)\n"
             + "validator = unreal.get_editor_subsystem(unreal.EditorValidatorSubsystem)\n"
             + "direct = set()\n"
             + "options = unreal.AssetRegistryDependencyOptions(include_soft_package_references=True, include_hard_package_references=True, include_game_package_references=True, include_editor_only_package_references=False, include_searchable_names=False, include_soft_management_references=False, include_hard_management_references=False)\n"
-            + "for asset in registry.get_assets_by_path(" + repr('/'+plugin.stem) + ", recursive=True):\n"
+            + "assets = registry.get_assets_by_path(" + repr('/'+plugin.stem) + ", recursive=True) if scanned_contract else []\n"
+            + "if not assets:\n    messages.append('No mod assets could be scanned. Confirm that the feature contains a saved Game Feature Data asset.')\n    valid = False\n"
+            + "for asset in assets:\n"
             + "    direct.add(str(asset.asset_class_path.package_name))\n"
             + "    direct.update(str(p) for p in registry.get_dependencies(asset.package_name, options) or [])\n"
             + "    if str(asset.asset_class_path.asset_name) == 'World': continue\n"
             + "    state, errors, warnings = validator.is_asset_valid(asset, unreal.DataValidationUsecase.MANUAL)\n"
             + "    messages.extend(str(asset.package_name) + ': ' + str(e) for e in errors)\n"
             + "    valid = valid and state != unreal.DataValidationResult.INVALID and not errors\n"
-            + "report = {'Success': bool(valid), 'Messages': messages, 'Dependencies': sorted(p for p in direct if not p.startswith(" + repr('/'+plugin.stem+'/') + "))}\n"
+            + "report = {'Success': bool(valid), 'Messages': messages, 'AssetCount': len(assets), 'Dependencies': sorted(p for p in direct if not p.startswith(" + repr('/'+plugin.stem+'/') + "))}\n"
             + ("contract = " + repr(declared_contract) + "\n" if declared_contract else
-               "contract = unreal.AMSManifestValidationBlueprintLibrary.compute_plugin_network_contract(" + repr(plugin.stem) + ")\n")
-            + "assert contract, 'Could not inspect the plugin network contract'\nreport['NetworkContract'] = contract\n"
+               "contract = scanned_contract\n")
+            + "report['NetworkContract'] = contract\n"
             + "Path(" + repr(str(preflight)) + ").write_text(json.dumps(report, indent=2), encoding='utf-8')\n"
             + "assert valid, 'Mod preflight failed: ' + str(report)\n", encoding="utf-8")
         command = [str(engine / "Engine/Binaries/Win64/UnrealEditor-Cmd.exe"), str(project),
@@ -175,6 +183,7 @@ def main():
         assert cooked_assets and all(path.startswith(content_prefix) for path in cooked_assets), (
             "DLC cooked assets outside its owning plugin; refuse to ship another mod or base content")
         dependencies = set(report["TagPreflight"]["Dependencies"])
+        cooked_imports = set()
         author_native = {}
         if (base.parent / "ModCompatibility.json").is_file():
             imports_path = output / "cooked-imports.json"
@@ -188,10 +197,12 @@ def main():
             imports = read(imports_path)
             if imports["CookedPackages"] != len(cooked_assets):
                 raise ValueError("Cooked import inspection did not cover every exported package.")
-            dependencies.update(imports["Imports"])
+            cooked_imports.update(imports["Imports"])
+            dependencies.update(cooked_imports)
             author_native = imports["NativePackages"]
         compatibility = {"BaseRegistrySha256": sha(base)}
-        report["CookCompatibility"] = record_dependencies(base, args.platform, dependencies, author_native, compatibility)
+        report["CookCompatibility"] = record_dependencies(base, args.platform, dependencies, cooked_imports,
+                                                            author_native, compatibility)
         stage = output / "Stage"
         paks = list(stage.rglob("*.pak"))
         assert len(paks) == 1, "Expected exactly one plugin container; inspect staging before export"

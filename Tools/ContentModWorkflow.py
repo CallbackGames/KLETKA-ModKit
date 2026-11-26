@@ -10,6 +10,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 import sys
 import uuid
@@ -123,26 +124,35 @@ def select_base(project, executable, engine=None):
     game_hash = digest(registry)
     binary_hash = digest(game_binary(executable))
     releases = Path(project) / "Releases"
-    matches = []
-    for receipt in releases.glob("*/cooking-base.json"):
+    candidates = []
+    for receipt in sorted(releases.glob("*/cooking-base.json")):
         data = read(receipt)
-        if data.get("SchemaVersion") != 1 or data.get("Platform") != "Win64": continue
+        if data.get("SchemaVersion") != 1 or data.get("Platform") != "Win64":
+            continue
+        if data.get("Release") != receipt.parent.name:
+            raise ValueError("Cooking-base directory and release identity disagree: " + str(receipt))
+        files = {}
         for entry in data.get("Files", []):
             source = (receipt.parent / entry["Path"]).resolve(strict=True)
             if not source.is_relative_to(receipt.parent.resolve()) or digest(source) != entry["Sha256"]:
                 raise ValueError("Delivered cooking base was changed: " + str(source))
-        runtime = next((e for e in data.get("Files", []) if e["Path"] == "Windows/AssetRegistry.bin"), None)
-        # The same asset list can accompany incompatible native builds. A base
-        # must identify the packaged target as well as its runtime registry.
-        builds = data.get("GameExecutables", [])
-        matching_build = any(isinstance(build, dict) and build.get("Sha256") == binary_hash for build in builds)
-        if runtime and runtime["Sha256"] == game_hash and matching_build:
-            if data["Release"] != receipt.parent.name:
-                raise ValueError("Cooking-base directory and release identity disagree.")
-            matches.append((receipt, data))
-    if len(matches) != 1:
-        raise ValueError("This installed game binary and registry do not match exactly one delivered cooking base. Install the matching game/ModKit release; do not copy registries between releases.")
-    return matches[0][1]["Release"], registry, game_hash
+            files[entry["Path"]] = entry["Sha256"]
+        if not {"Windows/AssetRegistry.bin", "Windows/Metadata/DevelopmentAssetRegistry.bin"} <= files.keys():
+            continue
+        registry_matches = files["Windows/AssetRegistry.bin"] == game_hash
+        binary_matches = any(isinstance(build, dict) and build.get("Sha256") == binary_hash
+                             for build in data.get("GameExecutables", []))
+        releases_dates = re.findall(r"20\d{6}", receipt.parent.name)
+        date = max(releases_dates, default="")
+        candidates.append((registry_matches and binary_matches, registry_matches, date, data["Release"]))
+    if not candidates:
+        raise ValueError("This ModKit has no complete Windows cooking base. Restore its original Releases directory.")
+    exact, _, _, release = max(candidates)
+    warning = "" if exact else (
+        f"The installed game differs from the delivered cooking base {release}. "
+        "The mod will be cooked against that base. The game checks the resulting dependencies when installing the mod."
+    )
+    return release, registry, game_hash, warning
 
 
 def source_fingerprint(plugin):
@@ -169,7 +179,9 @@ def start(project, plugin, engine, executable):
     if not plugin.is_relative_to(project / "Plugins/GameFeatures") or plugin.suffix != ".uplugin":
         raise ValueError("Choose a Game Feature belonging to this ModKit.")
     with cook_lock(project): pass
-    release, registry, registry_hash = select_base(project, executable, engine)
+    release, registry, registry_hash, warning = select_base(project, executable, engine)
+    if warning:
+        print("Warning: " + warning)
     binary = game_binary(executable)
     python = engine / "Binaries/ThirdParty/Python3/Win64/python.exe"
     if not python.is_file(): raise ValueError("The selected editor's bundled Python runtime is unavailable.")
@@ -178,7 +190,7 @@ def start(project, plugin, engine, executable):
     job = dict(SchemaVersion=1, Status="starting", Project=str(project), Plugin=str(plugin),
                Engine=str(engine.parent), GameExecutable=str(executable), GameExecutableSha256=digest(executable),
                GameBinary=str(binary), GameBinarySha256=digest(binary),
-               GameRegistry=str(registry), GameRegistrySha256=registry_hash, BaseRelease=release,
+               GameRegistry=str(registry), GameRegistrySha256=registry_hash, BaseRelease=release, BaseWarning=warning,
                GameContentFingerprint=game_content_fingerprint(executable),
                SourceFingerprint=source_fingerprint(plugin), CookRoot=str(output / "Cook"))
     path = output / "job.json"
@@ -240,6 +252,7 @@ def release_summary(project, manifest, receipt=None, job=None):
                                                          policy.get("joinEntitlementPolicy", "ownership unknown"))
     receipt = receipt or {}
     target = receipt.get("Platform")
+    base_warning = (job or {}).get("BaseWarning", "")
     artifacts = package.get("artifacts", {})
     platforms = sorted({"Win64", "Linux", "PS4", "PS5", "XB1", "XSX", "Switch"} | set(artifacts) | ({target} if target else set()))
     mode = ("dependency fingerprints checked at load" if "RequiredPackages" in receipt
@@ -248,7 +261,7 @@ def release_summary(project, manifest, receipt=None, job=None):
     return {
         "Platforms": listed(f"{p} ({'cooked' if p == target else 'declared only' if p in artifacts else 'no artifact'})"
                             for p in platforms),
-        "Cook compatibility": f"{receipt.get('BaseRelease')} / {mode}" if receipt else "pending cook",
+        "Cook compatibility": (f"{receipt.get('BaseRelease')} / {mode}" + (f" | {base_warning}" if base_warning else "")) if receipt else "pending cook",
         "Game build limits": "{} to {}; branches: {}".format(limits.get("minGameBuild") or "unbounded",
             limits.get("maxGameBuild") or "unbounded", listed(limits.get("supportedBranches", [])) if limits.get("supportedBranches") else "any"),
         "Runtime format": package.get("runtimeFormat", "unspecified"),

@@ -3,160 +3,415 @@
   "Description": "Explicit allow-list of curated KLETKA reference, template, and sample assets distributed with the external ModKit.",
   "Assets": [
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
-      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
-      "Description": "KLETKA Linux Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/cooking-base.json",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
+      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/AssetRegistry.bin",
-      "Description": "KLETKA Linux Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
+      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "KLETKA Linux Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/cooking-base.json",
-      "Destination": "Releases/shipping-20261125-6b709da6-win64/cooking-base.json",
-      "Description": "KLETKA Win64 Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
+      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/Windows/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261125-6b709da6-win64/Windows/AssetRegistry.bin",
-      "Description": "KLETKA Win64 Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/cooking-base.json",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
+      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261125-6b709da6-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "KLETKA Win64 Shipping cooking base 2026-11-25."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
+      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/cooking-base.json",
-      "Destination": "Releases/shipping-20261124-cl5416-win64/cooking-base.json",
-      "Description": "Verified Win64 Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/Windows/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261124-cl5416-win64/Windows/AssetRegistry.bin",
-      "Description": "Verified Win64 Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
+      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Win64 Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json",
+      "Description": "Retained previously published cooking base."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/cooking-base.json",
-      "Destination": "Releases/shipping-20261124-cl5416-linux/cooking-base.json",
-      "Description": "Verified Linux Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/Linux/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261124-cl5416-linux/Linux/AssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261124-cl5416-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for KLETKA CL 5416."
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/cooking-base.json",
+      "Destination": "Releases/KletkaBeta_20261020_r3/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/cooking-base.json",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/cooking-base.json",
+      "Destination": "Releases/KletkaModKit_20261018/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaModKit_20261018/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/cooking-base.json",
+      "Destination": "Releases/dev1-20261111-cl4775/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/cooking-base.json",
+      "Destination": "Releases/dev1-20261118-cl5051/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/ModCompatibility.json",
+      "Destination": "Releases/dev1-20261118-cl5051/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/cooking-base.json",
+      "Destination": "Releases/dev1-20261119-cl5105/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
+      "Destination": "Releases/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/ModCompatibility.json",
+      "Destination": "Releases/dev1-20261119-cl5105/Windows/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/cooking-base.json",
       "Destination": "Releases/dev1-20261122-cl5286/cooking-base.json",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/Linux/AssetRegistry.bin",
       "Destination": "Releases/dev1-20261122-cl5286/Linux/AssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/Linux/Metadata/DevelopmentAssetRegistry.bin",
       "Destination": "Releases/dev1-20261122-cl5286/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261122-cl5286."
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/dev1-20261122-cl5286/Linux/ModCompatibility.json",
+      "Destination": "Releases/dev1-20261122-cl5286/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/cooking-base.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/ModCompatibility.json",
+      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/cooking-base.json",
+      "Destination": "Releases/shipping-20261124-cl5416-linux/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261124-cl5416-linux/Linux/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261124-cl5416-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261124-cl5416-linux/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/cooking-base.json",
+      "Destination": "Releases/shipping-20261124-cl5416-win64/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/Windows/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261124-cl5416-win64/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261124-cl5416-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261124-cl5416-win64/Windows/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261124-cl5416-win64/Windows/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/cooking-base.json",
+      "Destination": "Releases/shipping-20261125-6b709da6-win64/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/Windows/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261125-6b709da6-win64/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261125-6b709da6-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-6b709da6-win64/Windows/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261125-6b709da6-win64/Windows/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
+      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
       "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
-      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin",
       "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/AssetRegistry.bin",
-      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin",
       "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Win64 Shipping cooking base for the verified November 22 Windows package."
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/windows-shipping-20261122-ca9c0f8d/Windows/ModCompatibility.json",
+      "Destination": "Releases/windows-shipping-20261122-ca9c0f8d/Windows/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
     },
     {
       "Source": "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.md",
       "Destination": "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html",
       "Transform": "MarkdownToHtml",
       "Description": "Public Elevator authoring recipes used by the starter and floor workflows."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
-      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/AssetRegistry.bin",
-      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/modkit-local-20261120-guard-floor/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor/cooking-base.json",
-      "Destination": "Releases/modkit-local-20261120-guard-floor/cooking-base.json",
-      "Description": "Local unpublished Win64 Development cooking base for modkit-local-20261120-guard-floor."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
-      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/AssetRegistry.bin",
-      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/modkit-local-20261120-guard-floor-linux/cooking-base.json",
-      "Destination": "Releases/modkit-local-20261120-guard-floor-linux/cooking-base.json",
-      "Description": "Local unpublished Linux Development cooking base for modkit-local-20261120-guard-floor-linux."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/cooking-base.json",
-      "Destination": "Releases/dev1-20261119-cl5105/cooking-base.json",
-      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/dev1-20261119-cl5105/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
-      "Destination": "Releases/dev1-20261119-cl5105/Windows/AssetRegistry.bin",
-      "Description": "Verified Win64 Shipping cooking base for dev1-20261119-cl5105."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/cooking-base.json",
-      "Destination": "Releases/dev1-20261118-cl5051/cooking-base.json",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/dev1-20261118-cl5051/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
-      "Destination": "Releases/dev1-20261118-cl5051/Linux/AssetRegistry.bin",
-      "Description": "Verified Linux Shipping cooking base for dev1-20261118-cl5051."
     },
     {
       "Source": "Scripts/ModKit/ModIoPublisher.py",
@@ -169,21 +424,6 @@
       "Description": "Verified private store publication from the ModKit wizard."
     },
     {
-      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/cooking-base.json",
-      "Destination": "Releases/dev1-20261111-cl4775/cooking-base.json",
-      "Description": "Verified Windows Shipping cook base for the dev1 release."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/dev1-20261111-cl4775/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Verified Windows Shipping cook base for the dev1 release."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
-      "Destination": "Releases/dev1-20261111-cl4775/Windows/AssetRegistry.bin",
-      "Description": "Verified Windows Shipping cook base for the dev1 release."
-    },
-    {
       "Source": "Docs/Modding/MODKIT_PLATFORM_ROUTES.md",
       "Destination": "Docs/PlatformRoutes.md",
       "Description": "Editor-host and cooked-target platform routes, explicit base/artifact requirements and acceptance boundaries."
@@ -192,6 +432,11 @@
       "Source": "Build/ModKit/Templates/Config/Tags/KletkaPublicScreenRoles.ini",
       "Destination": "Config/Tags/KletkaPublicScreenRoles.ini",
       "Description": "KLETKA's published presentation replacement role; registration does not expose authentication or compatibility screens."
+    },
+    {
+      "Source": "Build/ModKit/Templates/Config/Tags/KletkaPublicWardrobeSlots.ini",
+      "Destination": "Config/Tags/KletkaPublicWardrobeSlots.ini",
+      "Description": "Existing KLETKA wardrobe slot tags for mod cosmetic definitions."
     },
     {
       "Source": "Scripts/ModKit/SteamWorkshopMetadata.py",
@@ -434,21 +679,6 @@
       "Description": "Public floor/biome/quest owner-generated example; registered for editing, not activated gameplay."
     },
     {
-      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaModKit_20261018/Windows/AssetRegistry.bin",
-      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaModKit_20261018/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaModKit_20261018/cooking-base.json",
-      "Destination": "Releases/KletkaModKit_20261018/cooking-base.json",
-      "Description": "Immutable development cooking baseline; cooked mods must match the receiving game registry."
-    },
-    {
       "Source": "Docs/TagAudit/2026-10-14/Contracts.json",
       "Destination": "Docs/GameplayTags/Contracts.json",
       "Description": "KLETKA gameplay tag authoring catalog and reviewed extension contracts; generated through the canonical tag validator."
@@ -664,129 +894,9 @@
       "Description": "Generated referenceable KLETKA identities for public authoring; no private asset packages."
     },
     {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/AssetRegistry.bin",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_development_r15/cooking-base.json",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/AssetRegistry.bin",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_shipping_r6/cooking-base.json",
-      "Description": "Immutable verified cooking base for the matching game executable; preserves earlier game baselines."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r1/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r2/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r3/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
-      "Destination": "Releases/KletkaReleaseReadiness_20261019_cross_store_r4/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaBeta_20261020_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_r3/cooking-base.json",
-      "Destination": "Releases/KletkaBeta_20261020_r3/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
       "Source": "Build/ModKit/Templates/Docs/AccoladeCatalog.json",
       "Destination": "Docs/Authoring/accolade-catalog.json",
       "Description": "Read-only KLETKA player/team accolade identities exported through Unreal; source package hashes record the verified catalogue."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/AssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/cooking-base.json",
-      "Destination": "Releases/KletkaBeta_20261020_accolades_r1/cooking-base.json",
-      "Description": "Immutable cooking base verified against the matching packaged game executable and runtime registry."
     },
     {
       "Source": "Build/ModKit/Catalogs/KletkaShopAssortments.json",
@@ -842,21 +952,6 @@
       "Source": "Docs/Modding/CAGE_AND_RESPAWN_MODDING.md",
       "Destination": "Docs/CageAndRespawn.md",
       "Description": "Persistent cage additions and authoritative respawn selection through public owners."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
-      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/AssetRegistry.bin",
-      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/KletkaModKitCapability_20261028_r3/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
-    },
-    {
-      "Source": "Build/ModKit/CookingBase/KletkaModKitCapability_20261028_r3/cooking-base.json",
-      "Destination": "Releases/KletkaModKitCapability_20261028_r3/cooking-base.json",
-      "Description": "Immutable Windows cooking base verified against the matching local Development executable and actual packaged runtime registry."
     }
   ]
 }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmetic mod · Косметический мод | KLETKA ModKit</title><link rel="stylesheet" href="style.css"></head>
+<body><nav aria-label="ModKit guide"><a href="../../START_HERE.html">Create your first mod</a> <a href="first-mod.html">First mod · Первый мод</a> <a href="recipes.html">Authoring recipes</a> <a href="packaging.html">Package and install</a> <a href="compatibility.html">Compatibility and multiplayer</a> <a href="modules.html">Module reference</a></nav><main><h1>Cosmetic mod · Косметический мод</h1>
+<p><a href="#en">English</a> · <a href="#ru" lang="ru">Русский</a></p>
+<section id="en" lang="en"><h2>Make a hat or outfit</h2><ol>
+<li>Open <strong>Tools → Atlas: Mod Wizard → Cosmetics &amp; UI → Mod cosmetic</strong>.
+Name your mod and click <strong>Create Mod → Open Generated Assets</strong>.
+The wizard creates a cosmetic Blueprint and definition and adds the <strong>Add Mod Cosmetics</strong> action.</li>
+<li>Import your mesh and materials into the mod folder. Open <code>CosmeticExample/BP_ExampleCosmetic</code> and replace
+the mesh on <strong>ExampleMarker</strong> under <strong>WorldView</strong>. Adjust its transform to fit the character
+and leave collision disabled. Compile and save.</li>
+<li>Open <code>DA_ExampleCosmetic</code> and set the display name. Use
+<code>AccountEconomy.Equipment.Slot.Head</code> for the Head tab or <code>AccountEconomy.Equipment.Slot.Body</code> for Body.</li>
+<li>In <strong>Release → Cook &amp; Publish</strong>, select your installed game under <strong>Packaged Game</strong>,
+then <strong>Cook Mod → Install Test Copy → Launch Game</strong>. Enable the mod and select the cosmetic in the matching wardrobe tab.</li>
+</ol><p>Cosmetics use the Cosmetic Definition and the Game Feature action. Item Definitions, crafting recipes and the
+<strong>Items &amp; crafting</strong> template are optional for other kinds of mods. Check <a href="packaging.html">Package and install</a> for release steps.</p></section>
+<section id="ru" lang="ru"><h2>Как сделать головной убор или одежду</h2><ol>
+<li>Выбери <strong>Tools → Atlas: Mod Wizard → Cosmetics &amp; UI → Mod cosmetic</strong>.
+Назови мод и нажми <strong>Create Mod → Open Generated Assets</strong>. Шаблон создаст Blueprint и описание косметики
+и подключит действие <strong>Add Mod Cosmetics</strong>.</li>
+<li>Импортируй меш и материалы в папку мода. В <code>CosmeticExample/BP_ExampleCosmetic</code> замени меш
+компонента <strong>ExampleMarker</strong> под <strong>WorldView</strong>. Подгони положение и масштаб, оставь коллизию выключенной.
+Нажми Compile и Save.</li>
+<li>В <code>DA_ExampleCosmetic</code> задай название и слот. <code>AccountEconomy.Equipment.Slot.Head</code> — голова,
+<code>AccountEconomy.Equipment.Slot.Body</code> — тело.</li>
+<li>В <strong>Release → Cook &amp; Publish</strong> укажи установленную игру в <strong>Packaged Game</strong>.
+Нажми <strong>Cook Mod → Install Test Copy → Launch Game</strong>. Включи мод и выбери косметику в нужной вкладке гардероба.</li>
+</ol><p>Для косметики достаточно Cosmetic Definition и действия Game Feature. Инвентарный предмет и рецепт крафта создавать не нужно.</p></section></main>
+<footer>KLETKA ModKit · BlueprintBinary · API 0.8.0<br>
+Copyright Callback LLP. All Rights Reserved.</footer></body></html>

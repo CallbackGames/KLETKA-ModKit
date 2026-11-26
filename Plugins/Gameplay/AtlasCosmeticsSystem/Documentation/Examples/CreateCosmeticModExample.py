@@ -13,9 +13,13 @@ def populate_template(plugin_name, content_id):
     feature = unreal.load_asset("/" + plugin_name + "/" + plugin_name)
     if feature is None or list(feature.get_editor_property("actions")):
         raise RuntimeError("Cosmetic starter requires a new empty Game Feature Data.")
-    slot = unreal.GameplayTag()
-    if not slot.import_text('(TagName="Cosmetic.Slot.Default")'):
-        raise RuntimeError("The public default cosmetic slot is unavailable.")
+    # Use the public wardrobe slot when this SDK provides one.
+    for slot_name in ("AccountEconomy.Equipment.Slot.Head", "Cosmetic.Slot.Default"):
+        slot = unreal.GameplayTag()
+        if slot.import_text('(TagName="%s")' % slot_name) and slot.export_text() == '(TagName="%s")' % slot_name:
+            break
+    else:
+        raise RuntimeError("The project has no public cosmetic starter slot.")
     mesh = unreal.load_asset("/Engine/BasicShapes/Cone")
     if mesh is None:
         raise RuntimeError("The engine's example cone mesh is unavailable.")

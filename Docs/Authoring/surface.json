@@ -1040,6 +1040,60 @@
     },
     {
       "SchemaVersion": 1,
+      "Release": "shipping-20261126-0509885f-linux",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "142e47d98f7422cb1c578d01a3a1f5d4832b502772048eaf495b96e393efa583"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "c83a90aa70fdbf24671f07fd496bb62d92dcaa286f8773ca18082061eaf31dd6"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "90cc312d6a9e49900c73af6288e3ce005ccbfcd939093ae9978014ec2a7e1c52"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "0509885fdb6a3f10fa0bc7bebc8883e1155e7720c87b0a108951844405bc6919"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "shipping-20261126-d99140dc-win64",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "142e47d98f7422cb1c578d01a3a1f5d4832b502772048eaf495b96e393efa583"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "00210b31c8407fac2fc14dbdbca699a2895518483612cf61e46062d3ecd31ae9"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "6e5463265fa65beec5444b81ecee3de9940882cb9930b60dbc76f46a96bd4f03"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "d99140dcb8fd1138106a9f44e7415ea45de3fda45b7641586a107b4f66e59092"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
       "Release": "windows-shipping-20261122-ca9c0f8d",
       "Engine": "5.8",
       "Platform": "Win64",
@@ -1069,6 +1123,7 @@
   "CheckedLocalLinks": [
     "Config/ModKitDistribution.json",
     "Docs/Authoring/compatibility.html",
+    "Docs/Authoring/cosmetics.html",
     "Docs/Authoring/first-mod.html",
     "Docs/Authoring/index.html",
     "Docs/Authoring/modules.html",
@@ -1098,7 +1153,6 @@
     "Plugins/GameFeatures/lyra-elevator-core/Docs/Examples/FirstModSphere.png",
     "Plugins/GameFeatures/lyra-elevator-core/Docs/PublicApiAuthoring.html",
     "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticModExample.py",
-    "Plugins/Gameplay/AtlasCosmeticsSystem/Documentation/Examples/CreateCosmeticsExample.py",
     "Plugins/Gameplay/AtlasInventorySystem/Docs/Examples/CreateInventoryModExample.py",
     "Plugins/Modding/AtlasModdingSystem/Docs/Examples/ams_manifest.example.json",
     "Plugins/Presentation/AtlasUISystem/Documentation/Examples/CreateLoadingScreenModExample.py",
@@ -1123,6 +1177,8 @@
     "Releases/shipping-20261124-cl5416-win64/cooking-base.json",
     "Releases/shipping-20261125-6b709da6-win64/cooking-base.json",
     "Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
+    "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
+    "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
     "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",
     "START_HERE.html",
     "Tools/CookContentMod.py"
