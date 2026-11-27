@@ -125,6 +125,14 @@
     "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin": "00210b31c8407fac2fc14dbdbca699a2895518483612cf61e46062d3ecd31ae9",
     "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json": "6e5463265fa65beec5444b81ecee3de9940882cb9930b60dbc76f46a96bd4f03",
     "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/cooking-base.json": "86ea4742813444b14c2f28d6ce2ce1484541a868fe94a73800bd5a853923025d",
+    "Build/ModKit/CookingBase/shipping-20261127-2f9faf7d-win64/Windows/AssetRegistry.bin": "c2a7b56b0e10709b5282a52cb06fdfb3310c083855b7ecae773ff3ed9290b3a1",
+    "Build/ModKit/CookingBase/shipping-20261127-2f9faf7d-win64/Windows/Metadata/DevelopmentAssetRegistry.bin": "ecfa4ca6515da0bc985a0bd9c6e973340259db83846566df763d46b2a8090291",
+    "Build/ModKit/CookingBase/shipping-20261127-2f9faf7d-win64/Windows/ModCompatibility.json": "7dca0e454e0a2fb77e92942edad6ef69cf6241faceea8e7c1df4327de4c6f671",
+    "Build/ModKit/CookingBase/shipping-20261127-2f9faf7d-win64/cooking-base.json": "4ebc62e13f4ea66c0f8c5a1bc8231339654c861ecd5def312d3f9054fc8a5700",
+    "Build/ModKit/CookingBase/shipping-20261127-5e76391b-linux/Linux/AssetRegistry.bin": "9f70e580193316bc2332b1f3160f67bee23dbc56fa19c466b0b7c0716279ae7d",
+    "Build/ModKit/CookingBase/shipping-20261127-5e76391b-linux/Linux/Metadata/DevelopmentAssetRegistry.bin": "950c1e76f3e03db74bde1d1b8e235388a6068af5a769c213c5df84b083cfe6f5",
+    "Build/ModKit/CookingBase/shipping-20261127-5e76391b-linux/Linux/ModCompatibility.json": "b44bad2aace7c86d8e1d44eee53ab954449edce1a90696a10adcac82371c92a2",
+    "Build/ModKit/CookingBase/shipping-20261127-5e76391b-linux/cooking-base.json": "095ace76c9ca41b6adb30c47cec9f7eb93be0d758d9d2dfcde1e8799c2e74e7b",
     "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/AssetRegistry.bin": "c2a7b56b0e10709b5282a52cb06fdfb3310c083855b7ecae773ff3ed9290b3a1",
     "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/Metadata/DevelopmentAssetRegistry.bin": "fe05d0bc4b86bf1b0e79e843e289e11639b1069e76db766364ca89ce122c511d",
     "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/ModCompatibility.json": "351b6691e3075278402bd11ef82b341ac8ca93fec7afe8cfdda57e1ad997c39c",
@@ -218,8 +226,8 @@
     "BuildScripts/Export-KletkaModKitArchive.ps1": "eb866235fb27fdb667a443b938e0e843e4e771a381b578e93cc713ddfd84b7e0",
     "BuildScripts/Stage-KletkaModKit.ps1": "28a2703b1335a410e34a6d9003f4a8b1d94f4fa63cba7a95df6a597b56fa8f15",
     "Config/AtlasAuthoringTasks.json": "037263ec796e2837dff5a01324a60625e901b8afbd230b03148f6c126645f2e5",
-    "Config/ModKitDistribution.json": "bb9f7a504c60aee32e30ac0bd840ae67aecef94813f9fda6aa77548014ccd5e9",
-    "Config/ModKitPublicAssets.json": "b84c3a6470945a3dc2a0642b7d20270661dd9a1a9d63847ec4437f0eab55d662",
+    "Config/ModKitDistribution.json": "d60b0b3cdc190eab64154196a904fba66fce745e5b002cd0d1cc34dc05ef4d64",
+    "Config/ModKitPublicAssets.json": "665f5c145ee718a79561e46a8bef2ebbb10821c39f03ab40b1ba9c12dcdfb10a",
     "Config/Tags/AtlasEquipmentSystemTags.ini": "673a1f9f1864d1310e149138bc52a9b7ea03e0fdfc25eed8e8d59cc68cbbd183",
     "Config/Tags/AtlasPublicExamplesTags.ini": "cf844a242fe4531f09a76caa90531a1d1529e84f41adb1688f64a2782be02851",
     "Config/Zone2PublicApiBoundary.json": "efc1cda53e77b66cd3ac16509ffa7bb8584e44b484e5c4f2c939eff941bf1f57",
@@ -3690,5 +3698,5 @@
     "Engine/Build/Build.version": "eab58750e84719489f3ee0d42d05a533ceb357eb3ee511777e9408d27a85f43c",
     "Engine/Binaries/Win64/UnrealEditor.modules": "bbe466e4330f3fddea1120a9070a7402f5a9655404223f55c9e0d1d322568747"
   },
-  "Fingerprint": "7402fa7dea3089a7f62f6270ac1302b281ec951f43a1a842e49766fd317179ab"
+  "Fingerprint": "8e2f7416610aeb03d68d8b630aec7edc181cc80cb283170c09feec5a65cd331d"
 }

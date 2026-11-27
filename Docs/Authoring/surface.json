@@ -1094,6 +1094,60 @@
     },
     {
       "SchemaVersion": 1,
+      "Release": "shipping-20261127-2f9faf7d-win64",
+      "Engine": "5.8",
+      "Platform": "Win64",
+      "Files": [
+        {
+          "Path": "Windows/AssetRegistry.bin",
+          "Sha256": "c2a7b56b0e10709b5282a52cb06fdfb3310c083855b7ecae773ff3ed9290b3a1"
+        },
+        {
+          "Path": "Windows/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "ecfa4ca6515da0bc985a0bd9c6e973340259db83846566df763d46b2a8090291"
+        },
+        {
+          "Path": "Windows/ModCompatibility.json",
+          "Sha256": "7dca0e454e0a2fb77e92942edad6ef69cf6241faceea8e7c1df4327de4c6f671"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "2f9faf7d7c60e97bbe6a49e59eb739d5f4a556644910071dd2a1a51f129208dc"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
+      "Release": "shipping-20261127-5e76391b-linux",
+      "Engine": "5.8",
+      "Platform": "Linux",
+      "Files": [
+        {
+          "Path": "Linux/AssetRegistry.bin",
+          "Sha256": "9f70e580193316bc2332b1f3160f67bee23dbc56fa19c466b0b7c0716279ae7d"
+        },
+        {
+          "Path": "Linux/Metadata/DevelopmentAssetRegistry.bin",
+          "Sha256": "950c1e76f3e03db74bde1d1b8e235388a6068af5a769c213c5df84b083cfe6f5"
+        },
+        {
+          "Path": "Linux/ModCompatibility.json",
+          "Sha256": "b44bad2aace7c86d8e1d44eee53ab954449edce1a90696a10adcac82371c92a2"
+        }
+      ],
+      "GameExecutables": [
+        {
+          "Configuration": "Shipping",
+          "Target": "KLETKA",
+          "Sha256": "5e76391bd7bae7078bfa6b3c40678fca9207e91ec1bc1e80e4a8c4445d12160b"
+        }
+      ]
+    },
+    {
+      "SchemaVersion": 1,
       "Release": "shipping-20261127-78eccae7-linux",
       "Engine": "5.8",
       "Platform": "Linux",
@@ -1233,6 +1287,8 @@
     "Releases/shipping-20261125-aa2b0f7d-linux/cooking-base.json",
     "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
     "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
+    "Releases/shipping-20261127-2f9faf7d-win64/cooking-base.json",
+    "Releases/shipping-20261127-5e76391b-linux/cooking-base.json",
     "Releases/shipping-20261127-78eccae7-linux/cooking-base.json",
     "Releases/shipping-20261127-ef88ccbb-win64/cooking-base.json",
     "Releases/windows-shipping-20261122-ca9c0f8d/cooking-base.json",

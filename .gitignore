@@ -46,6 +46,8 @@
 !/Releases/shipping-20261125-aa2b0f7d-linux/
 !/Releases/shipping-20261126-0509885f-linux/
 !/Releases/shipping-20261126-d99140dc-win64/
+!/Releases/shipping-20261127-2f9faf7d-win64/
+!/Releases/shipping-20261127-5e76391b-linux/
 !/Releases/shipping-20261127-78eccae7-linux/
 !/Releases/shipping-20261127-ef88ccbb-win64/
 !/Releases/windows-shipping-20261122-ca9c0f8d/
@@ -119,6 +121,8 @@
 !/Releases/shipping-20261125-aa2b0f7d-linux/Linux/
 !/Releases/shipping-20261126-0509885f-linux/Linux/
 !/Releases/shipping-20261126-d99140dc-win64/Windows/
+!/Releases/shipping-20261127-2f9faf7d-win64/Windows/
+!/Releases/shipping-20261127-5e76391b-linux/Linux/
 !/Releases/shipping-20261127-78eccae7-linux/Linux/
 !/Releases/shipping-20261127-ef88ccbb-win64/Windows/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/
@@ -252,6 +256,8 @@
 !/Releases/shipping-20261125-aa2b0f7d-linux/Linux/Metadata/
 !/Releases/shipping-20261126-0509885f-linux/Linux/Metadata/
 !/Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/
+!/Releases/shipping-20261127-2f9faf7d-win64/Windows/Metadata/
+!/Releases/shipping-20261127-5e76391b-linux/Linux/Metadata/
 !/Releases/shipping-20261127-78eccae7-linux/Linux/Metadata/
 !/Releases/shipping-20261127-ef88ccbb-win64/Windows/Metadata/
 !/Releases/windows-shipping-20261122-ca9c0f8d/Windows/Metadata/
@@ -1080,6 +1086,14 @@
 !/Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json
 !/Releases/shipping-20261126-d99140dc-win64/cooking-base.json
+!/Releases/shipping-20261127-2f9faf7d-win64/Windows/AssetRegistry.bin
+!/Releases/shipping-20261127-2f9faf7d-win64/Windows/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261127-2f9faf7d-win64/Windows/ModCompatibility.json
+!/Releases/shipping-20261127-2f9faf7d-win64/cooking-base.json
+!/Releases/shipping-20261127-5e76391b-linux/Linux/AssetRegistry.bin
+!/Releases/shipping-20261127-5e76391b-linux/Linux/Metadata/DevelopmentAssetRegistry.bin
+!/Releases/shipping-20261127-5e76391b-linux/Linux/ModCompatibility.json
+!/Releases/shipping-20261127-5e76391b-linux/cooking-base.json
 !/Releases/shipping-20261127-78eccae7-linux/Linux/AssetRegistry.bin
 !/Releases/shipping-20261127-78eccae7-linux/Linux/Metadata/DevelopmentAssetRegistry.bin
 !/Releases/shipping-20261127-78eccae7-linux/Linux/ModCompatibility.json

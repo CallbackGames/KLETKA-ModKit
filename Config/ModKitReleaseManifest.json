@@ -1,16 +1,16 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.1.0-rc.5",
+  "ReleaseVersion": "0.1.0-rc.6",
   "PublicApiVersion": "0.8.0",
   "DistributionKind": "BlueprintBinary",
   "Engine": {
     "MajorMinor": "5.8",
     "Root": "K:/Programs/UE_5.8"
   },
-  "SourceManifestSha256": "bb9f7a504c60aee32e30ac0bd840ae67aecef94813f9fda6aa77548014ccd5e9",
+  "SourceManifestSha256": "d60b0b3cdc190eab64154196a904fba66fce745e5b002cd0d1cc34dc05ef4d64",
   "LatestSubmittedKletkaChange": null,
   "RequireCleanSource": false,
-  "FileCount": 822,
+  "FileCount": 830,
   "Files": [
     {
       "Path": "Binaries/Win64/KLETKA_ModKitEditor.target",
@@ -120,12 +120,12 @@
     {
       "Path": "Build/ModKit/Generated/KletkaModKitPublicApiInventory.json",
       "Size": 12442416,
-      "Sha256": "87c08bbddf38338bc7d87df3912c8d7c4a28176ba11a8c06d052fff940317075"
+      "Sha256": "fda031bbb7d9c8b7fe90ddcc50c4f341745ba1e1f30b56e1a162130b0dabb61b"
     },
     {
       "Path": "Build/ModKit/Generated/ModKitSourceInputs.json",
-      "Size": 659220,
-      "Sha256": "3a2982a0337f06d51a3b9ad6269d4c35810a910c1d402125ae878e3371e552d0"
+      "Size": 660526,
+      "Sha256": "c9c87195ca51d3d73b1406e0442e0084dfae3749372b9b45535239860c248c18"
     },
     {
       "Path": "Config/AtlasSaveHostCatalog.ini",
@@ -155,12 +155,12 @@
     {
       "Path": "Config/ModKitDistribution.json",
       "Size": 100659,
-      "Sha256": "bb9f7a504c60aee32e30ac0bd840ae67aecef94813f9fda6aa77548014ccd5e9"
+      "Sha256": "d60b0b3cdc190eab64154196a904fba66fce745e5b002cd0d1cc34dc05ef4d64"
     },
     {
       "Path": "Config/ModKitPublicAssets.json",
-      "Size": 59468,
-      "Sha256": "b84c3a6470945a3dc2a0642b7d20270661dd9a1a9d63847ec4437f0eab55d662"
+      "Size": 61888,
+      "Sha256": "665f5c145ee718a79561e46a8bef2ebbb10821c39f03ab40b1ba9c12dcdfb10a"
     },
     {
       "Path": "Config/ModKitPublishing.json",
@@ -419,8 +419,8 @@
     },
     {
       "Path": "Docs/Authoring/packaging.html",
-      "Size": 8308,
-      "Sha256": "babf639ac218fd802fc4dcfe8468352fa7172b8afdcdc1b73013fbf4a0b80cf1"
+      "Size": 8570,
+      "Sha256": "e0b7240fd900a63ed9106be972cfc8f112ff9d8c6c7c5da0ea6966bc762e9a25"
     },
     {
       "Path": "Docs/Authoring/recipes.html",
@@ -434,8 +434,8 @@
     },
     {
       "Path": "Docs/Authoring/surface.json",
-      "Size": 38822,
-      "Sha256": "f8fda96cb68c5af5bd7a26a310d535ef2f571bab98b9d904ff37c5386998bf80"
+      "Size": 40740,
+      "Sha256": "3b9d3c35afda8c6660fe6e25b0442bcf0ce567dbbf1e1e84e3cb56225f35fbbc"
     },
     {
       "Path": "Docs/Authoring/tasks.json",
@@ -3486,6 +3486,46 @@
       "Path": "Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
       "Size": 8207591,
       "Sha256": "6e5463265fa65beec5444b81ecee3de9940882cb9930b60dbc76f46a96bd4f03"
+    },
+    {
+      "Path": "Releases/shipping-20261127-2f9faf7d-win64/cooking-base.json",
+      "Size": 785,
+      "Sha256": "4ebc62e13f4ea66c0f8c5a1bc8231339654c861ecd5def312d3f9054fc8a5700"
+    },
+    {
+      "Path": "Releases/shipping-20261127-2f9faf7d-win64/Windows/AssetRegistry.bin",
+      "Size": 5336352,
+      "Sha256": "c2a7b56b0e10709b5282a52cb06fdfb3310c083855b7ecae773ff3ed9290b3a1"
+    },
+    {
+      "Path": "Releases/shipping-20261127-2f9faf7d-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14391885,
+      "Sha256": "ecfa4ca6515da0bc985a0bd9c6e973340259db83846566df763d46b2a8090291"
+    },
+    {
+      "Path": "Releases/shipping-20261127-2f9faf7d-win64/Windows/ModCompatibility.json",
+      "Size": 8209587,
+      "Sha256": "7dca0e454e0a2fb77e92942edad6ef69cf6241faceea8e7c1df4327de4c6f671"
+    },
+    {
+      "Path": "Releases/shipping-20261127-5e76391b-linux/cooking-base.json",
+      "Size": 779,
+      "Sha256": "095ace76c9ca41b6adb30c47cec9f7eb93be0d758d9d2dfcde1e8799c2e74e7b"
+    },
+    {
+      "Path": "Releases/shipping-20261127-5e76391b-linux/Linux/AssetRegistry.bin",
+      "Size": 5336352,
+      "Sha256": "9f70e580193316bc2332b1f3160f67bee23dbc56fa19c466b0b7c0716279ae7d"
+    },
+    {
+      "Path": "Releases/shipping-20261127-5e76391b-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Size": 14391869,
+      "Sha256": "950c1e76f3e03db74bde1d1b8e235388a6068af5a769c213c5df84b083cfe6f5"
+    },
+    {
+      "Path": "Releases/shipping-20261127-5e76391b-linux/Linux/ModCompatibility.json",
+      "Size": 8209587,
+      "Sha256": "b44bad2aace7c86d8e1d44eee53ab954449edce1a90696a10adcac82371c92a2"
     },
     {
       "Path": "Releases/shipping-20261127-78eccae7-linux/cooking-base.json",
