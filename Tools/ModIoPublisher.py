@@ -22,6 +22,7 @@ class StoreError(RuntimeError):
         self.reference = error.get("error_ref")
         message = error.get("message", "No error message returned")
         hint = {
+            15024: "Check the game, item ID, and whether the signed-in account has access to this private mod.",
             11019: "Choose Email, or ask the game administrator to enable Steam under Platform authentication.",
             11074: "Review the Terms of Use and Privacy Policy, then select the agreement checkbox to continue.",
             14037: "Ask the game administrator to enable per-platform files and Windows in Platform approvals. Retry to resume the same private item.",
@@ -154,6 +155,20 @@ def large_upload(client, route, archive, state_path):
     return state["upload_id"]
 
 
+def check_target(client, item, content_id, require_private=False):
+    if not str(item).isascii() or not str(item).isdigit() or int(item) <= 0:
+        raise ValueError("Enter a numeric mod.io item ID.")
+    page = f"/games/{client.game}/mods/{item}"
+    remote = client.request("GET", page)
+    metadata = json.loads(remote.get("metadata_blob") or "{}")
+    if int(remote["game_id"]) != client.game or metadata.get("content_id") != content_id:
+        raise ValueError("The mod.io page is not bound to this ContentId and game. No existing item was overwritten.")
+    initial_visibility = int(remote["visible"])
+    if require_private and initial_visibility != 0:
+        raise ValueError("The selected mod.io item is public. Private publishing requires a hidden item.")
+    return initial_visibility
+
+
 def publish(client, bundle, data, multipart_state):
     route = f"/games/{client.game}/mods"
     item = data["ExistingItemId"]
@@ -184,13 +199,7 @@ def publish(client, bundle, data, multipart_state):
         write(target, {"ContentId": data["ContentId"], "Id": item})
         pending.unlink()
     page = route + "/" + item
-    remote = client.request("GET", page)
-    metadata = json.loads(remote.get("metadata_blob") or "{}")
-    if int(remote["game_id"]) != client.game or metadata.get("content_id") != data["ContentId"]:
-        raise ValueError("The mod.io page is not bound to this ContentId and game. No existing item was overwritten.")
-    initial_visibility = int(remote["visible"])
-    if not preserve and initial_visibility != 0:
-        raise ValueError("The selected mod.io item is public. Private publishing requires a hidden item.")
+    initial_visibility = check_target(client, item, data["ContentId"], require_private=not preserve)
     archive = bound_archive(bundle, data, item)
     with archive.open("rb") as stream:
         md5 = hashlib.file_digest(stream, "md5").hexdigest()

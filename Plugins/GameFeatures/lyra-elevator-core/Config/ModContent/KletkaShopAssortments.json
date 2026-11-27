@@ -226,6 +226,14 @@
 					"baseCost": 20,
 					"weight": 5,
 					"conditional": false
+				},
+				{
+					"offerId": "ID_Canister_Med",
+					"itemId": "InventoryItem:item_3A83001A44E307C6E5F293BAFCB38CCC",
+					"displayName": "Gas Can",
+					"baseCost": 11,
+					"weight": 0,
+					"conditional": false
 				}
 			]
 		},

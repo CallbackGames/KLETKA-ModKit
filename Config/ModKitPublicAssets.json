@@ -3,44 +3,44 @@
   "Description": "Explicit allow-list of curated KLETKA reference, template, and sample assets distributed with the external ModKit.",
   "Assets": [
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/cooking-base.json",
-      "Destination": "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
-      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-ef88ccbb-win64/cooking-base.json",
+      "Destination": "Releases/shipping-20261127-ef88ccbb-win64/cooking-base.json",
+      "Description": "KLETKA Win64 Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
-      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-ef88ccbb-win64/Windows/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261127-ef88ccbb-win64/Windows/AssetRegistry.bin",
+      "Description": "KLETKA Win64 Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-ef88ccbb-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261127-ef88ccbb-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "KLETKA Win64 Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
-      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
-      "Description": "KLETKA Win64 Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-ef88ccbb-win64/Windows/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261127-ef88ccbb-win64/Windows/ModCompatibility.json",
+      "Description": "KLETKA Win64 Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/cooking-base.json",
-      "Destination": "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
-      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/cooking-base.json",
+      "Destination": "Releases/shipping-20261127-78eccae7-linux/cooking-base.json",
+      "Description": "KLETKA Linux Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
-      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
-      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261127-78eccae7-linux/Linux/AssetRegistry.bin",
+      "Description": "KLETKA Linux Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
-      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261127-78eccae7-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "KLETKA Linux Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
-      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
-      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
-      "Description": "KLETKA Linux Shipping cooking base from November 26, Perforce CL 5472."
+      "Source": "Build/ModKit/CookingBase/shipping-20261127-78eccae7-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261127-78eccae7-linux/Linux/ModCompatibility.json",
+      "Description": "KLETKA Linux Shipping cooking base from November 27, Perforce CL 5524."
     },
     {
       "Source": "Build/ModKit/CookingBase/KletkaBeta_20261020_accolades_r1/cooking-base.json",
@@ -385,6 +385,46 @@
     {
       "Source": "Build/ModKit/CookingBase/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json",
       "Destination": "Releases/shipping-20261125-aa2b0f7d-linux/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/cooking-base.json",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261126-0509885f-linux/Linux/ModCompatibility.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/cooking-base.json",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/cooking-base.json",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/AssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/Metadata/DevelopmentAssetRegistry.bin",
+      "Description": "Retained previously published cooking base."
+    },
+    {
+      "Source": "Build/ModKit/CookingBase/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
+      "Destination": "Releases/shipping-20261126-d99140dc-win64/Windows/ModCompatibility.json",
       "Description": "Retained previously published cooking base."
     },
     {

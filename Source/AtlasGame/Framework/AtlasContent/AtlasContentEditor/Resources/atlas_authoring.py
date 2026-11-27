@@ -751,6 +751,17 @@ class Authoring:
             raise ValueError("Cook & Test only accepts a Game Feature in this ModKit.")
         self.result["feature"] = feature.get_path_name()
         operation = self.request["operation"]
+        if operation == "check_modio_target":
+            item = self.request.get("published_item_id", "").strip()
+            if not re.fullmatch(r"[1-9][0-9]*", item):
+                raise ValueError("Enter the existing mod.io item ID to check.")
+            engine = Path(unreal.Paths.convert_relative_path_to_full(unreal.Paths.engine_dir()))
+            python = engine / "Binaries/ThirdParty/Python3/Win64/python.exe"
+            command = [str(python), "-I", str(self.project / "Tools/WizardStoreUpload.py"),
+                       str(plugin), "ModIo", item, "--check-target", "--game", self.request.get("game_executable", "")]
+            subprocess.Popen(command, cwd=self.project, creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+            self.result.update(success=True, summary="Sign in to check the mod.io item and its ContentId before cooking.")
+            return
         if operation == "release_summary":
             manifest = tools["read"](plugin.parent / "ams_manifest.json")
             receipt, job = None, None
@@ -875,7 +886,7 @@ class Authoring:
                 self.measure_shot()
             elif operation in ("capture_setting", "compare_setting"):
                 self.profile_setting(operation == "capture_setting")
-            elif operation in ("release_summary", "cook_mod", "cook_status", "install_mod", "launch_mod", "playtest_pass", "playtest_fail", "prepare_publish", "publish_mod", "update_release"):
+            elif operation in ("check_modio_target", "release_summary", "cook_mod", "cook_status", "install_mod", "launch_mod", "playtest_pass", "playtest_fail", "prepare_publish", "publish_mod", "update_release"):
                 self.packaged()
             elif operation in ("create", "resume", "validate", "play", "test_enemy_client"):
                 getattr(self, operation)()

@@ -142,8 +142,9 @@ def main():
             + "report['NetworkContract'] = contract\n"
             + "Path(" + repr(str(preflight)) + ").write_text(json.dumps(report, indent=2), encoding='utf-8')\n"
             + "assert valid, 'Mod preflight failed: ' + str(report)\n", encoding="utf-8")
+        # Unreal reparses the quoted -script value and interprets Windows sequences such as \t as escapes.
         command = [str(engine / "Engine/Binaries/Win64/UnrealEditor-Cmd.exe"), str(project),
-                   "-run=pythonscript", "-script=" + str(script), "-unattended", "-nullrhi", "-RenderOffScreen",
+                   "-run=pythonscript", "-script=" + script.as_posix(), "-unattended", "-nullrhi", "-RenderOffScreen",
                    "-UserDir=" + str(output / "EditorUser"), "-nosound", "-nop4"]
         with (output / "tag-preflight.log").open("w", encoding="utf-8") as log:
             code = subprocess.call(command, stdout=log, stderr=subprocess.STDOUT)

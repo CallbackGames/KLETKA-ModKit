@@ -44,6 +44,24 @@ def save_state(path, state):
     os.replace(temporary, path)
 
 
+def modio_session(config, game, agreed, notify, email_login):
+    api = ModIoPublisher.ModIo(config["ModIo"])
+    if email_login:
+        email_login(api)
+    else:
+        candidates = {p.resolve() for parent in list(Path(game).parents)[:4]
+                      for p in parent.glob("Engine/Binaries/ThirdParty/Steamworks/Steamv164/Win64/steam_api64.dll")}
+        if len(candidates) != 1:
+            raise ValueError("Choose Steam's installed KLETKA game or sign in to mod.io by email.")
+        steam = workshop.Steam(candidates.pop(), int(config["SteamWorkshop"]["GameId"]))
+        try:
+            notify("Signing in to mod.io with the Steam account...")
+            api.authenticate(steam, agreed)
+        finally:
+            steam.close()
+    return api
+
+
 def publish(job_path, provider, existing="", confirmed=False, agreed=False, notify=lambda text: None,
             email_login=None, *, update_release=False):
     job_path = Path(job_path).resolve(strict=True)
@@ -94,17 +112,7 @@ def publish(job_path, provider, existing="", confirmed=False, agreed=False, noti
                 notify("Uploading Workshop item and verifying its release metadata...")
                 result = workshop.upload(client, bundle, packages.read(bundle / "publish.json"))
             else:
-                api = ModIoPublisher.ModIo(config["ModIo"])
-                if email_login:
-                    email_login(api)
-                else:
-                    candidates = {p.resolve() for parent in list(Path(job["GameExecutable"]).parents)[:4]
-                                  for p in parent.glob("Engine/Binaries/ThirdParty/Steamworks/Steamv164/Win64/steam_api64.dll")}
-                    if len(candidates) != 1:
-                        raise ValueError("Choose Steam's installed KLETKA game or sign in to mod.io by email.")
-                    client = workshop.Steam(candidates.pop(), int(config["SteamWorkshop"]["GameId"]))
-                    notify("Signing in to mod.io with the Steam account...")
-                    api.authenticate(client, agreed)
+                api = modio_session(config, job["GameExecutable"], agreed, notify, email_login)
                 notify("Uploading the mod.io release and checking the file hash...")
                 result = ModIoPublisher.publish(api, bundle, record, state_path.with_suffix(".multipart"))
             save_state(state_path, dict(Bundle=str(bundle), Item=result["PublishedFileId"]))
@@ -119,21 +127,28 @@ def dialog(args):
     from tkinter import ttk, messagebox, simpledialog
     root = tk.Tk()
     action = "Update existing release" if args.update_release else "Publish privately"
+    if args.check_target:
+        action = "Check mod.io target"
     root.title("KLETKA ModKit | " + action)
     root.minsize(525, 280)
     frame = ttk.Frame(root, padding=16)
     frame.pack(fill="both", expand=True)
-    job = packages.read(args.job)
-    manifest = packages.read(Path(job["Plugin"]).parent / "ams_manifest.json")
+    job = None if args.check_target else packages.read(args.job)
+    plugin = args.job if args.check_target else Path(job["Plugin"])
+    manifest = packages.read(plugin.parent / "ams_manifest.json")
     label = "Steam Workshop" if args.provider == "SteamWorkshop" else "mod.io"
     ttk.Label(frame, text=manifest["profile"]["displayName"], font=("Segoe UI", 14)).pack(anchor="w")
-    ttk.Label(frame, text=f'{label}  |  {manifest["release"]["version"]}  |  {job["BaseRelease"]}').pack(anchor="w")
-    receipt = packages.read(Path(job["Package"]) / "ams_cooked.json")
-    summary = workflow.release_summary(job["Project"], manifest, receipt, job)
-    ttk.Label(frame, text="\n".join(f"{k}: {v}" for k, v in summary.items()),
-              wraplength=600, justify="left").pack(anchor="w", pady=6)
-    ttk.Label(frame, text=("Keep current store visibility. " if args.update_release else "Visibility: Private. ") + ("Update item " + args.item if args.item else "Create or resume this mod's store item.")).pack(anchor="w", pady=5)
-    status = tk.StringVar(value="Ready to publish.")
+    if args.check_target:
+        ttk.Label(frame, text=f'Mod.io item {args.item} | {manifest["contentId"]}').pack(anchor="w")
+        status = tk.StringVar(value="Sign in to verify access and the content identity.")
+    else:
+        ttk.Label(frame, text=f'{label}  |  {manifest["release"]["version"]}  |  {job["BaseRelease"]}').pack(anchor="w")
+        receipt = packages.read(Path(job["Package"]) / "ams_cooked.json")
+        summary = workflow.release_summary(job["Project"], manifest, receipt, job)
+        ttk.Label(frame, text="\n".join(f"{k}: {v}" for k, v in summary.items()),
+                  wraplength=600, justify="left").pack(anchor="w", pady=6)
+        ttk.Label(frame, text=("Keep current store visibility. " if args.update_release else "Visibility: Private. ") + ("Update item " + args.item if args.item else "Create or resume this mod's store item.")).pack(anchor="w", pady=5)
+        status = tk.StringVar(value="Ready to publish.")
     terms = tk.BooleanVar(value=False)
     method = tk.StringVar(value="Steam")
     if args.provider == "ModIo":
@@ -173,6 +188,12 @@ def dialog(args):
 
         def worker():
             try:
+                if args.check_target:
+                    config = packages.read(Path(__file__).resolve().parents[1] / "Config/ModKitPublishing.json")
+                    api = modio_session(config, args.game, agreed, lambda s: messages.put(("status", s)), email_login if use_email else None)
+                    visibility = ModIoPublisher.check_target(api, args.item, manifest["contentId"])
+                    messages.put(("checked", f"Account can read item {args.item}. ContentId matches. Visibility: " + ("Public" if visibility else "Private")))
+                    return
                 result = publish(args.job, args.provider, args.item, args.confirm_existing, agreed,
                                  lambda update: messages.put(("status", update)), email_login if use_email else None,
                                  update_release=args.update_release)
@@ -187,6 +208,10 @@ def dialog(args):
             kind, value = messages.get_nowait()
             if kind == "code":
                 value.put(simpledialog.askstring("mod.io sign-in", "Code from mod.io", parent=root))
+            elif kind == "checked":
+                running = False
+                status.set(value)
+                button.state(["!disabled"])
             elif kind == "success":
                 running = False
                 status.set("Upload verified. Item ID " + value["PublishedFileId"])
@@ -219,4 +244,6 @@ if __name__ == "__main__":
     parser.add_argument("item", nargs="?", default="")
     parser.add_argument("--confirm-existing", action="store_true")
     parser.add_argument("--update-release", action="store_true")
+    parser.add_argument("--check-target", action="store_true", help="Read an existing mod.io item before cooking; pass a mod plugin descriptor instead of a job.")
+    parser.add_argument("--game", default="")
     dialog(parser.parse_args())
